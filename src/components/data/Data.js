@@ -671,7 +671,7 @@ export const listAll = [
   },
   {
     id: 2,
-    cover: "../images/property/venus/asdfaf1.jpg",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers B3 13 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -701,7 +701,7 @@ export const listAll = [
   },
   {
     id: 5,
-    cover: "../images/property/venus/asdfaf1.jpg",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A1 22 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -741,7 +741,7 @@ export const listAll = [
   },
   {
     id: 9,
-    cover: "../images/property/venus/asdfaf1.jpg",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A1 25 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -751,7 +751,7 @@ export const listAll = [
   },
   {
     id: 10,
-    cover: "../images/property/venus/asdfaf1.jpg",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A1 8 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -771,7 +771,7 @@ export const listAll = [
   },
   {
     id: 12,
-    cover: "../images/property/venus/asdfaf1.jpg",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A2 10 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -791,7 +791,7 @@ export const listAll = [
   },
   {
     id: 14,
-    cover: "../images/property/venus/asdfaf1.jpg",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A2 14 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -811,7 +811,7 @@ export const listAll = [
   },
   {
     id: 16,
-    cover: "../images/property/venus/asdfaf1.jpg",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A1 13 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -831,7 +831,7 @@ export const listAll = [
   },
   {
     id: 18,
-    cover: "../images/property/venus/asdfaf1.jpg",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A2 6 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -851,7 +851,7 @@ export const listAll = [
   },
   {
     id: 20,
-    cover: "../images/property/venus/asdfaf1.jpg",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A2 5 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -871,7 +871,7 @@ export const listAll = [
   },
   {
     id: 22,
-    cover: "../images/property/venus/asdfaf1.jpg",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers B1 14 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -891,7 +891,7 @@ export const listAll = [
   },
   {
     id: 24,
-    cover: "../images/property/venus/asdfaf1.jpg",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers B1 21 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -901,7 +901,7 @@ export const listAll = [
   },
   {
     id: 25,
-    cover: "../images/property/venus/asdfaf1.jpg",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A2 17 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -911,7 +911,7 @@ export const listAll = [
   },
   {
     id: 26,
-    cover: "../images/property/venus/asdfaf1.jpg",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers B3 13 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -921,7 +921,7 @@ export const listAll = [
   },
   {
     id: 27,
-    cover: "../images/property/venus/asdfaf1.jpg",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A3 6 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -946,7 +946,7 @@ export const list = [
   },
   {
     id: 2,
-    cover: "../images/property/venus/asdfaf1.jpg",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers B3 13 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -976,7 +976,7 @@ export const list = [
   },
   {
     id: 5,
-    cover: "../images/property/venus/asdfaf1.jpg",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A1 22 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -1024,8 +1024,8 @@ export const housesData = [
     name: 'Sky View B1 30 Floor',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: '../images/property/skyview/dsf.jpg',
-    imageLg: '../images/property/skyview/dsf.jpg',
+    image: '../images/property/skyview/dsf1.jpg',
+    imageLg: '../images/property/skyview/dsf1.jpg',
     country: 'Iraq',
     address: 'Erbil - in front of sami abdulrahman park',
     bedrooms: '1',
@@ -1066,8 +1066,8 @@ export const housesData = [
     name: 'Nova towers A2 15 Floor',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: '../images/property/nova/ewr.jpg',
-    imageLg: '../images/property/nova/ewr.jpg',
+    image: '../images/property/nova/ewr1.jpg',
+    imageLg: '../images/property/nova/ewr1.jpg',
     country: 'Iraq',
     address: 'Erbil - bahrka road',
     bedrooms: '1',
@@ -1087,8 +1087,8 @@ export const housesData = [
     name: 'Sky View B1 12 Floor',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: '../images/property/skyview/dsf.jpg',
-    imageLg: '../images/property/skyview/dsf.jpg',
+    image: '../images/property/skyview/dsf1.jpg',
+    imageLg: '../images/property/skyview/dsf1.jpg',
     country: 'Iraq',
     address: 'Erbil - in front of sami abdulrahman park',
     bedrooms: '6',
@@ -1129,8 +1129,8 @@ export const housesData = [
     name: 'Nova towers A1 2 Floor',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: '../images/property/nova/ewr.jpg',
-    imageLg: '../images/property/nova/ewr.jpg',
+    image: '../images/property/nova/ewr1.jpg',
+    imageLg: '../images/property/nova/ewr1.jpg',
     country: 'Iraq',
     address: 'Erbil - bahrka road',
     bedrooms: '1',
@@ -1150,8 +1150,8 @@ export const housesData = [
     name: 'Nova towers A3 8 Floor',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: '../images/property/nova/ewr.jpg',
-    imageLg: '../images/property/nova/ewr.jpg',
+    image: '../images/property/nova/ewr1.jpg',
+    imageLg: '../images/property/nova/ewr1.jpg',
     country: 'Iraq',
     address: 'Erbil - bahrka road',
     bedrooms: '1',
@@ -1171,8 +1171,8 @@ export const housesData = [
     name: 'Sky View A1 10 Floor',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: '../images/property/skyview/dsf.jpg',
-    imageLg: '../images/property/skyview/dsf.jpg',
+    image: '../images/property/skyview/dsf1.jpg',
+    imageLg: '../images/property/skyview/dsf1.jpg',
     country: 'Iraq',
     address: 'Erbil - in front of sami abdulrahman park',
     bedrooms: '2',
@@ -1234,8 +1234,8 @@ export const housesData = [
     name: 'Sky View A3 31 Floor',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: '../images/property/skyview/dsf.jpg',
-    imageLg: '../images/property/skyview/dsf.jpg',
+    image: '../images/property/skyview/dsf1.jpg',
+    imageLg: '../images/property/skyview/dsf1.jpg',
     country: 'Iraq',
     address: 'Erbil - in front of sami abdulrahman park',
     bedrooms: '2',
@@ -1276,8 +1276,8 @@ export const housesData = [
     name: 'Sky View B3 37 Floor',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: '../images/property/skyview/dsf.jpg',
-    imageLg: '../images/property/skyview/dsf.jpg',
+    image: '../images/property/skyview/dsf1.jpg',
+    imageLg: '../images/property/skyview/dsf1.jpg',
     country: 'Iraq',
     address: 'Erbil - in front of sami abdulrahman park',
     bedrooms: '2',
@@ -1318,8 +1318,8 @@ export const housesData = [
     name: 'Sky View B3 22 Floor',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: '../images/property/skyview/dsf.jpg',
-    imageLg: '../images/property/skyview/dsf.jpg',
+    image: '../images/property/skyview/dsf1.jpg',
+    imageLg: '../images/property/skyview/dsf1.jpg',
     country: 'Iraq',
     address: 'Erbil - in front of sami abdulrahman park',
     bedrooms: '2',
@@ -1360,8 +1360,8 @@ export const housesData = [
     name: 'Sky View B3 7 Floor',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: '../images/property/skyview/dsf.jpg',
-    imageLg: '../images/property/skyview/dsf.jpg',
+    image: '../images/property/skyview/dsf1.jpg',
+    imageLg: '../images/property/skyview/dsf1.jpg',
     country: 'Iraq',
     address: 'Erbil - in front of sami abdulrahman park',
     bedrooms: '1',
@@ -1401,8 +1401,8 @@ export const housesData = [
     name: 'Sky View A1 7 Floor',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: '../images/property/skyview/dsf.jpg',
-    imageLg: '../images/property/skyview/dsf.jpg',
+    image: '../images/property/skyview/dsf1.jpg',
+    imageLg: '../images/property/skyview/dsf1.jpg',
     country: 'Iraq',
     address: 'Erbil - in front of sami abdulrahman park',
     bedrooms: '1',
@@ -1441,8 +1441,8 @@ export const housesData = [
     name: 'Sky View B2 6 Floor',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: '../images/property/skyview/dsf.jpg',
-    imageLg: '../images/property/skyview/dsf.jpg',
+    image: '../images/property/skyview/dsf1.jpg',
+    imageLg: '../images/property/skyview/dsf1.jpg',
     country: 'Iraq',
     address: 'Erbil - in front of sami abdulrahman park',
     bedrooms: '1',
@@ -1481,8 +1481,8 @@ export const housesData = [
     name: 'Sky View B2 10 Floor',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-    image: '../images/property/skyview/dsf.jpg',
-    imageLg: '../images/property/skyview/dsf.jpg',
+    image: '../images/property/skyview/dsf1.jpg',
+    imageLg: '../images/property/skyview/dsf1.jpg',
     country: 'Iraq',
     address: 'Erbil - in front of sami abdulrahman park',
     bedrooms: '1',
