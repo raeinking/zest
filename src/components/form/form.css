@@ -1,0 +1,35 @@
+.formcrm {
+    width: 100%;
+    padding: 10px 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+textarea {
+    border: 1px solid rgb(229, 229, 229);
+    width: 100%;
+    resize: vertical;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+}
+
+input {
+    padding: 10px 15px;
+    margin: 10px 0 10px 0;
+}
+
+.submit {
+    color: white;
+    background-color: #916f4e;
+    max-width: 200px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #916f4e;
+}
+
+.h4 {
+    text-align: center;
+}

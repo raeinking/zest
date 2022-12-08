@@ -1,0 +1,55 @@
+.gridbox {
+    justify-content: center;
+    display: grid;
+    max-width: 1440px;
+    width: 100%;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fill, 270px);
+    margin: 2% 0;
+    border-radius: 5px;
+    z-index: 2;
+    margin-top: 4rem;
+    scrollbar-color: rgb(141, 40, 40) green;
+    scrollbar-width: thin;
+    min-width: 300px;
+}
+.grid {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projects {
+    position: relative;
+    overflow:  hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.projects {
+    transition: all 400ms ease-in-out;
+    box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+}
+.projects:hover {
+    transform: scale(1.1);
+}
+.projects h3 {
+    position: absolute;
+    bottom: 20PX;
+    z-index: 99999;
+    padding: 15px 10px;
+    color: white;
+    font-weight: 500;
+}
+.projects p {
+    position: absolute;
+    bottom: 0px;
+    padding: 15px 10px;
+    color: white;
+    z-index: 20;
+    
+}
+.sss{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

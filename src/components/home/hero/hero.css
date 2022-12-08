@@ -1,0 +1,125 @@
+.inputs {
+  padding: 0px 10px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  
+  -webkit-background-clip: unset;
+}
+.heromain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+}
+option {
+  color: black;
+  padding: 10px 15px;
+}
+.advance {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  padding: 10px 15px;
+  border:none;
+}
+.advance a {
+  color: white;
+  font-weight: 600;
+}
+.hero {
+  background-image: url("../../../../public/images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  min-height: calc(100vh - 60px);
+  width: 100%;
+  position: relative;
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.hero .container {
+  padding-top: 15%;
+}
+.hero h1 {
+  color: #fff;
+  font-size: 30px;
+}
+.hero p {
+  color: #fff;
+  opacity: 0.8;
+  font-size: 24;
+}
+form {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 1rem;
+  padding: 0 20px;
+}
+form input {
+  /* padding: 10px 0; */
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  margin-top: 2px;
+  border-radius: 5px;
+  height: 100%;
+}
+form span {
+  font-size: 14px;
+  color: grey;
+}
+input::placeholder {
+  font-size: 17px;
+  color: black;
+}
+form .box {
+  padding: 15px;
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+}
+form .box:nth-child(1) {
+  border-left: none;
+}
+form h4 {
+  font-weight: 500;
+}
+.flexsearch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 800px) {
+  .hero h1 {
+    font-size: 18px;
+  }
+  .hero p {
+    font-size: 12px;
+  }
+  
+  .hero {
+      height: calc(110vh - 60px);
+  }
+  .hero .container {
+    padding-top: 10%;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  form .box {
+    border-left: none;
+    width: 50%;
+  }
+  form input {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1100px) {
+.flexsearch {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+}
+}
