@@ -65,10 +65,10 @@ const Hero = () => {
                 <option value="Sulaymaniyah">Rent</option>
               </select>
             </div>
-            <div className=' advance'>
+            {/* <div className=' advance'>
               <a href="#">Advance Filter</a>
-            </div>
-            <a href="search" className='btn1'>
+            </div> */}
+            <a href="property" className='btn1'>
                 <i className='fa fa-search'></i>
             </a>
           </form>
