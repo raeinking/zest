@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import img from "../images/pricing.jpg"
+import img from "../images/immio.jpg"
 import Back from "../common/Back"
 import "./contact.css"
 import emailjs from '@emailjs/browser';

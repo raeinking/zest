@@ -1,7 +1,7 @@
 import React from "react"
 import Back from "../common/Back"
 import "../home/recent/recent.css"
-import img from "../images/about.jpg"
+import img from "../images/property.jpg"
 import './blog.css'
 import Blogsprojects from "./Blogsprojects"
 import { projectFilter } from "../data/Data"

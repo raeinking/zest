@@ -3,18 +3,10 @@ export const nav = [
     text: "home",
     path: "/",
   },
-  // {
-  //   text: "services",
-  //   path: "/services",
-  // },
   {
     text: "properties",
     path: "/properties",
   },
-  // {
-  //   text: "Projects",
-  //   path: "/projects",
-  // },
   {
     text: "Agents",
     path: "/agents",

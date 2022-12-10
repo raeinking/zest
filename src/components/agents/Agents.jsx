@@ -1,6 +1,6 @@
 import React from 'react'
 import Back from '../common/Back'
-import img from "../images/about.jpg"
+import img from "../images/agent.jpg"
 import '../home/team/team.css'
 import { allAgents } from '../data/Data'
 import Heading from '../common/Heading'
