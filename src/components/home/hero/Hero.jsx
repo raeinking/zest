@@ -12,7 +12,7 @@ const Hero = () => {
             <div className='box'>
               <input className="inputs" type='text' placeholder='Location' />
             </div>
-            <div className='box'>
+            {/* <div className='box'>
               <select className="inputs" name="city" id="city">
                 <option selected disabled value="city">City</option>
                 <option value="Erbil">Erbil</option>
@@ -20,8 +20,8 @@ const Hero = () => {
                 <option value="Baghdad">Baghdad</option>
                 <option value="Kirkuk">Kirkuk</option>
               </select>
-            </div>
-            <div className='box'>
+            </div> */}
+            {/* <div className='box'>
               <select className="inputs" name="property-type" id="property-type">
                 <option selected disabled value="Property Type">Property Type</option>
                 <option value="Commercial land">Commercial land</option>
@@ -47,11 +47,11 @@ const Hero = () => {
                 <option value="Duplex">Duplex</option>
                 <option value="Full floor">Full floor</option>
               </select>
-            </div>
+            </div> */}
             <div className='box'>
               <select className="inputs" name="purpose" id="purpose">
                 <option selected disabled value="Project">Project</option>
-                <option value="Pavilion">Pavilion</option>
+                {/* <option value="Pavilion">Pavilion</option> */}
                 <option value="Lalav Sky View">Lalav Sky View</option>
                 <option value="Lalav vinus towers">Lalav vinus towers</option>
                 <option value="Lalav nova towers">Lalav nova towers</option>
