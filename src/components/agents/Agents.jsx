@@ -3,17 +3,22 @@ import Back from '../common/Back'
 import img from "../images/agent.jpg"
 import '../home/team/team.css'
 import { allAgents } from '../data/Data'
+import { arallAgents } from '../data/Data'
 import Heading from '../common/Heading'
+import { useLocation } from "react-router-dom";
 
  
 export default function Agents() {
+  const location = useLocation();
+  const paths = window.location.pathname;
   return (
     <>
-
+    {paths == '/agents' ? 
+    <section>
       <section className='blogs'>
           <Back title='Our Agents - We Will Help you fing your home' subtitle='Find new & featured property located in your local city.' cover={img} />
       </section>
-   <section className='team background'>
+      <section className='team background'>
         <div className='container'>
           <Heading title='Our Featured Agents' subtitle='' />
           <div className='gridbox'>
@@ -46,6 +51,47 @@ export default function Agents() {
           </div>
         </div>
       </section>
+    </section>
+    : 
+    <section>
+      <section className='blogs'>
+          <Back title='وكلاؤنا - سنساعدك في منزلك' subtitle='ابحث عن عقار جديد ومميز يقع في مدينتك المحلية' cover={img} />
+      </section>
+      <section className='team background'>
+        <div className='container'>
+          <Heading title='وكلاؤنا المميزون' subtitle='' />
+          <div className='gridbox'>
+            {arallAgents.map((val, index) => (
+                <div className='box' key={index}>
+                  {/* <button className='btn3'>{val.list} Listings</button> */}
+                  <div className='details'>
+                    <div className='img'>
+                      <img src={val.cover} alt='' />
+                      {/* <i className='fa-solid fa-circle-check'></i> */}
+                    </div>
+                    <i className='fa fa-location-dot'></i>
+                    <label>{val.address}</label>
+                    <h4>{val.name}</h4>
+                    <div className='button flex'>
+                    <a href={val.email}>
+                      <button className='btnmsg'>
+                        <i className='fa fa-envelope'></i>
+                      </button>
+                    </a>
+                      <a href={val.phone}>
+                        <button className='btn4'>
+                          <i className='fa fa-phone-alt'></i>
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </section>
+    }
     </>
   )
 }

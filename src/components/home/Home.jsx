@@ -7,7 +7,6 @@ import Price from "./price/Price"
 import Recent from "./recent/Recent"
 import Team from "./team/Team"
 import Projecta from "./project/Project"
-
 const Home = () => {
   return (
     <>

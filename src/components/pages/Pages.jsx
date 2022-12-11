@@ -13,24 +13,29 @@ import Agents from "../agents/Agents"
 import List from '../list/List'
 import PropertyDetails from "../PageDis/PropertyDetails"
 
+
+
 const   Pages = () => {
+
   return (
     <>
       <Router>
         <Header />
         <Switch>
           <Route exact path='/' component={Home} />
+          <Route exact path='/ar' component={Home} />
           <Route exact path='/about' component={About} />
-          <Route exact path='/services' component={Services} />
+          <Route exact path='/ar/about' component={About} />
           <Route exact path='/properties' component={Blog} />
+          <Route exact path='/ar/properties' component={Blog} />
           <Route exact path='/projects' component={Projects} />
-          <Route exact path='/project-des' component={pageDis} />
+          <Route exact path='/ar/projects' component={Projects} />
           <Route exact path='/contact' component={Contact} />
-          <Route exact path='/Projectpage' component={pageDis} />
+          <Route exact path='/ar/contact' component={Contact} />
           <Route exact path='/agents' component={Agents} />
-          <Route exact path='/house' component={pageDis} />
-          <Route exact path='/search' component={List} />
+          <Route exact path='/ar/agents' component={Agents} />
           <Route exact path='/property/:id' component={PropertyDetails} />
+          <Route exact path='/ar/property/:id' component={PropertyDetails} />
         </Switch>
         <Footer />
       </Router>
