@@ -653,7 +653,7 @@ export const awards = [
 export const listAll = [
   {
     id: 1,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "Sky View B1 30 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
@@ -663,7 +663,7 @@ export const listAll = [
   },
   {
     id: 2,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers B3 13 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -673,7 +673,7 @@ export const listAll = [
   },
   {
     id: 3,
-    cover: "../images/property/nova/ewr.webp",
+    cover: "../images/property/nova/ewr.jpg",
     name: "Nova towers A2 15 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -683,7 +683,7 @@ export const listAll = [
   },
   {
     id: 4,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "Sky View B1 12 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
@@ -693,7 +693,7 @@ export const listAll = [
   },
   {
     id: 5,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A1 22 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -703,7 +703,7 @@ export const listAll = [
   },
   {
     id: 6,
-    cover: "../images/property/nova/ewr.webp",
+    cover: "../images/property/nova/ewr.jpg",
     name: "Nova towers A1 2 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -713,7 +713,7 @@ export const listAll = [
   },
   {
     id: 7,
-    cover: "../images/property/nova/ewr.webp",
+    cover: "../images/property/nova/ewr.jpg",
     name: "Nova towers A3 8 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -723,7 +723,7 @@ export const listAll = [
   },
   {
     id: 8,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "Sky View A1 10 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
@@ -733,7 +733,7 @@ export const listAll = [
   },
   {
     id: 9,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A1 25 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -743,7 +743,7 @@ export const listAll = [
   },
   {
     id: 10,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A1 8 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -753,7 +753,7 @@ export const listAll = [
   },
   {
     id: 11,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "Sky View A3 31 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
@@ -763,7 +763,7 @@ export const listAll = [
   },
   {
     id: 12,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A2 10 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -773,7 +773,7 @@ export const listAll = [
   },
   {
     id: 13,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "Sky View B3 37 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
@@ -783,7 +783,7 @@ export const listAll = [
   },
   {
     id: 14,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A2 14 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -793,7 +793,7 @@ export const listAll = [
   },
   {
     id: 15,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "Sky View B3 22 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
@@ -803,7 +803,7 @@ export const listAll = [
   },
   {
     id: 16,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A1 13 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -813,7 +813,7 @@ export const listAll = [
   },
   {
     id: 17,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "Sky View B3 7 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
@@ -823,7 +823,7 @@ export const listAll = [
   },
   {
     id: 18,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A2 6 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -833,7 +833,7 @@ export const listAll = [
   },
   {
     id: 19,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "Sky View A1 7 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
@@ -843,7 +843,7 @@ export const listAll = [
   },
   {
     id: 20,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A2 5 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -853,7 +853,7 @@ export const listAll = [
   },
   {
     id: 21,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "Sky View B2 6 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
@@ -863,7 +863,7 @@ export const listAll = [
   },
   {
     id: 22,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers B1 14 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -873,7 +873,7 @@ export const listAll = [
   },
   {
     id: 23,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "Sky View B2 10 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
@@ -883,7 +883,7 @@ export const listAll = [
   },
   {
     id: 24,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers B1 21 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -893,7 +893,7 @@ export const listAll = [
   },
   {
     id: 25,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A2 17 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -903,7 +903,7 @@ export const listAll = [
   },
   {
     id: 26,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers B3 13 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -913,7 +913,7 @@ export const listAll = [
   },
   {
     id: 27,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A3 6 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -928,7 +928,7 @@ export const listAll = [
 export const list = [
    {
     id: 1,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "Sky View B1 30 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
@@ -938,7 +938,7 @@ export const list = [
   },
   {
     id: 2,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers B3 13 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -948,7 +948,7 @@ export const list = [
   },
   {
     id: 3,
-    cover: "../images/property/nova/ewr.webp",
+    cover: "../images/property/nova/ewr.jpg",
     name: "Nova towers A2 15 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -958,7 +958,7 @@ export const list = [
   },
   {
     id: 4,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "Sky View B1 12 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
@@ -968,7 +968,7 @@ export const list = [
   },
   {
     id: 5,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "Venus Towers A1 22 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -978,7 +978,7 @@ export const list = [
   },
   {
     id: 6,
-    cover: "../images/property/nova/ewr.webp",
+    cover: "../images/property/nova/ewr.jpg",
     name: "Nova towers A1 2 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -988,7 +988,7 @@ export const list = [
   },
   {
     id: 7,
-    cover: "../images/property/nova/ewr.webp",
+    cover: "../images/property/nova/ewr.jpg",
     name: "Nova towers A3 8 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -998,7 +998,7 @@ export const list = [
   },
   {
     id: 8,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "Sky View A1 10 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
@@ -1836,7 +1836,7 @@ export const arawards = [
 export const arlist = [
    {
     id: 1,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "B1 30 شقة للبیع سكاي فيو عيمارة",
     location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
@@ -1846,7 +1846,7 @@ export const arlist = [
   },
   {
     id: 2,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "B3 13 شقة للبیع فينوس تاورس",
     location: "اربيل",
     category: "للبيع",
@@ -1856,7 +1856,7 @@ export const arlist = [
   },
   {
     id: 3,
-    cover: "../images/property/nova/ewr.webp",
+    cover: "../images/property/nova/ewr.jpg",
     name: "A2 15 شقة للبیع نوفا تاورس",
     location: "اربيل",
     category: "للبيع",
@@ -1866,7 +1866,7 @@ export const arlist = [
   },
   {
     id: 4,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "B1 12 شقة للبیع سكاي فيو عيمارة",
     location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
@@ -1876,7 +1876,7 @@ export const arlist = [
   },
   {
     id: 5,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "A1 22 شقة للبیع فينوس تاورس",
     location: "اربيل",
     category: "للبيع",
@@ -1886,7 +1886,7 @@ export const arlist = [
   },
   {
     id: 6,
-    cover: "../images/property/nova/ewr.webp",
+    cover: "../images/property/nova/ewr.jpg",
     name: "A1 2 شقة للبیع نوفا تاورس",
     location: "اربيل",
     category: "للبيع",
@@ -1896,7 +1896,7 @@ export const arlist = [
   },
   {
     id: 7,
-    cover: "../images/property/nova/ewr.webp",
+    cover: "../images/property/nova/ewr.jpg",
     name: "A3 8 شقة للبیع نوفا تاورس",
     location: "اربيل",
     category: "للبيع",
@@ -1906,7 +1906,7 @@ export const arlist = [
   },
   {
     id: 8,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "A1 10 شقة للبیع سكاي فيو عيمارة",
     location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
@@ -1919,7 +1919,7 @@ export const arlist = [
 export const arlistAll = [
   {
     id: 1,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "B1 30 شقة للبیع سكاي فيو عيمارة",
     location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
@@ -1929,7 +1929,7 @@ export const arlistAll = [
   },
   {
     id: 2,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "B3 13 شقة للبیع فينوس تاورس",
     location: "اربيل",
     category: "للبيع",
@@ -1939,7 +1939,7 @@ export const arlistAll = [
   },
   {
     id: 3,
-    cover: "../images/property/nova/ewr.webp",
+    cover: "../images/property/nova/ewr.jpg",
     name: "A2 15 شقة للبیع نوفا تاورس",
     location: "اربيل",
     category: "للبيع",
@@ -1949,7 +1949,7 @@ export const arlistAll = [
   },
   {
     id: 4,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "B1 12 شقة للبیع سكاي فيو عيمارة",
     location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
@@ -1959,7 +1959,7 @@ export const arlistAll = [
   },
   {
     id: 5,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: "A1 22 شقة للبیع فينوس تاورس",
     location: "اربيل",
     category: "للبيع",
@@ -1969,7 +1969,7 @@ export const arlistAll = [
   },
   {
     id: 6,
-    cover: "../images/property/nova/ewr.webp",
+    cover: "../images/property/nova/ewr.jpg",
     name: "A1 2 شقة للبیع نوفا تاورس",
     location: "اربيل",
     category: "للبيع",
@@ -1979,7 +1979,7 @@ export const arlistAll = [
   },
   {
     id: 7,
-    cover: "../images/property/nova/ewr.webp",
+    cover: "../images/property/nova/ewr.jpg",
     name: "A3 8 شقة للبیع نوفا تاورس",
     location: "اربيل",
     category: "للبيع",
@@ -1989,7 +1989,7 @@ export const arlistAll = [
   },
   {
     id: 8,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "A1 10 شقة للبیع سكاي فيو عيمارة",
     location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
@@ -1999,7 +1999,7 @@ export const arlistAll = [
   },
   {
     id: 9,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: " A1 25 شقة للبیع فينوس تاورس",
     location: "اربيل",
     category: "للبيع",
@@ -2009,7 +2009,7 @@ export const arlistAll = [
   },
   {
     id: 10,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: " A1 8 شقة للبیع فينوس تاورس",
     location: "اربيل",
     category: "للبيع",
@@ -2019,7 +2019,7 @@ export const arlistAll = [
   },
   {
     id: 11,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "شقة للبیع سكاي فيو عيمارة A3 31 Floor",
     location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
@@ -2029,7 +2029,7 @@ export const arlistAll = [
   },
   {
     id: 12,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: " A2 10 شقة للبیع فينوس تاورس",
     location: "اربيل",
     category: "للبيع",
@@ -2039,7 +2039,7 @@ export const arlistAll = [
   },
   {
     id: 13,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "شقة للبیع سكاي فيو عيمارة B3 37 Floor",
     location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
@@ -2049,7 +2049,7 @@ export const arlistAll = [
   },
   {
     id: 14,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: " A2 14 شقة للبیع فينوس تاورس",
     location: "اربيل",
     category: "للبيع",
@@ -2059,7 +2059,7 @@ export const arlistAll = [
   },
   {
     id: 15,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "شقة للبیع سكاي فيو عيمارة B3 22 Floor",
     location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
@@ -2069,7 +2069,7 @@ export const arlistAll = [
   },
   {
     id: 16,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: " A1 13 شقة للبیع فينوس تاورس",
     location: "اربيل",
     category: "للبيع",
@@ -2079,7 +2079,7 @@ export const arlistAll = [
   },
   {
     id: 17,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: "شقة للبیع سكاي فيو عيمارة B3 7 Floor",
     location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
@@ -2089,7 +2089,7 @@ export const arlistAll = [
   },
   {
     id: 18,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: " A2 6 شقة للبیع فينوس تاورس",
     location: "اربيل",
     category: "للبيع",
@@ -2099,7 +2099,7 @@ export const arlistAll = [
   },
   {
     id: 19,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: " A1 7 شقة للبیع سكاي فيو عيمارة",
     location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
@@ -2109,7 +2109,7 @@ export const arlistAll = [
   },
   {
     id: 20,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: " A2 5 شقة للبیع فينوس تاورس",
     location: "اربيل",
     category: "للبيع",
@@ -2119,7 +2119,7 @@ export const arlistAll = [
   },
   {
     id: 21,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: " B2 6 شقة للبیع سكاي فيو عيمارة",
     location: "Lalav Sky View, Erbil",
     category: "للبيع",
@@ -2129,7 +2129,7 @@ export const arlistAll = [
   },
   {
     id: 22,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: " B1 14 شقة للبیع فينوس تاورس",
     location: "اربيل",
     category: "للبيع",
@@ -2139,7 +2139,7 @@ export const arlistAll = [
   },
   {
     id: 23,
-    cover: "../images/property/skyview/dsf.webp",
+    cover: "../images/property/skyview/dsf.jpg",
     name: " B2 10 شقة للبیع سكاي فيو عيمارة",
     location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
@@ -2149,7 +2149,7 @@ export const arlistAll = [
   },
   {
     id: 24,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: " B1 21 شقة للبیع فينوس تاورس",
     location: "اربيل",
     category: "للبيع",
@@ -2159,7 +2159,7 @@ export const arlistAll = [
   },
   {
     id: 25,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: " A2 17 شقة للبیع فينوس تاورس",
     location: "اربيل",
     category: "للبيع",
@@ -2169,7 +2169,7 @@ export const arlistAll = [
   },
   {
     id: 26,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: " B3 13 شقة للبیع فينوس تاورس",
     location: "اربيل",
     category: "للبيع",
@@ -2179,7 +2179,7 @@ export const arlistAll = [
   },
   {
     id: 27,
-    cover: "../images/property/venus/asdfaf.webp",
+    cover: "../images/property/venus/asdfaf.jpg",
     name: " A3 6 شقة للبیع فينوس تاورس",
     location: "اربيل",
     category: "للبيع",
