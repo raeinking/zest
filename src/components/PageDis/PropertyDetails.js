@@ -18,15 +18,15 @@ import { Link } from 'react-router-dom';
 const PropertyDetails = (val) => {
   const { id } = useParams();
   const property = housesData.find((house) => {
-    return house.id === parseInt(id);
+    return house.id == id
   });
   const arproperty = arhousesData.find((house) => {
-    return house.id === parseInt(id);
+     return house.id == id
   });
-  const email = arproperty.agent.email
-  const [name , setName] = useState('')
+  console.log(arhousesData.find((d) => d))
+  const [nname , setName] = useState('')
   const [phone , setPhone] = useState('')
-  const [body , setBody] = useState('')
+  const [body , setBody] = useState('مرحبا، أنا مهتم ب ' + "[ " + id + " ]")
   
   const noRefresh = function(e) {
     e.preventDefault()
@@ -90,29 +90,29 @@ const PropertyDetails = (val) => {
             <input
               className=''
               type='text'
-              placeholder='Name*'
+              placeholder='اسم*'
               onChange={e => setName(e.target.value)}
             />
             <input
               className=''
               type='text'
-              placeholder='Email*'
+              placeholder='البريد الإلكتروني*'
             />
             <input
               className=''
               type='text'
-              placeholder='Phone*'
+              placeholder='الهاتف*'
               onChange={e => setPhone(e.target.value)}
             />
             <textarea
               className=''
               type='text'
-              placeholder='Message*'
-              defaultValue='Hello, I am interested in [Modern apartment]'
+              placeholder='رسالة*'
+              defaultValue= { 'مرحبا، أنا مهتم ب ' + "[ " + id + " ]"}
               onChange={e => setBody(e.target.value)}
             />
             <div className='flex gap-x-2'>
-              <a href={`mailto:${arproperty.agent.email}?subject=${name + ': ' + phone}&body=${body}`}>
+              <a href={`mailto:${arproperty.agent.email}?subject=${nname + ': ' + phone}&body=${body}`}>
                 <p
                   className='buttonss'
                   type='submit'
@@ -201,11 +201,11 @@ const PropertyDetails = (val) => {
               className=''
               type='text'
               placeholder='Message*'
-              defaultValue='Hello, I am interested in [Modern apartment]'
+              defaultValue={"Hello, I am interested in"  + "[ " + id + " ]"}
               onChange={e => setBody(e.target.value)}
             />
             <div className='flex gap-x-2'>
-              <a href={`mailto:${arproperty.agent.email}?subject=${name + ': ' + phone}&body=${body}`}>
+              <a href={`mailto:${arproperty.agent.email}?subject=${nname + ': ' + phone}&body=${body}`}>
                 <p
                   className='buttonss'
                   type='submit'

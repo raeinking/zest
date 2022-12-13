@@ -94,9 +94,7 @@ label {
   color: #2d3954;
   font-size: 14px;
 }
-.mtop {
-  margin-top: 50px;
-}
+
 h4 {
   font-weight: 500;
   margin-top: 10px;
@@ -209,6 +207,11 @@ option {
   scrollbar-width: thin;
   min-width: 300px;
   display: flex;
+}
+.mtop {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 1024px;
 }
 
 @media screen and (max-width: 500px) {
