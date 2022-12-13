@@ -16,7 +16,7 @@ export default function Agents() {
     {paths == '/agents' ? 
     <section>
       <section className='blogs'>
-          <Back title='Our Agents - We Will Help you fing your home' subtitle='Find new & featured property located in your local city.' cover={img} />
+          <Back title='Our Agents - We Will Help you find your home' subtitle='Find new & featured property located in your local city.' cover={img} />
       </section>
       <section className='team background'>
         <div className='container'>
@@ -55,11 +55,11 @@ export default function Agents() {
     : 
     <section>
       <section className='blogs'>
-          <Back title='وكلاؤنا - سنساعدك في منزلك' subtitle='ابحث عن عقار جديد ومميز يقع في مدينتك المحلية' cover={img} />
+          <Back title='مستعدون لكي نساعدك في خطوات الحصول على عقارك المميز' subtitle='ابحث عن عقار جديد ومميز يقع في مدينتك المحلية' cover={img} />
       </section>
       <section className='team background'>
         <div className='container'>
-          <Heading title='وكلاؤنا المميزون' subtitle='' />
+          <Heading title='افضل الوكلاء' subtitle='' />
           <div className='gridbox'>
             {arallAgents.map((val, index) => (
                 <div className='box' key={index}>

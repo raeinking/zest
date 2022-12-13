@@ -24,16 +24,14 @@ const   Pages = () => {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/ar' component={Home} />
-          <Route exact path='/about' component={About} />
-          <Route exact path='/ar/about' component={About} />
           <Route exact path='/properties' component={Blog} />
           <Route exact path='/ar/properties' component={Blog} />
-          <Route exact path='/projects' component={Projects} />
-          <Route exact path='/ar/projects' component={Projects} />
-          <Route exact path='/contact' component={Contact} />
-          <Route exact path='/ar/contact' component={Contact} />
           <Route exact path='/agents' component={Agents} />
           <Route exact path='/ar/agents' component={Agents} />
+          <Route exact path='/contact' component={Contact} />
+          <Route exact path='/ar/contact' component={Contact} />
+          <Route exact path='/about' component={About} />
+          <Route exact path='/ar/about' component={About} />
           <Route exact path='/property/:id' component={PropertyDetails} />
           <Route exact path='/ar/property/:id' component={PropertyDetails} />
         </Switch>

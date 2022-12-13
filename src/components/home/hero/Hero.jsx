@@ -80,8 +80,8 @@ const Hero = () => {
       </section>
       :       
       <section className='hero'>
-          <h1 title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.'>ابحث عن منزلك التالي</h1>
-          <p>ابحث عن عقار جديد ومميز يقع في مدينتك المحلية..</p>
+          <h1>إبحث عن منزل مميز</h1>
+          <p>فرصة لعرض احدث واجدد العقارات القريبة منك</p>
           <form className='flexsearch'>
             <div className='box'>
               <input className="inputs" type='text' placeholder='اسم' />

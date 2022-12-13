@@ -23,10 +23,10 @@ const Recent = () => {
      :
     <section className='recent padding'>
         <div className='container'>
-          <Heading title='خاصية حديثة مدرجة' subtitle='' />
+          <Heading title='احدث العقارات' subtitle='' />
           <RecentCard />
           <a href="/ar/properties">
-            <button>معرفة المزيد</button>
+            <button>مشاهدة المزيد</button>
           </a>
         </div>
       </section>

@@ -3,7 +3,7 @@ import "./header.css"
 import { arnav } from "../../data/Data"
 import { nav } from "../../data/Data"
 import { Link } from "react-router-dom"
-import image from './logobrown.png'
+import image from './logobrown.jpg'
 import { useLocation } from "react-router-dom";
 
 
@@ -28,7 +28,7 @@ const Header = () => {
                   <a href={list.path}>{list.text}</a>
                 </li>
               ))}
-              <a href="/">الإنكليزية</a>
+              <a className="lang" href="/">الإنكليزية</a>
             </ul>
           </div>
           <div className='toggle'>
@@ -49,10 +49,9 @@ const Header = () => {
                   <a href={list.path}>{list.text}</a>
                 </li>
               ))}
-              <a href="/ar">Arabic</a>
+              <a className="lang" href="/ar">Arabic</a>
             </ul>
           </div>
-
           <div className='toggle'>
             <button onClick={() => setNavList(!navList)}>{navList ? <i className='fa fa-times'></i> : <i className='fa fa-bars'></i>}</button>
           </div>

@@ -17,6 +17,7 @@
 .submit {
   z-index: 10;
   cursor: pointer;
+  text-align: center;
 }
 @media screen and (max-width: 768px) {
   .contact h4 {

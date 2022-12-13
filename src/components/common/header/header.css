@@ -41,6 +41,9 @@ header .toggle {
   display: none;
 }
 @media screen and (max-width: 768px) {
+  .lang {
+    color: #ffffff;
+  }
   header {
     padding: 0;
   }

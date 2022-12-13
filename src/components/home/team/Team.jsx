@@ -56,7 +56,7 @@ const Team = () => {
       : 
       <section className='team background'>
         <div className='container'>
-          <Heading title='وكلاؤنا المميزون' subtitle='' />
+          <Heading title='افضل الوكلاء' subtitle='' />
           <div className='gridbox'>
             {arteam.map((val, index) => (
                 <div className='box' key={index}>
@@ -91,11 +91,11 @@ const Team = () => {
             ))}
           </div>
         <a href="agents">
-            <button>شاهد المزيد من الوكلاء</button>
+            <button>مشاهدة المزيد</button>
           </a>
         </div>
       </section>
-            }
+      }
     </>
   )
 }

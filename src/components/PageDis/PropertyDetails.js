@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './discription.css'
 import { useLocation } from "react-router-dom";
 
@@ -23,52 +23,56 @@ const PropertyDetails = (val) => {
   const arproperty = arhousesData.find((house) => {
     return house.id === parseInt(id);
   });
+  const email = arproperty.agent.email
+  const [name , setName] = useState('')
+  const [phone , setPhone] = useState('')
+  const [body , setBody] = useState('')
   
   const noRefresh = function(e) {
     e.preventDefault()
   } 
   const location = useLocation();
   const paths = window.location.pathname;
+  const fword = paths[1] + paths[2]
 
   return (
     <>
-
-    {paths == '/properties' ? 
+      {fword == 'ar'?
     <div className='con'>
       <div className='lineupss'>
         <div>
-          <h1 className=''>{property.name}</h1>
-          <h3 className=''>{property.address}</h3>
+          <h1 className=''>{arproperty.name}</h1>
+          <h3 className=''>{arproperty.address}</h3>
         </div>
         <div className='btns'>
           <div className='btn'>
-            {property.type}
+            {arproperty.type}
           </div>
           <div className='btn'>
-            {property.country}
+            {arproperty.country}
           </div>
         </div>
         <div className=''>
-          $ {property.price}
+          $ {arproperty.price}
         </div>
       </div>
       <div className='linedownss'>
         <div className='max-w-[768px]'>
           <div className=''>
-            <img src={property.imageLg} alt='' />
+            <img src={arproperty.imageLg} alt='' />
           </div>
           <div className='iconcom'>
             <div className='icons'>
               <BiBed className='' />
-              <div className=''>{property.bedrooms}</div>
+              <div className=''>{arproperty.bedrooms}</div>
             </div>
             <div className='icons'>
               <BiBath className='' />
-              <div className=''>{property.bathrooms}</div>
+              <div className=''>{arproperty.bathrooms}</div>
             </div>
             <div className='icons'>
               <BiArea className='' />
-              <div className=''>{property.area}</div>
+              <div className=''>{arproperty.area}</div>
             </div>
           </div>
           <p>{property.description}</p>
@@ -76,10 +80,10 @@ const PropertyDetails = (val) => {
         <div className='formagent'>
           <div className='detailsss'>
             <div className='imgss'>
-              <img className='mainimage' src={property.agent.image}></img>
+              <img className='mainimage' src={arproperty.agent.image}></img>
             </div>
             <div>
-              <div className=''>{property.agent.name}</div>
+              <div className=''>{arproperty.agent.name}</div>
             </div>
           </div>
           <form className=''>
@@ -87,6 +91,7 @@ const PropertyDetails = (val) => {
               className=''
               type='text'
               placeholder='Name*'
+              onChange={e => setName(e.target.value)}
             />
             <input
               className=''
@@ -97,21 +102,25 @@ const PropertyDetails = (val) => {
               className=''
               type='text'
               placeholder='Phone*'
+              onChange={e => setPhone(e.target.value)}
             />
             <textarea
               className=''
               type='text'
               placeholder='Message*'
               defaultValue='Hello, I am interested in [Modern apartment]'
+              onChange={e => setBody(e.target.value)}
             />
             <div className='flex gap-x-2'>
-              <p
-                className='buttonss'
-                type='submit'
-              >
-                Send message
-              </p>
-              <a href={property.agent.phone}>
+              <a href={`mailto:${arproperty.agent.email}?subject=${name + ': ' + phone}&body=${body}`}>
+                <p
+                  className='buttonss'
+                  type='submit'
+                >
+                  Send message
+                </p>
+            </a>
+              <a href={arproperty.agent.phone}>
                 <p  className='buttonss'>
                   Call
                 </p>
@@ -121,7 +130,7 @@ const PropertyDetails = (val) => {
         </div>
       </div>
     </div>
-    : 
+    :
     <div className='con'>
       <div className='lineupss'>
         <div>
@@ -175,6 +184,7 @@ const PropertyDetails = (val) => {
               className=''
               type='text'
               placeholder='Name*'
+              onChange={e => setName(e.target.value)}
             />
             <input
               className=''
@@ -185,20 +195,24 @@ const PropertyDetails = (val) => {
               className=''
               type='text'
               placeholder='Phone*'
+              onChange={e => setPhone(e.target.value)}
             />
             <textarea
               className=''
               type='text'
               placeholder='Message*'
               defaultValue='Hello, I am interested in [Modern apartment]'
+              onChange={e => setBody(e.target.value)}
             />
             <div className='flex gap-x-2'>
-              <p
-                className='buttonss'
-                type='submit'
-              >
-                Send message
-              </p>
+              <a href={`mailto:${arproperty.agent.email}?subject=${name + ': ' + phone}&body=${body}`}>
+                <p
+                  className='buttonss'
+                  type='submit'
+                >
+                  Send message
+                </p>
+            </a>
               <a href={property.agent.phone}>
                 <p  className='buttonss'>
                   Call

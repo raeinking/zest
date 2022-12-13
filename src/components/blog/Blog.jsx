@@ -29,7 +29,7 @@ const Blog = () => {
       : 
       <section>
       <section className='blog'>
-          <Back title='ابحث عن منزلك' subtitle='ابحث عن عقار جديد ومميز يقع في مدينتك المحلية.' cover={img} />
+          <Back title='ابحث عن منزل مميز' subtitle='ابحث عن عقار جديد ومميز يقع في مدينتك المحلية.' cover={img} />
       </section>
       <section className="blogFillters">
           {projectFilter.map((val, index) => {

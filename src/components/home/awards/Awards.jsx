@@ -13,7 +13,7 @@ const Awards = () => {
       {paths == '/' ? 
       <section className='awards padding'>
         <div className='container'>
-          <Heading title='Over 1,24,000+ Happy User Bieng With Us Still They Love Our Services' subtitle='Our Awards' />
+          <Heading title='Over +35,000 Happy User Bieng With Us Still They Love Our Services' subtitle='Our Awards' />
           <div className='content grid4 mtop'>
             {awards.map((val, index) => (
               <div className='box' key={index}>
@@ -30,7 +30,7 @@ const Awards = () => {
       :
       <section className='awards padding'>
         <div className='container'>
-          <Heading title='أكثر من 1،24،000+ مستخدم سعيد كون معنا ما زالوا يحبون خدماتنا' subtitle='جوائزنا' />
+          <Heading title='اكثر من 35,000+ مستخدم سعيد بخدمتنا' subtitle='جوائزنا' />
           <div className='content grid4 mtop'>
             {arawards.map((val, index) => (
               <div className='box' key={index}>
