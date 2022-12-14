@@ -5,6 +5,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import './blog.css'
+import '../home/recent/recent.css'
 
 
 export default function Blogsprojects() {
@@ -14,7 +15,6 @@ export default function Blogsprojects() {
   return (
     <>
     {paths == '/properties' ? 
-    <div className='grid'>
         <div className='gridbox'>
         {listAll.map((val, index) => {
           const { cover, category, location, name, price, type, area } = val
@@ -47,7 +47,6 @@ export default function Blogsprojects() {
           )
         })}
         </div>
-      </div>
       :
       <div className='grid'>
         <div className='gridbox'>
