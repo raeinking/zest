@@ -17,7 +17,7 @@ const RecentCard = () => {
             <a href={ 'property/' + val.id} key={index}>
             <div className='box shadow' >
               <div className='img'>
-                <img src={cover} alt='' />
+                <img src={cover} alt={name} />
               </div>
               <div className='text'>
                 <div className='category'>

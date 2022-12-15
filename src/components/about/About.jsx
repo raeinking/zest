@@ -16,13 +16,13 @@ const About = () => {
         <Back name='About Us' title='Who are we - who are we?' cover={img} />
         <div className='aboutmain'>
           <div className='aboutcontent'>
-            <Heading title='Our Agency Story' subtitle='Check out our company story and business process' />
+            <Heading title='About Our Agency Story' subtitle='Check out our company story and business process' />
             <p>.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
             <button className='btn2'>More About Us</button>
           </div>
           <div className='aboutimg'>
-            <img src={img} alt='' />
+            <img src={img} alt='About Us' />
           </div>
         </div>
       </section>
@@ -37,7 +37,7 @@ const About = () => {
             <button className='btn2'>المزيد عنا</button>
           </div>
           <div className='aboutimg'>
-            <img src={img} alt='' />
+            <img src={img} alt='من نحن؟' />
           </div>
         </div>
       </section>

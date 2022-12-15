@@ -21,7 +21,7 @@ const Team = () => {
                   {/* <button className='btn3'>{val.list} Kirkuk</button> */}
                   <div className='details'>
                     <div className='img'>
-                      <img src={val.cover} alt='' />
+                      <img src={val.cover} alt={val.name} />
                       {/* <i className='fa-solid fa-circle-check'></i> */}
                     </div>
                     <i className='fa fa-location-dot'></i>
@@ -32,7 +32,7 @@ const Team = () => {
                         <li key={index}>{icon}</li>
                       ))}
                     </ul> */}
-                    <div className='button flex'>
+                    <div className='button flex ddd'>
                       <a href={val.email}>
                         <button className="btnmsg">
                           <i className='fa fa-envelope'></i>
@@ -63,7 +63,7 @@ const Team = () => {
                   {/* <button className='btn3'>{val.list} Kirkuk</button> */}
                   <div className='details'>
                     <div className='img'>
-                      <img src={val.cover} alt='' />
+                      <img src={val.cover} alt={val.name} />
                       {/* <i className='fa-solid fa-circle-check'></i> */}
                     </div>
                     <i className='fa fa-location-dot'></i>

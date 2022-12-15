@@ -365,7 +365,7 @@ export const price = [
 export const footer = [
   {
     title: "Social",
-    text: [{ list: "Facebook", link: 'https://www.facebook.com/zest.real.estate.erbil' }, { list: "Instagram" , link : 'https://www.instagram.com/zest_properties/' }, { list: "Youtube", link : 'https://www.youtube.com/channel/UCj1_7eqoDzWn6RFLAj6ScNQ' }, { list: "Tiktok" , link : '' }, { list: "Snapchat", link : '' }],
+    text: [{ list: "Facebook", link: 'https://www.facebook.com/zest.real.estate.erbil' }, { list: "Instagram" , link : 'https://www.instagram.com/zest_properties/' }, { list: "Youtube", link : 'https://www.youtube.com/channel/UCj1_7eqoDzWn6RFLAj6ScNQ' },],
   },
   {
     title: "COMPANY",
@@ -375,7 +375,7 @@ export const footer = [
 export const arfooter = [
   {
     title: "اجتماعي",
-    text: [{ list: "فيس بوك" ,link: 'https://www.facebook.com/zest.real.estate.erbil' }, { list: "ئینستاگرام",link : 'https://www.instagram.com/zest_properties/' }, { list: "یوتوب", link : 'https://www.youtube.com/channel/UCj1_7eqoDzWn6RFLAj6ScNQ' }, { list: "تیکتۆک" , link: ''}, { list: "سناب جات" , link : ''},]
+    text: [{ list: "فيس بوك" ,link: 'https://www.facebook.com/zest.real.estate.erbil' }, { list: "ئینستاگرام",link : 'https://www.instagram.com/zest_properties/' }, { list: "یوتوب", link : 'https://www.youtube.com/channel/UCj1_7eqoDzWn6RFLAj6ScNQ' },]
   },
   {
     title: "صفحة",

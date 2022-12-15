@@ -19,7 +19,7 @@ const Header = () => {
             <header>
         <div className='container flex'>
           <div className='logo'>
-            <img src={image} alt='' />
+            <img src={image} alt='zest property' />
           </div>
           <div className='nav'>
             <ul className={navList ? "small" : "flex"}>
@@ -40,7 +40,7 @@ const Header = () => {
       <header>
         <div className='container flex'>
           <div className='logo'>
-            <img src={image} alt='' />
+            <img src={image} alt='zest property' />
           </div>
           <div className='nav'>
             <ul className={navList ? "small" : "flex"}>

@@ -11,8 +11,8 @@ const Hero = () => {
     <>
     {paths == '/' ? 
       <section className='hero'>
-          <h1 title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.'>Search Your Next Home</h1>
-          <p>Find new & featured property located in your local city.</p>
+          <h1 title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.'>Zest Property</h1>
+          <p>Find Your Next Home In Zest Property.</p>
           <form className='flexsearch'>
             <div className='box'>
               <input className="inputs" type='text' placeholder='name' />
@@ -80,7 +80,7 @@ const Hero = () => {
       </section>
       :       
       <section className='hero'>
-          <h1>إبحث عن منزل مميز</h1>
+          <h1>عقارات زيست</h1>
           <p>فرصة لعرض احدث واجدد العقارات القريبة منك</p>
           <form className='flexsearch'>
             <div className='box'>
@@ -147,7 +147,6 @@ const Hero = () => {
             </a>
           </form>
       </section>
-      
       }
     </>
   )

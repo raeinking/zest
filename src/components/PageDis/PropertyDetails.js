@@ -59,7 +59,7 @@ const PropertyDetails = (val) => {
       <div className='linedownss'>
         <div className='max-w-[768px]'>
           <div className=''>
-            <img src={arproperty.imageLg} alt='' />
+            <img src={arproperty.imageLg} alt={arhousesData.name} />
           </div>
           <div className='iconcom'>
             <div className='icons'>
@@ -80,32 +80,28 @@ const PropertyDetails = (val) => {
         <div className='formagent'>
           <div className='detailsss'>
             <div className='imgss'>
-              <img className='mainimage' src={arproperty.agent.image}></img>
+              <img className='mainimage' src={arproperty.agent.image} alt={arproperty.agent.name}></img>
             </div>
             <div>
-              <div className=''>{arproperty.agent.name}</div>
+              <div>{arproperty.agent.name}</div>
             </div>
           </div>
-          <form className=''>
+          <form>
             <input
-              className=''
               type='text'
               placeholder='اسم*'
               onChange={e => setName(e.target.value)}
             />
             <input
-              className=''
               type='text'
               placeholder='البريد الإلكتروني*'
             />
             <input
-              className=''
               type='text'
               placeholder='الهاتف*'
               onChange={e => setPhone(e.target.value)}
             />
             <textarea
-              className=''
               type='text'
               placeholder='رسالة*'
               defaultValue= { 'مرحبا، أنا مهتم ب ' + "[ " + id + " ]"}
@@ -117,12 +113,12 @@ const PropertyDetails = (val) => {
                   className='buttonss'
                   type='submit'
                 >
-                  Send message
+                  أرسل رسالة
                 </p>
             </a>
               <a href={arproperty.agent.phone}>
                 <p  className='buttonss'>
-                  Call
+                  اتصال
                 </p>
               </a>
             </div>
@@ -134,8 +130,8 @@ const PropertyDetails = (val) => {
     <div className='con'>
       <div className='lineupss'>
         <div>
-          <h1 className=''>{property.name}</h1>
-          <h3 className=''>{property.address}</h3>
+          <h1 >{property.name}</h1>
+          <h3 >{property.address}</h3>
         </div>
         <div className='btns'>
           <div className='btn'>
@@ -145,14 +141,14 @@ const PropertyDetails = (val) => {
             {property.country}
           </div>
         </div>
-        <div className=''>
+        <div >
           $ {property.price}
         </div>
       </div>
       <div className='linedownss'>
         <div className='max-w-[768px]'>
           <div className=''>
-            <img src={property.imageLg} alt='' />
+            <img src={property.imageLg} alt={property.name} />
           </div>
           <div className='iconcom'>
             <div className='icons'>
@@ -173,32 +169,28 @@ const PropertyDetails = (val) => {
         <div className='formagent'>
           <div className='detailsss'>
             <div className='imgss'>
-              <img className='mainimage' src={property.agent.image}></img>
+              <img className='mainimage' src={property.agent.image} alt={property.agent.name}></img>
             </div>
             <div>
-              <div className=''>{property.agent.name}</div>
+              <div>{property.agent.name}</div>
             </div>
           </div>
-          <form className=''>
+          <form>
             <input
-              className=''
               type='text'
               placeholder='Name*'
               onChange={e => setName(e.target.value)}
             />
             <input
-              className=''
               type='text'
               placeholder='Email*'
             />
             <input
-              className=''
               type='text'
               placeholder='Phone*'
               onChange={e => setPhone(e.target.value)}
             />
             <textarea
-              className=''
               type='text'
               placeholder='Message*'
               defaultValue={"Hello, I am interested in"  + "[ " + id + " ]"}

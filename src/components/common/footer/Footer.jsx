@@ -29,8 +29,8 @@ const Footer = () => {
         <div className='container'>
           <div className='box'>
             <div className='logo'>
-              <img src={image} alt='' />
-              <h1>عقارات زيست</h1>
+              <img src={image} alt='zest property' />
+              <h2>عقارات زيست</h2>
               <p>تلقي تحديث منا أدخل بريدك الإلكتروني</p>
 
               <div className='input flex'>
@@ -75,10 +75,9 @@ const Footer = () => {
         <div className='container'>
           <div className='box'>
             <div className='logo'>
-              <img src={image} alt='' />
+              <img src={image} alt='zest property' />
               <h1>Zest Property</h1>
               <p>Receive Update from Us enter your email</p>
-
               <div className='input flex'>
                 <input type='text' placeholder='Email Address' />
                 <button className="btn1">Subscribe</button>
