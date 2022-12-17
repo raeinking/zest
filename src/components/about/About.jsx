@@ -2,6 +2,8 @@ import React from "react"
 import Back from "../common/Back"
 import Heading from "../common/Heading"
 import img from "../images/immio.jpg"
+import msg from "../images/msg.jpg"
+import vision from "../images/vision.jpg"
 import "./about.css"
 import { useLocation } from "react-router-dom";
 
@@ -27,20 +29,44 @@ const About = () => {
         </div>
       </section>
       : 
-      <section className='about'>
-        <Back name='عنا' title='من نحن؟' cover={img} />
-        <div className='aboutmain'>
-          <div className='aboutcontent'>
-            <Heading title='قصة الشركة' subtitle='تحقق من قصة شركتنا وعملية العمل' />
-            <p>تحقق من قصة شركتنا وعملية العمل.تحقق من قصة شركتنا وعملية العمل تحقق من قصة شركتنا وعملية العملتحقق من قصة شركتنا وعملية العملتحقق من قصة شركتنا وعملية العملتحقق من قصة شركتنا وعملية العملتحقق من قصة شركتنا وعملية العملتحقق من قصة شركتنا وعملية العمل</p>
-            <p>تحقق من قصة شركتنا وعملية العملتحقق من قصة شركتنا وعملية العملتحقق من قصة شركتنا وعملية العملتحقق من قصة شركتنا وعملية العملتحقق من قصة شركتنا وعملية العملتحقق من قصة شركتنا وعملية العمل.</p>
-            <button className='btn2'>المزيد عنا</button>
+      <>
+        <section className='about'>
+          <Back name='عنا' title='من نحن؟' cover={img} />
+          <div className='aboutmain'>
+            <div className='aboutcontent'>
+              <h2 title='' subtitle='' >شركة زيست للعقارات الفاخرة مفهوم جديد في عالم الاستثمار</h2>
+              <p>احدى شركات  كروب وهي شركة رائدة في مجال العقارات والاستثمارات وإدارة المشاريع والهندسة منذ عام</p>
+              <p>لدينا مجموعة من الخبرات والعقول وبرامج العمل في المشاريع التي عملنا عليها لأكثر من خمسة عشر سنة متواصلة من العمل بين دبي ومحافظات العراق.</p>
+              <p>ولأننا نسعى للوصول إلى آفاق جديدة لخدمة المجتمع فقد قمنا بافتتاح سلسلة من الفروع في عدة محافظات منها أربيل وكركوك وبغداد لإدارة الوساطة العقارية.</p>
+            </div>
+            <div className='aboutimg'>
+              <img src={img} alt='من نحن؟' />
+            </div>
           </div>
-          <div className='aboutimg'>
-            <img src={img} alt='من نحن؟' />
+        </section>
+        <section className='about'>
+          <div className='aboutmain'>
+            <div className='aboutcontent'>
+              <h2>الرؤية</h2>
+              <p>العقارات هي روح الاقتصاد في العالم ولنجاح اي عملية عقارية تحتاج لإتخاذ قرار صحيح والى مزيج من الخبرات في مجال الهندسة والاقتصاد والإدارة ثم التسويق الصحيح</p>
+            </div>
+            <div className='aboutimg'>
+              <img src={vision} alt='من نحن؟' />
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+        <section className='about'>
+          <div className='aboutmain'>
+            <div className='aboutcontent'>
+              <h2>الرسالة</h2>
+              <p>السير لحياة افضل ووضع جميع خبراتنا في مجال العقارات والاستثمارات لخدمة العملاء</p>
+            </div>
+            <div className='aboutimg'>
+              <img src={msg} alt='من نحن؟' />
+            </div>
+          </div>
+        </section>
+      </>
       }
     </>
   )
