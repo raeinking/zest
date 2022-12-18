@@ -220,6 +220,10 @@ option {
   max-width: 1400px;
 }
 
+.discription p{
+  margin: 0 5px;
+}
+
 @media screen and (max-width: 500px) {
   select {
     width: 100%;

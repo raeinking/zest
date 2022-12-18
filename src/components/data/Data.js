@@ -367,19 +367,11 @@ export const footer = [
     title: "Social",
     text: [{ list: "Facebook", link: 'https://www.facebook.com/zest.real.estate.erbil' }, { list: "Instagram" , link : 'https://www.instagram.com/zest_properties/' }, { list: "Youtube", link : 'https://www.youtube.com/channel/UCj1_7eqoDzWn6RFLAj6ScNQ' },],
   },
-  {
-    title: "COMPANY",
-    text: [{ list: "Home" }, { list: "Property" }, { list: "Agents" }, { list: "About" }, { list: "contact" }],
-  },
 ]
 export const arfooter = [
   {
     title: "اجتماعي",
     text: [{ list: "فيس بوك" ,link: 'https://www.facebook.com/zest.real.estate.erbil' }, { list: "ئینستاگرام",link : 'https://www.instagram.com/zest_properties/' }, { list: "یوتوب", link : 'https://www.youtube.com/channel/UCj1_7eqoDzWn6RFLAj6ScNQ' },]
-  },
-  {
-    title: "صفحة",
-    text: [{ list: "الصفحة الرئيسية", }, { list: "الخصائص" }, { list: "الوكلاء" }, { list: "عن" }, { list: "الاتصال" }],
   },
 ]
 export const projects  = [
@@ -1013,6 +1005,9 @@ export const arhousesData = [
     id: 1,
     type: 'شقة',
     name: 'B1 30 شقة للبیع لالاف سكاي ڤیو',
+    nameproperty:'سكاي فيو ',
+    build: '6',
+    Allbuild: '39',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/skyview/dsf1.jpg',
@@ -1035,6 +1030,9 @@ export const arhousesData = [
     id: 2,
     type: 'شقة',
     name: 'B3 13 شقة للبیع فینوس تاوەرز',
+    nameproperty:'فینوس تاوەرز ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1057,6 +1055,9 @@ export const arhousesData = [
     id: 3,
     type: 'شقة',
     name: 'A2 15 شقة للبیع نوفا تاورز',
+    nameproperty:'نوفا تاورز ',
+    build: '5',
+    Allbuild: '22',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/nova/ewr1.jpg',
@@ -1079,6 +1080,10 @@ export const arhousesData = [
     id: 4,
     type: 'شقة',
     name: 'B1 12 شقة للبیع لالاف سكاي ڤیو',
+        nameproperty:'سكاي فيو ',
+        build: '6',
+    Allbuild: '39',
+
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/skyview/dsf1.jpg',
@@ -1101,6 +1106,9 @@ export const arhousesData = [
     id: 5,
     type: 'شقة',
     name: 'A1 22 شقة للبیع فینوس تاوەرز',
+    nameproperty:'فینوس تاوەرز ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1123,6 +1131,9 @@ export const arhousesData = [
     id: 6,
     type: 'شقة',
     name: 'A1 2 شقة للبیع نوفا تاورز',
+    nameproperty:'نوفا تاورز ',
+    build: '5',
+    Allbuild: '22',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/nova/ewr1.jpg',
@@ -1145,6 +1156,9 @@ export const arhousesData = [
     id: 7,
     type: 'شقة',
     name: 'A3 8 شقة للبیع نوفا تاورز',
+    nameproperty:'نوفا تاورز ',
+    build: '5',
+    Allbuild: '22',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/nova/ewr1.jpg',
@@ -1167,6 +1181,9 @@ export const arhousesData = [
     id: 8,
     type: 'شقة',
     name: 'A1 10 شقة للبیع لالاف سكاي ڤیو',
+        nameproperty:'سكاي فيو ',
+        build: '6',
+    Allbuild: '39',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/skyview/dsf1.jpg',
@@ -1189,6 +1206,9 @@ export const arhousesData = [
     id: 9,
     type: 'شقة',
     name: 'A1 25 شقة للبیع فینوس تاوەرز',
+    nameproperty:'فینوس تاوەرز ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1211,6 +1231,9 @@ export const arhousesData = [
     id: 10,
     type: 'شقة',
     name: 'A1 8 شقة للبیع فینوس تاوەرز',
+    nameproperty:'فینوس تاوەرز ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1233,6 +1256,10 @@ export const arhousesData = [
     id: 11,
     type: 'شقة',
     name: 'A3 31 شقة للبیع لالاف سكاي ڤیو',
+        nameproperty:'سكاي فيو ',
+        build: '6',
+    Allbuild: '39',
+
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/skyview/dsf1.jpg',
@@ -1255,6 +1282,9 @@ export const arhousesData = [
     id: 12,
     type: 'شقة',
     name: 'A2 10 شقة للبیع فینوس تاوەرز',
+    nameproperty:'فینوس تاوەرز ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1277,6 +1307,10 @@ export const arhousesData = [
     id: 13,
     type: 'شقة',
     name: 'B3 37 شقة للبیع لالاف سكاي ڤیو',
+        nameproperty:'سكاي فيو ',
+        build: '6',
+    Allbuild: '39',
+
     description:
           'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/skyview/dsf1.jpg',
@@ -1299,6 +1333,9 @@ export const arhousesData = [
     id: 14,
     type: 'شقة',
     name: 'A2 14 شقة للبیع فینوس تاوەرز',
+    nameproperty:'فینوس تاوەرز ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1321,6 +1358,10 @@ export const arhousesData = [
     id: 15,
     type: 'شقة',
     name: 'B3 22 شقة للبیع لالاف سكاي ڤیو',
+        nameproperty:'سكاي فيو ',
+        build: '6',
+    Allbuild: '39',
+
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/skyview/dsf1.jpg',
@@ -1343,6 +1384,9 @@ export const arhousesData = [
     id: 16,
     type: 'شقة',
     name: 'A1 13 شقة للبیع فینوس تاوەرز',
+    nameproperty:'فینوس تاوەرز ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1365,6 +1409,10 @@ export const arhousesData = [
     id: 17,
     type: 'شقة',
     name: 'B3 7 شقة للبیع لالاف سكاي ڤیو',
+        nameproperty:'سكاي فيو ',
+        build: '6',
+    Allbuild: '39',
+
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/skyview/dsf1.jpg',
@@ -1387,6 +1435,9 @@ export const arhousesData = [
     id: 18,
     type: 'شقة',
     name: 'A2 6 شقة للبیع فینوس تاوەرز',
+    nameproperty:'فینوس تاوەرز ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1408,6 +1459,10 @@ export const arhousesData = [
     id: 19,
     type: 'شقة',
     name: 'A1 7 شقة للبیع لالاف سكاي ڤیو',
+        nameproperty:'سكاي فيو ',
+        build: '6',
+    Allbuild: '39',
+
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/skyview/dsf1.jpg',
@@ -1429,6 +1484,9 @@ export const arhousesData = [
     id: 20,
     type: 'شقة',
     name: 'A2 5 شقة للبیع فینوس تاوەرز',
+    nameproperty:'فینوس تاوەرز ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1450,6 +1508,10 @@ export const arhousesData = [
     id: 21,
     type: 'شقة',
     name: 'B2 6 شقة للبیع لالاف سكاي ڤیو',
+    nameproperty:'سكاي فيو ',
+    build: '6',
+    Allbuild: '39',
+
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/skyview/dsf1.jpg',
@@ -1471,6 +1533,9 @@ export const arhousesData = [
     id: 22,
     type: 'شقة',
     name: 'B1 14 شقة للبیع فینوس تاوەرز',
+    nameproperty:'فینوس تاوەرز ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1492,6 +1557,10 @@ export const arhousesData = [
     id: 23,
     type: 'شقة',
     name: 'B2 10 شقة للبیع لالاف سكاي ڤیو',
+    nameproperty:'سكاي فيو ',
+    build: '6',
+    Allbuild: '39',
+
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/skyview/dsf1.jpg',
@@ -1513,6 +1582,9 @@ export const arhousesData = [
     id: 24,
     type: 'شقة',
     name: 'B1 21 شقة للبیع فینوس تاوەرز',
+    nameproperty:'فینوس تاوەرز ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1534,6 +1606,9 @@ export const arhousesData = [
     id: 25,
     type: 'شقة',
     name: 'A2 17 شقة للبیع فینوس تاوەرز',
+    nameproperty:'فینوس تاوەرز ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1555,6 +1630,9 @@ export const arhousesData = [
     id: 26,
     type: 'شقة',
     name: 'B3 13 شقة للبیع فینوس تاوەرز',
+    nameproperty:'فینوس تاوەرز ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1576,6 +1654,9 @@ export const arhousesData = [
     id: 27,
     type: 'شقة',
     name: 'A3 6 شقة للبیع فینوس تاوەرز',
+    nameproperty:'فینوس تاوەرز ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1601,6 +1682,9 @@ export const housesData = [
     id: 1,
     type: 'Apartment',
     name: 'Sky-View-B1-30-Floor',
+    nameproperty: 'sky view',
+    build: '6',
+    Allbuild: '39',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/skyview/dsf1.jpg',
@@ -1623,6 +1707,9 @@ export const housesData = [
     id: 2,
     type: 'Apartment',
     name: 'Venus Towers B3 13 Floor',
+    nameproperty:'Venus Towers ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -1645,6 +1732,9 @@ export const housesData = [
     id: 3,
     type: 'Apartment',
     name: 'Nova towers A2 15 Floor',
+    nameproperty:'Nova towers ',
+    build: '5',
+    Allbuild: '22',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/nova/ewr1.jpg',
@@ -1667,6 +1757,9 @@ export const housesData = [
     id: 4,
     type: 'Apartment',
     name: 'Sky View B1 12 Floor',
+    nameproperty: 'sky view',
+    build: '6',
+    Allbuild: '39',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/skyview/dsf1.jpg',
@@ -1689,6 +1782,9 @@ export const housesData = [
     id: 5,
     type: 'Apartment',
     name: 'Venus Towers A1 22 Floor',
+    nameproperty:'Venus Towers ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -1711,6 +1807,9 @@ export const housesData = [
     id: 6,
     type: 'Apartment',
     name: 'Nova towers A1 2 Floor',
+    nameproperty:'Nova towers ',
+    build: '5',
+    Allbuild: '22',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/nova/ewr1.jpg',
@@ -1733,6 +1832,9 @@ export const housesData = [
     id: 7,
     type: 'Apartament',
     name: 'Nova towers A3 8 Floor',
+    nameproperty:'Nova towers ',
+    build: '5',
+    Allbuild: '22',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/nova/ewr1.jpg',
@@ -1755,6 +1857,9 @@ export const housesData = [
     id: 8,
     type: 'Apartament',
     name: 'Sky View A1 10 Floor',
+    nameproperty: 'sky view',
+    build: '6',
+    Allbuild: '39',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/skyview/dsf1.jpg',
@@ -1777,6 +1882,9 @@ export const housesData = [
     id: 9,
     type: 'Apartament',
     name: 'Venus Towers A1 25 Floor',
+    nameproperty:'Venus Towers ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -1799,6 +1907,9 @@ export const housesData = [
     id: 10,
     type: 'Apartment',
     name: 'Venus Towers A1 8 Floor',
+    nameproperty:'Venus Towers ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -1821,6 +1932,9 @@ export const housesData = [
     id: 11,
     type: 'Apartment',
     name: 'Sky View A3 31 Floor',
+    nameproperty: 'sky view',
+    build: '6',
+    Allbuild: '39',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/skyview/dsf1.jpg',
@@ -1843,6 +1957,9 @@ export const housesData = [
     id: 12,
     type: 'Apartment',
     name: 'Venus Towers A2 10 Floor',
+    nameproperty:'Venus Towers ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -1865,6 +1982,9 @@ export const housesData = [
     id: 13,
     type: 'Apartment',
     name: 'Sky View B3 37 Floor',
+    nameproperty: 'sky view',
+    build: '6',
+    Allbuild: '39',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/skyview/dsf1.jpg',
@@ -1887,6 +2007,9 @@ export const housesData = [
     id: 14,
     type: 'Apartment',
     name: 'Venus Towers A2 14 Floor',
+    nameproperty:'Venus Towers ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -1909,6 +2032,9 @@ export const housesData = [
     id: 15,
     type: 'Apartment',
     name: 'Sky View B3 22 Floor',
+    nameproperty: 'sky view',
+    build: '6',
+    Allbuild: '39',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/skyview/dsf1.jpg',
@@ -1931,6 +2057,9 @@ export const housesData = [
     id: 16,
     type: 'Apartament',
     name: 'Venus Towers A1 13 Floor',
+    nameproperty:'Venus Towers ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -1953,6 +2082,9 @@ export const housesData = [
     id: 17,
     type: 'Apartament',
     name: 'Sky View B3 7 Floor',
+    nameproperty: 'sky view',
+    build: '6',
+    Allbuild: '39',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/skyview/dsf1.jpg',
@@ -1975,6 +2107,9 @@ export const housesData = [
     id: 18,
     type: 'Apartament',
     name: 'Venus Towers A2 6 Floor',
+    nameproperty:'Venus Towers ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -1996,6 +2131,9 @@ export const housesData = [
     id: 19,
     type: 'Apartament',
     name: 'Sky View A1 7 Floor',
+    nameproperty: 'sky view',
+    build: '6',
+    Allbuild: '39',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/skyview/dsf1.jpg',
@@ -2017,6 +2155,9 @@ export const housesData = [
     id: 20,
     type: 'Apartament',
     name: 'Venus Towers A2 5 Floor',
+    nameproperty:'Venus Towers ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -2038,6 +2179,9 @@ export const housesData = [
     id: 21,
     type: 'Apartament',
     name: 'Sky View B2 6 Floor',
+    nameproperty: 'sky view',
+    build: '6',
+    Allbuild: '39',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/skyview/dsf1.jpg',
@@ -2059,6 +2203,9 @@ export const housesData = [
     id: 22,
     type: 'Apartament',
     name: 'Venus Towers B1 14 Floor',
+    nameproperty:'Venus Towers ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -2080,6 +2227,9 @@ export const housesData = [
     id: 23,
     type: 'Apartament',
     name: 'Sky View B2 10 Floor',
+    nameproperty: 'sky view',
+    build: '6',
+    Allbuild: '39',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/skyview/dsf1.jpg',
@@ -2101,6 +2251,9 @@ export const housesData = [
     id: 24,
     type: 'Apartament',
     name: 'Venus Towers B1 21 Floor',
+    nameproperty:'Venus Towers ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -2122,6 +2275,9 @@ export const housesData = [
     id: 25,
     type: 'Apartament',
     name: 'Venus Towers A2 17 Floor',
+    nameproperty:'Venus Towers ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -2143,6 +2299,9 @@ export const housesData = [
     id: 26,
     type: 'Apartament',
     name: 'Venus Towers B3 13 Floor',
+    nameproperty:'Venus Towers ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -2164,6 +2323,9 @@ export const housesData = [
     id: 27,
     type: 'Apartament',
     name: 'Venus Towers A3 6 Floor',
+    nameproperty:'Venus Towers ',
+    build: '6',
+    Allbuild: '30',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -2530,7 +2692,7 @@ export const arlistAll = [
     category: "للبيع",
     price: "$23,400",
     type: "1 + 1",
-    area: "78 متر"
+    area: "78 متر",
   },
   {
     id: 2,
@@ -2726,7 +2888,7 @@ export const arlistAll = [
     id: 21,
     cover: "../images/property/skyview/dsf.jpg",
     name: " B2 6 شقة للبیع سكاي فيو عيمارة",
-    location: "Lalav Sky View, Erbil",
+    location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
     price: "$23,120",
     type: "1 + 1",

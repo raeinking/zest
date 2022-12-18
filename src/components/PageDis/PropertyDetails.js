@@ -75,7 +75,10 @@ const PropertyDetails = (val) => {
               <div className=''>{arproperty.area}</div>
             </div>
           </div>
-          <p>{property.description}</p>
+          <div className='discription'>
+            <p> مشروع <span>{arproperty.nameproperty}</span> في <span>{arproperty.address}</span> يتألف من <span>{arproperty.build}</span> عمارة كل عمارة <span>{arproperty.Allbuild}</span> طابق
+يتميز بـمساحات خضراء جميلة, نظام حماية وامن كامل, بلكونة على محيط الشقة </p>
+          </div>
         </div>
         <div className='formagent'>
           <div className='detailsss'>
@@ -164,7 +167,8 @@ const PropertyDetails = (val) => {
               <div className=''>{property.area}</div>
             </div>
           </div>
-          <p>{property.description}</p>
+          <p>{property.nameproperty} is located in {property.address}. It consists of {property.build} Buildings, and {property.Allbuild} Floor.
+{property.nameproperty} has a special green environmental space. A full security system. And a balcony</p>
         </div>
         <div className='formagent'>
           <div className='detailsss'>
