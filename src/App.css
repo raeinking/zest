@@ -216,6 +216,9 @@ option {
 .ddd {
   padding: 30px;
 }
+.imageabout {
+  max-width: 1400px;
+}
 
 @media screen and (max-width: 500px) {
   select {

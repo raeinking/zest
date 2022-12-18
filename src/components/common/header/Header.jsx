@@ -19,7 +19,9 @@ const Header = () => {
             <header>
         <div className='container flex'>
           <div className='logo'>
-            <img src={image} alt='zest property' />
+            <a href="/ar">
+              <img src={image} alt='zest property' />
+            </a>
           </div>
           <div className='nav'>
             <ul className={navList ? "small" : "flex"}>
@@ -40,8 +42,9 @@ const Header = () => {
       <header>
         <div className='container flex'>
           <div className='logo'>
-            <img src={image} alt='zest property' />
-          </div>
+            <a href="/">
+              <img src={image} alt='zest property' />
+            </a>          </div>
           <div className='nav'>
             <ul className={navList ? "small" : "flex"}>
               {nav.map((list, index) => (
