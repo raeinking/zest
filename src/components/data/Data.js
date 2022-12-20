@@ -821,7 +821,7 @@ export const arhousesData = [
   {
     id: 2,
     type: 'شقة',  
-    url: 'شقة-للبیع-فینوس-تاوەر-١٣-ب١',
+    url: 'شقة-للبیع-فینوس-تاوەر-١٣-ب٣',
     name: 'B3 13 شقة للبیع فینوس تاوەر',
     nameproperty:'فینوس تاوەر ',
     build: '6',
@@ -1451,7 +1451,7 @@ export const arlistAll = [
   {
     id: 2,
     cover: "../images/property/venus/asdfaf.jpg",
-    url:'شقة-للبیع-فینوس-تاوەر-١٣-ب١',
+    url:'شقة-للبیع-فینوس-تاوەر-١٣-ب٣',
     name: "B3 13 شقة للبیع فينوس تاوەر",
     location: "اربيل",
     category: "للبيع",
