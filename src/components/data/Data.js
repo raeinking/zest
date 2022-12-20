@@ -1751,7 +1751,7 @@ export const arlistAll = [
   {
     id: 2,
     cover: "../images/property/venus/asdfaf.jpg",
-    url:'شقة-للبیع-فينوس-تاوەر-١٣-ب٣',
+    url:'شقة-للبیع-فینوس-تاوەر-١٣-ب٣',
     name: "B3 13 شقة للبیع فينوس تاوەر",
     location: "اربيل",
     category: "للبيع",
