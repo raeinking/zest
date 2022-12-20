@@ -374,250 +374,8 @@ export const arfooter = [
     text: [{ list: "فيس بوك" ,link: 'https://www.facebook.com/zest.real.estate.erbil' }, { list: "ئینستاگرام",link : 'https://www.instagram.com/zest_properties/' }, { list: "یوتوب", link : 'https://www.youtube.com/channel/UCj1_7eqoDzWn6RFLAj6ScNQ' },]
   },
 ]
-export const projects  = [
-{
-  Imas:"https://media.licdn.com/dms/image/C5612AQEaCtPbqamp9g/article-cover_image-shrink_720_1280/0/1626852398510?e=2147483647&v=beta&t=fDdQeBvwIpLhXpxjGta-Qn_7vTuAsr8_xA9yec7yegE",
-  title: "pavilion",
-  loc: "erbil",
-  urls: "/project",
-},
-{
-  Imas:"https://gray-wsmv-prod.cdn.arcpublishing.com/resizer/9-ZT3Fbiu5KcwF4e4S9xxd3t-LU=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/7USGU4VKYBE4TFIHBQLVXT7QTI.jpg",
-  title: "pavilion",
-  loc: "erbil",
-  urls: "/project",
-},
-{
-  Imas:"https://www.nawy.com/blog/wp-content/uploads/2020/04/real-estate-sale-offer.jpg",
-  title: "pavilion",
-  loc: "erbil",
-  urls: "/project",
-},
-{
-  Imas:"https://s7d1.scene7.com/is/image/otpp/Inv_L2_RealEstate_Main01-2:Facebook?wid=1200&hei=630&fmt=jpg",
-  title: "pavilion",
-  loc: "erbil",
-  urls: "/project",
-},
-{
-  Imas:"https://s7d1.scene7.com/is/image/otpp/Inv_L2_RealEstate_Main01-2:Facebook?wid=1200&hei=630&fmt=jpg",
-  title: "pavilion",
-  loc: "erbil",
-  urls: "/project",
-},
-{
-  Imas:"https://www.opendoor.com/w/wp-content/uploads/2018/06/Real-estate-fundamentals-1.jpg",
-  title: "pavilion",
-  loc: "erbil",
-  urls: "/project",
-},
-{
-  Imas:"https://www.opendoor.com/w/wp-content/uploads/2018/06/Real-estate-fundamentals-1.jpg",
-  title: "pavilion",
-  loc: "erbil",
-  urls: "/project",
-},
-{
-  Imas:"https://www.opendoor.com/w/wp-content/uploads/2018/06/Real-estate-fundamentals-1.jpg",
-  title: "pavilion",
-  loc: "erbil",
-  urls: "/project",
-},
-{
-  Imas:"https://www.opendoor.com/w/wp-content/uploads/2018/06/Real-estate-fundamentals-1.jpg",
-  title: "pavilion",
-  loc: "erbil",
-  urls: "/project",
-},
-]
-export const allprojects  = [
-{
-  Imas:"https://media.licdn.com/dms/image/C5612AQEaCtPbqamp9g/article-cover_image-shrink_720_1280/0/1626852398510?e=2147483647&v=beta&t=fDdQeBvwIpLhXpxjGta-Qn_7vTuAsr8_xA9yec7yegE",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://gray-wsmv-prod.cdn.arcpublishing.com/resizer/9-ZT3Fbiu5KcwF4e4S9xxd3t-LU=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/7USGU4VKYBE4TFIHBQLVXT7QTI.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://www.nawy.com/blog/wp-content/uploads/2020/04/real-estate-sale-offer.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://s7d1.scene7.com/is/image/otpp/Inv_L2_RealEstate_Main01-2:Facebook?wid=1200&hei=630&fmt=jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://ssl.cdn-redfin.com/v443.2.0/images/merch/generalImages/CompleteSolution_Q1_2020_557_YardSign2.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://www.opendoor.com/w/wp-content/uploads/2018/06/Real-estate-fundamentals-1.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://www.opendoor.com/w/wp-content/uploads/2018/06/Real-estate-fundamentals-1.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://www.opendoor.com/w/wp-content/uploads/2018/06/Real-estate-fundamentals-1.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://www.opendoor.com/w/wp-content/uploads/2018/06/Real-estate-fundamentals-1.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://media.licdn.com/dms/image/C5612AQEaCtPbqamp9g/article-cover_image-shrink_720_1280/0/1626852398510?e=2147483647&v=beta&t=fDdQeBvwIpLhXpxjGta-Qn_7vTuAsr8_xA9yec7yegE",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://gray-wsmv-prod.cdn.arcpublishing.com/resizer/9-ZT3Fbiu5KcwF4e4S9xxd3t-LU=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/7USGU4VKYBE4TFIHBQLVXT7QTI.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://www.nawy.com/blog/wp-content/uploads/2020/04/real-estate-sale-offer.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://s7d1.scene7.com/is/image/otpp/Inv_L2_RealEstate_Main01-2:Facebook?wid=1200&hei=630&fmt=jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://ssl.cdn-redfin.com/v443.2.0/images/merch/generalImages/CompleteSolution_Q1_2020_557_YardSign2.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://www.opendoor.com/w/wp-content/uploads/2018/06/Real-estate-fundamentals-1.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://www.opendoor.com/w/wp-content/uploads/2018/06/Real-estate-fundamentals-1.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://www.opendoor.com/w/wp-content/uploads/2018/06/Real-estate-fundamentals-1.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://www.opendoor.com/w/wp-content/uploads/2018/06/Real-estate-fundamentals-1.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://media.licdn.com/dms/image/C5612AQEaCtPbqamp9g/article-cover_image-shrink_720_1280/0/1626852398510?e=2147483647&v=beta&t=fDdQeBvwIpLhXpxjGta-Qn_7vTuAsr8_xA9yec7yegE",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://gray-wsmv-prod.cdn.arcpublishing.com/resizer/9-ZT3Fbiu5KcwF4e4S9xxd3t-LU=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/7USGU4VKYBE4TFIHBQLVXT7QTI.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://www.nawy.com/blog/wp-content/uploads/2020/04/real-estate-sale-offer.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://s7d1.scene7.com/is/image/otpp/Inv_L2_RealEstate_Main01-2:Facebook?wid=1200&hei=630&fmt=jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://ssl.cdn-redfin.com/v443.2.0/images/merch/generalImages/CompleteSolution_Q1_2020_557_YardSign2.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://www.opendoor.com/w/wp-content/uploads/2018/06/Real-estate-fundamentals-1.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://www.opendoor.com/w/wp-content/uploads/2018/06/Real-estate-fundamentals-1.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://www.opendoor.com/w/wp-content/uploads/2018/06/Real-estate-fundamentals-1.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://www.opendoor.com/w/wp-content/uploads/2018/06/Real-estate-fundamentals-1.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://media.licdn.com/dms/image/C5612AQEaCtPbqamp9g/article-cover_image-shrink_720_1280/0/1626852398510?e=2147483647&v=beta&t=fDdQeBvwIpLhXpxjGta-Qn_7vTuAsr8_xA9yec7yegE",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://gray-wsmv-prod.cdn.arcpublishing.com/resizer/9-ZT3Fbiu5KcwF4e4S9xxd3t-LU=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/7USGU4VKYBE4TFIHBQLVXT7QTI.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://www.nawy.com/blog/wp-content/uploads/2020/04/real-estate-sale-offer.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://s7d1.scene7.com/is/image/otpp/Inv_L2_RealEstate_Main01-2:Facebook?wid=1200&hei=630&fmt=jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://ssl.cdn-redfin.com/v443.2.0/images/merch/generalImages/CompleteSolution_Q1_2020_557_YardSign2.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://www.opendoor.com/w/wp-content/uploads/2018/06/Real-estate-fundamentals-1.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://www.opendoor.com/w/wp-content/uploads/2018/06/Real-estate-fundamentals-1.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://www.opendoor.com/w/wp-content/uploads/2018/06/Real-estate-fundamentals-1.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-{
-  Imas:"https://www.opendoor.com/w/wp-content/uploads/2018/06/Real-estate-fundamentals-1.jpg",
-  title: "pavilion",
-  loc: "erbil",
-},
-]
-export const projectFilter = [
-  {
-    name: 'asdf',
-    url: '',
-  }
-]
+
+
 
 export const awards = [
   {
@@ -646,7 +404,8 @@ export const listAll = [
   {
     id: 1,
     cover: "../images/property/skyview/dsf.jpg",
-    name: "Sky View B1 30 Floor",
+    url: "Apartment-for-Sale-Sky-View-B1-30-Floor",
+    name: "Apartment for Sale Sky View B1 30 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
     price: "$23,400",
@@ -656,7 +415,8 @@ export const listAll = [
   {
     id: 2,
     cover: "../images/property/venus/asdfaf.jpg",
-    name: "Venus Towers B3 13 Floor",
+    url: "Apartment-for-Sale-Venus-Towers-B3-13-Floor",
+    name: "Apartment for Sale Venus Towers B3 13 Floor",
     location: "Erbil",
     category: "For Sale",
     price: "$14,179",
@@ -666,7 +426,8 @@ export const listAll = [
   {
     id: 3,
     cover: "../images/property/nova/ewr.jpg",
-    name: "Nova towers A2 15 Floor",
+    url: "Apartment-for-Sale-Nova-towers-A2-15-Floor",
+    name: "Apartment for Sale Nova towers A2 15 Floor",
     location: "Erbil",
     category: "For Sale",
     price: "$13,490",
@@ -676,7 +437,8 @@ export const listAll = [
   {
     id: 4,
     cover: "../images/property/skyview/dsf.jpg",
-    name: "Sky View B1 12 Floor",
+    url: "Apartment-for-Sale-Sky-View-B1-12-Floor",
+    name: "Apartment for Sale Sky View B1 12 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
     price: "$23,920",
@@ -686,7 +448,8 @@ export const listAll = [
   {
     id: 5,
     cover: "../images/property/venus/asdfaf.jpg",
-    name: "Venus Towers A1 22 Floor",
+    url:"Apartment-for-Sale-Venus-Towers-A1-22-Floor",
+    name:"Apartment for Sale Venus Towers A1 22 Floor",
     location: "Erbil",
     category: "For Sale",
     price: "$16,096",
@@ -696,7 +459,8 @@ export const listAll = [
   {
     id: 6,
     cover: "../images/property/nova/ewr.jpg",
-    name: "Nova towers A1 2 Floor",
+    url: "Apartment-for-Sale-Nova-towers-A1-2-Floor",
+    name: "Apartment for Sale Nova towers A1 2 Floor",
     location: "Erbil",
     category: "For Sale",
     price: "$40,000",
@@ -706,7 +470,8 @@ export const listAll = [
   {
     id: 7,
     cover: "../images/property/nova/ewr.jpg",
-    name: "Nova towers A3 8 Floor",
+    url: "Apartment-for-Sale-Nova-towers-A3-8-Floor",
+    name: "Apartment for Sale Nova towers A3 8 Floor",
     location: "Erbil",
     category: "For Sale",
     price: "$36,500",
@@ -716,7 +481,8 @@ export const listAll = [
   {
     id: 8,
     cover: "../images/property/skyview/dsf.jpg",
-    name: "Sky View A1 10 Floor",
+    url: "Apartment-for-Sale-Sky-View-A1-10-Floor",
+    name: "Apartment for Sale Sky View A1 10 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
     price: "$38,256",
@@ -726,7 +492,8 @@ export const listAll = [
   {
     id: 9,
     cover: "../images/property/venus/asdfaf.jpg",
-    name: "Venus Towers A1 25 Floor",
+    url: "Apartment-for-Sale-Venus-Towers-A1-25-Floor",
+    name: "Apartment for Sale Venus Towers A1 25 Floor",
     location: "Erbil",
     category: "For Sale",
     price: "$10,317",
@@ -736,7 +503,8 @@ export const listAll = [
   {
     id: 10,
     cover: "../images/property/venus/asdfaf.jpg",
-    name: "Venus Towers A1 8 Floor",
+    url: "Apartment-for-Sale-Venus-Towers-A1-8-Floor",
+    name: "Apartment for Sale Venus Towers A1 8 Floor",
     location: "Erbil",
     category: "For Sale",
     price: "$11,397",
@@ -746,7 +514,8 @@ export const listAll = [
   {
     id: 11,
     cover: "../images/property/skyview/dsf.jpg",
-    name: "Sky View A3 31 Floor",
+    url: "Apartment-for-Sale-Sky-View-A3-31-Floor",
+    name: "Apartment for Sale Sky View A3 31 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
     price: "$35,856",
@@ -756,7 +525,8 @@ export const listAll = [
   {
     id: 12,
     cover: "../images/property/venus/asdfaf.jpg",
-    name: "Venus Towers A2 10 Floor",
+    url: "Apartment-for-Sale-Venus-Towers-A2-10-Floor",
+    name: "Apartment for Sale Venus Towers A2 10 Floor",
     location: "Erbil",
     category: "For Sale",
     price: "$12,951",
@@ -766,7 +536,8 @@ export const listAll = [
   {
     id: 13,
     cover: "../images/property/skyview/dsf.jpg",
-    name: "Sky View B3 37 Floor",
+    url: "Apartment-for-Sale-Sky-View-B3-37-Floor",
+    name: "Apartment for Sale Sky View B3 37 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
     price: "$38,256",
@@ -776,7 +547,8 @@ export const listAll = [
   {
     id: 14,
     cover: "../images/property/venus/asdfaf.jpg",
-    name: "Venus Towers A2 14 Floor",
+    url: "Apartment-for-Sale-Venus-Towers-A2-14-Floor",
+    name: "Apartment for Sale Venus Towers A2 14 Floor",
     location: "Erbil",
     category: "For Sale",
     price: "$13,550",
@@ -786,7 +558,8 @@ export const listAll = [
   {
     id: 15,
     cover: "../images/property/skyview/dsf.jpg",
-    name: "Sky View B3 22 Floor",
+    url: "Apartment-for-Sale-Sky-View-B3-22-Floor",
+    name: "Apartment for Sale Sky View B3 22 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
     price: "$38,256",
@@ -796,7 +569,8 @@ export const listAll = [
   {
     id: 16,
     cover: "../images/property/venus/asdfaf.jpg",
-    name: "Venus Towers A1 13 Floor",
+    url: "Apartment-for-Sale-Venus-Towers-A1-13-Floor",
+    name: "Apartment for Sale Venus Towers A1 13 Floor",
     location: "Erbil",
     category: "For Sale",
     price: "$15,904",
@@ -806,7 +580,8 @@ export const listAll = [
   {
     id: 17,
     cover: "../images/property/skyview/dsf.jpg",
-    name: "Sky View B3 7 Floor",
+    url: "Apartment-for-Sale-Sky-View-B3-7-Floor",
+    name: "Apartment for Sale Sky View B3 7 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
     price: "$23,120",
@@ -816,7 +591,8 @@ export const listAll = [
   {
     id: 18,
     cover: "../images/property/venus/asdfaf.jpg",
-    name: "Venus Towers A2 6 Floor",
+    url: "Apartment-for-Sale-Venus-Towers-A2-6-Floor",
+    name: "Apartment for Sale Venus Towers A2 6 Floor",
     location: "Erbil",
     category: "For Sale",
     price: "$12,951",
@@ -826,7 +602,8 @@ export const listAll = [
   {
     id: 19,
     cover: "../images/property/skyview/dsf.jpg",
-    name: "Sky View A1 7 Floor",
+    url: "Apartment-for-Sale-Sky-View-A1-7-Floor",
+    name: "Apartment for Sale Sky View A1 7 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
     price: "$34,400",
@@ -836,7 +613,8 @@ export const listAll = [
   {
     id: 20,
     cover: "../images/property/venus/asdfaf.jpg",
-    name: "Venus Towers A2 5 Floor",
+    url: "Apartment-for-Sale-Venus-Towers-A2-5-Floor",
+    name: "Apartment for Sale Venus Towers A2 5 Floor",
     location: "Erbil",
     category: "For Sale",
     price: "$12,951",
@@ -846,7 +624,8 @@ export const listAll = [
   {
     id: 21,
     cover: "../images/property/skyview/dsf.jpg",
-    name: "Sky View B2 6 Floor",
+    url: "Apartment-for-Sale-Sky-View-B2-6-Floor",
+    name: "Apartment for Sale Sky View B2 6 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
     price: "$23,120",
@@ -856,7 +635,8 @@ export const listAll = [
   {
     id: 22,
     cover: "../images/property/venus/asdfaf.jpg",
-    name: "Venus Towers B1 14 Floor",
+    url: "Apartment-for-Sale-Venus-Towers-B1-14-Floor",
+    name: "Apartment for Sale Venus Towers B1 14 Floor",
     location: "Erbil",
     category: "For Sale",
     price: "$15,571",
@@ -866,7 +646,8 @@ export const listAll = [
   {
     id: 23,
     cover: "../images/property/skyview/dsf.jpg",
-    name: "Sky View B2 10 Floor",
+    url: "Apartment-for-Sale-Sky-View-B2-10-Floor",
+    name: "Apartment for Sale Sky View B2 10 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
     price: "$23,120",
@@ -876,7 +657,8 @@ export const listAll = [
   {
     id: 24,
     cover: "../images/property/venus/asdfaf.jpg",
-    name: "Venus Towers B1 21 Floor",
+    url: "Apartment-for-Sale-Venus-Towers-B1-21-Floor",
+    name: "Apartment for Sale Venus Towers B1 21 Floor",
     location: "Erbil",
     category: "For Sale",
     price: "$17,054",
@@ -886,7 +668,8 @@ export const listAll = [
   {
     id: 25,
     cover: "../images/property/venus/asdfaf.jpg",
-    name: "Venus Towers A2 17 Floor",
+    url: "Apartment-for-Sale-Venus-Towers-A2-17-Floor",
+    name: "Apartment for Sale Venus Towers A2 17 Floor",
     location: "Erbil",
     category: "For Sale",
     price: "$11,276",
@@ -896,7 +679,8 @@ export const listAll = [
   {
     id: 26,
     cover: "../images/property/venus/asdfaf.jpg",
-    name: "Venus Towers B3 13 Floor",
+    url: "Apartment-for-Sale-Venus-Towers-B3-13-Floor",
+    name: "Apartment for Sale Venus Towers B3 13 Floor",
     location: "Erbil",
     category: "For Sale",
     price: "$16,096",
@@ -906,7 +690,8 @@ export const listAll = [
   {
     id: 27,
     cover: "../images/property/venus/asdfaf.jpg",
-    name: "Venus Towers A3 6 Floor",
+    url: "Apartment-for-Sale-Venus-Towers-A3-6-Floor",
+    name: "Apartment for Sale Venus Towers A3 6 Floor",
     location: "Erbil",
     category: "For Sale",
     price: "$14,442",
@@ -921,6 +706,7 @@ export const list = [
    {
     id: 1,
     cover: "../images/property/skyview/dsf.jpg",
+    url:'Apartment-for-Sale-Sky-View-B1-30-Floor',
     name: "Sky View B1 30 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
@@ -931,6 +717,7 @@ export const list = [
   {
     id: 2,
     cover: "../images/property/venus/asdfaf.jpg",
+    url:'Apartment-for-Sale-Venus-Towers-B3-13-Floor',
     name: "Venus Towers B3 13 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -941,6 +728,7 @@ export const list = [
   {
     id: 3,
     cover: "../images/property/nova/ewr.jpg",
+    url:'Apartment-for-Sale-Nova-towers-A2-15-Floor',
     name: "Nova towers A2 15 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -951,6 +739,7 @@ export const list = [
   {
     id: 4,
     cover: "../images/property/skyview/dsf.jpg",
+    url:'Apartment-for-Sale-Sky-View-B1-12-Floor',
     name: "Sky View B1 12 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
@@ -961,6 +750,7 @@ export const list = [
   {
     id: 5,
     cover: "../images/property/venus/asdfaf.jpg",
+    url:'Apartment-for-Sale-Venus-Towers-A1-22-Floor',
     name: "Venus Towers A1 22 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -971,6 +761,7 @@ export const list = [
   {
     id: 6,
     cover: "../images/property/nova/ewr.jpg",
+    url:'Apartment-for-Sale-Nova-towers-A1-2-Floor',
     name: "Nova towers A1 2 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -981,6 +772,7 @@ export const list = [
   {
     id: 7,
     cover: "../images/property/nova/ewr.jpg",
+    url:'Apartment-for-Sale-Nova-towers-A3-8-Floor',
     name: "Nova towers A3 8 Floor",
     location: "Erbil",
     category: "For Sale",
@@ -991,6 +783,7 @@ export const list = [
   {
     id: 8,
     cover: "../images/property/skyview/dsf.jpg",
+    url: "Apartment-for-Sale-Sky-View-A1-10-Floor",
     name: "Sky View A1 10 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
@@ -1004,12 +797,11 @@ export const arhousesData = [
   {
     id: 1,
     type: 'شقة',
-    name: 'B1 30 شقة للبیع لالاف سكاي ڤیو',
+    url: 'شقة-للبیع-سكاي-فيو-٣٠-ب١',
+    name: 'B1 30 شقة للبیع لالاف سكاي فيو',
     nameproperty:'سكاي فيو ',
     build: '6',
     Allbuild: '39',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/skyview/dsf1.jpg',
     imageLg: '/images/property/skyview/dsf1.jpg',
     country: 'عراق',
@@ -1028,13 +820,12 @@ export const arhousesData = [
   },
   {
     id: 2,
-    type: 'شقة',
-    name: 'B3 13 شقة للبیع فینوس تاوەرز',
-    nameproperty:'فینوس تاوەرز ',
+    type: 'شقة',  
+    url: 'شقة-للبیع-فینوس-تاوەر-١٣-ب١',
+    name: 'B3 13 شقة للبیع فینوس تاوەر',
+    nameproperty:'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
     imageLg: '/images/property/venus/asdfaf1.jpg',
     country: 'عراق',
@@ -1054,12 +845,11 @@ export const arhousesData = [
   {
     id: 3,
     type: 'شقة',
+    url: 'شقة-للبیع-نوفا-تاورز-١٥-ئەی٢',
     name: 'A2 15 شقة للبیع نوفا تاورز',
     nameproperty:'نوفا تاورز ',
     build: '5',
     Allbuild: '22',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/nova/ewr1.jpg',
     imageLg: '/images/property/nova/ewr1.jpg',
     country: 'عراق',
@@ -1079,13 +869,11 @@ export const arhousesData = [
   {
     id: 4,
     type: 'شقة',
-    name: 'B1 12 شقة للبیع لالاف سكاي ڤیو',
-        nameproperty:'سكاي فيو ',
-        build: '6',
+    url: 'شقة-للبیع-لالاف-سكاي-فيو-١٢-ب١',
+    name: 'B1 12 شقة للبیع لالاف سكاي فيو',
+    nameproperty:'سكاي فيو ',
+    build: '6',
     Allbuild: '39',
-
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/skyview/dsf1.jpg',
     imageLg: '/images/property/skyview/dsf1.jpg',
     country: 'عراق',
@@ -1105,12 +893,11 @@ export const arhousesData = [
   {
     id: 5,
     type: 'شقة',
-    name: 'A1 22 شقة للبیع فینوس تاوەرز',
-    nameproperty:'فینوس تاوەرز ',
+    url:'شقة-للبیع-فینوس-تاوەر-٢٢-ئەی١',
+    name: 'A1 22 شقة للبیع فینوس تاوەر',
+    nameproperty:'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
     imageLg: '/images/property/venus/asdfaf1.jpg',
     country: 'عراق',
@@ -1130,12 +917,11 @@ export const arhousesData = [
   {
     id: 6,
     type: 'شقة',
+    url: 'شقة-للبیع-نوفا-تاورز-٢-ئەی١',
     name: 'A1 2 شقة للبیع نوفا تاورز',
     nameproperty:'نوفا تاورز ',
     build: '5',
     Allbuild: '22',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/nova/ewr1.jpg',
     imageLg: '/images/property/nova/ewr1.jpg',
     country: 'عراق',
@@ -1155,12 +941,11 @@ export const arhousesData = [
   {
     id: 7,
     type: 'شقة',
+    url:'شقة-للبیع-نوفا-تاورز-٨-ئەی٣',
     name: 'A3 8 شقة للبیع نوفا تاورز',
     nameproperty:'نوفا تاورز ',
     build: '5',
     Allbuild: '22',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/nova/ewr1.jpg',
     imageLg: '/images/property/nova/ewr1.jpg',
     country: 'عراق',
@@ -1180,12 +965,11 @@ export const arhousesData = [
   {
     id: 8,
     type: 'شقة',
-    name: 'A1 10 شقة للبیع لالاف سكاي ڤیو',
-        nameproperty:'سكاي فيو ',
-        build: '6',
+    url:'شقة-للبیع-لالاف-سكاي-فيو-١٠-ئەی١',
+    name: 'A1 10 شقة للبیع لالاف سكاي فيو',
+    nameproperty:'سكاي فيو ',
+    build: '6',
     Allbuild: '39',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/skyview/dsf1.jpg',
     imageLg: '/images/property/skyview/dsf1.jpg',
     country: 'عراق',
@@ -1205,12 +989,11 @@ export const arhousesData = [
   {
     id: 9,
     type: 'شقة',
-    name: 'A1 25 شقة للبیع فینوس تاوەرز',
-    nameproperty:'فینوس تاوەرز ',
+    url:'شقة-للبیع-فینوس-تاوەر-٢٥-ئەی١',
+    name: 'A1 25 شقة للبیع فینوس تاوەر',
+    nameproperty:'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
     imageLg: '/images/property/venus/asdfaf1.jpg',
     country: 'عراق',
@@ -1230,12 +1013,11 @@ export const arhousesData = [
   {
     id: 10,
     type: 'شقة',
-    name: 'A1 8 شقة للبیع فینوس تاوەرز',
-    nameproperty:'فینوس تاوەرز ',
+    url:'شقة-للبیع-فینوس-تاوەر-٨-ئەی١',
+    name: 'A1 8 شقة للبیع فینوس تاوەر',
+    nameproperty:'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
     imageLg: '/images/property/venus/asdfaf1.jpg',
     country: 'عراق',
@@ -1255,13 +1037,11 @@ export const arhousesData = [
   {
     id: 11,
     type: 'شقة',
-    name: 'A3 31 شقة للبیع لالاف سكاي ڤیو',
-        nameproperty:'سكاي فيو ',
-        build: '6',
+    url:'شقة-للبیع-لالاف-سكاي-فيو-٣١-ئەی٣',
+    name: 'A3 31 شقة للبیع لالاف سكاي فيو',
+    nameproperty:'سكاي فيو ',
+    build: '6',
     Allbuild: '39',
-
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/skyview/dsf1.jpg',
     imageLg: '/images/property/skyview/dsf1.jpg',
     country: 'عراق',
@@ -1281,12 +1061,11 @@ export const arhousesData = [
   {
     id: 12,
     type: 'شقة',
-    name: 'A2 10 شقة للبیع فینوس تاوەرز',
-    nameproperty:'فینوس تاوەرز ',
+    url:'شقة-للبیع-فینوس-تاوەر-١٠-ئەی٢',
+    name: 'A2 10 شقة للبیع فینوس تاوەر',
+    nameproperty:'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
     imageLg: '/images/property/venus/asdfaf1.jpg',
     country: 'عراق',
@@ -1306,13 +1085,11 @@ export const arhousesData = [
   {
     id: 13,
     type: 'شقة',
-    name: 'B3 37 شقة للبیع لالاف سكاي ڤیو',
-        nameproperty:'سكاي فيو ',
-        build: '6',
+    url:'شقة-للبیع-لالاف-سكاي-فيو-٣٧-ب٣',
+    name: 'B3 37 شقة للبیع لالاف سكاي فيو',
+    nameproperty:'سكاي فيو ',
+    build: '6',
     Allbuild: '39',
-
-    description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/skyview/dsf1.jpg',
     imageLg: '/images/property/skyview/dsf1.jpg',
     country: 'عراق',
@@ -1332,12 +1109,11 @@ export const arhousesData = [
   {
     id: 14,
     type: 'شقة',
-    name: 'A2 14 شقة للبیع فینوس تاوەرز',
-    nameproperty:'فینوس تاوەرز ',
+    url:'شقة-للبیع-فینوس-تاوەر-١٤-ئەی٢',
+    name: 'A2 14 شقة للبیع فینوس تاوەر',
+    nameproperty:'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
     imageLg: '/images/property/venus/asdfaf1.jpg',
     country: 'عراق',
@@ -1357,13 +1133,11 @@ export const arhousesData = [
   {
     id: 15,
     type: 'شقة',
-    name: 'B3 22 شقة للبیع لالاف سكاي ڤیو',
-        nameproperty:'سكاي فيو ',
-        build: '6',
+    url:'شقة-للبیع-لالاف-سكاي-فيو-٢٢-ب٣',
+    name: 'B3 22 شقة للبیع لالاف سكاي فيو',
+    nameproperty:'سكاي فيو ',
+    build: '6',
     Allbuild: '39',
-
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/skyview/dsf1.jpg',
     imageLg: '/images/property/skyview/dsf1.jpg',
     country: 'عراق',
@@ -1383,12 +1157,11 @@ export const arhousesData = [
   {
     id: 16,
     type: 'شقة',
-    name: 'A1 13 شقة للبیع فینوس تاوەرز',
-    nameproperty:'فینوس تاوەرز ',
+    url:'شقة-للبیع-فینوس-تاوەر-١٣-ئەی١',
+    name: 'A1 13 شقة للبیع فینوس تاوەر',
+    nameproperty:'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
     imageLg: '/images/property/venus/asdfaf1.jpg',
     country: 'عراق',
@@ -1408,13 +1181,11 @@ export const arhousesData = [
   {
     id: 17,
     type: 'شقة',
-    name: 'B3 7 شقة للبیع لالاف سكاي ڤیو',
-        nameproperty:'سكاي فيو ',
-        build: '6',
+    url:'شقة-للبیع-لالاف-سكاي-فيو-٧-ب٣',
+    name: 'B3 7 شقة للبیع لالاف سكاي فيو',
+    nameproperty:'سكاي فيو ',
+    build: '6',
     Allbuild: '39',
-
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/skyview/dsf1.jpg',
     imageLg: '/images/property/skyview/dsf1.jpg',
     country: 'عراق',
@@ -1434,12 +1205,11 @@ export const arhousesData = [
   {
     id: 18,
     type: 'شقة',
-    name: 'A2 6 شقة للبیع فینوس تاوەرز',
-    nameproperty:'فینوس تاوەرز ',
+    url:'شقة-للبیع-فینوس-تاوەر-٦-ئەی٢',
+    name: 'A2 6 شقة للبیع فینوس تاوەر',
+    nameproperty:'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
     imageLg: '/images/property/venus/asdfaf1.jpg',
     country: 'عراق',
@@ -1458,13 +1228,11 @@ export const arhousesData = [
   {
     id: 19,
     type: 'شقة',
-    name: 'A1 7 شقة للبیع لالاف سكاي ڤیو',
-        nameproperty:'سكاي فيو ',
-        build: '6',
+    url:'شقة-للبیع-لالاف-سكاي-فيو-٧-ئەی١',
+    name: 'A1 7 شقة للبیع لالاف سكاي فيو',
+    nameproperty:'سكاي فيو ',
+    build: '6',
     Allbuild: '39',
-
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/skyview/dsf1.jpg',
     imageLg: '/images/property/skyview/dsf1.jpg',
     country: 'عراق',
@@ -1483,12 +1251,11 @@ export const arhousesData = [
   {
     id: 20,
     type: 'شقة',
-    name: 'A2 5 شقة للبیع فینوس تاوەرز',
-    nameproperty:'فینوس تاوەرز ',
+    url:'شقة-للبیع-فینوس-تاوەر-٥-ئەی٢',
+    name: 'A2 5 شقة للبیع فینوس تاوەر',
+    nameproperty:'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
     imageLg: '/images/property/venus/asdfaf1.jpg',
     country: 'عراق',
@@ -1507,13 +1274,11 @@ export const arhousesData = [
   {
     id: 21,
     type: 'شقة',
-    name: 'B2 6 شقة للبیع لالاف سكاي ڤیو',
+    url:'شقة-للبیع-لالاف-سكاي-فيو-٦-ب٢',
+    name: 'B2 6 شقة للبیع لالاف سكاي فيو',
     nameproperty:'سكاي فيو ',
     build: '6',
     Allbuild: '39',
-
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/skyview/dsf1.jpg',
     imageLg: '/images/property/skyview/dsf1.jpg',
     country: 'عراق',
@@ -1532,12 +1297,11 @@ export const arhousesData = [
   {
     id: 22,
     type: 'شقة',
-    name: 'B1 14 شقة للبیع فینوس تاوەرز',
-    nameproperty:'فینوس تاوەرز ',
+    url:'شقة-للبیع-فینوس-تاوەر-١٤-ب١',
+    name: 'B1 14 شقة للبیع فینوس تاوەر',
+    nameproperty:'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
     imageLg: '/images/property/venus/asdfaf1.jpg',
     country: 'عراق',
@@ -1556,13 +1320,11 @@ export const arhousesData = [
   {
     id: 23,
     type: 'شقة',
-    name: 'B2 10 شقة للبیع لالاف سكاي ڤیو',
+    url:'شقة-للبیع-لالاف-سكاي-فيو-١٠-ب٢',
+    name: 'B2 10 شقة للبیع لالاف سكاي فيو',
     nameproperty:'سكاي فيو ',
     build: '6',
     Allbuild: '39',
-
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/skyview/dsf1.jpg',
     imageLg: '/images/property/skyview/dsf1.jpg',
     country: 'عراق',
@@ -1581,12 +1343,11 @@ export const arhousesData = [
   {
     id: 24,
     type: 'شقة',
-    name: 'B1 21 شقة للبیع فینوس تاوەرز',
-    nameproperty:'فینوس تاوەرز ',
+    url:'شقة-للبیع-فینوس-تاوەر-٢١-ب١',
+    name: 'B1 21 شقة للبیع فینوس تاوەر',
+    nameproperty:'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
     imageLg: '/images/property/venus/asdfaf1.jpg',
     country: 'عراق',
@@ -1605,12 +1366,11 @@ export const arhousesData = [
   {
     id: 25,
     type: 'شقة',
-    name: 'A2 17 شقة للبیع فینوس تاوەرز',
-    nameproperty:'فینوس تاوەرز ',
+    url:'شقة-للبیع-فینوس-تاوەر-١٧-ئەی٢',
+    name: 'A2 17 شقة للبیع فینوس تاوەر',
+    nameproperty:'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
     imageLg: '/images/property/venus/asdfaf1.jpg',
     country: 'عراق',
@@ -1629,12 +1389,11 @@ export const arhousesData = [
   {
     id: 26,
     type: 'شقة',
-    name: 'B3 13 شقة للبیع فینوس تاوەرز',
-    nameproperty:'فینوس تاوەرز ',
+    url:'شقة-للبیع-فینوس-تاوەر-١٣-ب٣',
+    name: 'B3 13 شقة للبیع فینوس تاوەر',
+    nameproperty:'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
     imageLg: '/images/property/venus/asdfaf1.jpg',
     country: 'عراق',
@@ -1653,12 +1412,11 @@ export const arhousesData = [
   {
     id: 27,
     type: 'شقة',
-    name: 'A3 6 شقة للبیع فینوس تاوەرز',
-    nameproperty:'فینوس تاوەرز ',
+    url:'شقة-للبیع-فینوس-تاوەر-٦-ئەی٣',
+    name: 'A3 6 شقة للبیع فینوس تاوەر',
+    nameproperty:'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '/images/property/venus/asdfaf1.jpg',
     imageLg: '/images/property/venus/asdfaf1.jpg',
     country: 'عراق',
@@ -1676,17 +1434,409 @@ export const arhousesData = [
     }},
   ]
 
+ 
+
+export const arlistAll = [
+  {
+    id: 1,
+    cover: "../images/property/skyview/dsf.jpg",
+    url:'شقة-للبیع-سكاي-فيو-٣٠-ب١',
+    name: "B1 30 شقة للبیع سكاي فيو",
+    location: "لالاف سكاي فيو, اربيل",
+    category: "للبيع",
+    price: "$23,400",
+    type: "1 + 1",
+    area: "78 متر",
+  },
+  {
+    id: 2,
+    cover: "../images/property/venus/asdfaf.jpg",
+    url:'شقة-للبیع-فینوس-تاوەر-١٣-ب١',
+    name: "B3 13 شقة للبیع فينوس تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$14,179",
+    type: "2 + 1",
+    area: "115 متر"
+  },
+  {
+    id: 3,
+    cover: "../images/property/nova/ewr.jpg",
+    url:'شقة-للبیع-نوفا-تاورز-١٥-ئەی٢',
+    name: "A2 15 شقة للبیع نوفا تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$5,860",
+    type: "1 + 1",
+    area: "88 متر"
+  },
+  {
+    id: 4,
+    cover: "../images/property/skyview/dsf.jpg",
+    url:'شقة-للبیع-لالاف-سكاي-فيو-١٢-ب١',
+    name: "B1 12 شقة للبیع سكاي فيو",
+    location: "لالاف سكاي فيو, اربيل",
+    category: "للبيع",
+    price: "$23,920",
+    type: "1 + 1",
+    area: "80 متر"
+  },
+  {
+    id: 5,
+    cover: "../images/property/venus/asdfaf.jpg",
+    url:'شقة-للبیع-فینوس-تاوەر-٢٢-ئەی١',
+    name: "A1 22 شقة للبیع فينوس تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$16,096",
+    type: "2 + 1",
+    area: "105 متر"
+  },
+  {
+    id: 6,
+    cover: "../images/property/nova/ewr.jpg",
+    url:'شقة-للبیع-نوفا-تاورز-٢-ئەی١',
+    name: "A1 2 شقة للبیع نوفا تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$4,000",
+    type: "1 + 1",
+    area: "81 متر"
+  },
+  {
+    id: 7,
+    cover: "../images/property/nova/ewr.jpg",
+    url:'شقة-للبیع-نوفا-تاورز-٨-ئەی٣',
+    name: "A3 8 شقة للبیع نوفا تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$36,500",
+    type: "1 + 1",
+    area: "81 متر"
+  },
+  {
+    id: 8,
+    cover: "../images/property/skyview/dsf.jpg",
+    url:'شقة-للبیع-لالاف-سكاي-فيو-١٠-ئەی١',
+    name: "A1 10 شقة للبیع سكاي فيو",
+    location: "لالاف سكاي فيو, اربيل",
+    category: "للبيع",
+    price: "$38,256",
+    type: "2 + 1",
+    area: "120 متر"
+  },
+  {
+    id: 9,
+    cover: "../images/property/venus/asdfaf.jpg",
+    url:'شقة-للبیع-فینوس-تاوەر-٢٥-ئەی١',
+    name: "A1 25 شقة للبیع فينوس تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$10,317",
+    type: "1 + 1",
+    area: "72 متر"
+  },
+  {
+    id: 10,
+    cover: "../images/property/venus/asdfaf.jpg",
+    url:'شقة-للبیع-فینوس-تاوەر-٨-ئەی١',
+    name: "A1 8 شقة للبیع فينوس تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$11,397",
+    type: "1 + 1",
+    area: "72 متر"
+  },
+  {
+    id: 11,
+    cover: "../images/property/skyview/dsf.jpg",
+    url:'شقة-للبیع-لالاف-سكاي-فيو-٣١-ئەی٣',
+    name: "A3 31 شقة للبیع سكاي فيو",
+    location: "لالاف سكاي فيو, اربيل",
+    category: "للبيع",
+    price: "$35,856",
+    type: "2 + 1",
+    area: "120 متر"
+  },
+  {
+    id: 12,
+    cover: "../images/property/venus/asdfaf.jpg",
+    url:'شقة-للبیع-فینوس-تاوەر-١٠-ئەی٢',
+    name: " A2 10 شقة للبیع فينوس تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$12,951",
+    type: "1 + 1",
+    area: "67 متر"
+  },
+  {
+    id: 13,
+    cover: "../images/property/skyview/dsf.jpg",
+    url:'شقة-للبیع-لالاف-سكاي-فيو-٣٧-ب٣',
+    name: "B3 37 شقة للبیع سكاي فيو",
+    location: "لالاف سكاي فيو, اربيل",
+    category: "للبيع",
+    price: "$38,256",
+    type: "2 + 1",
+    area: "120 متر"
+  },
+  {
+    id: 14,
+    cover: "../images/property/venus/asdfaf.jpg",
+    url:'شقة-للبیع-فینوس-تاوەر-١٤-ئەی٢',
+    name: "A2 14 شقة للبیع فينوس تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$13,550",
+    type: "1 + 1",
+    area: "76 متر"
+  },
+  {
+    id: 15,
+    cover: "../images/property/skyview/dsf.jpg",
+    url:'شقة-للبیع-لالاف-سكاي-فيو-٢٢-ب٣',
+    name: "B3 22 شقة للبیع سكاي فيو",
+    location: "لالاف سكاي فيو, اربيل",
+    category: "للبيع",
+    price: "$38,256",
+    type: "2 + 1",
+    area: "120 متر"
+  },
+  {
+    id: 16,
+    cover: "../images/property/venus/asdfaf.jpg",
+    url:'شقة-للبیع-فینوس-تاوەر-١٣-ئەی١',
+    name: "A1 13 شقة للبیع فينوس تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$15,904",
+    type: "2 + 1",
+    area: "115 متر"
+  },
+  {
+    id: 17,
+    cover: "../images/property/skyview/dsf.jpg",
+    url:'شقة-للبیع-لالاف-سكاي-فيو-٧-ب٣',
+    name: "B3 7 شقة للبیع سكاي فيو",
+    location: "لالاف سكاي فيو, اربيل",
+    category: "للبيع",
+    price: "$23,120",
+    type: "1 + 1",
+    area: "80 متر"
+  },
+  {
+    id: 18,
+    cover: "../images/property/venus/asdfaf.jpg",
+    url:'شقة-للبیع-فینوس-تاوەر-٦-ئەی٢',
+    name: "A2 6 شقة للبیع فينوس تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$12,951",
+    type: "1 + 1",
+    area: "67 متر"
+  },
+  {
+    id: 19,
+    cover: "../images/property/skyview/dsf.jpg",
+    url:'شقة-للبیع-لالاف-سكاي-فيو-٧-ئەی١',
+    name: "A1 7 شقة للبیع سكاي فيو",
+    location: "لالاف سكاي فيو, اربيل",
+    category: "للبيع",
+    price: "$34,400",
+    type: "1 + 1",
+    area: "80 متر"
+  },
+  {
+    id: 20,
+    cover: "../images/property/venus/asdfaf.jpg",
+    url:'شقة-للبیع-فینوس-تاوەر-٥-ئەی٢',
+    name: "A2 5 شقة للبیع فينوس تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$12,951",
+    type: "1 + 1",
+    area: "67 متر"
+  },
+  {
+    id: 21,
+    cover: "../images/property/skyview/dsf.jpg",
+    url:'شقة-للبیع-لالاف-سكاي-فيو-٦-ب٢',
+    name: "B2 6 شقة للبیع سكاي فيو",
+    location: "لالاف سكاي فيو, اربيل",
+    category: "للبيع",
+    price: "$23,120",
+    type: "1 + 1",
+    area: "80 متر"
+  },
+  {
+    id: 22,
+    cover: "../images/property/venus/asdfaf.jpg",
+    url:'شقة-للبیع-فینوس-تاوەر-١٤-ب١',
+    name: " B1 14 شقة للبیع فينوس تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$15,571",
+    type: "2 + 1",
+    area: "105 متر"
+  },
+  {
+    id: 23,
+    cover: "../images/property/skyview/dsf.jpg",
+    url:'شقة-للبیع-لالاف-سكاي-فيو-١٠-ب٢',
+    name: "B2 10 شقة للبیع سكاي فيو",
+    location: "لالاف سكاي فيو, اربيل",
+    category: "للبيع",
+    price: "$23,120",
+    type: "1 + 1",
+    area: "80 متر"
+  },
+  {
+    id: 24,
+    cover: "../images/property/venus/asdfaf.jpg",
+    url:'شقة-للبیع-فینوس-تاوەر-٢١-ب١',
+    name: "B1 21 شقة للبیع فينوس تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$17,054",
+    type: "2 + 1",
+    area: "115 متر"
+  },
+  {
+    id: 25,
+    cover: "../images/property/venus/asdfaf.jpg",
+    url:'شقة-للبیع-فینوس-تاوەر-١٧-ئەی٢',
+    name: "A2 17 شقة للبیع فينوس تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$11,276",
+    type: "1 + 1",
+    area: "67 متر"
+  },
+  {
+    id: 26,
+    cover: "../images/property/venus/asdfaf.jpg",
+    url:'شقة-للبیع-فینوس-تاوەر-١٣-ب٣',
+    name: "B3 13 شقة للبیع فينوس تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$16,096",
+    type: "2 + 1",
+    area: "105 متر"
+  },
+  {
+    id: 27,
+    cover: "../images/property/venus/asdfaf.jpg",
+    url:'شقة-للبیع-فینوس-تاوەر-٦-ئەی٣',
+    name: "A3 6 شقة للبیع فينوس تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$14,442",
+    type: "1 + 1",
+    area: "81 متر"
+  },
+]
+
+ export const arlist = [
+   {
+    id: 1,
+    cover: "../images/property/skyview/dsf.jpg",
+    url: "شقة-للبیع-سكاي-فيو-٣٠-ب١",
+    name: "B1 30 شقة للبیع سكاي فيو",
+    location: "لالاف سكاي فيو, اربيل",
+    category: "للبيع",
+    price: "$23,400",
+    type: "1 + 1",
+    area: "78 متر"
+  },
+  {
+    id: 2,
+    cover: "../images/property/venus/asdfaf.jpg",
+    url:'شقة-للبیع-فينوس-تاوەر-١٣-ب٣',
+    name: "B3 13 شقة للبیع فينوس تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$14,179",
+    type: "2 + 1",
+    area: "115 متر"
+  },
+  {
+    id: 3,
+    cover: "../images/property/nova/ewr.jpg",
+    url:'شقة-للبیع-نوفا-تاورز-١٥-ئەی٢',
+    name: "A2 15 شقة للبیع نوفا تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$5,860",
+    type: "1 + 1",
+    area: "88 متر"
+  },
+  {
+    id: 4,
+    cover: "../images/property/skyview/dsf.jpg",
+    url:'شقة-للبیع-لالاف-سكاي-فيو-١٢-ب١',
+    name: "B1 12 شقة للبیع سكاي فيو",
+    location: "لالاف سكاي فيو, اربيل",
+    category: "للبيع",
+    price: "$23,920",
+    type: "1 + 1",
+    area: "80 متر"
+  },
+  {
+    id: 5,
+    cover: "../images/property/venus/asdfaf.jpg",
+    url:'شقة-للبیع-فینوس-تاوەر-٢٢-ئەی١',
+    name: "A1 22 شقة للبیع فينوس تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$16,096",
+    type: "2 + 1",
+    area: "105 متر"
+  },
+  {
+    id: 6,
+    cover: "../images/property/nova/ewr.jpg",
+    url:'شقة-للبیع-نوفا-تاورز-٢-ئەی١',
+    name: "A1 2 شقة للبیع نوفا تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$4,000",
+    type: "1 + 1",
+    area: "81 متر"
+  },
+  {
+    id: 7,
+    cover: "../images/property/nova/ewr.jpg",
+    url:'شقة-للبیع-نوفا-تاورز-٨-ئەی٣',
+    name: "A3 8 شقة للبیع نوفا تاوەر",
+    location: "اربيل",
+    category: "للبيع",
+    price: "$36,500",
+    type: "1 + 1",
+    area: "81 متر"
+  },
+  {
+    id: 8,
+    cover: "../images/property/skyview/dsf.jpg",
+    url:'شقة-للبیع-لالاف-سكاي-فيو-١٠-ئەی١',
+    name: "A1 10 شقة للبیع سكاي فيو",
+    location: "لالاف سكاي فيو, اربيل",
+    category: "للبيع",
+    price: "$38,256",
+    type: "2 + 1",
+    area: "120 متر"
+  },
+]
+
 
 export const housesData = [
   {
     id: 1,
     type: 'Apartment',
-    name: 'Sky-View-B1-30-Floor',
+    url: 'Apartment-for-Sale-Sky-View-B1-30-Floor',
+    name: 'Apartment for Sale Sky View B1 30 Floor',
     nameproperty: 'sky view',
     build: '6',
     Allbuild: '39',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/skyview/dsf1.jpg',
     imageLg: '../images/property/skyview/dsf1.jpg',
     country: 'Iraq',
@@ -1706,12 +1856,11 @@ export const housesData = [
   {
     id: 2,
     type: 'Apartment',
-    name: 'Venus Towers B3 13 Floor',
+    url: 'Apartment-for-Sale-Venus-Towers-B3-13-Floor',
+    name: 'Apartment for Sale Venus Towers B3 13 Floor',
     nameproperty:'Venus Towers ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
     imageLg: '../images/property/venus/asdfaf1.jpg',
     country: 'Iraq',
@@ -1731,12 +1880,11 @@ export const housesData = [
   {
     id: 3,
     type: 'Apartment',
-    name: 'Nova towers A2 15 Floor',
+    url: 'Apartment-for-Sale-Nova-towers-A2-15-Floor',
+    name: 'Apartment for Sale Nova towers A2 15 Floor',
     nameproperty:'Nova towers ',
     build: '5',
     Allbuild: '22',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/nova/ewr1.jpg',
     imageLg: '../images/property/nova/ewr1.jpg',
     country: 'Iraq',
@@ -1756,12 +1904,11 @@ export const housesData = [
   {
     id: 4,
     type: 'Apartment',
-    name: 'Sky View B1 12 Floor',
-    nameproperty: 'sky view',
+    url: 'Apartment-for-Sale-Sky-View-B1-12-Floor',
+    name: 'Apartment for Sale Sky View B1 12 Floor',
+    nameproperty: 'Sky view',
     build: '6',
     Allbuild: '39',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/skyview/dsf1.jpg',
     imageLg: '../images/property/skyview/dsf1.jpg',
     country: 'Iraq',
@@ -1781,12 +1928,11 @@ export const housesData = [
   {
     id: 5,
     type: 'Apartment',
-    name: 'Venus Towers A1 22 Floor',
+    url: 'Apartment-for-Sale-Venus-Towers-A1-22-Floor',
+    name: 'Apartment for Sale Venus Towers A1 22 Floor',
     nameproperty:'Venus Towers ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
     imageLg: '../images/property/venus/asdfaf1.jpg',
     country: 'Iraq',
@@ -1806,12 +1952,11 @@ export const housesData = [
   {
     id: 6,
     type: 'Apartment',
-    name: 'Nova towers A1 2 Floor',
-    nameproperty:'Nova towers ',
+    url:'Apartment-for-Sale-Nova-towers-A1-2-Floor',
+    name: 'Apartment for Sale Nova towers A1 2 Floor',
+    nameproperty:'Nova towers',
     build: '5',
     Allbuild: '22',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/nova/ewr1.jpg',
     imageLg: '../images/property/nova/ewr1.jpg',
     country: 'Iraq',
@@ -1831,12 +1976,11 @@ export const housesData = [
   {
     id: 7,
     type: 'Apartament',
-    name: 'Nova towers A3 8 Floor',
+    url:'Apartment-for-Sale-Nova-towers-A3-8-Floor',
+    name: 'Apartment for Sale Nova towers A3 8 Floor',
     nameproperty:'Nova towers ',
     build: '5',
     Allbuild: '22',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/nova/ewr1.jpg',
     imageLg: '../images/property/nova/ewr1.jpg',
     country: 'Iraq',
@@ -1856,12 +2000,11 @@ export const housesData = [
   {
     id: 8,
     type: 'Apartament',
-    name: 'Sky View A1 10 Floor',
-    nameproperty: 'sky view',
+    url:'Apartment-for-Sale-Sky-View-A1-10-Floor',
+    name: 'Apartment for Sale Sky View A1 10 Floor',
+    nameproperty: 'Sky view',
     build: '6',
     Allbuild: '39',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/skyview/dsf1.jpg',
     imageLg: '../images/property/skyview/dsf1.jpg',
     country: 'Iraq',
@@ -1881,12 +2024,11 @@ export const housesData = [
   {
     id: 9,
     type: 'Apartament',
-    name: 'Venus Towers A1 25 Floor',
+    url:'Apartment-for-Sale-Venus-Towers-A1-25-Floor',
+    name: 'Apartment for Sale Venus Towers A1 25 Floor',
     nameproperty:'Venus Towers ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
     imageLg: '../images/property/venus/asdfaf1.jpg',
     country: 'Iraq',
@@ -1906,12 +2048,11 @@ export const housesData = [
   {
     id: 10,
     type: 'Apartment',
-    name: 'Venus Towers A1 8 Floor',
+    url:'Apartment-for-Sale-Venus-Towers-A1-8-Floor',
+    name: 'Apartment for Sale Venus Towers A1 8 Floor',
     nameproperty:'Venus Towers ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
     imageLg: '../images/property/venus/asdfaf1.jpg',
     country: 'Iraq',
@@ -1931,12 +2072,11 @@ export const housesData = [
   {
     id: 11,
     type: 'Apartment',
-    name: 'Sky View A3 31 Floor',
+    url:'Apartment-for-Sale-Sky-View-A3-31-Floor',
+    name: 'Apartment for Sale Sky View A3 31 Floor',
     nameproperty: 'sky view',
     build: '6',
     Allbuild: '39',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/skyview/dsf1.jpg',
     imageLg: '../images/property/skyview/dsf1.jpg',
     country: 'Iraq',
@@ -1956,12 +2096,11 @@ export const housesData = [
   {
     id: 12,
     type: 'Apartment',
-    name: 'Venus Towers A2 10 Floor',
+    url:'Apartment-for-Sale-Venus-Towers-A2-10-Floor',
+    name: 'Apartment for Sale Venus Towers A2 10 Floor',
     nameproperty:'Venus Towers ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
     imageLg: '../images/property/venus/asdfaf1.jpg',
     country: 'Iraq',
@@ -1981,12 +2120,11 @@ export const housesData = [
   {
     id: 13,
     type: 'Apartment',
-    name: 'Sky View B3 37 Floor',
-    nameproperty: 'sky view',
+    url:'Apartment-for-Sale-Sky-View-B3-37-Floor',
+    name: 'Apartment for Sale Sky View B3 37 Floor',
+    nameproperty: 'Sky view',
     build: '6',
     Allbuild: '39',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/skyview/dsf1.jpg',
     imageLg: '../images/property/skyview/dsf1.jpg',
     country: 'Iraq',
@@ -2006,12 +2144,11 @@ export const housesData = [
   {
     id: 14,
     type: 'Apartment',
-    name: 'Venus Towers A2 14 Floor',
+    url:'Apartment-for-Sale-Venus-Towers-A2-14-Floor',
+    name: 'Apartment for Sale Venus Towers A2 14 Floor',
     nameproperty:'Venus Towers ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
     imageLg: '../images/property/venus/asdfaf1.jpg',
     country: 'Iraq',
@@ -2031,12 +2168,11 @@ export const housesData = [
   {
     id: 15,
     type: 'Apartment',
-    name: 'Sky View B3 22 Floor',
-    nameproperty: 'sky view',
+    url:'Apartment-for-Sale-Sky-View-B3-22-Floor',
+    name: 'Apartment for Sale Sky View B3 22 Floor',
+    nameproperty: 'Sky view',
     build: '6',
     Allbuild: '39',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/skyview/dsf1.jpg',
     imageLg: '../images/property/skyview/dsf1.jpg',
     country: 'Iraq',
@@ -2056,12 +2192,11 @@ export const housesData = [
   {
     id: 16,
     type: 'Apartament',
-    name: 'Venus Towers A1 13 Floor',
+    url:'Apartment-for-Sale-Venus-Towers-A1-13-Floor',
+    name: 'Apartment for Sale Venus Towers A1 13 Floor',
     nameproperty:'Venus Towers ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
     imageLg: '../images/property/venus/asdfaf1.jpg',
     country: 'Iraq',
@@ -2081,12 +2216,11 @@ export const housesData = [
   {
     id: 17,
     type: 'Apartament',
-    name: 'Sky View B3 7 Floor',
+    url:'Apartment-for-Sale-Sky-View-B3-7-Floor',
+    name: 'Apartment for Sale Sky View B3 7 Floor',
     nameproperty: 'sky view',
     build: '6',
     Allbuild: '39',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/skyview/dsf1.jpg',
     imageLg: '../images/property/skyview/dsf1.jpg',
     country: 'Iraq',
@@ -2106,12 +2240,11 @@ export const housesData = [
   {
     id: 18,
     type: 'Apartament',
-    name: 'Venus Towers A2 6 Floor',
+    url:'Apartment-for-Sale-Venus-Towers-A2-6-Floor',
+    name: 'Apartment for Sale Venus Towers A2 6 Floor',
     nameproperty:'Venus Towers ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
     imageLg: '../images/property/venus/asdfaf1.jpg',
     country: 'Iraq',
@@ -2130,12 +2263,11 @@ export const housesData = [
   {
     id: 19,
     type: 'Apartament',
-    name: 'Sky View A1 7 Floor',
+    url:'Apartment-for-Sale-Sky-View-A1-7-Floor',
+    name: 'Apartment for Sale Sky View A1 7 Floor',
     nameproperty: 'sky view',
     build: '6',
     Allbuild: '39',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/skyview/dsf1.jpg',
     imageLg: '../images/property/skyview/dsf1.jpg',
     country: 'Iraq',
@@ -2154,12 +2286,11 @@ export const housesData = [
   {
     id: 20,
     type: 'Apartament',
-    name: 'Venus Towers A2 5 Floor',
+    url:'Apartment-for-Sale-Venus-Towers-A2-5-Floor',
+    name: 'Apartment for Sale Venus Towers A2 5 Floor',
     nameproperty:'Venus Towers ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
     imageLg: '../images/property/venus/asdfaf1.jpg',
     country: 'Iraq',
@@ -2178,12 +2309,11 @@ export const housesData = [
   {
     id: 21,
     type: 'Apartament',
-    name: 'Sky View B2 6 Floor',
+    url:'Apartment-for-Sale-Sky-View-B2-6-Floor',
+    name: 'Apartment for Sale Sky View B2 6 Floor',
     nameproperty: 'sky view',
     build: '6',
     Allbuild: '39',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/skyview/dsf1.jpg',
     imageLg: '../images/property/skyview/dsf1.jpg',
     country: 'Iraq',
@@ -2202,12 +2332,11 @@ export const housesData = [
   {
     id: 22,
     type: 'Apartament',
-    name: 'Venus Towers B1 14 Floor',
+    url:'Apartment-for-Sale-Venus-Towers-B1-14-Floor',
+    name: 'Apartment for Sale Venus Towers B1 14 Floor',
     nameproperty:'Venus Towers ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
     imageLg: '../images/property/venus/asdfaf1.jpg',
     country: 'Iraq',
@@ -2226,12 +2355,11 @@ export const housesData = [
   {
     id: 23,
     type: 'Apartament',
-    name: 'Sky View B2 10 Floor',
+    url:'Apartment-for-Sale-Sky-View-B2-10-Floor',
+    name: 'Apartment for Sale Sky View B2 10 Floor',
     nameproperty: 'sky view',
     build: '6',
     Allbuild: '39',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/skyview/dsf1.jpg',
     imageLg: '../images/property/skyview/dsf1.jpg',
     country: 'Iraq',
@@ -2250,12 +2378,11 @@ export const housesData = [
   {
     id: 24,
     type: 'Apartament',
-    name: 'Venus Towers B1 21 Floor',
+    url:'Apartment-for-Sale-Venus-Towers-B1-21-Floor',
+    name: 'Apartment for Sale Venus Towers B1 21 Floor',
     nameproperty:'Venus Towers ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
     imageLg: '../images/property/venus/asdfaf1.jpg',
     country: 'Iraq',
@@ -2274,12 +2401,11 @@ export const housesData = [
   {
     id: 25,
     type: 'Apartament',
-    name: 'Venus Towers A2 17 Floor',
+    url:'Apartment-for-Sale-Venus-Towers-A2-17-Floor',
+    name: 'Apartment for Sale Venus Towers A2 17 Floor',
     nameproperty:'Venus Towers ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
     imageLg: '../images/property/venus/asdfaf1.jpg',
     country: 'Iraq',
@@ -2298,12 +2424,11 @@ export const housesData = [
   {
     id: 26,
     type: 'Apartament',
-    name: 'Venus Towers B3 13 Floor',
+    url:'Apartment-for-Sale-Venus-Towers-B3-13-Floor',
+    name: 'Apartment for Sale Venus Towers B3 13 Floor',
     nameproperty:'Venus Towers ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
     imageLg: '../images/property/venus/asdfaf1.jpg',
     country: 'Iraq',
@@ -2322,12 +2447,11 @@ export const housesData = [
   {
     id: 27,
     type: 'Apartament',
-    name: 'Venus Towers A3 6 Floor',
+    url:'Apartment-for-Sale-Venus-Towers-A3-6-Floor',
+    name: 'Apartment for Sale Venus Towers A3 6 Floor',
     nameproperty:'Venus Towers ',
     build: '6',
     Allbuild: '30',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: '../images/property/venus/asdfaf1.jpg',
     imageLg: '../images/property/venus/asdfaf1.jpg',
     country: 'Iraq',
@@ -2600,358 +2724,4 @@ export const arawards = [
 ]
 
 
-export const arlist = [
-   {
-    id: 1,
-    cover: "../images/property/skyview/dsf.jpg",
-    name: "B1 30 شقة للبیع سكاي فيو عيمارة",
-    location: "لالاف سكاي فيو, اربيل",
-    category: "للبيع",
-    price: "$23,400",
-    type: "1 + 1",
-    area: "78 متر"
-  },
-  {
-    id: 2,
-    cover: "../images/property/venus/asdfaf.jpg",
-    name: "B3 13 شقة للبیع فينوس تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$14,179",
-    type: "2 + 1",
-    area: "115 متر"
-  },
-  {
-    id: 3,
-    cover: "../images/property/nova/ewr.jpg",
-    name: "A2 15 شقة للبیع نوفا تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$5,860",
-    type: "1 + 1",
-    area: "88 متر"
-  },
-  {
-    id: 4,
-    cover: "../images/property/skyview/dsf.jpg",
-    name: "B1 12 شقة للبیع سكاي فيو عيمارة",
-    location: "لالاف سكاي فيو, اربيل",
-    category: "للبيع",
-    price: "$23,920",
-    type: "1 + 1",
-    area: "80 متر"
-  },
-  {
-    id: 5,
-    cover: "../images/property/venus/asdfaf.jpg",
-    name: "A1 22 شقة للبیع فينوس تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$16,096",
-    type: "2 + 1",
-    area: "105 متر"
-  },
-  {
-    id: 6,
-    cover: "../images/property/nova/ewr.jpg",
-    name: "A1 2 شقة للبیع نوفا تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$4,000",
-    type: "1 + 1",
-    area: "81 متر"
-  },
-  {
-    id: 7,
-    cover: "../images/property/nova/ewr.jpg",
-    name: "A3 8 شقة للبیع نوفا تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$36,500",
-    type: "1 + 1",
-    area: "81 متر"
-  },
-  {
-    id: 8,
-    cover: "../images/property/skyview/dsf.jpg",
-    name: "A1 10 شقة للبیع سكاي فيو عيمارة",
-    location: "لالاف سكاي فيو, اربيل",
-    category: "للبيع",
-    price: "$38,256",
-    type: "2 + 1",
-    area: "120 متر"
-  },
-]
 
-export const arlistAll = [
-  {
-    id: 1,
-    cover: "../images/property/skyview/dsf.jpg",
-    name: "B1 30 شقة للبیع سكاي فيو عيمارة",
-    location: "لالاف سكاي فيو, اربيل",
-    category: "للبيع",
-    price: "$23,400",
-    type: "1 + 1",
-    area: "78 متر",
-  },
-  {
-    id: 2,
-    cover: "../images/property/venus/asdfaf.jpg",
-    name: "B3 13 شقة للبیع فينوس تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$14,179",
-    type: "2 + 1",
-    area: "115 متر"
-  },
-  {
-    id: 3,
-    cover: "../images/property/nova/ewr.jpg",
-    name: "A2 15 شقة للبیع نوفا تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$5,860",
-    type: "1 + 1",
-    area: "88 متر"
-  },
-  {
-    id: 4,
-    cover: "../images/property/skyview/dsf.jpg",
-    name: "B1 12 شقة للبیع سكاي فيو عيمارة",
-    location: "لالاف سكاي فيو, اربيل",
-    category: "للبيع",
-    price: "$23,920",
-    type: "1 + 1",
-    area: "80 متر"
-  },
-  {
-    id: 5,
-    cover: "../images/property/venus/asdfaf.jpg",
-    name: "A1 22 شقة للبیع فينوس تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$16,096",
-    type: "2 + 1",
-    area: "105 متر"
-  },
-  {
-    id: 6,
-    cover: "../images/property/nova/ewr.jpg",
-    name: "A1 2 شقة للبیع نوفا تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$4,000",
-    type: "1 + 1",
-    area: "81 متر"
-  },
-  {
-    id: 7,
-    cover: "../images/property/nova/ewr.jpg",
-    name: "A3 8 شقة للبیع نوفا تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$36,500",
-    type: "1 + 1",
-    area: "81 متر"
-  },
-  {
-    id: 8,
-    cover: "../images/property/skyview/dsf.jpg",
-    name: "A1 10 شقة للبیع سكاي فيو عيمارة",
-    location: "لالاف سكاي فيو, اربيل",
-    category: "للبيع",
-    price: "$38,256",
-    type: "2 + 1",
-    area: "120 متر"
-  },
-  {
-    id: 9,
-    cover: "../images/property/venus/asdfaf.jpg",
-    name: " A1 25 شقة للبیع فينوس تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$10,317",
-    type: "1 + 1",
-    area: "72 متر"
-  },
-  {
-    id: 10,
-    cover: "../images/property/venus/asdfaf.jpg",
-    name: " A1 8 شقة للبیع فينوس تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$11,397",
-    type: "1 + 1",
-    area: "72 متر"
-  },
-  {
-    id: 11,
-    cover: "../images/property/skyview/dsf.jpg",
-    name: "شقة للبیع سكاي فيو عيمارة A3 31 Floor",
-    location: "لالاف سكاي فيو, اربيل",
-    category: "للبيع",
-    price: "$35,856",
-    type: "2 + 1",
-    area: "120 متر"
-  },
-  {
-    id: 12,
-    cover: "../images/property/venus/asdfaf.jpg",
-    name: " A2 10 شقة للبیع فينوس تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$12,951",
-    type: "1 + 1",
-    area: "67 متر"
-  },
-  {
-    id: 13,
-    cover: "../images/property/skyview/dsf.jpg",
-    name: "شقة للبیع سكاي فيو عيمارة B3 37 Floor",
-    location: "لالاف سكاي فيو, اربيل",
-    category: "للبيع",
-    price: "$38,256",
-    type: "2 + 1",
-    area: "120 متر"
-  },
-  {
-    id: 14,
-    cover: "../images/property/venus/asdfaf.jpg",
-    name: " A2 14 شقة للبیع فينوس تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$13,550",
-    type: "1 + 1",
-    area: "76 متر"
-  },
-  {
-    id: 15,
-    cover: "../images/property/skyview/dsf.jpg",
-    name: "شقة للبیع سكاي فيو عيمارة B3 22 Floor",
-    location: "لالاف سكاي فيو, اربيل",
-    category: "للبيع",
-    price: "$38,256",
-    type: "2 + 1",
-    area: "120 متر"
-  },
-  {
-    id: 16,
-    cover: "../images/property/venus/asdfaf.jpg",
-    name: " A1 13 شقة للبیع فينوس تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$15,904",
-    type: "2 + 1",
-    area: "115 متر"
-  },
-  {
-    id: 17,
-    cover: "../images/property/skyview/dsf.jpg",
-    name: "شقة للبیع سكاي فيو عيمارة B3 7 Floor",
-    location: "لالاف سكاي فيو, اربيل",
-    category: "للبيع",
-    price: "$23,120",
-    type: "1 + 1",
-    area: "80 متر"
-  },
-  {
-    id: 18,
-    cover: "../images/property/venus/asdfaf.jpg",
-    name: " A2 6 شقة للبیع فينوس تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$12,951",
-    type: "1 + 1",
-    area: "67 متر"
-  },
-  {
-    id: 19,
-    cover: "../images/property/skyview/dsf.jpg",
-    name: " A1 7 شقة للبیع سكاي فيو عيمارة",
-    location: "لالاف سكاي فيو, اربيل",
-    category: "للبيع",
-    price: "$34,400",
-    type: "1 + 1",
-    area: "80 متر"
-  },
-  {
-    id: 20,
-    cover: "../images/property/venus/asdfaf.jpg",
-    name: " A2 5 شقة للبیع فينوس تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$12,951",
-    type: "1 + 1",
-    area: "67 متر"
-  },
-  {
-    id: 21,
-    cover: "../images/property/skyview/dsf.jpg",
-    name: " B2 6 شقة للبیع سكاي فيو عيمارة",
-    location: "لالاف سكاي فيو, اربيل",
-    category: "للبيع",
-    price: "$23,120",
-    type: "1 + 1",
-    area: "80 متر"
-  },
-  {
-    id: 22,
-    cover: "../images/property/venus/asdfaf.jpg",
-    name: " B1 14 شقة للبیع فينوس تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$15,571",
-    type: "2 + 1",
-    area: "105 متر"
-  },
-  {
-    id: 23,
-    cover: "../images/property/skyview/dsf.jpg",
-    name: " B2 10 شقة للبیع سكاي فيو عيمارة",
-    location: "لالاف سكاي فيو, اربيل",
-    category: "للبيع",
-    price: "$23,120",
-    type: "1 + 1",
-    area: "80 متر"
-  },
-  {
-    id: 24,
-    cover: "../images/property/venus/asdfaf.jpg",
-    name: " B1 21 شقة للبیع فينوس تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$17,054",
-    type: "2 + 1",
-    area: "115 متر"
-  },
-  {
-    id: 25,
-    cover: "../images/property/venus/asdfaf.jpg",
-    name: " A2 17 شقة للبیع فينوس تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$11,276",
-    type: "1 + 1",
-    area: "67 متر"
-  },
-  {
-    id: 26,
-    cover: "../images/property/venus/asdfaf.jpg",
-    name: " B3 13 شقة للبیع فينوس تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$16,096",
-    type: "2 + 1",
-    area: "105 متر"
-  },
-  {
-    id: 27,
-    cover: "../images/property/venus/asdfaf.jpg",
-    name: " A3 6 شقة للبیع فينوس تاورس",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$14,442",
-    type: "1 + 1",
-    area: "81 متر"
-  },
-]

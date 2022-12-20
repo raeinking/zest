@@ -18,12 +18,12 @@ import { Link } from 'react-router-dom';
 const PropertyDetails = (val) => {
   const { id } = useParams();
   const property = housesData.find((house) => {
-    return house.id == id
+    return house.url == id
   });
   const arproperty = arhousesData.find((house) => {
-     return house.id == id
+     return house.url == id
   });
-  console.log(arhousesData.find((d) => d))
+  console.log(id)
   const [nname , setName] = useState('')
   const [phone , setPhone] = useState('')
   const [body , setBody] = useState('مرحبا، أنا مهتم ب ' + "[ " + id + " ]")
@@ -201,7 +201,7 @@ const PropertyDetails = (val) => {
               onChange={e => setBody(e.target.value)}
             />
             <div className='flex gap-x-2'>
-              <a href={`mailto:${arproperty.agent.email}?subject=${nname + ': ' + phone}&body=${body}`}>
+              <a href={`mailto:${property.agent.email}?subject=${nname + ': ' + phone}&body=${body}`}>
                 <p
                   className='buttonss'
                   type='submit'

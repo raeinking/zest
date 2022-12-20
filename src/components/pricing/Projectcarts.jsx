@@ -1,10 +1,9 @@
 import React from 'react'
-import { allprojects } from '../data/Data'
 
 export default function Projectcarts() {
   return (
     <>
-   <div className='grid'>
+   {/* <div className='grid'>
         <div className='gridbox'>
             {allprojects.map((items, index) => (
             <div className='projects' key={index} >
@@ -14,6 +13,6 @@ export default function Projectcarts() {
             </div>
             ))}
         </div>
-  </div>
+  </div> */}
   </>  )
 }

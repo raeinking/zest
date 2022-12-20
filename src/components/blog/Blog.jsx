@@ -4,7 +4,6 @@ import "../home/recent/recent.css"
 import img from "../images/property.jpg"
 import './blog.css'
 import Blogsprojects from "./Blogsprojects"
-import { projectFilter } from "../data/Data"
 import { useLocation } from "react-router-dom";
 
 const Blog = () => {
@@ -18,11 +17,11 @@ const Blog = () => {
           <Back title='Find Your Home' subtitle='Find new & featured property located in your local city.' cover={img} />
       </section>
       <section className="blogFillters">
-          {projectFilter.map((val, index) => {
+          {/* {projectFilter.map((val, index) => {
             <div key={index}>
               <p>{val.name}</p>
             </div>
-          })}
+          })} */}
       </section>
       <Blogsprojects />
       </section>
@@ -32,11 +31,11 @@ const Blog = () => {
           <Back title='ابحث عن منزل مميز' subtitle='ابحث عن عقار جديد ومميز يقع في مدينتك المحلية.' cover={img} />
       </section>
       <section className="blogFillters">
-          {projectFilter.map((val, index) => {
+          {/* {projectFilter.map((val, index) => {
             <div key={index}>
               <p>{val.name}</p>
             </div>
-          })}
+          })} */}
       </section>
       <Blogsprojects />
       </section>

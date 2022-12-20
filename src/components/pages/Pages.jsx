@@ -32,8 +32,8 @@ const   Pages = () => {
           <Route exact path='/ar/contact' component={Contact} />
           <Route exact path='/about' component={About} />
           <Route exact path='/ar/about' component={About} />
-          <Route exact path='/property/:id' component={PropertyDetails} />
-          <Route exact path='/ar/property/:id' component={PropertyDetails} />
+          <Route exact path='/:id' component={PropertyDetails} />
+          <Route exact path='/ar/:id' component={PropertyDetails} />
         </Switch>
         <Footer />
       </Router>

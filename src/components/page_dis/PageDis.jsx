@@ -1,8 +1,7 @@
 import React from 'react'
 import Back from '../common/Back'
-import { allAgents, projects } from '../data/Data'
+import { allAgents } from '../data/Data'
 import { Slide } from 'react-slideshow-image';
-import {allprojects } from '../data/Data'
 import './Dic.css'
 import 'react-slideshow-image/dist/styles.css'
 import Form from '../form/Form'
@@ -13,7 +12,7 @@ import Form from '../form/Form'
 export default function pageDis() {
   return (
     <section className='diss'>
-        <Back name='' title='Apartment for Rent 125m in Lalav City' cover={projects.Imas} />
+        {/* <Back name='' title='Apartment for Rent 125m in Lalav City' cover={projects.Imas} />
         <main>
           <div className='main'>
             <div className='container1'>
@@ -159,7 +158,7 @@ export default function pageDis() {
               <Form />
           </div>
             </div>
-        </main>
+        </main> */}
     </section>
   )
 }
