@@ -223,6 +223,23 @@ option {
 .discription p{
   margin: 0 5px;
 }
+.country {
+color: #fff;
+  background-color: #27ae5fe7;    
+    border-radius: 10px;
+    margin-right: 10px;
+      padding: 5px 12px;
+      height: 35px;
+}
+.type {
+  color: #fff;
+  background-color: #27ae5fe7;
+  padding: 10px 12px;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 5px 12px;
+    height: 35px;
+}
 
 @media screen and (max-width: 500px) {
   select {

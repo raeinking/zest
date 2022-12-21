@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /blog
+Allow: /cv
+
+Sitemap: https://zest-property.com/sitemap.txt

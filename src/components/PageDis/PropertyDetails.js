@@ -45,10 +45,10 @@ const PropertyDetails = (val) => {
           <h3 className=''>{arproperty.address}</h3>
         </div>
         <div className='btns'>
-          <div className='btn'>
+          <div className='type'>
             {arproperty.type}
           </div>
-          <div className='btn'>
+          <div className='country'>
             {arproperty.country}
           </div>
         </div>
@@ -137,10 +137,10 @@ const PropertyDetails = (val) => {
           <h3 >{property.address}</h3>
         </div>
         <div className='btns'>
-          <div className='btn'>
+          <div className='type'>
             {property.type}
           </div>
-          <div className='btn'>
+          <div className='country'>
             {property.country}
           </div>
         </div>
