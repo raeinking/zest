@@ -64,7 +64,7 @@ const Footer = () => {
         <div className='container'>
           <div className='send flex'>
             <div className='text'>
-              <h1>Do You Have Questions ?</h1>
+              <h2>Do You Have Questions ?</h2>
               <p>Zest property for real estate.</p>
             </div>
             <button className='btn5'>Contact Us Today</button>
@@ -76,7 +76,7 @@ const Footer = () => {
           <div className='box'>
             <div className='logo'>
               <img src={image} alt='zest property' />
-              <h1>Zest Property</h1>
+              <h2>Zest Property</h2>
               <p>Receive Update from Us enter your email</p>
               <div className='input flex'>
                 <input type='text' placeholder='Email Address' />
