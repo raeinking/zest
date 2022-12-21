@@ -1,5 +1,4 @@
 User-agent: *
-Allow: /blog
-Allow: /cv
+Allow: /
 
-Sitemap: https://zest-property.com/sitemap.txt
+Sitemap: https://zest-six.vercel.app/sitemap.xml
