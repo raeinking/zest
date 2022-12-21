@@ -15,7 +15,9 @@ export default function Blogsprojects() {
   return (
     <>
     {paths == '/properties' ? 
-        <div className='gridbox'>
+        <div className='grid'>
+                <div className='gridbox'>
+
         {listAll.map((val, index) => {
           const { cover, category, location, name, price, type, area } = val
           return (
@@ -46,6 +48,7 @@ export default function Blogsprojects() {
             </a>
           )
         })}
+                </div>
         </div>
       :
       <div className='grid'>

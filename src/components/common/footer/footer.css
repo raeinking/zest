@@ -7,7 +7,7 @@
   font-size: 40px;
 }
 footer {
-  background-color: #1d2636;
+  background-color: #916f4e;
   padding: 50px 0;
   color: #fff;
 }
@@ -23,7 +23,7 @@ footer h2 {
   font-weight: 500;
 }
 footer p {
-  color: grey;
+  color: white;
   margin: 20px 0;
 }
 footer input {
@@ -41,15 +41,15 @@ footer ul {
 }
 footer ul li {
   display: block;
-  color: grey;
+  color: white;
   margin-bottom: 20px;
 }
 .legal {
   text-align: center;
   padding: 20px;
-  background: #1d2636;
-  color: rgba(255, 255, 255, 0.5);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background: #916f4e;
+  color: #916f4e;
+  border-top: 1px solid #916f4e;
 }
 @media screen and (max-width: 800px) {
   footer .container {

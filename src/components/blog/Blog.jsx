@@ -16,13 +16,7 @@ const Blog = () => {
       <section className='blog'>
           <Back title='Find Your Home' subtitle='Find new & featured property located in your local city.' cover={img} />
       </section>
-      <section className="blogFillters">
-          {/* {projectFilter.map((val, index) => {
-            <div key={index}>
-              <p>{val.name}</p>
-            </div>
-          })} */}
-      </section>
+      {/* <section className="blogFillters"></section> */}
       <Blogsprojects />
       </section>
       : 
