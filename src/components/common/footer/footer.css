@@ -11,16 +11,24 @@ footer {
   padding: 50px 0;
   color: #fff;
 }
+footer .container .footerleft {
+  margin: 0 0 20px 0;
+        flex-direction: column;
+        align-items: center;
+}
 footer .container {
-  display: grid;
-  grid-template-columns: 6fr 2fr 2fr 1fr;
-  grid-gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
 }
 footer img {
   width: 150px;
 }
 footer h2 {
   font-weight: 500;
+    margin: 10px 10px;
 }
 footer p {
   color: white;
@@ -30,7 +38,9 @@ footer input {
   background-color: #fff;
   padding: 17px;
   width: 100%;
+  max-width: 364px;
   border-radius: 5px;
+  margin-right: 10px;
 }
 footer h3 {
   font-weight: 500;
@@ -52,7 +62,16 @@ footer ul li {
   border-top: 1px solid #916f4e;
 }
 @media screen and (max-width: 800px) {
+  footer .container .footerleft {
+      margin: 0 0 20px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   footer .container {
-    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
   }
+    footer h3 {
+      margin-top: 20px;
+    }
 }

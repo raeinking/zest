@@ -29,7 +29,7 @@ option {
   font-weight: 600;
 }
 .hero {
-  background-image: url("../../../../public/images/banner.webp");
+  background-image: url("../../../../public/images/banner.jpg");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;

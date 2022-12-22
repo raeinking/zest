@@ -29,10 +29,13 @@ const Footer = () => {
         <div className='container'>
           <div className='box'>
             <div className='logo'>
-              <img src={image} alt='zest property' />
-              <h2>عقارات زيست</h2>
-              <p>تلقي تحديث منا أدخل بريدك الإلكتروني</p>
-
+              <div className="footerleft">
+                <img src={image} alt='zest property' />
+                <h2>عقارات زيست</h2>
+                <div className="p">
+                  <p>تلقي تحديث منا أدخل بريدك الإلكتروني</p>
+                </div>
+              </div>
               <div className='input flex'>
                 <input type='text' placeholder='Email Address' />
                 <button className="btn1">اشترك</button>
@@ -75,12 +78,14 @@ const Footer = () => {
         <div className='container'>
           <div className='box'>
             <div className='logo'>
-              <img src={image} alt='zest property' />
-              <h2>Zest Property</h2>
-              <p>Receive Update from Us enter your email</p>
+              <div className="footerleft">
+                <img src={image} alt='zest property' />
+                <h2>Zest Property</h2>
+                <p>Receive Update from Us enter your email</p>
+              </div>
               <div className='input flex'>
                 <input type='text' placeholder='Email Address' />
-                <button className="btn1">Subscribe</button>
+                <button className="btn">Subscribe</button>
               </div>
             </div>
           </div>

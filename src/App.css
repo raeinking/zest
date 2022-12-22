@@ -240,6 +240,11 @@ color: #fff;
     height: 35px;
 }
 
+.footerleft {
+  display: flex;
+  flex-direction: row;
+}
+
 @media screen and (max-width: 500px) {
   select {
     width: 100%;

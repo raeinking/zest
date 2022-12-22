@@ -30,7 +30,7 @@ const Header = () => {
                   <a href={list.path}>{list.text}</a>
                 </li>
               ))}
-              <a className="lang" href="/">الإنكليزية</a>
+              <a className="lang" href="/">English</a>
             </ul>
           </div>
           <div className='toggle'>
@@ -52,7 +52,7 @@ const Header = () => {
                   <a href={list.path}>{list.text}</a>
                 </li>
               ))}
-              <a className="lang" href="/ar">Arabic</a>
+              <a className="lang" href="/ar">العربية</a>
             </ul>
           </div>
           <div className='toggle'>
