@@ -27,10 +27,10 @@ const Footer = () => {
       </section> */}
       <footer>
         <div className='container'>
+                <img src={image} alt='zest property' />
           <div className='box'>
             <div className='logo'>
               <div className="footerleft">
-                <img src={image} alt='zest property' />
                 <h2>عقارات زيست</h2>
                 <div className="p">
                   <p>تلقي تحديث منا أدخل بريدك الإلكتروني</p>
@@ -76,10 +76,10 @@ const Footer = () => {
       </section> */}
       <footer>
         <div className='container'>
+                <img src={image} alt='zest property' />
           <div className='box'>
             <div className='logo'>
               <div className="footerleft">
-                <img src={image} alt='zest property' />
                 <h2>Zest Property</h2>
                 <p>Receive Update from Us enter your email</p>
               </div>
@@ -89,7 +89,6 @@ const Footer = () => {
               </div>
             </div>
           </div>
-
           {footer.map((val) => (
             <div className='box'>
               <h3>{val.title}</h3>
