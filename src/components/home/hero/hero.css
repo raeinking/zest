@@ -89,6 +89,7 @@ form h4 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 10px;
 }
 @media screen and (max-width: 800px) {
   .hero h1 {
@@ -122,4 +123,8 @@ form h4 {
   align-items: center;
   justify-content: space-between;
 }
+}
+.search{
+  width: 30px;
+  height: 30px;
 }

@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import img from "../images/immio.jpg"
 import Back from "../common/Back"
 import "./contact.css"
-import emailjs from '@emailjs/browser';
 import { useLocation } from "react-router-dom";
 
 
@@ -41,14 +40,14 @@ const Contact = () => {
         <Back name='اتصل بنا' title='احصل على المساعدة' cover={img} />
         <div className='container'>
           <form className='shadow'>
-            <h4>املئ النموذج</h4> <br />
+            <h4 className='ar'>املئ النموذج</h4> <br />
             <div>
-              <input className="cinput" type='text' placeholder='اسم *' name="user_name" required={true} />
+              <input className="cinput ar" type='text' placeholder='اسم *' name="user_name" required={true} />
             </div>
-            <input className="cinput" name='from_phone'  type='text' placeholder='رقم *' required={true} />
+            <input className="cinput ar" name='from_phone'  type='text' placeholder='رقم *' required={true} />
             <textarea cols='30' rows='10' name="message" placeholder='رسالة...'></textarea>
             <a href={`mailto:${email}?subject=${name + ': ' + phone}&body=${body}`}>
-              <input className='submit' value="إرسال" />
+              <input className='submit ar' value="إرسال" />
             </a>
           </form>
         </div>

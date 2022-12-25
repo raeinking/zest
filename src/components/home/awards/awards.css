@@ -25,10 +25,18 @@
   border-radius: 4% 50%;
   font-size: 32px;
   color: #916f4e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 .awards h1 {
   font-size: 50px;
 }
 .awards p {
   color: white;
+}
+.icon img {
+  width: 60px;
+  height:60px;
 }

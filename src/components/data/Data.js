@@ -121,7 +121,7 @@ export const team = [
     list: "50",
     cover: "../images/customer/kaywan.webp",
     address: "project: Erbil",
-    name: "Mr.Kaywan Kayfi",
+    name: "Kaywan Kayfi",
     email: "mailto:kaiwankaify@zest-property.com",
     phone:"tel:+9647506662006",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
@@ -130,55 +130,49 @@ export const team = [
     list: "50",
     cover: "../images/customer/rasty.webp",
     address: "project: Erbil",
-    name: "Mr.Rasty Kaify",
+    name: "Rasty Kaify",
     email: "mailto:Rasty.kayfi@zest-property.com",
     phone:"tel:+9647507342006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
     cover: "../images/customer/shaho.webp",
     address: "project: Kirkuk",
-    name: "Mr.Shahoo Dieyaree",
+    name: "Shahoo Dieyaree",
     email: "mailto:shahoo.d@zest-property.com",
     phone:"tel:+9647509632006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
     cover: "../images/customer/M.Sami.webp",
     address: "project: Kirkuk",
-    name: "Mr.Muhammed Sami",
+    name: "Muhammed Sami",
     email: "mailto:m.sami@zest-property.com",
     phone:"tel:+9647708652006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
     cover: "../images/customer/Aya.Alsaab.webp",
     address: "project: Erbil",
-    name: "Mis.Aya Al-saab",
+    name: "Aya Al-saab",
     email: "mailto:aya.s@zest-property.com",
     phone:"tel:+9647506322006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
     cover: "../images/customer/HozanJumaa.webp",
     address: "project: Kirkuk",
-    name: "Mr.Hozan Jumaa",
+    name: "Hozan Jumaa",
     email: "mailto:hozan.j@zest-property.com",
     phone:"tel:+9647509102006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
     cover: "../images/customer/mahmood.webp",
     address: "project: Erbil",
-    name: "Mr.Mahmood Abdullah",
+    name: "Mahmood Abdullah",
     email: "mailto:'mahmood@zest-property.com'",
     phone:"tel:+9647501882006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   
 ]
@@ -187,180 +181,93 @@ export const allAgents = [
     list: "50",
     cover: "../images/customer/mahmood.webp",
     address: "project: Erbil",
-    name: "Mr.Mahmood Abdullah",
+    name: "Mahmood Abdullah",
     email: "mailto:'mahmood@zest-property.com'",
     phone:"tel:+9647501882006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
    {
     list: "50",
     cover: "../images/customer/AkamAli.webp",
     address: "project: Sky Land Kirkuk",
-    name: "Mr.Akam Ali",
+    name: "Akam Ali",
     email: "mailto:akam.a@zest-property.com",
     phone:"tel:+9647501762006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
     cover: "../images/customer/kaywan.webp",
     address: "project: Erbil",
-    name: "Mr.Kaywan Kayfi",
+    name: "Kaywan Kayfi",
     email: "mailto:kaiwankaify@zest-property.com",
     phone:"tel:+9647506662006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
     cover: "../images/customer/rasty.webp",
     address: "project: Erbil",
-    name: "Mr.Rasty Kaify",
+    name: "Rasty Kaify",
     email: "mailto:Rasty.kayfi@zest-property.com",
     phone:"tel:+9647507342006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
     cover: "../images/customer/shaho.webp",
     address: "project: Kirkuk",
-    name: "Mr.Shahoo Dieyaree",
+    name: "Shahoo Dieyaree",
     email: "mailto:shahoo.d@zest-property.com",
     phone:"tel:+9647509632006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
     cover: "../images/customer/M.Sami.webp",
     address: "project: Kirkuk",
-    name: "Mr.Muhammed Sami",
+    name: "Muhammed Sami",
     email: "mailto:m.sami@zest-property.com",
     phone:"tel:+9647708652006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
     cover: "../images/customer/Aya.Alsaab.webp",
     address: "project: Erbil",
-    name: "Mis.Aya Al-saab",
+    name: "Aya Al-saab",
     email: "mailto:aya.s@zest-property.com",
     phone:"tel:+9647506322006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
     cover: "../images/customer/HozanJumaa.webp",
     address: "project: Kirkuk",
-    name: "Mr.Hozan Jumaa",
+    name: "Hozan Jumaa",
     email: "mailto:hozan.j@zest-property.com",
     phone:"tel:+9647509102006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
     cover: "../images/customer/muhammadmajed.webp",
     address: "project: Erbil",
-    name: "Mr.Muhammed Majed",
+    name: "Muhammed Majed",
     email: "mailto:mohammad.m@zest-property.com",
     phone:"tel:+9647502422006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
     cover: "../images/customer/muhammedrasul.webp",
     address: "project: Erbil",
-    name: "Mr.Mohammad Rasul",
+    name: "Mohammad Rasul",
     email: "mailto:M.Rasul@zest-property.com",
     phone:"tel:+9647506912006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
     cover: "../images/customer/aliagha.webp",
     address: "project: Erbil",
-    name: "Mr.Ali Agha",
+    name: "Ali Agha",
     email: "mailto:ali.a@zest-property.com",
     phone:"tel:+9647505912006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
 ]
 export const price = [
-  {
-    plan: "Basic",
-    price: "29",
-    ptext: "per user, per month",
-    list: [
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "99.5% Uptime Guarantee",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "120GB CDN Bandwidth",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "5GB Cloud Storage",
-      },
-      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: "Personal Help Support" },
-      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: "Enterprise SLA" },
-    ],
-  },
-  {
-    best: "Best Value",
-    plan: "Standard",
-    price: "49",
-    ptext: "per user, per month",
-    list: [
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "99.5% Uptime Guarantee",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "150GB CDN Bandwidth",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "10GB Cloud Storage",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "Personal Help Support",
-      },
-      {
-        change: "color",
-        icon: <i class='fa-solid fa-x'></i>,
-        text: "Enterprise SLA",
-      },
-    ],
-  },
-  {
-    plan: "Platinum",
-    price: "79",
-    ptext: "2 user, per month",
-    list: [
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "100% Uptime Guarantee",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "200GB CDN Bandwidth",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "20GB Cloud Storage",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "Personal Help Support",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "Enterprise SLA",
-      },
-    ],
-  },
+  
 ]
 export const footer = [
   {
@@ -375,26 +282,51 @@ export const arfooter = [
   },
 ]
 
+export const arawards = [
+  {
+    icon: '../images/logo/user.jpg',
+    num: "2 M	",
+    name: "المستخدمون",
+  },
+  {
+    icon: '../images/logo/git.jpg',
+    num: "8",
+    name: "الفرع",
+  },
+  {
+    icon: '../images/logo/house.jpg',
+    num: "134",
+    name: "كل انواع العقارات",
+  },
+  {
+    icon: '../images/logo/agent.jpg',
+    num: "42",
+    name: "وكلائنا",
+  },
+]
+
+
+
 
 
 export const awards = [
   {
-    icon: <i class="fa-solid fa-users"></i>,
+    icon: '../images/logo/user.jpg',
     num: "2 M	",
     name: "users",
   },
   {
-    icon: <i class="fa-solid fa-building-flag"></i>,
-    num: "4",
+    icon: '../images/logo/git.jpg',
+    num: "8",
     name: "Branch",
   },
   {
-    icon: <i class="fa-solid fa-house"></i>,
+    icon: '../images/logo/house.jpg',
     num: "134",
     name: "All Kinda Property",
   },
   {
-    icon: <i class="fa-solid fa-user-tie"></i>,
+    icon: '../images/logo/agent.jpg',
     num: "42",
     name: "Agents",
   },
@@ -459,22 +391,11 @@ export const listAll = [
   {
     id: 6,
     cover: "../images/property/nova/ewr.jpg",
-    url: "Apartment-for-Sale-Nova-towers-A1-2-Floor",
-    name: "Apartment for Sale Nova towers A1 2 Floor",
+    url: "Apartment-for-Sale-Nova-towers-A2-14-Floor",
+    name: "Apartment for Sale Nova towers A2 14 Floor",
     location: "Erbil",
     category: "For Sale",
-    price: "$40,000",
-    type: "1 + 1",
-    area: "81 meter"
-  },
-  {
-    id: 7,
-    cover: "../images/property/nova/ewr.jpg",
-    url: "Apartment-for-Sale-Nova-towers-A3-8-Floor",
-    name: "Apartment for Sale Nova towers A3 8 Floor",
-    location: "Erbil",
-    category: "For Sale",
-    price: "$36,500",
+    price: "$37,000",
     type: "1 + 1",
     area: "81 meter"
   },
@@ -761,24 +682,24 @@ export const list = [
   {
     id: 6,
     cover: "../images/property/nova/ewr.jpg",
-    url:'Apartment-for-Sale-Nova-towers-A1-2-Floor',
-    name: "Nova towers A1 2 Floor",
+    url:'Apartment-for-Sale-Nova-towers-A2-14-Floor',
+    name: "Nova towers A2 14 Floor",
     location: "Erbil",
     category: "For Sale",
-    price: "$4,000",
+    price: "$37,000",
     type: "1 + 1",
     area: "81 meter"
   },
-  {
-    id: 7,
-    cover: "../images/property/nova/ewr.jpg",
-    url:'Apartment-for-Sale-Nova-towers-A3-8-Floor',
-    name: "Nova towers A3 8 Floor",
+  {  
+    id: 22,
+    cover: "../images/property/venus/asdfaf.jpg",
+    url: "Apartment-for-Sale-Venus-Towers-B1-14-Floor",
+    name: "Apartment for Sale Venus Towers B1 14 Floor",
     location: "Erbil",
     category: "For Sale",
-    price: "$36,500",
-    type: "1 + 1",
-    area: "81 meter"
+    price: "$15,571",
+    type: "2 + 1",
+    area: "105 meter"
   },
   {
     id: 8,
@@ -917,8 +838,8 @@ export const arhousesData = [
   {
     id: 6,
     type: 'شقة',
-    url: 'شقة-للبیع-نوفا-تاورز-٢-ئەی١',
-    name: 'A1 2 شقة للبیع نوفا تاورز',
+    url: 'شقة-للبیع-نوفا-تاورز-١٤-ئەی٢',
+    name: 'A2 14 شقة للبیع نوفا تاورز',
     nameproperty:'نوفا تاورز ',
     build: '5',
     Allbuild: '22',
@@ -930,36 +851,12 @@ export const arhousesData = [
     bathrooms: '1',
     area: '81 متر',
     year: '2022',
-    price: '40,000',
+    price: '37,000',
     agent: {
       image: '/images/customer/shaho.webp',
       name: 'شاهو دياري',
       phone:"tel:+9647509632006",
       email: "shahoo.d@zest-property.com",
-    },
-  },
-  {
-    id: 7,
-    type: 'شقة',
-    url:'شقة-للبیع-نوفا-تاورز-٨-ئەی٣',
-    name: 'A3 8 شقة للبیع نوفا تاورز',
-    nameproperty:'نوفا تاورز ',
-    build: '5',
-    Allbuild: '22',
-    image: '/images/property/nova/ewr1.jpg',
-    imageLg: '/images/property/nova/ewr1.jpg',
-    country: 'عراق',
-    address: 'اربيل - طريق بحركة طريق',
-    bedrooms: '1',
-    bathrooms: '1',
-    area: '81 متر',
-    year: '2022',
-    price: '36,500',
-    agent: {
-      image: '/images/customer/aliagha.webp',
-      name: 'علي آغا',
-      phone:"tel:+9647505912006",
-      email:'ali.a@zest-property.com',
     },
   },
   {
@@ -1495,22 +1392,11 @@ export const arlistAll = [
   {
     id: 6,
     cover: "../images/property/nova/ewr.jpg",
-    url:'شقة-للبیع-نوفا-تاورز-٢-ئەی١',
-    name: "A1 2 شقة للبیع نوفا تاوەر",
+    url:'شقة-للبیع-نوفا-تاورز-١٤-ئەی٢',
+    name: "A2 14 شقة للبیع نوفا تاوەر",
     location: "اربيل",
     category: "للبيع",
-    price: "$4,000",
-    type: "1 + 1",
-    area: "81 متر"
-  },
-  {
-    id: 7,
-    cover: "../images/property/nova/ewr.jpg",
-    url:'شقة-للبیع-نوفا-تاورز-٨-ئەی٣',
-    name: "A3 8 شقة للبیع نوفا تاوەر",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$36,500",
+    price: "$37,000",
     type: "1 + 1",
     area: "81 متر"
   },
@@ -1795,24 +1681,24 @@ export const arlistAll = [
   {
     id: 6,
     cover: "../images/property/nova/ewr.jpg",
-    url:'شقة-للبیع-نوفا-تاورز-٢-ئەی١',
+    url:'شقة-للبیع-نوفا-تاورز-١٤-ئەی٢',
     name: "A1 2 شقة للبیع نوفا تاوەر",
     location: "اربيل",
     category: "للبيع",
-    price: "$4,000",
+    price: "$37,000",
     type: "1 + 1",
     area: "81 متر"
   },
   {
-    id: 7,
-    cover: "../images/property/nova/ewr.jpg",
-    url:'شقة-للبیع-نوفا-تاورز-٨-ئەی٣',
-    name: "A3 8 شقة للبیع نوفا تاوەر",
+    id: 22,
+    cover: "../images/property/venus/asdfaf.jpg",
+    url:'شقة-للبیع-فینوس-تاوەر-١٤-ب١',
+    name: " B1 14 شقة للبیع فينوس تاوەر",
     location: "اربيل",
     category: "للبيع",
-    price: "$36,500",
-    type: "1 + 1",
-    area: "81 متر"
+    price: "$15,571",
+    type: "2 + 1",
+    area: "105 متر"
   },
   {
     id: 8,
@@ -1952,8 +1838,8 @@ export const housesData = [
   {
     id: 6,
     type: 'Apartment',
-    url:'Apartment-for-Sale-Nova-towers-A1-2-Floor',
-    name: 'Apartment for Sale Nova towers A1 2 Floor',
+    url:'Apartment-for-Sale-Nova-towers-A2-14-Floor',
+    name: 'Apartment for Sale Nova towers A2 14 Floor',
     nameproperty:'Nova towers',
     build: '5',
     Allbuild: '22',
@@ -1965,36 +1851,12 @@ export const housesData = [
     bathrooms: '1',
     area: '81 meter',
     year: '2022',
-    price: '40,000',
+    price: '37,000',
     agent: {
       image: '../images/customer/shaho.webp',
       name: 'Shaho Dyaree',
       phone:"tel:+9647509632006",
       email: "shahoo.d@zest-property.com",
-    },
-  },
-  {
-    id: 7,
-    type: 'Apartament',
-    url:'Apartment-for-Sale-Nova-towers-A3-8-Floor',
-    name: 'Apartment for Sale Nova towers A3 8 Floor',
-    nameproperty:'Nova towers ',
-    build: '5',
-    Allbuild: '22',
-    image: '../images/property/nova/ewr1.jpg',
-    imageLg: '../images/property/nova/ewr1.jpg',
-    country: 'Iraq',
-    address: 'Erbil - bahrka road',
-    bedrooms: '1',
-    bathrooms: '1',
-    area: '81 meter',
-    year: '2022',
-    price: '36,500',
-    agent: {
-      image: '../images/customer/aliagha.webp',
-      name: 'Ali Agha',
-      phone:"tel:+9647505912006",
-      email:'ali.a@zest-property.com',
     },
   },
   {
@@ -2522,7 +2384,6 @@ export const arteam = [
     name: "اكام علي",
     email: "mailto:akam.a@zest-property.com",
     phone:"tel:+9647501762006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
@@ -2531,7 +2392,6 @@ export const arteam = [
     name: "كيوان كيفي",
     email: "mailto:kaiwankaify@zest-property.com",
     phone:"tel:+9647506662006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
@@ -2540,7 +2400,6 @@ export const arteam = [
     name: "راستي كيفي",
     email: "mailto:Rasty.kayfi@zest-property.com",
     phone:"tel:+9647507342006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
@@ -2549,7 +2408,6 @@ export const arteam = [
     name: "شاهو دياري",
     email: "mailto:shahoo.d@zest-property.com",
     phone:"tel:+9647509632006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
@@ -2558,7 +2416,6 @@ export const arteam = [
     name: "محمد سامي",
     email: "mailto:m.sami@zest-property.com",
     phone:"tel:+9647708652006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
@@ -2567,7 +2424,6 @@ export const arteam = [
     name: "ايه الصعب",
     email: "mailto:aya.s@zest-property.com",
     phone:"tel:+9647506322006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
@@ -2576,7 +2432,6 @@ export const arteam = [
     name: "هوزان جمعة",
     email: "mailto:hozan.j@zest-property.com",
     phone:"tel:+9647509102006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
      {
     list: "50",
@@ -2585,7 +2440,6 @@ export const arteam = [
     name: " محمود عبدولله ",
     email: "mailto:'mahmood@zest-property.com'",
     phone:"tel:+9647501882006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
 ]
 
@@ -2597,7 +2451,6 @@ export const arallAgents = [
     name: "اكام علي",
     email: "mailto:akam.a@zest-property.com",
     phone:"tel:+9647501762006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
@@ -2606,7 +2459,6 @@ export const arallAgents = [
     name: "كيوان كيفي",
     email: "mailto:kaiwankaify@zest-property.com",
     phone:"tel:+9647506662006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
@@ -2615,7 +2467,6 @@ export const arallAgents = [
     name: "راستي كيفي",
     email: "mailto:Rasty.kayfi@zest-property.com",
     phone:"tel:+9647507342006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
@@ -2624,7 +2475,6 @@ export const arallAgents = [
     name: "محمود عبدالله",
     email: "mailto:mahmood@zest-property.com",
     phone:"tel:+9647501882006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
@@ -2633,7 +2483,6 @@ export const arallAgents = [
     name: "شاهو دياري",
     email: "mailto:shahoo.d@zest-property.com",
     phone:"tel:+9647509632006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
@@ -2642,7 +2491,6 @@ export const arallAgents = [
     name: "محمد سامي",
     email: "mailto:m.sami@zest-property.com",
     phone:"tel:+9647708652006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
@@ -2651,7 +2499,6 @@ export const arallAgents = [
     name: "ايه الصعب",
     email: "mailto:aya.s@zest-property.com",
     phone:"tel:+9647506322006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
@@ -2660,7 +2507,6 @@ export const arallAgents = [
     name: "هوزان جمعة",
     email: "mailto:hozan.j@zest-property.com",
     phone:"tel:+9647509102006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
@@ -2669,7 +2515,6 @@ export const arallAgents = [
     name: "محمد مجيد",
     email: "mailto:mohammad.m@zest-property.com",
     phone:"tel:+9647502422006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
@@ -2678,7 +2523,6 @@ export const arallAgents = [
     name: "محمد رسول",
     email: "mailto:M.Rasul@zest-property.com",
     phone:"tel:+9647506912006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "50",
@@ -2687,7 +2531,6 @@ export const arallAgents = [
     name: "علي آغا",
     email: "mailto:ali.a@zest-property.com",
     phone:"tel:+9647505912006",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
 ]
 
@@ -2697,31 +2540,6 @@ export const arallAgents = [
 
 
 
-
-
-
-export const arawards = [
-  {
-    icon: <i class="fa-solid fa-users"></i>,
-    num: "2 M	",
-    name: "المستخدمون",
-  },
-  {
-    icon: <i class="fa-solid fa-building-flag"></i>,
-    num: "4",
-    name: "الفرع",
-  },
-  {
-    icon: <i class="fa-solid fa-house"></i>,
-    num: "134",
-    name: "كل انواع العقارات",
-  },
-  {
-    icon: <i class="fa-solid fa-user-tie"></i>,
-    num: "42",
-    name: "وكلائنا",
-  },
-]
 
 
 

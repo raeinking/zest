@@ -6,6 +6,8 @@ import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import './blog.css'
 import '../home/recent/recent.css'
+import Locationimg from ".././images/location.jpg";
+
 
 
 export default function Blogsprojects() {
@@ -16,25 +18,23 @@ export default function Blogsprojects() {
     <>
     {paths == '/properties' ? 
         <div className='grid'>
-                <div className='gridbox'>
-
+        <div className='gridbox'>
         {listAll.map((val, index) => {
           const { cover, category, location, name, price, type, area } = val
           return (
             <a href={ '/' + val.url}>
             <div className='box shadow' key={index}>
               <div className='img'>
-                <img src={cover} alt='' />
+                <img src={cover} alt={name} />
               </div>
               <div className='text'>
                 <div className='category'>
                   <span style={{ background: category === "For Sale" ? "#25b5791a" : "#ff98001a", color: category === "For Sale" ? "#25b579" : "#ff9800" }}>{category}</span>
-                  <i className='fa fa-heart'></i>
                 </div>
                 <div className="dis">
                 <h4>{name}</h4>
                 <p>
-                  <i className='fa fa-location-dot'></i> {location}
+                  <img className="imglocation" src={Locationimg} alt='location'></img> {location}
                 </p>
                 </div>
               </div>
@@ -59,25 +59,24 @@ export default function Blogsprojects() {
             <a href={ '/ar/' + val.url}>
             <div className='box shadow' key={index}>
               <div className='img'>
-                <img src={cover} alt='' />
+                <img src={cover} alt={name} />
               </div>
               <div className='text'>
                 <div className='category'>
                   <span style={{ background: category === "For Sale" ? "#25b5791a" : "#ff98001a", color: category === "For Sale" ? "#25b579" : "#ff9800" }}>{category}</span>
-                  <i className='fa fa-heart'></i>
                 </div>
                 <div className="dis">
-                <h4>{name}</h4>
+                <h4 className='ar'>{name}</h4>
                 <p>
-                  <i className='fa fa-location-dot'></i> {location}
+                  <img className="imglocation" src={Locationimg} alt='location'></img> {location}
                 </p>
                 </div>
               </div>
               <div className='buttonpr'>
-                <button className='btn2'>{price}</button>
+                <button  className='btn2 ar'>{price}</button>
                 <div className="flezs"></div>
-                <label htmlFor=''>{area}</label>
-                <span>{type}</span>
+                <label htmlFor='' className='ar'>{area}</label>
+                <span className='ar'>{type}</span>
               </div>
             </div>
             </a>

@@ -31,25 +31,25 @@ const Footer = () => {
           <div className='box'>
             <div className='logo'>
               <div className="footerleft">
-                <h2>عقارات زيست</h2>
+                <h2 className="ar">شركة زيست</h2>
                 <div className="p">
-                  <p>تلقي تحديث منا أدخل بريدك الإلكتروني</p>
+                  <p className="ar">تلقي تحديث منا أدخل بريدك الإلكتروني</p>
                 </div>
               </div>
               <div className='input flex'>
                 <input type='text' placeholder='Email Address' />
-                <button className="btn1">اشترك</button>
+                <button className="btn ar">اشترك</button>
               </div>
             </div>
           </div>
 
           {arfooter.map((val) => (
             <div className='box'>
-              <h3>{val.title}</h3>
+              <h3 className="ar">{val.title}</h3>
               <ul>
                 {val.text.map((items) => (
                 <a target={'_blank'} href={items.link}>
-                  <li> {items.list} </li>
+                  <li className="ar"> {items.list} </li>
                 </a>
                 ))}
               </ul>
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className='legal'>
-        <span>© 2022 عقارات زيست. تصميم ريان جعفر.</span>
+        <span className="ar">© 2022 عقارات زيست. تصميم ريان جعفر.</span>
       </div>
     </section>
       :

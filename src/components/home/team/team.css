@@ -17,12 +17,18 @@
   height: 90px;
   margin: auto;
   position: relative;
+  margin-bottom: 20px;
 }
-.team img {
+.team .img img {
   width: 90px;
   height: 90px;
   border-radius: 50%;
 }
+.call {
+  width: 20px;
+  height: 20px;
+}
+
 .team .img i {
   color: #108be7;
   font-size: 17px;
@@ -64,7 +70,9 @@
 }
 .btnmsg {
   width: 100px;
-  height: 42px;
+  height: 38px;
+  margin-left: 10px;
+  background-color: #50c878;
 }
 .team .button {
   margin-top: 20px;

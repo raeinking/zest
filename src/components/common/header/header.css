@@ -71,3 +71,9 @@ header .toggle {
     color: #fff;
   }
 }
+.humberger {
+  color: #fff;
+}
+.close {
+  width: 15px;
+}

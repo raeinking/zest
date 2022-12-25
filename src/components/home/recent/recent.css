@@ -24,8 +24,8 @@ p {
   color: #72809d;
 }
  .button {
-  border-top: 1px solid #e4e8f3;
-  padding: 10px 30px;
+  /* border-top: 1px solid #e4e8f3; */
+  /* padding: 10px 30px; */
 }
  .category {
   display: flex;
@@ -35,9 +35,10 @@ p {
 }
 
 .flexs {
-  display: flex;
+  display: flex;   
   flex-direction: column ;
   align-items: center;
+  padding: 20px 0;
 }
 .flex .div button {
   border-radius: 0px;

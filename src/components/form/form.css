@@ -25,11 +25,3 @@ input {
     max-width: 200px;
     cursor: pointer;
 }
-
-.submit:hover {
-    background-color: #916f4e;
-}
-
-.h4 {
-    text-align: center;
-}

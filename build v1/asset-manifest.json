@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6289901b.css",
+    "main.js": "/static/js/main.9e5ae3c2.js",
+    "static/media/500.jpg": "/static/media/500.9869665382fcbdbef616.jpg",
+    "static/media/banner.jpg": "/static/media/banner.7bd510dce0b065299427.jpg",
+    "static/media/services.jpg": "/static/media/services.13be7fde05782bd5e2e8.jpg",
+    "static/media/agent.jpg": "/static/media/agent.aaa8d5ac63ad24fb5f6c.jpg",
+    "static/media/property.jpg": "/static/media/property.56f16e29b7a84fbda25c.jpg",
+    "static/media/rastymahmood.jpg": "/static/media/rastymahmood.97b786e2c675d4e7adf6.jpg",
+    "static/media/immio.jpg": "/static/media/immio.dc22069160945465c7f2.jpg",
+    "static/media/rsala.jpg": "/static/media/rsala.07865fea63a2e3c5b244.jpg",
+    "static/media/zest.jpg": "/static/media/zest.2c35c1c5972f121348a9.jpg",
+    "static/media/logobrown.jpg": "/static/media/logobrown.652cbb4c937cdfb1d0bb.jpg",
+    "static/media/logowhite.jpg": "/static/media/logowhite.fc08cbbdb3b1e8a1230f.jpg",
+    "index.html": "/index.html",
+    "main.6289901b.css.map": "/static/css/main.6289901b.css.map",
+    "main.9e5ae3c2.js.map": "/static/js/main.9e5ae3c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6289901b.css",
+    "static/js/main.9e5ae3c2.js"
+  ]
+}

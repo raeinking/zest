@@ -1,14 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "APERTO";
+  font-size: 20px;
   background-color: #fff;
   max-width: 100vw;
   overflow-x: hidden;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'APERTO';
+  src: local('APERTO'), url('/src/components/fonts/ApertoButSmarter-Regular.otf') format('otf');
+}
+@font-face {
+  font-family: 'UNIQAIDAR';
+  src: local('UNIQAIDAR'), url('/src/components/fonts/UNIQAIDAR_HEWAL035.TTF') format('TTF');
 }
 .container {
   max-width: 100%;
@@ -131,7 +140,7 @@ img {
   border-radius: 50px;
 }
 .btn4 {
-  background-color: #000;
+  background-color: #916f4e;
   color: #fff;
   margin-left:10px ;
 }
@@ -181,6 +190,10 @@ img {
 .mb {
   margin-bottom: 80px;
 }
+.imglocation {
+  width: 20px;
+  height: 20px;
+}
 .cinput  {
   padding: 15px 20px;
 }
@@ -212,9 +225,10 @@ option {
   width: 100%;
   max-width: 1024px;
 }
-.ddd {
+/* .ddd {
   padding: 30px;
-}
+  margin-right: 90px;
+} */
 .imageabout {
   max-width: 1400px;
 }
@@ -272,4 +286,8 @@ color: #fff;
 
 .linedown {
   display: flex;
+}
+
+.ar {
+  font-family: "UNIQAIDAR";
 }

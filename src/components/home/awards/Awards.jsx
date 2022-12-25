@@ -18,7 +18,7 @@ const Awards = () => {
             {awards.map((val, index) => (
               <div className='box' key={index}>
                 <div className='icon'>
-                  <span>{val.icon}</span>
+                  <img className="" src={val.icon} alt='awards'></img>
                 </div>
                 <h2>{val.num}</h2>
                 <p>{val.name}</p>
@@ -35,10 +35,10 @@ const Awards = () => {
             {arawards.map((val, index) => (
               <div className='box' key={index}>
                 <div className='icon'>
-                  <span>{val.icon}</span>
+                  <img className="" src={val.icon} alt='awards'></img>
                 </div>
-                <h2>{val.num}</h2>
-                <p>{val.name}</p>
+                <h2 className="ar">{val.num}</h2>
+                <p className="ar">{val.name}</p>
               </div>
             ))}
           </div>

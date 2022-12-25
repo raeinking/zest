@@ -5,6 +5,7 @@ import { nav } from "../../data/Data"
 import { Link } from "react-router-dom"
 import image from './logobrown.jpg'
 import { useLocation } from "react-router-dom";
+import close from '../../images/close.jpg'
 
 
 const Header = () => {
@@ -27,14 +28,14 @@ const Header = () => {
             <ul className={navList ? "small" : "flex"}>
               {arnav.map((list, index) => (
                 <li key={index}>
-                  <a href={list.path}>{list.text}</a>
+                  <a className="ar" href={list.path}>{list.text}</a>
                 </li>
               ))}
               <a className="lang" href="/">English</a>
             </ul>
           </div>
           <div className='toggle'>
-            <button onClick={() => setNavList(!navList)}>{navList ? <i className='fa fa-times'></i> : <i className='fa fa-bars'></i>}</button>
+            <button onClick={() => setNavList(!navList)}>{navList ? <img src={close} alt='close'></img> : <p className="humberger">☰</p>}</button>
           </div>
         </div>
       </header>
@@ -56,13 +57,10 @@ const Header = () => {
             </ul>
           </div>
           <div className='toggle'>
-            <button onClick={() => setNavList(!navList)}>{navList ? <i className='fa fa-times'></i> : <i className='fa fa-bars'></i>}</button>
+            <button onClick={() => setNavList(!navList)}>{navList ? <img className="close" src={close} alt='close'></img> : <p className="humberger">☰</p>}</button>
           </div>
         </div>
       </header>
-
-
-
       }
     </>
   )

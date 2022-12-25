@@ -6,6 +6,8 @@ import { allAgents } from '../data/Data'
 import { arallAgents } from '../data/Data'
 import Heading from '../common/Heading'
 import { useLocation } from "react-router-dom";
+import call from '../images/call.jpg'
+
 
  
 export default function Agents() {
@@ -30,18 +32,17 @@ export default function Agents() {
                       <img src={val.cover} alt={val.name}/>
                       {/* <i className='fa-solid fa-circle-check'></i> */}
                     </div>
-                    <i className='fa fa-location-dot'></i>
                     <label>{val.address}</label>
-                    <h4>{val.name}</h4>
+                    <h4 className='ar'>{val.name}</h4>
                     <div className='button flex'>
                     <a href={val.email}>
-                      <button className='btnmsg'>
-                        <i className='fa fa-envelope'></i>
+                      <button className='btn4'>
+                        ✉️
                       </button>
                     </a>
                       <a href={val.phone}>
-                        <button className='btn4'>
-                          <i className='fa fa-phone-alt'></i>
+                        <button className='btnmsg'>
+                          <img className="call" src={call} alt='call'></img>
                         </button>
                       </a>
                     </div>
@@ -63,24 +64,21 @@ export default function Agents() {
           <div className='gridbox'>
             {arallAgents.map((val, index) => (
                 <div className='box' key={index}>
-                  {/* <button className='btn3'>{val.list} Listings</button> */}
                   <div className='details'>
                     <div className='img'>
                       <img src={val.cover} alt={val.name} />
-                      {/* <i className='fa-solid fa-circle-check'></i> */}
                     </div>
-                    <i className='fa fa-location-dot'></i>
-                    <label>{val.address}</label>
-                    <h4>{val.name}</h4>
+                    <label className='ar'>{val.address}</label>
+                    <h4 className='ar'>{val.name}</h4>
                     <div className='button flex'>
                     <a href={val.email}>
-                      <button className='btnmsg'>
-                        <i className='fa fa-envelope'></i>
+                      <button className='btn4'>
+                        ✉️
                       </button>
                     </a>
                       <a href={val.phone}>
-                        <button className='btn4'>
-                          <i className='fa fa-phone-alt'></i>
+                        <button className='btnmsg'>
+                          <img className="call" src={call} alt='call'></img>
                         </button>
                       </a>
                     </div>

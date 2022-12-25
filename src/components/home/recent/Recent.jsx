@@ -26,7 +26,7 @@ const Recent = () => {
           <Heading title='احدث العقارات' subtitle='' />
           <RecentCard />
           <a href="/ar/properties">
-            <button>مشاهدة المزيد</button>
+            <button className="ar">مشاهدة المزيد</button>
           </a>
         </div>
       </section>

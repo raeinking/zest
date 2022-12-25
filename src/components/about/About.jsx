@@ -16,7 +16,7 @@ const About = () => {
       {paths == '/about' ? 
       <>
       <section className='about'>
-        <Back name='About Us' title='Who are we - who are we?' cover={img} />
+        <Back name='About Us' title='who are we?' cover={img} />
         <div className='aboutmain'>
           <div className='aboutcontent'>
             <h2>Zest Property Story</h2>
@@ -58,7 +58,7 @@ const About = () => {
         <section className='about'>
           <Back name='عنا' title='من نحن؟' cover={img} />
           <div className='aboutmain'>
-            <div className='aboutcontent'>
+            <div className='aboutcontent ar'>
               <h2 title='' subtitle='' >شركة زيست للعقارات الفاخرة مفهوم جديد في عالم الاستثمار</h2>
               <p>احدى شركات أ-ز كروب وهي شركة رائدة في مجال العقارات والاستثمارات وإدارة المشاريع والهندسة منذ عام ٢٠٠٦</p>
               <p>لدينا مجموعة من الخبرات والعقول وبرامج العمل في المشاريع التي عملنا عليها لأكثر من خمسة عشر سنة متواصلة من العمل بين دبي ومحافظات العراق.</p>
@@ -72,8 +72,8 @@ const About = () => {
         <section className='about'>
           <div className='aboutmain'>
             <div className='aboutcontent'>
-              <h2>الرؤية</h2>
-              <p>العقارات هي روح الاقتصاد في العالم ولنجاح اي عملية عقارية تحتاج لإتخاذ قرار صحيح والى مزيج من الخبرات في مجال الهندسة والاقتصاد والإدارة ثم التسويق الصحيح</p>
+              <h2 className="ar">الرؤية</h2>
+              <p className="ar">العقارات هي روح الاقتصاد في العالم ولنجاح اي عملية عقارية تحتاج لإتخاذ قرار صحيح والى مزيج من الخبرات في مجال الهندسة والاقتصاد والإدارة ثم التسويق الصحيح</p>
             </div>
             <div className='aboutimg'>
               <img className="imageabout" src={img1} alt='من نحن؟' />
@@ -83,8 +83,8 @@ const About = () => {
         <section className='about'>
           <div className='aboutmain'>
             <div className='aboutcontent'>
-              <h2>رسالتنا</h2>
-              <p>السير لحياة افضل ووضع جميع خبراتنا في مجال العقارات والاستثمارات لخدمة العملاء</p>
+              <h2 className="ar">رسالتنا</h2>
+              <p className="ar">السير لحياة افضل ووضع جميع خبراتنا في مجال العقارات والاستثمارات لخدمة العملاء</p>
             </div>
             <div className='aboutimg'>
               <img className="imageabout" src={img2} alt='من نحن؟' />

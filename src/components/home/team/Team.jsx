@@ -4,6 +4,7 @@ import { team } from "../../data/Data"
 import { arteam } from "../../data/Data"
 import "./team.css"
 import { useLocation } from "react-router-dom";
+import call from '../../images/call.jpg'
 
 
 const Team = () => {
@@ -18,29 +19,21 @@ const Team = () => {
           <div className='gridbox'>
             {team.map((val, index) => (
                 <div className='box' key={index}>
-                  {/* <button className='btn3'>{val.list} Kirkuk</button> */}
                   <div className='details'>
                     <div className='img'>
-                      <img src={val.cover} alt={val.name} />
-                      {/* <i className='fa-solid fa-circle-check'></i> */}
+                      <img className="calls" src={val.cover} alt={val.name} />
                     </div>
-                    <i className='fa fa-location-dot'></i>
                     <label>{val.address}</label>
                     <h4>{val.name}</h4>
-                    {/* <ul>
-                      {val.icon.map((icon, index) => (
-                        <li key={index}>{icon}</li>
-                      ))}
-                    </ul> */}
                     <div className='button flex ddd'>
                       <a href={val.email}>
-                        <button className="btnmsg">
-                          <i className='fa fa-envelope'></i>
+                        <button className="btn4">
+                          ✉️
                         </button>
                       </a>
                       <a href={val.phone}>
-                        <button className='btn4'>
-                          <i className='fa fa-phone-alt'></i>
+                        <button className='btnmsg'>
+                          <img className="call" src={call} alt='call'></img>
                         </button>
                       </a>
                     </div>
@@ -66,7 +59,6 @@ const Team = () => {
                       <img src={val.cover} alt={val.name} />
                       {/* <i className='fa-solid fa-circle-check'></i> */}
                     </div>
-                    <i className='fa fa-location-dot'></i>
                     <label>{val.address}</label>
                     <h4>{val.name}</h4>
                     {/* <ul>
@@ -76,13 +68,13 @@ const Team = () => {
                     </ul> */}
                     <div className='button flex'>
                       <a href={val.email}>
-                        <button className="btnmsg">
-                          <i className='fa fa-envelope'></i>
+                        <button className="btn4">
+                          ✉️
                         </button>
                       </a>
                       <a href={val.phone}>
-                        <button className='btn4'>
-                          <i className='fa fa-phone-alt'></i>
+                        <button className='btnmsg'>
+                          <img className="call" src={call} alt='call'></img>
                         </button>
                       </a>
                     </div>
@@ -91,7 +83,7 @@ const Team = () => {
             ))}
           </div>
         <a href="agents">
-            <button>مشاهدة المزيد</button>
+            <button className="ar">مشاهدة المزيد</button>
           </a>
         </div>
       </section>

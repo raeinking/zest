@@ -2,6 +2,7 @@ import React from "react"
 import Heading from "../../common/Heading"
 import { useLocation } from "react-router-dom";
 import "./hero.css"
+import search from '../../images/search.jpg'
 
 const Hero = () => {
   const location = useLocation();
@@ -74,14 +75,14 @@ const Hero = () => {
               <a href="#">Advance Filter</a>
             </div> */}
             <a href="properties" className='btn1'>
-                <i className='fa fa-search'></i>
+                <img className="search" src={search}></img>
             </a>
           </form>
       </section>
       :       
       <section className='hero'>
-          <h1>عقارات زيست</h1>
-          <p>فرصة لعرض احدث واجدد العقارات القريبة منك</p>
+          <h1 className="ar">شركة زيست</h1>
+          <p className="ar">فرصة لعرض احدث واجدد العقارات القريبة منك</p>
           <form className='flexsearch'>
             <div className='box'>
               <input className="inputs" type='text' placeholder='اسم' />
@@ -124,26 +125,25 @@ const Hero = () => {
             </div> */}
             <div className='box'>
               <select className="inputs" name="قصد" id="قصد">
-                <option selected disabled value="مشروع">مشروع</option>
+                <option className="ar" selected disabled value="مشروع">مشروع</option>
                 {/* <option value="Pavilion">Pavilion</option> */}
-                <option value="لالاف سكاي فيو">لالاف سكاي فيو</option>
-                <option value="أبراج لالاف فينوس">أبراج لالاف فينوس</option>
-                <option value="أبراج لالاف نوفا">أبراج لالاف نوفا</option>
-
+                <option className="ar" value="لالاف سكاي فيو">لالاف سكاي فيو</option>
+                <option className="ar" value="أبراج لالاف فينوس">أبراج لالاف فينوس</option>
+                <option className="ar" value="أبراج لالاف نوفا">أبراج لالاف نوفا</option>
               </select>
             </div>
             <div className='box'>
               <select className="inputs" name="projectinput" id="projectinput">
-                <option selected disabled value="قصد">قصد</option>
-                <option value="للبيع">للبيع</option>
-                <option value="للإجار">للإجار</option>
+                <option className="ar" selected disabled value="قصد">بعث عن</option>
+                <option className="ar" value="للبيع">للبيع</option>
+                <option className="ar" value="للإجار">للإجار</option>
               </select>
             </div>
             {/* <div className=' advance'>
               <a href="#">Advance Filter</a>
             </div> */}
             <a href="/ar/properties" className='btn1'>
-                <i className='fa fa-search'></i>
+                <img className="search" src={search}></img>
             </a>
           </form>
       </section>

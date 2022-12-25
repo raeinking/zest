@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zest-six.vercel.app/sitemap.xml

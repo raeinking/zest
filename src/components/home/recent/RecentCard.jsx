@@ -2,6 +2,7 @@ import React from "react"
 import { list } from "../../data/Data"
 import { arlist } from "../../data/Data"
 import { useLocation } from "react-router-dom";
+import Locationimg from "../../images/location.jpg";
 
 
 const RecentCard = () => {
@@ -22,12 +23,11 @@ const RecentCard = () => {
               <div className='text'>
                 <div className='category'>
                   <span style={{ background: category === "For Sale" ? "#25b5791a" : "#ff98001a", color: category === "For Sale" ? "#25b579" : "#ff9800" }}>{category}</span>
-                  <i className='fa fa-heart'></i>
                 </div>
                 <div className="dis">
                 <h4>{name}</h4>
                 <p>
-                  <i className='fa fa-location-dot'></i> {location}
+                  <img className="imglocation" src={Locationimg} alt='location'></img> {location}
                 </p>
                 </div>
               </div>
@@ -55,20 +55,19 @@ const RecentCard = () => {
               <div className='text'>
                 <div className='category'>
                   <span style={{ background: category === "للبيع" ? "#25b5791a" : "#ff98001a", color: category === "For Sale" ? "#25b579" : "#ff9800" }}>{category}</span>
-                  <i className='fa fa-heart'></i>
                 </div>
                 <div className="dis">
-                <h4>{name}</h4>
+                <h4 className="ar">{name}</h4>
                 <p>
-                  <i className='fa fa-location-dot'></i> {location}
+                  <img className="imglocation" src={Locationimg} alt='location'></img> {location}
                 </p>
                 </div>
               </div>
               <div className='button flexs'>
-                <button className='btn2'>{price}</button>
+                <button className='btn2 ar'>{price}</button>
                 <div className="flezs"></div>
-                <label htmlFor=''>{area}</label>
-                <span>{type}</span>
+                <label htmlFor='' className="ar">{area}</label>
+                <span className="ar">{type}</span>
               </div>
             </div>
             </a>
