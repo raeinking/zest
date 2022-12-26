@@ -7,14 +7,29 @@ import { arallAgents } from '../data/Data'
 import Heading from '../common/Heading'
 import { useLocation } from "react-router-dom";
 import call from '../images/call.jpg'
+import { Helmet } from "react-helmet"
+
 
 
  
 export default function Agents() {
   const location = useLocation();
   const paths = window.location.pathname;
+    const fword = paths[1] + paths[2]
+
   return (
     <>
+    {fword == 'ar' ? 
+      <Helmet>
+        <title>المستشارون - شركة زيست للعقارات الفاخرة</title>
+        <meta name='description' content="افضل المستشارون في العراق سيساعجوم في ايجاد منزل او شقة مثالية للعيش او الإستصمار فيها على مدى طويل" />
+      </Helmet>
+      : 
+      <Helmet>
+        <title>Agents - Zest Property</title>
+        <meta name="description" content="You can find many different types of properties through zest's company and through many different ways of payment like cash and installments " />
+      </Helmet>
+      }
     {paths == '/agents' ? 
     <section>
       <section className='blogs'>

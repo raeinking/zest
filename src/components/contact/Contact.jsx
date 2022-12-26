@@ -3,6 +3,8 @@ import img from "../images/immio.jpg"
 import Back from "../common/Back"
 import "./contact.css"
 import { useLocation } from "react-router-dom";
+import { Helmet } from "react-helmet"
+
 
 
 
@@ -14,9 +16,22 @@ const Contact = () => {
 
   const location = useLocation();
   const paths = window.location.pathname;
+    const fword = paths[1] + paths[2]
+
 
   return (
     <>
+    {fword == 'ar' ? 
+      <Helmet>
+        <title>تواصل معنا - عقارات زيست</title>
+        <meta name='description' content="تواصل معنا لتحصل على المساعدة المطلوبة ولجميع انواع الأسئلة التي يمكن ان تخطر لك قبل البدء بالإستثمار معنا" />
+      </Helmet>
+      : 
+      <Helmet>
+        <title>Contact Us - Zest Property</title>
+        <meta name="description" content="Feel free to contact us to get the help you need before investing on our company " />
+      </Helmet>
+      }
       {paths == '/contact' ? 
       <section className='contact mb'>
         <Back name='Contact Us' title='Get Helps & Friendly Support' cover={img} />

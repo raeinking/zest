@@ -1,12 +1,29 @@
-import React from "react"
+import React, { useRef } from 'react';
 import { footer } from "../../data/Data"
 import { arfooter } from "../../data/Data"
 import "./footer.css"
 import image from './logowhite.jpg'
 import { useLocation } from "react-router-dom";
+import emailjs from '@emailjs/browser';
+import env from "react-dotenv";
+
+
 
 
 const Footer = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+      emailjs.sendForm(process.env.REACT_APP_server_id, process.env.REACT_APP_template_id, form.current, process.env.REACT_APP_public_id)
+      .then((result) => {
+          alert('thank you for subscribe 🥰️')
+      }, (error) => {
+          alert('sorry we have a problem please try again letter 😔')
+      });
+  }
+
   const location = useLocation();
   const paths = window.location.pathname;
   const fword = paths[1] + paths[2]
@@ -36,10 +53,10 @@ const Footer = () => {
                   <p className="ar">تلقي تحديث منا أدخل بريدك الإلكتروني</p>
                 </div>
               </div>
-              <div className='input flex'>
-                <input type='text' placeholder='Email Address' />
-                <button className="btn ar">اشترك</button>
-              </div>
+              <form className='forms' ref={form} onSubmit={sendEmail}>
+                <input className='formsinput' type='text' name='email' placeholder='البريد الإلكتروني*' />
+                <button className=" ar ">اشترك</button>
+              </form>
             </div>
           </div>
 
@@ -83,10 +100,10 @@ const Footer = () => {
                 <h2>Zest Property</h2>
                 <p>Receive Update from Us enter your email</p>
               </div>
-              <div className='input flex'>
-                <input type='text' placeholder='Email Address' />
-                <button className="btn">Subscribe</button>
-              </div>
+              <form className='forms' ref={form} onSubmit={sendEmail}>
+                <input className='formsinput' type='text' name='email' placeholder='Email Address *' />
+                <button className="">Subscribe</button>
+              </form>
             </div>
           </div>
           {footer.map((val) => (

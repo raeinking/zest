@@ -13,6 +13,10 @@ import { useParams } from 'react-router-dom';
 import { BiBed, BiBath, BiArea, BiPhone } from 'react-icons/bi';
 // import link
 import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet"
+
+
+    
 
 
 const PropertyDetails = (val) => {
@@ -37,6 +41,17 @@ const PropertyDetails = (val) => {
 
   return (
     <>
+    {fword == 'ar' ? 
+      <Helmet>
+        <title>  {arproperty.name} - عقارات زيست</title>
+        <meta name='description' content={ "دولار " + arproperty.price +" ارضيية و سعر يبدء من "  + arproperty.Allbuild +" عمارة و" + arproperty.build + 'الذي يتكون من ' + arproperty.name + 'تقوم زيست بالإستثمار في مشروع '} />
+      </Helmet>
+      : 
+      <Helmet>
+        <title>{property.name} - Zest Property</title>
+        <meta name='description' content={"Zest invests in " + property.name + "That has " + property.build + "Buildings and "+ property.Allbuild + " Floors By a price that starts with $"+ property.price + " dollars and proper installments"} />
+      </Helmet>
+      }
       {fword == 'ar'?
     <div className='con'>
       <div className='lineupss'>

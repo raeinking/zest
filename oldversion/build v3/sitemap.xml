@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://zest-six.vercel.app/</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+</url>
+<url>
+  <loc>https://zest-six.vercel.app/ar</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+</url>
+<url> 
+  <loc>https://zest-six.vercel.app/properties</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+</url>
+<url>
+  <loc>https://zest-six.vercel.app/ar/properties</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+</url>
+<url>
+  <loc>https://zest-six.vercel.app/agents</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+</url>
+<url>
+  <loc>https://zest-six.vercel.app/ar/agents</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+</url>
+<url>
+  <loc>https://zest-six.vercel.app/contact</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+</url>
+<url>
+  <loc>https://zest-six.vercel.app/ar/contact</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+</url>
+<url>
+  <loc>https://zest-six.vercel.app/about</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+</url>
+<url>
+  <loc>https://zest-six.vercel.app/ar/about</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+</url>
+<url>
+  <loc>https://zest-six.vercel.app/:id</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+</url>
+<url>
+  <loc>https://zest-six.vercel.app/ar/:id</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+</url>
+
+
+</urlset>

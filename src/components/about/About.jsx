@@ -6,13 +6,30 @@ import img from "../images/zest.jpg"
 import img2 from "../images/rsala.jpg"
 import "./about.css"
 import { useLocation } from "react-router-dom";
+import { Helmet } from "react-helmet"
+
+
+ 
 
 
 const About = () => {
   const location = useLocation();
   const paths = window.location.pathname;
+      const fword = paths[1] + paths[2]
+
   return (
     <>
+    {fword == 'ar' ? 
+      <Helmet>
+        <title>عن الشركة - عقارات زيست</title>
+        <meta name='description' content="شركة زيست تمتلك 8 فروع في مختلف مناطق العراق وكردستان, عملنا بجد لنضمن افضل تجربة لعملائنا" />
+      </Helmet>
+      : 
+      <Helmet>
+        <title>About Us - Zest Property</title>
+        <meta name="description" content="We work hard to provide the best experience to our customers, that's why we have 8 branches in different areas of iraq and kurdistan " />
+      </Helmet>
+      }
       {paths == '/about' ? 
       <>
       <section className='about'>

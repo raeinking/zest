@@ -54,6 +54,24 @@ footer ul li {
   color: white;
   margin-bottom: 20px;
 }
+.forms {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  background-color: #916f4e;
+}
+
+.forms button {
+  background-color: #27ae5fe7;
+}
+
+.formsinput {
+  width: 80%;
+  height: 85%;
+  margin-top: -5px;
+}
 .legal {
   text-align: center;
   padding: 20px;
@@ -62,6 +80,7 @@ footer ul li {
   border-top: 1px solid #916f4e;
 }
 @media screen and (max-width: 800px) {
+
   footer .container .footerleft {
       margin: 0 0 20px 0;
       display: flex;
@@ -74,4 +93,9 @@ footer ul li {
     footer h3 {
       margin-top: 20px;
     }
+            .forms {
+              flex-direction: row;
+              margin-bottom: 50px;
+            }
 }
+

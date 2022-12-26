@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.24646547.css",
+    "main.js": "/static/js/main.dca3baab.js",
+    "static/media/500.jpg": "/static/media/500.9869665382fcbdbef616.jpg",
+    "static/media/services.jpg": "/static/media/services.13be7fde05782bd5e2e8.jpg",
+    "static/media/banner.jpg": "/static/media/banner.447f0ee15ec1c81974f6.jpg",
+    "static/media/agent.jpg": "/static/media/agent.aaa8d5ac63ad24fb5f6c.jpg",
+    "static/media/property.jpg": "/static/media/property.56f16e29b7a84fbda25c.jpg",
+    "static/media/rastymahmood.jpg": "/static/media/rastymahmood.97b786e2c675d4e7adf6.jpg",
+    "static/media/immio.jpg": "/static/media/immio.dc22069160945465c7f2.jpg",
+    "static/media/rsala.jpg": "/static/media/rsala.07865fea63a2e3c5b244.jpg",
+    "static/media/UNIQAIDAR_HEWAL035.TTF": "/static/media/UNIQAIDAR_HEWAL035.4627ae49c3ff6cedb75b.TTF",
+    "static/media/zest.jpg": "/static/media/zest.2c35c1c5972f121348a9.jpg",
+    "static/media/ApertoButSmarter-Regular.otf": "/static/media/ApertoButSmarter-Regular.05402c536c32f2d0d233.otf",
+    "static/media/logobrown.jpg": "/static/media/logobrown.652cbb4c937cdfb1d0bb.jpg",
+    "static/media/search.jpg": "/static/media/search.a6919c5646da82237dca.jpg",
+    "static/media/logowhite.jpg": "/static/media/logowhite.fc08cbbdb3b1e8a1230f.jpg",
+    "static/media/call.jpg": "/static/media/call.45617d0972fe30602a49.jpg",
+    "index.html": "/index.html",
+    "main.24646547.css.map": "/static/css/main.24646547.css.map",
+    "main.dca3baab.js.map": "/static/js/main.dca3baab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24646547.css",
+    "static/js/main.dca3baab.js"
+  ]
+}
