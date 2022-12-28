@@ -29,7 +29,7 @@ option {
   font-weight: 600;
 }
 .hero {
-  background-image: url("../../../../public/images/banner.jpg");
+  background-image: url("../../../../public/images/banner1.jpg");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
@@ -41,29 +41,40 @@ option {
       justify-content: center;
       align-items: center;
 }
+.snow {
+  height: calc(100vh - 60px);
+  width: 100%;
+  background: #282c34;
+  position: absolute;
+  z-index: 0;
+  opacity:0.5
+}
 .hero .container {
   padding-top: 15%;
 }
 .hero h1 {
   color: #fff;
   font-size: 30px;
+  z-index: 1;
 }
 .hero p {
   color: #fff;
   opacity: 0.8;
   font-size: 24;
+  z-index: 2;
 }
 form {
   background-color: #fff;
   border-radius: 5px;
   margin-top: 1rem;
   padding: 0 20px;
+  z-index: 2;
 }
 form input {
   /* padding: 10px 0; */
   width: 100%;
   border: 1px solid rgba(128, 128, 128, 0.2);
-  margin-top: 2px;
+  margin-top: -2px;
   border-radius: 5px;
   height: 100%;
 }
@@ -89,7 +100,7 @@ form h4 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 10px;
+  padding: 5px 20px;
 }
 @media screen and (max-width: 800px) {
   .hero h1 {
@@ -122,6 +133,7 @@ form h4 {
   display: flex; 
   align-items: center;
   justify-content: space-between;
+  margin: 20px;
 }
 }
 .search{

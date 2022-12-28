@@ -2,7 +2,8 @@ import React from "react"
 import Back from "../common/Back"
 import Heading from "../common/Heading"
 import img1 from "../images/rastymahmood.jpg"
-import img from "../images/zest.jpg"
+import img from "../images/XD1.jpg"
+import img3 from "../images/zest.jpg"
 import img2 from "../images/rsala.jpg"
 import "./about.css"
 import { useLocation } from "react-router-dom";
@@ -42,7 +43,7 @@ const About = () => {
             <p>So as we seek a bright future to service our people, and society.. we have opened a series of branches in several governorates, including Erbil, Kirkuk and Baghdad, to manage real estate brokerage.</p>
           </div>
           <div className='aboutimg'>
-            <img className="imageabout" src={img} alt='About Us' />
+            <img className="imageabout" src={img3} alt='About Us' />
           </div>
         </div>
       </section>
@@ -82,7 +83,7 @@ const About = () => {
               <p>ولأننا نسعى للوصول إلى آفاق جديدة لخدمة المجتمع فقد قمنا بافتتاح سلسلة من الفروع في عدة محافظات منها أربيل وكركوك وبغداد لإدارة الوساطة العقارية.</p>
             </div>
             <div className='aboutimg'>
-              <img className="imageabout" src={img} alt='من نحن؟' />
+              <img className="imageabout" src={img3} alt='من نحن؟' />
             </div>
           </div>
         </section>

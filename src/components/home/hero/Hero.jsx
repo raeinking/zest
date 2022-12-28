@@ -3,6 +3,8 @@ import Heading from "../../common/Heading"
 import { useLocation } from "react-router-dom";
 import "./hero.css"
 import search from '../../images/search.jpg'
+import Snowfall from 'react-snowfall'
+
 
 const Hero = () => {
   const location = useLocation();
@@ -12,21 +14,24 @@ const Hero = () => {
     <>
     {paths == '/' ? 
       <section className='hero'>
+      <div className="snow">
+    <Snowfall />
+  </div>
           <h1 title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.'>Zest Property</h1>
           <p>Find Your Next Home In Zest Property.</p>
           <form className='flexsearch'>
-            <div className='box'>
-              <input className="inputs" type='text' placeholder='name' />
-            </div>
             {/* <div className='box'>
+              <input className="inputs" type='text' placeholder='name' />
+            </div> */}
+            <div className='box'>
               <select className="inputs" name="city" id="city">
                 <option selected disabled value="city">City</option>
                 <option value="Erbil">Erbil</option>
-                <option value="Sulaymaniyah">Sulaymaniyah</option>
+                {/* <option value="Sulaymaniyah">Sulaymaniyah</option> */}
                 <option value="Baghdad">Baghdad</option>
                 <option value="Kirkuk">Kirkuk</option>
               </select>
-            </div> */}
+            </div>
             {/* <div className='box'>
               <select className="inputs" name="property-type" id="property-type">
                 <option selected disabled value="Property Type">Property Type</option>
@@ -81,21 +86,20 @@ const Hero = () => {
       </section>
       :       
       <section className='hero'>
+      <div className="snow">
+    <Snowfall />
+  </div>,
           <h1 className="ar">شركة زيست</h1>
           <p className="ar">فرصة لعرض احدث واجدد العقارات القريبة منك</p>
           <form className='flexsearch'>
             <div className='box'>
-              <input className="inputs" type='text' placeholder='اسم' />
-            </div>
-            {/* <div className='box'>
               <select className="inputs" name="city" id="city">
-                <option selected disabled value="city">City</option>
-                <option value="Erbil">Erbil</option>
-                <option value="Sulaymaniyah">Sulaymaniyah</option>
-                <option value="Baghdad">Baghdad</option>
-                <option value="Kirkuk">Kirkuk</option>
+                <option selected disabled value="city">مدینة</option>
+                <option value="Erbil">أربیل</option>
+                <option value="Baghdad">بغداد</option>
+                <option value="Kirkuk">کركوک</option>
               </select>
-            </div> */}
+            </div>
             {/* <div className='box'>
               <select className="inputs" name="property-type" id="property-type">
                 <option selected disabled value="Property Type">Property Type</option>

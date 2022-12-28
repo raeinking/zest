@@ -50,7 +50,7 @@ const PropertyDetails = (val) => {
       <Helmet>
         <title>{property.name} - Zest Property</title>
         <meta name='description' content={"Zest invests in " + property.name + "That has " + property.build + "Buildings and "+ property.Allbuild + " Floors By a price that starts with $"+ property.price + " dollars and proper installments"} />
-      </Helmet>
+      |</Helmet>
       }
       {fword == 'ar'?
     <div className='con'>

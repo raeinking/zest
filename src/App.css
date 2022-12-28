@@ -5,11 +5,9 @@
 }
 body {
   font-family: "APERTO";
-  font-size: 20px;
   background-color: #fff;
   max-width: 100vw;
   overflow-x: hidden;
-  font-weight: 700;
 }
 @font-face {
   font-family: 'APERTO';

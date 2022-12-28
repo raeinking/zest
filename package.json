@@ -15,6 +15,7 @@
     "react-scripts": "^5.0.1",
     "react-slick": "^0.29.0",
     "react-slideshow-image": "^4.0.5",
+    "react-snowfall": "^1.2.1",
     "slick-carousel": "^1.8.1",
     "stylesheet": "^0.9.1",
     "web-vitals": "^2.1.4"
