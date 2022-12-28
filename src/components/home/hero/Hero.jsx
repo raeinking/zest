@@ -94,7 +94,7 @@ const Hero = () => {
           <form className='flexsearch'>
             <div className='box'>
               <select className="inputs" name="city" id="city">
-                <option selected disabled value="city">مدینة</option>
+                <option selected disabled value="city">المحافظة</option>
                 <option value="Erbil">أربیل</option>
                 <option value="Baghdad">بغداد</option>
                 <option value="Kirkuk">کركوک</option>

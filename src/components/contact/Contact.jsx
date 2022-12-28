@@ -47,6 +47,10 @@ const Contact = () => {
               <input className='submit' value="Send" />
             </a>
           </form>
+          <div className='dis'>
+            <p><a href='tel:+9647507342006'>Phone Number: +964 750 734 2006</a></p>
+            <p><a href='tel:+9647506662006'>Phone Number: +964 750 666 2006</a></p>
+          </div>
         </div>              
 
       </section>
@@ -65,6 +69,10 @@ const Contact = () => {
               <input className='submit ar' value="إرسال" />
             </a>
           </form>
+          <div className='dis'>
+            <p><a href='tel:+9647507342006'>رقم موبایل: +964 750 734 2006</a></p>
+            <p><a href='tel:+9647506662006'>رقم موبایل: +964 750 666 2006</a></p>
+          </div>
         </div>
       </section>}
     </>
