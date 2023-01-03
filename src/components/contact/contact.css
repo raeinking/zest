@@ -19,9 +19,6 @@
   cursor: pointer;
   text-align: center;
 }
-.dis p {
-  margin-top: 1rem;
-}
 @media screen and (max-width: 768px) {
   .contact h4 {
     width: 100%;

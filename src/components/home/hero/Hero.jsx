@@ -138,10 +138,10 @@ const Hero = () => {
             </div>
             <div className='box'>
               <select className="inputs" name="projectinput" id="projectinput">
-                <option className="ar" selected disabled value="قصد">بعث عن</option>
+                <option className="ar" selected disabled value="قصد">بحث عن</option>
                 <option className="ar" value="للبيع">للبيع</option>
                 <option className="ar" value="للإجار">للإجار</option>
-              </select>
+              </select> 
             </div>
             {/* <div className=' advance'>
               <a href="#">Advance Filter</a>

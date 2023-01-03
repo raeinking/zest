@@ -16,7 +16,7 @@ const Contact = () => {
 
   const location = useLocation();
   const paths = window.location.pathname;
-    const fword = paths[1] + paths[2]
+  const fword = paths[1] + paths[2]
 
 
   return (
@@ -51,8 +51,7 @@ const Contact = () => {
             <p><a href='tel:+9647507342006'>Phone Number: +964 750 734 2006</a></p>
             <p><a href='tel:+9647506662006'>Phone Number: +964 750 666 2006</a></p>
           </div>
-        </div>              
-
+        </div>
       </section>
       :
       <section className='contact mb'>
