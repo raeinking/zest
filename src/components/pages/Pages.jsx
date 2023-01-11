@@ -12,6 +12,7 @@ import pageDis from "../page_dis/PageDis"
 import Agents from "../agents/Agents"
 import List from '../list/List'
 import PropertyDetails from "../PageDis/PropertyDetails"
+import khlood from "../projects/khlood/khlood"
 
 
 
@@ -32,6 +33,8 @@ const   Pages = () => {
           <Route exact path='/ar/contact' component={Contact} />
           <Route exact path='/about' component={About} />
           <Route exact path='/ar/about' component={About} />
+          <Route exact path='/khlood' component={khlood} />
+          <Route exact path='/ar/khlood' component={khlood} />
           <Route exact path='/:id' component={PropertyDetails} />
           <Route exact path='/ar/:id' component={PropertyDetails} />
         </Switch>
