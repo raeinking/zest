@@ -1,5 +1,5 @@
 import './khlood.css'
-import khlood1 from '../../images/khlood1.jpg'
+import khlood1 from '../../images/klood1.jpg'
 import khlood2 from '../../images/khlood2.jpg'
 import khlood3 from '../../images/khlood3.jpg'
 import khlood4 from '../../images/khlood4.jpg'
@@ -41,12 +41,12 @@ const Khlood = () => {
     {fword == 'ar' ? 
       <Helmet>
         <title>مجمع الخلود السكني - عقارات زيست</title>
-        <meta name='description' content="تواصل معنا لتحصل على المساعدة المطلوبة ولجميع انواع الأسئلة التي يمكن ان تخطر لك قبل البدء بالإستثمار معنا" />
+        <meta name='description' content="مجمع الخلود السكني يوفر تجربة مميزة بالخدمات التي يقدمها للمستثمرين والساكنين في محافظة بغداد. يحوي المجمع على نظام حماية كامل, مساحات خضراء, مقاهي ومساحات للأطفال.. مع وجود مراكز تجارية." />
       </Helmet>
       : 
       <Helmet>
-        <title>AL Khlood - Zest Property</title>
-        <meta name="description" content="Feel free to contact us to get the help you need before investing on our company " />
+        <title>Al Khlood - Zest Property</title>
+        <meta name="description" content="Al Khlood residence is a welcoming compound for both people and investors. Al Khlood offers a collection of options and features. We have a full security system for your family. green places to refresh the air. kids playgrounds, a car garage. and more " />
       </Helmet>
       }
       {paths == '/khlood' ? 
@@ -60,21 +60,65 @@ const Khlood = () => {
         <button className="">Subscribe</button>
         </form>
       <div className='test'>
-        <img src={khlood4}  alt='klood' />
+        <img src={khlood1}  alt='klood' />
         <div className='paraghraf'>
-          <p>ASDFASG</p>
+                  <h2>ِApartment Details</h2>
+          <ul className='ulsklood'>
+            <li>
+              🏢 4 |Towers 
+            </li>
+            <li>
+              🚘 Car Garage
+            </li>
+            <li>
+              🏕 Garden 
+            </li>
+            <li>
+            👪🎠 Kids Playground
+            </li>
+            <li>
+              ⛽️  Gas Station
+            </li>
+            <li>
+              🚒  Firefighters Station
+            </li>
+          </ul>
         </div>
       </div>
       <div className='test revers'>
         <img src={khlood4}  alt='klood' />
         <div className='paraghraf'>
-          <p>asfasgasdasdfasdfff</p>
+          <h2>🏢  Details of Apartment   ( 3 + 1 )</h2>
+          <ul>
+            <li>
+📏 ( 193 m² ) Area
+</li>
+            <li>
+🛏 3 Bed Romms 
+        </li>
+            <li>
+
+🛋 1 Living Room 
+    </li>
+            <li>
+
+📏 Price by Meter ( 1,100 ) Dollar            </li>
+          </ul>
         </div>
       </div>
       <div className='test'>
-        <img src={khlood3}  alt='klood' />
+        <img src={khlood2}  alt='klood' />
         <div className='paraghraf'>
-          <p>asfasgasdasdfasdfff</p>
+                            <h2>For More Details, Please Call:
+
+</h2>
+          <ul className='ulsklood'>
+            <li>
+              <a href='tel:+9647506662006'>
+                ☎️ Customer service 1 : 964 770 621 2006
+              </a>
+            </li>
+            </ul>
         </div>
       </div>
       <form className='formpage'>
@@ -104,7 +148,7 @@ const Khlood = () => {
                   className='buttonss'
                   type='submit'
                 >
-                  أرسل رسالة
+                  Send Message
                 </p>
             </a>
             </div>
@@ -118,12 +162,12 @@ const Khlood = () => {
     </section>
     <main>
       <div className='test'>
-        <img src={khlood4}  alt='klood' />
+        <img src={khlood1}  alt='klood' />
         <div className='paraghraf'>
         <h2>معلومات الشقة</h2>
           <ul className='ulsklood'>
             <li>
-              🏢 4 تاورز
+              🏢 4ز عمارات 
             </li>
             <li>
               🚘 گراج
@@ -165,14 +209,14 @@ const Khlood = () => {
         </div>
       </div>
       <div className='test'>
-        <img src={khlood3}  alt='klood' />
+        <img src={khlood2}  alt='klood' />
         <div className='paraghraf'>
-                  <h2>للحجز الاتصال على الأرقام التالية:
-
-</h2>
+                  <h2>للحجز الاتصال على الأرقام التالية:</h2>
           <ul className='ulsklood'>
             <li>
-☎️ رقم 1 : 2006 621 770 964
+            <a href='tel:+9647506662006'>
+              ☎️ رقم 1 : 2006 621 770 964
+            </a>
             </li>
           </ul>
         </div>

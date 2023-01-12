@@ -15,6 +15,10 @@ export const nav = [
     path: "/agents",
   },
   {
+    text: "khlood",
+    path: "/khlood",
+  },
+  {
     text: "about",
     path: "/about",
   },
@@ -340,7 +344,7 @@ export const listAll = [
     name: "Apartment for Sale Sky View B1 30 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
-    price: "$23,400",
+    price: "$22,620",
     type: "1 + 1",
     area: "78 meter"
   },
@@ -351,7 +355,7 @@ export const listAll = [
   name: "Apartment for Sale QAIWAN MIRADOR B 6",
   location: "Erbil - Masif Road Pirmam",
   category: "For Sale",
-  price: "$157,248",
+  price: "$28,305",
   type: "1 + 4",
   area: "201.6 m²"
   },
@@ -373,7 +377,7 @@ export const listAll = [
   name: "Apartment for Sale QAIWAN MIRADOR B 6",
   location: "Erbil - Masif Road Pirmam",
   category: "For Sale",
-  price: "$49,842",
+  price: "$8,972",
   type: "1 + 1",
   area: "63.9 m²"
   },
@@ -395,7 +399,7 @@ export const listAll = [
     name: "Apartment for Sale North Holland A 5",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "For Sale",
-    price: "$71,100", 
+    price: "$12,087", 
     type: "1 + 1",
     area: "90 m²"
   },
@@ -417,7 +421,7 @@ export const listAll = [
   name: "Apartment for Sale QAIWAN MIRADOR B 6",
   location: "Erbil - Masif Road Pirmam",
   category: "For Sale",
-  price: "$124,956",
+  price: "$22,492",
   type: "1 + 3",
   area: "160.2 m²"
   },
@@ -450,7 +454,7 @@ export const listAll = [
     name: "Apartment for Sale North Holland A 6",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "For Sale",
-    price: "$71,100", 
+    price: "$12,087", 
     type: "1 + 1",
     area: "90 m²"
   },
@@ -472,7 +476,7 @@ export const listAll = [
     name: "Apartment for Sale North Holland C 6",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "For Sale",
-    price: "$71,100", 
+    price: "$12,087", 
     type: "1 + 1",
     area: "90 m²"
   },
@@ -505,7 +509,7 @@ export const listAll = [
     name: "Apartment for Sale North Holland A 14 Floor",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "For Sale",
-    price: "$71,000",
+    price: "$12,087",
     type: "1 + 1",
     area: "90 m²"
   },
@@ -527,7 +531,7 @@ export const listAll = [
     name: "Apartment for Sale North Holland A 14 Floor",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "For Sale",
-    price: "$110,600",
+    price: "$18,820",
     type: "1 + 2",
     area: "140 m²"
   },
@@ -561,7 +565,7 @@ export const listAll = [
     name: "Apartment for Sale North Holland A 7 6",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "For Sale",
-    price: "$110,600",
+    price: "$18,802",
     type: "1 + 2",
     area: "140 m²"
   },
@@ -583,7 +587,7 @@ export const listAll = [
     name: "Apartment for Sale North Holland C 8",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "For Sale",
-    price: "$71,100",
+    price: "$12,087",
     type: "1 + 1",
     area: "90 m²"
   },
@@ -616,7 +620,7 @@ export const listAll = [
     name: "Apartment for Sale North Holland A 7 Floor",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "For Sale",
-    price: "$71,100",
+    price: "$12,087",
     type: "1 + 1",
     area: "90 m²"
   },
@@ -638,7 +642,7 @@ export const listAll = [
     name: "Apartment for Sale North Holland A 7 Floor",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "For Sale",
-    price: "$165,900",
+    price: "$28,203",
     type: "1 + 3",
     area: "210 m²"
   },
@@ -671,7 +675,7 @@ export const listAll = [
     name: "Apartment for Sale North Holland F 7",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "For Sale",
-    price: "$71,100",
+    price: "$12,087",
     type: "1 + 1",
     area: "90 m²"
   },
@@ -693,7 +697,7 @@ export const listAll = [
     name: "Apartment for Sale North Holland D 6",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "For Sale",
-    price: "$71,100", 
+    price: "$12,087", 
     type: "1 + 1",
     area: "90 m²"
   },
@@ -737,7 +741,7 @@ export const listAll = [
     name: "Apartment for Sale North Holland B 5",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "For Sale",
-    price: "$71,100", 
+    price: "$12,087", 
     type: "1 + 1",
     area: "90 m²"
   },
@@ -781,7 +785,7 @@ export const listAll = [
     name: "Apartment for Sale North Holland A 8",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "For Sale",
-    price: "$71,100",
+    price: "$12,087",
     type: "1 + 1",
     area: "90 m²"
   },
@@ -797,7 +801,7 @@ export const listAll = [
     name: "Apartment for Sale QAIWAN MIRADOR C 19",
     location: "Erbil - Masif Road Pirmam",
     category: "For Sale",
-    price: "$157,248",
+    price: "$28,305",
     type: "1 + 4",
     area: "201.6 m²"
   },
@@ -814,7 +818,7 @@ export const list = [
     name: "Sky View B1 30 Floor",
     location: "Lalav Sky View, Erbil",
     category: "For Sale",
-    price: "$23,400",
+    price: "$22,620",
     type: "1 + 1",
     area: "78 meter"
   },
@@ -825,7 +829,7 @@ export const list = [
   name: "Apartment for Sale QAIWAN MIRADOR B 6",
   location: "Erbil - Masif Road Pirmam",
   category: "For Sale",
-  price: "$157,248",
+  price: "$28,305",
   type: "1 + 4",
   area: "201.6 m²"
   },
@@ -836,7 +840,7 @@ export const list = [
     name: "Nova towers A2 15 Floor",
     location: "Erbil",
     category: "For Sale",
-    price: "$5,860",
+    price: "$13,490",
     type: "1 + 1",
     area: "88 meter"
   },
@@ -869,7 +873,7 @@ export const list = [
     name: "Apartment for Sale North Holland A 8",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "For Sale",
-    price: "$71,100",
+    price: "$12,087",
     type: "1 + 1",
     area: "90 m²"
   },
@@ -913,8 +917,8 @@ export const arhousesData = [
     bedrooms: '1',
     bathrooms: '1',
     area: '78 متر',
-    year: '2022',
-    price: '21,838',
+    year: '2023',
+    price: '22,620',
     agent: {
       image: '/images/customer/kaywan.webp',
       name: 'كيوان كيفي',
@@ -937,7 +941,7 @@ export const arhousesData = [
     bedrooms: '1',
     bathrooms: '1',
     area: '88 متر',
-    year: '2022',
+    year: '2023',
     price: '13,490',
     agent: {
       image: '/images/customer/rasty.webp',
@@ -960,9 +964,9 @@ export const arhousesData = [
     address: 'اربيل - امام بارك سامي عبد الرحمن',
     bedrooms: '6',
     bathrooms: '3',
-    area: '4200 متر',
-    year: '2016',
-    price: '21,120',
+    area: '80 متر',
+    year: '2023',
+    price: '23,920',
     agent: {
       image: '/images/customer/mahmood.webp',
       name: 'محمود عبدالله',
@@ -985,7 +989,7 @@ export const arhousesData = [
     bedrooms: '2',
     bathrooms: '1',
     area: '105 متر',
-    year: '2022',
+    year: '2023',
     price: '16,096',
     agent: {
       image: '/images/customer/muhammadmajed.webp',
@@ -1009,7 +1013,7 @@ export const arhousesData = [
     bedrooms: '1',
     bathrooms: '1',
     area: '81 متر',
-    year: '2022',
+    year: '2023',
     price: '37,000',
     agent: {
       image: '/images/customer/shaho.webp',
@@ -1033,8 +1037,8 @@ export const arhousesData = [
     bedrooms: '2',
     bathrooms: '1',
     area: '120 متر',
-    year: '2022',
-    price: '22,400',
+    year: '2023',
+    price: '38,256',
     agent: {
       image: '/images/customer/muhammedrasul.webp',
       name: 'محمد رسول',
@@ -1057,7 +1061,7 @@ export const arhousesData = [
     bedrooms: '1',
     bathrooms: '1',
     area: '72 متر',
-    year: '2022',
+    year: '2023',
     price: '10,317',
     agent: {
       image: '/images/customer/AkamAli.webp',
@@ -1106,7 +1110,7 @@ export const arhousesData = [
     bathrooms: '1',
     area: '120 متر',
     year: '2022',
-    price: '32,256',
+    price: '35,856',
     agent: {
       image: '/images/customer/kaywan.webp',
       name: 'كيوان كيفي',
@@ -1154,7 +1158,7 @@ export const arhousesData = [
     bathrooms: '1',
     area: '120 متر',
     year: '2022',
-    price: '32,794',
+    price: '38,256',
     agent: {
       image: '/images/customer/mahmood.webp',
       name: 'محمود عبدالله',
@@ -1505,7 +1509,7 @@ export const arhousesData = [
     bathrooms: '1',
     area: '90 m²',
     year: '2022',
-    price: '71,000',
+    price: '12,087',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -1529,7 +1533,7 @@ export const arhousesData = [
     bathrooms: '1',
     area: '140 m²',
     year: '2022',
-    price: '110,600',
+    price: '18,820',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -1553,7 +1557,7 @@ export const arhousesData = [
     bathrooms: '1',
     area: '210 m²',
     year: '2022',
-    price: '165,900',
+    price: '28,203',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -1577,7 +1581,7 @@ export const arhousesData = [
     bathrooms: '1',
     area: '90 m²',
     year: '2022',
-    price: '71,100',
+    price: '12,087',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -1601,7 +1605,7 @@ export const arhousesData = [
     bathrooms: '1',
     area: '140 m²',
     year: '2022',
-    price: '110,600',
+    price: '18,802',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -1625,7 +1629,7 @@ export const arhousesData = [
     bathrooms: '1',
     area: '90 m²',
     year: '2022',
-    price: '71,100',
+    price: '12,087',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -1649,7 +1653,7 @@ export const arhousesData = [
     bathrooms: '1',
     area: '90 m²',
     year: '2022',
-    price: '71,100',
+    price: '12,087',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -1673,7 +1677,7 @@ export const arhousesData = [
     bathrooms: '1',
     area: '90 m²',
     year: '2022',
-    price: '71,100',
+    price: '12,087',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -1697,7 +1701,7 @@ export const arhousesData = [
     bathrooms: '1',
     area: '90 m²',
     year: '2022',
-    price: '71,100',
+    price: '12,087',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -1721,7 +1725,7 @@ export const arhousesData = [
     bathrooms: '1',
     area: '90 m²',
     year: '2022',
-    price: '71,100',
+    price: '12,087',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -1745,7 +1749,7 @@ export const arhousesData = [
     bathrooms: '1',
     area: '90 m²',
     year: '2022',
-    price: '71,100',
+    price: '12,087',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -1769,7 +1773,7 @@ export const arhousesData = [
     bathrooms: '1',
     area: '90 m²',
     year: '2022',
-    price: '71,100',
+    price: '12,087',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -1793,7 +1797,7 @@ export const arhousesData = [
     bathrooms: '1',
     area: '90 m²',
     year: '2022',
-    price: '71,100',
+    price: '12,087',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -1804,7 +1808,7 @@ export const arhousesData = [
     {
     id: 41,
     type: 'شقة',
-    url: "شقة-للبیع-نورث-هولند-١٩-سي",
+    url: "شقة-للبیع-قیوان-میرادور-١٩-سي",
     name: "C 19 شقة للبیع نورث هولند",
     nameproperty:'نورث هولند',
     build: '6',
@@ -1817,7 +1821,7 @@ export const arhousesData = [
     bathrooms: '1',
     area: '201.6 m²',
     year: '2022',
-    price: '157,248',
+    price: '28,305',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -1841,7 +1845,7 @@ export const arhousesData = [
     bathrooms: '1',
     area: '160.2 m²',
     year: '2022',
-    price: '124,956',
+    price: '22,492',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -1865,7 +1869,7 @@ export const arhousesData = [
     bathrooms: '1',
     area: '201.6 m²',
     year: '2022',
-    price: '157,248',
+    price: '28,305',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -1889,7 +1893,7 @@ export const arhousesData = [
     bathrooms: '1',
     area: '201.6 m²',
     year: '2022',
-    price: '157,248',
+    price: '28,305',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -1909,7 +1913,7 @@ export const arlistAll = [
     name: "B1 30 شقة للبیع سكاي فيو",
     location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
-    price: "$23,400",
+    price: "$22,620",
     type: "1 + 1",
     area: "78 متر",
   },
@@ -1920,7 +1924,7 @@ export const arlistAll = [
     name: "C 19 شقة للبیع نورث هولند",
     location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$157,248",
+    price: "$28,305",
     type: "1 + 4",
     area: "201.6 m²"
   },
@@ -1931,7 +1935,7 @@ export const arlistAll = [
     name: "A2 15 شقة للبیع نوفا تاوەر",
     location: "اربيل",
     category: "للبيع",
-    price: "$5,860",
+    price: "$13,490",
     type: "1 + 1",
     area: "88 متر"
   },
@@ -1942,7 +1946,7 @@ export const arlistAll = [
     name: "B 6 شقة للبیع قیوان میرادور",
     location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$49,842",
+    price: "$8,972",
     type: "1 + 1",
     area: "63.9 m²"
     },
@@ -1964,7 +1968,7 @@ export const arlistAll = [
     name: "A 7 شقة للبیع نورث هولند",
     location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$165,900",
+    price: "$28,203",
     type: "1 + 3",
     area: "210 m²"
   },
@@ -1997,7 +2001,7 @@ export const arlistAll = [
     name: "B 5 شقة للبیع نورث هولند",
     location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$71,100", 
+    price: "$12,087", 
     type: "1 + 1",
     area: "90 m²"
   },
@@ -2019,7 +2023,7 @@ export const arlistAll = [
     name: "A 14 شقة للبیع نورث هولند",
     location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$110,600",
+    price: "$18,820",
     type: "1 + ٢",
     area: "140 m²"
   },
@@ -2030,7 +2034,7 @@ export const arlistAll = [
   name: "B 6 شقة للبیع قیوان میرادور",
   location: "أربيل - شارع موسل",
   category: "للبيع",
-  price: "$124,956",
+  price: "$22,492",
   type: "1 + 3",
   area: "160.2 m²"
   },
@@ -2085,7 +2089,7 @@ export const arlistAll = [
     name: "C 6 شقة للبیع نورث هولند",
     location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$71,100", 
+    price: "$12,087", 
     type: "1 + 1",
     area: "90 m²"
   },
@@ -2118,7 +2122,7 @@ export const arlistAll = [
     name: "A 5 شقة للبیع نورث هولند",
     location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$71,100", 
+    price: "$12,087", 
     type: "1 + 1",
     area: "90 m²"
   },
@@ -2140,7 +2144,7 @@ export const arlistAll = [
     name: "A 6 شقة للبیع نورث هولند",
     location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$71,100", 
+    price: "$12,087", 
     type: "1 + 1",
     area: "90 m²"
   },
@@ -2174,7 +2178,7 @@ export const arlistAll = [
   name: "B 6 شقة للبیع قیوان میرادور",
   location: "أربيل - شارع موسل",
   category: "للبيع",
-  price: "$157,248",
+  price: "$28,305",
   type: "1 + 4",
   area: "201.6 m²"
   },
@@ -2196,7 +2200,7 @@ export const arlistAll = [
     name: "A 8 شقة للبیع نورث هولند",
     location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$71,100",
+    price: "$12,087",
     type: "1 + 1",
     area: "90 m²"
   },
@@ -2219,7 +2223,7 @@ export const arlistAll = [
     name: "C 8 شقة للبیع نورث هولند",
     location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$71,100",
+    price: "$12,087",
     type: "1 + 1",
     area: "90 m²"
   },
@@ -2252,7 +2256,7 @@ export const arlistAll = [
     name: "D 6 شقة للبیع نورث هولند",
     location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$71,100", 
+    price: "$12,087", 
     type: "1 + 1",
     area: "90 m²"
   },
@@ -2285,7 +2289,7 @@ export const arlistAll = [
     name: "F 7 شقة للبیع نورث هولند",
     location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$71,100",
+    price: "$12,087",
     type: "1 + 1",
     area: "90 m²"
   },
@@ -2318,7 +2322,7 @@ export const arlistAll = [
     name: "A 7 شقة للبیع نورث هولند",
     location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$110,600",
+    price: "$18,802",
     type: "1 + 2",
     area: "140 m²"
   },
@@ -2351,7 +2355,7 @@ export const arlistAll = [
     name: "A 14 شقة للبیع نورث هولند",
     location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$71,000",
+    price: "$12,087",
     type: "1 + 1",
     area: "90 m²"
   },
@@ -2364,7 +2368,7 @@ export const arlistAll = [
     name: "A 7 شقة للبیع نورث هولند",
     location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$71,100",
+    price: "$12,087",
     type: "1 + 1",
     area: "90 m²"
   },
@@ -2388,7 +2392,7 @@ export const arlistAll = [
     name: "B1 30 شقة للبیع سكاي فيو",
     location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
-    price: "$23,400",
+    price: "$22,620",
     type: "1 + 1",
     area: "78 متر"
   },
@@ -2399,7 +2403,7 @@ export const arlistAll = [
   name: "B 6 شقة للبیع قیوان میرادور",
   location: "اربيل",
   category: "للبيع",
-  price: "$157,248",
+  price: "$28,305",
   type: "1 + 4",
   area: "201.6 m²"
   },
@@ -2410,7 +2414,7 @@ export const arlistAll = [
     name: "A2 15 شقة للبیع نوفا تاوەر",
     location: "اربيل",
     category: "للبيع",
-    price: "$5,860",
+    price: "$13,490",
     type: "1 + 1",
     area: "88 متر"
   },
@@ -2443,7 +2447,7 @@ export const arlistAll = [
     name: "A 8 شقة للبیع نورث هولند",
     location: "اربيل",
     category: "للبيع",
-    price: "$71,100",
+    price: "$12,087",
     type: "1 + 1",
     area: "90 m²"
   },
@@ -2488,37 +2492,13 @@ export const housesData = [
     bedrooms: '1',
     bathrooms: '1',
     area: '78 meter',
-    year: '2022',
-    price: '21,838',
+    year: '2023',
+    price: '22,620',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
       phone:"tel:+9647506662006",
       email:"kaiwankaify@zest-property.com"
-    },
-  },
-  {
-    id: 2,
-    type: 'Apartment',
-    url: 'Apartment-for-Sale-Venus-Towers-B3-13-Floor',
-    name: 'Apartment for Sale Venus Towers B3 13 Floor',
-    nameproperty:'Venus Towers ',
-    build: '6',
-    Allbuild: '30',
-    image: '../images/property/venus/asdfaf1.jpg',
-    imageLg: '../images/property/venus/asdfaf1.jpg',
-    country: 'Iraq',
-    address: 'Erbil - 120m in front of hawlery nwe',
-    bedrooms: '2',
-    bathrooms: '1',
-    area: '115 meter',
-    year: '2022',
-    price: '14,179',
-    agent: {
-      image: '../images/customer/Aya.Alsaab.webp',
-      name: 'Aya Alsaab',
-      phone:"tel:+9647506322006",
-      email:"aya.s@zest-property.com"
     },
   },
   {
@@ -2536,7 +2516,7 @@ export const housesData = [
     bedrooms: '1',
     bathrooms: '1',
     area: '88 meter',
-    year: '2022',
+    year: '2023',
     price: '13,490',
     agent: {
       image: '../images/customer/rasty.webp',
@@ -2559,9 +2539,9 @@ export const housesData = [
     address: 'Erbil - in front of sami abdulrahman park',
     bedrooms: '6',
     bathrooms: '3',
-    area: '4200 meter',
-    year: '2016',
-    price: '21,120',
+    area: '80 meter',
+    year: '2023',
+    price: '23,920',
     agent: {
       image: '../images/customer/mahmood.webp',
       name: 'Mahmood Abdulla',
@@ -2584,7 +2564,7 @@ export const housesData = [
     bedrooms: '2',
     bathrooms: '1',
     area: '105 meter',
-    year: '2022',
+    year: '2023',
     price: '16,096',
     agent: {
       image: '../images/customer/muhammadmajed.webp',
@@ -2608,7 +2588,7 @@ export const housesData = [
     bedrooms: '1',
     bathrooms: '1',
     area: '81 meter',
-    year: '2022',
+    year: '2023',
     price: '37,000',
     agent: {
       image: '../images/customer/shaho.webp',
@@ -2632,8 +2612,8 @@ export const housesData = [
     bedrooms: '2',
     bathrooms: '1',
     area: '120 meter',
-    year: '2022',
-    price: '22,400',
+    year: '2023',
+    price: '38,256',
     agent: {
       image: '../images/customer/muhammedrasul.webp',
       name: 'Mohammed Rasul',
@@ -2656,7 +2636,7 @@ export const housesData = [
     bedrooms: '1',
     bathrooms: '1',
     area: '72 meter',
-    year: '2022',
+    year: '2023',
     price: '10,317',
     agent: {
       image: '../images/customer/AkamAli.webp',
@@ -2705,7 +2685,7 @@ export const housesData = [
     bathrooms: '1',
     area: '120 meter',
     year: '2022',
-    price: '32,256',
+    price: '35,856',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -2753,7 +2733,7 @@ export const housesData = [
     bathrooms: '1',
     area: '120 meter',
     year: '2022',
-    price: '32,794',
+    price: '38,256',
     agent: {
       image: '../images/customer/mahmood.webp',
       name: 'Mahmood Abdulla',
@@ -2801,7 +2781,7 @@ export const housesData = [
     bathrooms: '1',
     area: '120 meter',
     year: '2022',
-    price: '43,561',
+    price: '38,256',
     agent: {
       image: '../images/customer/aliagha.webp',
       name: 'Ali Agha',
@@ -3104,7 +3084,7 @@ export const housesData = [
     bathrooms: '1',
     area: '90 m²',
     year: '2022',
-    price: '71,000',
+    price: '12,087',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -3128,7 +3108,7 @@ export const housesData = [
     bathrooms: '1',
     area: '140 m²',
     year: '2022',
-    price: '110,600',
+    price: '18,820',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -3152,7 +3132,7 @@ export const housesData = [
     bathrooms: '1',
     area: '210 m²',
     year: '2022',
-    price: '165,900',
+    price: '28,203',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -3176,7 +3156,7 @@ export const housesData = [
     bathrooms: '1',
     area: '90 m²',
     year: '2022',
-    price: '71,100',
+    price: '12,087',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -3200,7 +3180,7 @@ export const housesData = [
     bathrooms: '1',
     area: '140 m²',
     year: '2022',
-    price: '110,600',
+    price: '18,802',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -3224,7 +3204,7 @@ export const housesData = [
     bathrooms: '1',
     area: '90 m²',
     year: '2022',
-    price: '71,100',
+    price: '12,087',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -3248,7 +3228,7 @@ export const housesData = [
     bathrooms: '1',
     area: '90 m²',
     year: '2022',
-    price: '71,100',
+    price: '12,087',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -3272,7 +3252,7 @@ export const housesData = [
     bathrooms: '1',
     area: '90 m²',
     year: '2022',
-    price: '71,100',
+    price: '12,087',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -3296,7 +3276,7 @@ export const housesData = [
     bathrooms: '1',
     area: '90 m²',
     year: '2022',
-    price: '71,100',
+    price: '12,087',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -3320,7 +3300,7 @@ export const housesData = [
     bathrooms: '1',
     area: '90 m²',
     year: '2022',
-    price: '71,100',
+    price: '12,087',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -3368,7 +3348,7 @@ export const housesData = [
     bathrooms: '1',
     area: '90 m²',
     year: '2022',
-    price: '71,100',
+    price: '12,087',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -3392,7 +3372,7 @@ export const housesData = [
     bathrooms: '1',
     area: '90 m²',
     year: '2022',
-    price: '71,100',
+    price: '12,087',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -3416,7 +3396,7 @@ export const housesData = [
     bathrooms: '1',
     area: '90 m²',
     year: '2022',
-    price: '71,100',
+    price: '12,087',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -3440,7 +3420,7 @@ export const housesData = [
     bathrooms: '1',
     area: '201.6 m²',
     year: '2022',
-    price: '157,248',
+    price: '28,305',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -3464,7 +3444,7 @@ export const housesData = [
     bathrooms: '1',
     area: '160.2 m²',
     year: '2022',
-    price: '124,956',
+    price: '22,492',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -3488,7 +3468,7 @@ export const housesData = [
     bathrooms: '1',
     area: '201.6 m²',
     year: '2022',
-    price: '157,248',
+    price: '28,305',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -3510,9 +3490,9 @@ export const housesData = [
     address: 'Erbil - Pirmam Road, opposite of Grand Majidi Mall',
     bedrooms: '4',
     bathrooms: '1',
-    area: '201.6 m²',
+    area: '63 m²',
     year: '2022',
-    price: '157,248',
+    price: '8,972',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -3555,6 +3535,10 @@ export const arnav = [
   {
     text: "الوكلاء",
     path: "/ar/agents",
+  },
+  {
+    text: "الخلود",
+    path: "/ar/khlood",
   },
   {
     text: "عن شركتنا",
