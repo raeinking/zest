@@ -72,12 +72,29 @@ main {
     max-width: 388px;
     padding: 20px 20px;
 }
+.formss {
+    background-color: transparent;
+    display: flex;
+}
+.formss input {
+    background-color: #fff;
+    margin: 0px 20px;
+}
 
 @media screen and (max-width: 800px) {
     .heroalewd h1 {
         font-size: 18px;
     }
-
+    .formss {
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .formss input {
+        margin: 10px 0px;
+    }
     .heroalewd p {
         font-size: 12px;
     }
