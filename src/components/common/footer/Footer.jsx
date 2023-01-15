@@ -50,7 +50,7 @@ const Footer = () => {
               <div className="footerleft">
                 <h2 className="ar">شركة زيست</h2>
                 <div className="p">
-                  <p className="ar">تلقي تحديث منا أدخل بريدك الإلكتروني</p>
+                  <p className="ar">سجل ايميلك لتلقي اخر التحديثات</p>
                 </div>
               </div>
               <form className='forms' ref={form} onSubmit={sendEmail}>
@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className='legal'>
-        <span className="ar">© 2022 عقارات زيست. تصميم ريان جعفر.</span>
+        <span className="ar">© 2023 عقارات زيست. تصميم ريان جعفر.</span>
       </div>
     </section>
       :
@@ -121,7 +121,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className='legal'>
-        <span>© 2021 Zest Property. Designd By Rayan Jafar.</span>
+        <span>© 2023 Zest Property. Designd By Rayan Jafar.</span>
       </div>
     </section>
       }

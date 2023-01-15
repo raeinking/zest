@@ -13,6 +13,7 @@ import Agents from "../agents/Agents"
 import List from '../list/List'
 import PropertyDetails from "../PageDis/PropertyDetails"
 import khlood from "../projects/khlood/Khlood"
+import alwedd from "../projects/alwedd/Alwedd"
 
 
 
@@ -35,6 +36,8 @@ const   Pages = () => {
           <Route exact path='/ar/about' component={About} />
           <Route exact path='/khlood' component={khlood} />
           <Route exact path='/ar/khlood' component={khlood} />
+          <Route exact path='/alwedd' component={alwedd} />
+          <Route exact path='/ar/alwedd' component={alwedd} />
           <Route exact path='/:id' component={PropertyDetails} />
           <Route exact path='/ar/:id' component={PropertyDetails} />
         </Switch>

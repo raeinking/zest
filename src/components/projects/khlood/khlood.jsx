@@ -114,10 +114,10 @@ const Khlood = () => {
 </h2>
           <ul className='ulsklood'>
             <li>
-              <a href='tel:+9647506662006'>
+              <a href='tel:+9647706212006'>
                 ☎️ Customer service 1 : 964 770 621 2006
               </a>
-            </li>
+              </li>
             </ul>
         </div>
       </div>
@@ -161,6 +161,10 @@ const Khlood = () => {
         <h1>مجمع الخلود السكني </h1>
     </section>
     <main>
+    <form className='formss' ref={form} onSubmit={sendEmail}>
+        <input className='formsinput' type='text' name='email' placeholder='Email Address *' />
+        <button className="">Subscribe</button>
+        </form>
       <div className='test'>
         <img src={khlood1}  alt='klood' />
         <div className='paraghraf'>
@@ -214,7 +218,7 @@ const Khlood = () => {
                   <h2>للحجز الاتصال على الأرقام التالية:</h2>
           <ul className='ulsklood'>
             <li>
-            <a href='tel:+9647506662006'>
+            <a href='tel:+9647706212006'>
               ☎️ رقم 1 : 2006 621 770 964
             </a>
             </li>

@@ -15,6 +15,10 @@ export const nav = [
     path: "/agents",
   },
   {
+    text: "alwedd",
+    path: "/alwedd",
+  },
+  {
     text: "khlood",
     path: "/khlood",
   },
@@ -3535,6 +3539,10 @@ export const arnav = [
   {
     text: "الوكلاء",
     path: "/ar/agents",
+  },
+  {
+    text: "الود",
+    path: "/ar/alwedd",
   },
   {
     text: "الخلود",

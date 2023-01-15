@@ -35,7 +35,7 @@ const Header = () => {
             </ul>
           </div>
           <div className='toggle'>
-            <button onClick={() => setNavList(!navList)}>{navList ? <img src={close} alt='close'></img> : <p className="humberger">☰</p>}</button>
+            <button onClick={() => setNavList(!navList)}>{navList ? <img className="close" src={close} alt='closes'></img> : <p className="humberger">☰</p>}</button>
           </div>
         </div>
       </header>

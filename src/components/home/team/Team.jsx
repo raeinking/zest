@@ -82,7 +82,7 @@ const Team = () => {
                 </div>
             ))}
           </div>
-        <a href="agents">
+        <a href="/ar/agents">
             <button className="ar">مشاهدة المزيد</button>
           </a>
         </div>
