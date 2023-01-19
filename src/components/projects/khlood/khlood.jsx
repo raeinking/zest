@@ -65,7 +65,7 @@ const Khlood = () => {
                   <h2>ِApartment Details</h2>
           <ul className='ulsklood'>
             <li>
-              🏢 4 |Towers 
+              🏢 4 Towers 
             </li>
             <li>
               🚘 Car Garage

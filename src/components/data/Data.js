@@ -125,6 +125,14 @@ export const team = [
     phone:"tel:+9647501762006",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
+    {
+    list: "50",
+    cover: "../images/customer/mriam.jpg",
+    address: "project: Erbil",
+    name: "Mriam Mufaq",
+    email: "mailto:mriam.m@zest-property.com",
+    phone:"tel:+9647502252006",
+  },
   {
     list: "50",
     cover: "../images/customer/kaywan.webp",
@@ -144,14 +152,6 @@ export const team = [
   },
   {
     list: "50",
-    cover: "../images/customer/shaho.webp",
-    address: "project: Kirkuk",
-    name: "Shahoo Dieyaree",
-    email: "mailto:shahoo.d@zest-property.com",
-    phone:"tel:+9647509632006",
-  },
-  {
-    list: "50",
     cover: "../images/customer/M.Sami.webp",
     address: "project: Kirkuk",
     name: "Muhammed Sami",
@@ -168,11 +168,11 @@ export const team = [
   },
   {
     list: "50",
-    cover: "../images/customer/HozanJumaa.webp",
-    address: "project: Kirkuk",
-    name: "Hozan Jumaa",
-    email: "mailto:hozan.j@zest-property.com",
-    phone:"tel:+9647509102006",
+    cover: "../images/customer/abdulla.jpg",
+    address: "project: Erbil",
+    name: "Abdulla Fars",
+    email: "mailto:abdulla.f@zest-property.com",
+    phone:"tel:+9647506522006",
   },
   {
     list: "50",
@@ -200,6 +200,22 @@ export const allAgents = [
     name: "Akam Ali",
     email: "mailto:akam.a@zest-property.com",
     phone:"tel:+9647501762006",
+  },
+    {
+    list: "50",
+    cover: "../images/customer/mriam.jpg",
+    address: "project: Erbil",
+    name: "Mriam Mufaq",
+    email: "mailto:mriam.m@zest-property.com",
+    phone:"tel:+9647502252006",
+  },
+    {
+    list: "50",
+    cover: "../images/customer/abdulla.jpg",
+    address: "project: Erbil",
+    name: "Abdulla Fars",
+    email: "mailto:abdulla.f@zest-property.com",
+    phone:"tel:+9647506522006",
   },
   {
     list: "50",
@@ -374,17 +390,6 @@ export const listAll = [
     type: "1 + 1",
     area: "88 meter"
   },
-    {
-  id: 44,
-    cover: "../images/property/qaywan/qaywan_blog.jpg",
-  url: "Apartment-for-Sale-QAIWAN-MIRADOR-B-6-63",
-  name: "Apartment for Sale QAIWAN MIRADOR B 6",
-  location: "Erbil - Masif Road Pirmam",
-  category: "For Sale",
-  price: "$8,972",
-  type: "1 + 1",
-  area: "63.9 m²"
-  },
   {
     id: 4,
     cover: "../images/property/skyview/dsf.jpg",
@@ -417,17 +422,6 @@ export const listAll = [
     price: "$16,096",
     type: "2 + 1",
     area: "105 meter"
-  },
-    {
-  id: 42,
-    cover: "../images/property/qaywan/qaywan_blog.jpg",
-  url: "Apartment-for-Sale-QAIWAN-MIRADOR-B-6-160",
-  name: "Apartment for Sale QAIWAN MIRADOR B 6",
-  location: "Erbil - Masif Road Pirmam",
-  category: "For Sale",
-  price: "$22,492",
-  type: "1 + 3",
-  area: "160.2 m²"
   },
   {
     id: 6,
@@ -505,17 +499,6 @@ export const listAll = [
     price: "$35,856",
     type: "2 + 1",
     area: "120 meter"
-  },
-    {
-    id: 28,
-    cover: "../images/property/north/north_holland_blog.jpg",
-    url: "Apartment-for-Sale-North-Holland-A-14-Floor",
-    name: "Apartment for Sale North Holland A 14 Floor",
-    location: "Erbil - Mosul Road, opposite of Dream City",
-    category: "For Sale",
-    price: "$12,087",
-    type: "1 + 1",
-    area: "90 m²"
   },
   {
     id: 12,
@@ -1498,30 +1481,6 @@ export const arhousesData = [
     }
   },
   {
-    id: 28,
-    type: 'شقة',
-    url: "شقة-للبیع-نورث-هولند-١٤-ئەی",
-    name: "A 14 شقة للبیع نورث هولند",
-    nameproperty:'نورث هولند',
-    build: '6',
-    Allbuild: '20',
-    image: '../images/property/north/north_holland_hd.jpg',
-    imageLg: '../images/property/north/north_holland_hd.jpg',
-    country: 'Iraq',
-    address: 'Erbil - Mosul Road, opposite of Dream City',
-    bedrooms: '1',
-    bathrooms: '1',
-    area: '90 m²',
-    year: '2022',
-    price: '12,087',
-    agent: {
-      image: '../images/customer/kaywan.webp',
-      name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
-    },
-  },
-  {
     id: 29,
     type: 'شقة',
     url: "شقة-للبیع-نورث-هولند-١٤-ئەی-١٤٠",
@@ -1834,30 +1793,6 @@ export const arhousesData = [
     },
   },
   {
-    id: 42,
-    type: 'شقة',
-    url: "شقة-للبیع-قیوان-میرادور-٦-بي-١٦٠",
-  name: "B 6 شقة للبیع قیوان میرادور",
-    nameproperty:'قیوان میرادور',
-    build: '9',
-    Allbuild: '29',
-    image: '../images/property/qaywan/qaywan_hd.jpg',
-    imageLg: '../images/property/qaywan/qaywan_hd.jpg',
-    country: 'Iraq',
-    address: 'Erbil - Masif Road Pirmam',
-    bedrooms: '3',
-    bathrooms: '1',
-    area: '160.2 m²',
-    year: '2022',
-    price: '22,492',
-    agent: {
-      image: '../images/customer/kaywan.webp',
-      name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
-    },
-  },
-  {
     id: 43,
     type: 'شقة',
     url: "شقة-للبیع-قیوان-میرادور-٦-بي-٢٠١",
@@ -1881,30 +1816,7 @@ export const arhousesData = [
       email:"kaiwankaify@zest-property.com"
     },
   },
-  {
-    id: 44,
-    type: 'شقة',
-    url: "شقة-للبیع-قیوان-میرادور-٦-بي-٦٣",
-  name: "B 6 شقة للبیع قیوان میرادور",
-    nameproperty:'قیوان میرادور',
-    build: '9',
-    Allbuild: '29',
-    image: '../images/property/qaywan/qaywan_hd.jpg',
-    imageLg: '../images/property/qaywan/qaywan_hd.jpg',
-    country: 'Iraq',
-    address: 'Erbil - Masif Road Pirmam',
-    bedrooms: '4',
-    bathrooms: '1',
-    area: '201.6 m²',
-    year: '2022',
-    price: '28,305',
-    agent: {
-      image: '../images/customer/kaywan.webp',
-      name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
-    },
-  },
+
   ]
 
  
@@ -1943,17 +1855,6 @@ export const arlistAll = [
     type: "1 + 1",
     area: "88 متر"
   },
-      {
-    id: 44,
-      cover: "../images/property/qaywan/qaywan_blog.jpg",
-    url: "شقة-للبیع-قیوان-میرادور-٦-بي-٦٣",
-    name: "B 6 شقة للبیع قیوان میرادور",
-    location: "أربيل - شارع موسل",
-    category: "للبيع",
-    price: "$8,972",
-    type: "1 + 1",
-    area: "63.9 m²"
-    },
   {
     id: 4,
     cover: "../images/property/skyview/dsf.jpg",
@@ -2030,17 +1931,6 @@ export const arlistAll = [
     price: "$18,820",
     type: "1 + ٢",
     area: "140 m²"
-  },
-    {
-  id: 42,
-    cover: "../images/property/qaywan/qaywan_blog.jpg",
-  url: "شقة-للبیع-قیوان-میرادور-٦-بي-١٦٠",
-  name: "B 6 شقة للبیع قیوان میرادور",
-  location: "أربيل - شارع موسل",
-  category: "للبيع",
-  price: "$22,492",
-  type: "1 + 3",
-  area: "160.2 m²"
   },
   {
     id: 8,
@@ -2351,17 +2241,6 @@ export const arlistAll = [
     price: "$14,442",
     type: "1 + 1",
     area: "81 متر"
-  },
-   {
-    id: 28,
-    cover: "../images/property/north/north_holland_blog.jpg",
-    url: "شقة-للبیع-نورث-هولند-١٤-ئەی",
-    name: "A 14 شقة للبیع نورث هولند",
-    location: "أربيل - شارع موسل",
-    category: "للبيع",
-    price: "$12,087",
-    type: "1 + 1",
-    area: "90 m²"
   },
 
 
@@ -3072,30 +2951,6 @@ export const housesData = [
       email:"kaiwankaify@zest-property.com"
     }
   },
-    {
-    id: 28,
-    type: 'Apartament',
-    url: "Apartment-for-Sale-North-Holland-A-14-Floor",
-    name: "Apartment for Sale North Holland A 14 Floor",
-    nameproperty:'North Holland',
-    build: '6',
-    Allbuild: '20',
-    image: '../images/property/north/north_holland_hd.jpg',
-    imageLg: '../images/property/north/north_holland_hd.jpg',
-    country: 'Iraq',
-    address: 'Erbil - Mosul Road, opposite of Dream City ',
-    bedrooms: '1',
-    bathrooms: '1',
-    area: '90 m²',
-    year: '2022',
-    price: '12,087',
-    agent: {
-      image: '../images/customer/kaywan.webp',
-      name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
-    },
-  },
   {
     id: 29,
     type: 'Apartament',
@@ -3433,30 +3288,6 @@ export const housesData = [
     },
   },
   {
-    id: 42,
-    type: 'Apartament',
-    url: "Apartment-for-Sale-QAIWAN-MIRADOR-B-6-160",
-  name: "Apartment for Sale QAIWAN MIRADOR B 6",
-    nameproperty:'QAIWAN MIRADOR',
-    build: '9',
-    Allbuild: '29',
-    image: '../images/property/qaywan/qaywan_hd.jpg',
-    imageLg: '../images/property/qaywan/qaywan_hd.jpg',
-    country: 'Iraq',
-    address: 'Erbil - Pirmam Road, opposite of Grand Majidi Mall',
-    bedrooms: '3',
-    bathrooms: '1',
-    area: '160.2 m²',
-    year: '2022',
-    price: '22,492',
-    agent: {
-      image: '../images/customer/kaywan.webp',
-      name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
-    },
-  },
-  {
     id: 43,
     type: 'Apartament',
     url: "Apartment-for-Sale-QAIWAN-MIRADOR-B-6-201",
@@ -3480,30 +3311,7 @@ export const housesData = [
       email:"kaiwankaify@zest-property.com"
     },
   },
-  {
-    id: 44,
-    type: 'Apartament',
-    url: "Apartment-for-Sale-QAIWAN-MIRADOR-B-6-63",
-  name: "Apartment for Sale QAIWAN MIRADOR B 6",
-    nameproperty:'QAIWAN MIRADOR',
-    build: '9',
-    Allbuild: '29',
-    image: '../images/property/qaywan/qaywan_hd.jpg',
-    imageLg: '../images/property/qaywan/qaywan_hd.jpg',
-    country: 'Iraq',
-    address: 'Erbil - Pirmam Road, opposite of Grand Majidi Mall',
-    bedrooms: '4',
-    bathrooms: '1',
-    area: '63 m²',
-    year: '2022',
-    price: '8,972',
-    agent: {
-      image: '../images/customer/kaywan.webp',
-      name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
-    },
-  },
+
   ]
 
 
@@ -3578,19 +3386,27 @@ export const arteam = [
   },
   {
     list: "50",
+    cover: "../images/customer/mriam.jpg",
+    address: "المشروع: اربيل",
+    name: "مريم موفق",
+    email: "mailto:mriam.m@zest-property.com",
+    phone:"tel:+9647502252006",
+  },
+  {
+    list: "50",
     cover: "../images/customer/rasty.webp",
     address: "المشروع: اربيل",
     name: "راستي كيفي",
     email: "mailto:Rasty.kayfi@zest-property.com",
     phone:"tel:+9647507342006",
   },
-  {
+    {
     list: "50",
-    cover: "../images/customer/shaho.webp",
-    address: "المشروع: كركوك",
-    name: "شاهو دياري",
-    email: "mailto:shahoo.d@zest-property.com",
-    phone:"tel:+9647509632006",
+    cover: "../images/customer/rasty.webp",
+    address: "project: Erbil",
+    name: "Rasty Kaify",
+    email: "mailto:Rasty.kayfi@zest-property.com",
+    phone:"tel:+9647507342006",
   },
   {
     list: "50",
@@ -3610,11 +3426,11 @@ export const arteam = [
   },
   {
     list: "50",
-    cover: "../images/customer/HozanJumaa.webp",
-    address: "المشروع: كركوك",
-    name: "هوزان جمعة",
-    email: "mailto:hozan.j@zest-property.com",
-    phone:"tel:+9647509102006",
+    cover: "../images/customer/abdulla.jpg",
+    address: "المشروع: اربيل",
+    name: "عبد الله فارس ",
+    email: "mailto:abdulla.f@zest-property.com",
+    phone:"tel:+9647506522006",
   },
      {
     list: "50",
@@ -3642,6 +3458,22 @@ export const arallAgents = [
     name: "كيوان كيفي",
     email: "mailto:kaiwankaify@zest-property.com",
     phone:"tel:+9647506662006",
+  },
+    {
+    list: "50",
+    cover: "../images/customer/mriam.jpg",
+    address: "المشروع: اربيل",
+    name: "مريم موفق",
+    email: "mailto:mriam.m@zest-property.com",
+    phone:"tel:+9647502252006",
+  },
+    {
+    list: "50",
+    cover: "../images/customer/abdulla.jpg",
+    address: "المشروع: اربيل",
+    name: "عبد الله فارس ",
+    email: "mailto:abdulla.f@zest-property.com",
+    phone:"tel:+9647506522006",
   },
   {
     list: "50",
