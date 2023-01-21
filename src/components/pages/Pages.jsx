@@ -14,6 +14,7 @@ import List from '../list/List'
 import PropertyDetails from "../PageDis/PropertyDetails"
 import khlood from "../projects/khlood/Khlood"
 import alwedd from "../projects/alwedd/Alwedd"
+import Majedy from "../projects/majedy/Majedy"
 
 
 
@@ -38,6 +39,8 @@ const   Pages = () => {
           <Route exact path='/ar/khlood' component={khlood} />
           <Route exact path='/alwedd' component={alwedd} />
           <Route exact path='/ar/alwedd' component={alwedd} />
+          <Route exact path='/Majidi-View' component={Majedy} />
+          <Route exact path='/ar/Majidi-View' component={Majedy} />
           <Route exact path='/:id' component={PropertyDetails} />
           <Route exact path='/ar/:id' component={PropertyDetails} />
         </Switch>

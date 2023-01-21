@@ -1,5 +1,5 @@
 .heroalewd {
-    background-image: url("../../../../public/images/KHLOOD.jpg");
+    background-image: url("../../../../public/imagespublic/KHLOOD.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -12,7 +12,7 @@
     align-items: center;
 }
 .heroalwedd {
-    background-image: url("../../../../public/images/sdfaf.jpg");
+    background-image: url("../../../../public/imagespublic/sdfaf.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -23,6 +23,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.heroMajidi {
+    background-image: url("../../../../public/imagespublic/property/majidi/majidihero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: calc(100vh - 60px);
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heroMajidi h1 {
+    color: #fff;
+    font-size: 30px;
+    z-index: 1;
 }
 .heroalwedd h1 {
     color: #fff;
@@ -82,17 +100,17 @@ main {
 }
 .paraghraf {
     width: 100%;
-    padding: 20px 15px;
+     padding: 20px 15px;
+    text-align: start;
+        display: flex;
+            flex-direction: column;
+            align-items: center;
 }
 .revers {
     display: flex;
     flex-direction: row-reverse;
 }
-.ulsklood {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}.formpage {
+.formpage {
     max-width: 388px;
     padding: 20px 20px;
 }

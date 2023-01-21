@@ -15,6 +15,10 @@ export const nav = [
     path: "/agents",
   },
   {
+    text: "Majidi View",
+    path: "/Majidi-View",
+  },
+  {
     text: "alwedd",
     path: "/alwedd",
   },
@@ -3349,6 +3353,10 @@ export const arnav = [
     path: "/ar/agents",
   },
   {
+    text: "مجدي فیو",
+    path: "/ar/Majidi-View",
+  },
+  {
     text: "الود",
     path: "/ar/alwedd",
   },
@@ -3397,14 +3405,6 @@ export const arteam = [
     cover: "../images/customer/rasty.webp",
     address: "المشروع: اربيل",
     name: "راستي كيفي",
-    email: "mailto:Rasty.kayfi@zest-property.com",
-    phone:"tel:+9647507342006",
-  },
-    {
-    list: "50",
-    cover: "../images/customer/rasty.webp",
-    address: "project: Erbil",
-    name: "Rasty Kaify",
     email: "mailto:Rasty.kayfi@zest-property.com",
     phone:"tel:+9647507342006",
   },
