@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { footer } from "../../data/Data"
 import { arfooter } from "../../data/Data"
 import "./footer.css"
@@ -15,14 +15,17 @@ const Footer = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-      emailjs.sendForm(process.env.REACT_APP_server_id, process.env.REACT_APP_template_id, form.current, process.env.REACT_APP_public_id)
-      .then((result) => {
-          alert('thank you for subscribe 🥰️')
-      }, (error) => {
-          alert('sorry we have a problem please try again letter 😔')
-      });
+    if (newslatter == '') { 
+    } else {
+        emailjs.sendForm(process.env.REACT_APP_server_id, process.env.REACT_APP_template_id, form.current, process.env.REACT_APP_public_id)
+        .then((result) => {
+            alert('thank you for subscribe')
+        }, (error) => {
+            alert('sorry we have a problem please try again letter 😔')
+        });
+    }
   }
+  const [newslatter , setNewslatter] = useState('')
 
   const location = useLocation();
   const paths = window.location.pathname;
@@ -54,7 +57,7 @@ const Footer = () => {
                 </div>
               </div>
               <form className='forms' ref={form} onSubmit={sendEmail}>
-                <input className='formsinput' type='text' name='email' placeholder='البريد الإلكتروني*' />
+                <input onChange={e => setNewslatter(e.target.value)} className='formsinput' type='text' name='email' placeholder='البريد الإلكتروني*' />
                 <button className=" ar ">اشترك</button>
               </form>
             </div>
@@ -101,7 +104,7 @@ const Footer = () => {
                 <p>Receive Update from Us enter your email</p>
               </div>
               <form className='forms' ref={form} onSubmit={sendEmail}>
-                <input className='formsinput' type='text' name='email' placeholder='Email Address *' />
+                <input onChange={e => setNewslatter(e.target.value)} className='formsinput' type='text' name='email' placeholder='Email Address *' />
                 <button className="">Subscribe</button>
               </form>
             </div>

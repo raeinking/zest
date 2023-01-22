@@ -17,15 +17,18 @@ const Khlood = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-      emailjs.sendForm(process.env.REACT_APP_server_id, process.env.REACT_APP_template_id, form.current, process.env.REACT_APP_public_id)
-      .then((result) => {
-          alert('thank you for subscribe 🥰️')
-      }, (error) => {
-          alert('sorry we have a problem please try again letter 😔')
-      });
+    if (newslatter == '') { 
+    } else {
+        emailjs.sendForm(process.env.REACT_APP_server_id, process.env.REACT_APP_template_id, form.current, process.env.REACT_APP_public_id)
+        .then((result) => {
+            alert('thank you for subscribe')
+        }, (error) => {
+            alert('sorry we have a problem please try again letter 😔')
+        });
+    }
   }
   const email = 'zest@zest-property.com'
+  const [newslatter , setNewslatter] = useState('')
   const [nname , setName] = useState('')
   const [phone , setPhone] = useState('')
   const [body , setBody] = useState('مرحبا، أنا مهتم ب ' + "[ " + "مجمع الخلود السكني" + " ]")
@@ -56,7 +59,7 @@ const Khlood = () => {
     </section>
     <main>
     <form className='formss' ref={form} onSubmit={sendEmail}>
-        <input className='formsinput' type='text' name='email' placeholder='Email Address *' />
+        <input  onChange={e => setNewslatter(e.target.value)} className='formsinput' type='text' name='email' placeholder='Email Address *' />
         <button className="">Subscribe</button>
         </form>
       <div className='test'>
@@ -162,7 +165,7 @@ const Khlood = () => {
     </section>
     <main>
     <form className='formss' ref={form} onSubmit={sendEmail}>
-        <input className='formsinput' type='text' name='email' placeholder='Email Address *' />
+        <input  onChange={e => setNewslatter(e.target.value)} className='formsinput' type='text' name='email' placeholder='Email Address *' />
         <button className="">Subscribe</button>
         </form>
       <div className='test'>

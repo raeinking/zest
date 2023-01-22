@@ -185,7 +185,7 @@ const form = useRef();
     </section>
     <main>
     <form className='formss' ref={form} onSubmit={sendEmail}>
-        <input className='formsinput' type='text' name='email' placeholder='البريد الإلكتروني *' />
+        <input onChange={e => setNewslatter(e.target.value)} className='formsinput' type='text' name='email' placeholder='البريد الإلكتروني *' />
         <button className="">أرسل</button>
         </form>
       <div className='test'>
