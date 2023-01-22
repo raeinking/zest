@@ -43,13 +43,13 @@ const form = useRef();
     <>
     {fword == 'ar' ? 
       <Helmet>
-        <title>مجدي فیو - عقارات زيست</title>
-        <meta name='description' content="ان مجمع الود السكني يتكون من 6 عمارات ذات 15 طابق لكل منها بنظام حماية كامل وخصوصية مناسبة لكل الشقق.. مواد عازلة للصوت وبلكونات مُطلة على مناظر خضراء" />
+        <title>ماجدي فیو - عقارات زيست</title>
+        <meta name='description' content="مشروع ماجدي فيو المميز وفي منطقة تجارية يضم على انواع شقق مختلفة ضمن الـ 11 عمارة التي تتكون من 24 طبقة لكل منها.. ومساحات خضراء" />
       </Helmet>
       : 
       <Helmet>
         <title>Majidi View - Zest Property</title>
-        <meta name="description" content="al wedd residence is a welcoming compound for both people and investors. Al wedd offers a collection of options and features. We have a full security system for your family. green places to refresh the air. kids playgrounds, a car garage. and more " />
+        <meta name="description" content="Majidi view is a vip complex that consists of 11 towers and 24 floors for each tower, green areas for fresh air and clean spaces to sit in with a family and your loved ones" />
       </Helmet>
       }
       {paths == '/Majidi-View' ? 
@@ -96,23 +96,26 @@ const form = useRef();
      <div className='test revers'>
         <img src={alweddc}  alt='klood' />
         <div className='paraghraf'>
-        <h2>🏢 building details - C  
+        <h2>🏢 apartment details   
 </h2>
           <ul className='ulsklood'>
             <li>
-              👷24 floors
+              <p className='pbold b'>2 + 1</p>
             </li>
             <li>
-              🏢 total towers 11
+              <p className='pbold '>83 , 103 , 108 , 147 </p> 
             </li>
             <li>
-              📐 gross area 730 m²
+              <p className='pbold b'>3 + 1</p>
             </li>
             <li>
-               📐  مساحة 180 متر
+               <p className='pbold'> 150 , 182 , 185</p>
             </li>
             <li>
-               🛏 3 bedrooms & hall
+               <p className='pbold b'>5 + 1</p>
+            </li>
+            <li>
+                <p className='pbold'> 396 , 435 , 518</p>
             </li>
           </ul>
         </div>
@@ -121,21 +124,21 @@ const form = useRef();
       <div className='test'>
         <img src={alweddicon}  alt='klood' />
         <div className='paraghraf'>
-            <h2>للحجز الاتصال على الأرقام التالية:</h2>
+            <h2>for more details content us :</h2>
           <ul className='ulsklood'>
             <li>
               <a href='tel:+9647505622006'>
-                ☎️ رقم 1 : 2006 562 750 964
+                ☎️ number 1 : 964 750 562 2006
               </a>
             </li>
             <li>
               <a href='tel:+9647505222006'>
-                ☎️ رقم 2 : 2006 522 750 964
+                ☎️ number 2 : 964 750 522 2006
               </a>
             </li>
             <li>
               <a href='tel:+9647506322006'>
-                ☎️ رقم 3 : 2006 632 770 964
+                ☎️ number 3 : 964 750 632 2006
               </a>
             </li>
           </ul>
@@ -178,7 +181,7 @@ const form = useRef();
     :
     <>
       <section className='heroMajidi'>
-        <h1>مجدي فیو </h1>
+        <h1>ماجدي فیو </h1>
     </section>
     <main>
     <form className='formss' ref={form} onSubmit={sendEmail}>
@@ -188,51 +191,56 @@ const form = useRef();
       <div className='test'>
         <img src={alweddb}  alt='klood' />
         <div className='paraghraf'>
-        <h2>🏢 معلومات عن البلدة نموذج A + B </h2>
-          <ul className='ulsklood'>
+        <h2>🏢 معلومات العمارات </h2>
+          <div className='ulsklood'>
+          <ul >
             <li>
-              👷24 طابقا
+              👷24 طابق
             </li>
             <li>
-              🛏 3 غرف  نوم 
+              🏢 عمارة 11
             </li>
             <li>
-              🏢 مجموع الشقق 60
+              🏫 مدرسة
             </li>
             <li>
-            📐 مساحة البناء 650 متر
+              🕌 جامع
             </li>
             <li>
-               🛏 4 غرف نوم وصالة
+              🏪 محلات تجارية
             </li>
             <li>
-              📐 مساحة 200 متر
+              🏥 مستشفى
+            </li>
+            <li>
+              🏞 متنزه وحديقة
             </li>
           </ul>
+        </div>
         </div>
       </div>
       <div className='test revers'>
         <img src={alweddc}  alt='klood' />
         <div className='paraghraf'>
-        <h2>🏢 معلومات عن البلدة نموذج C </h2>
+        <h2>🏢 معلومات الشقة  </h2>
           <ul className='ulsklood'>
-            <li>
-              👷15 طابقا
+           <li>
+              <p className='pbold b'>2 + 1</p>
             </li>
             <li>
-              🛏 4 غرف  نوم 
+              <p className='pbold '>م83 , م103 , م108 , م147 </p> 
             </li>
             <li>
-              🏢 مجموع الشقق 60
+              <p className='pbold b'>3 + 1</p>
             </li>
             <li>
-            📐 مساحة البناء 730 متر
+               <p className='pbold'> م150 , م182 , م185</p>
             </li>
             <li>
-               📐  مساحة 180 متر
+               <p className='pbold b'>5 + 1</p>
             </li>
             <li>
-               🛏 3 غرف نوم وصالة
+                <p className='pbold'> م396 , م435 , م518</p>
             </li>
           </ul>
         </div>
@@ -255,7 +263,7 @@ const form = useRef();
             </li>
             <li>
               <a href='tel:+9647506322006'>
-                ☎️ رقم 3 : 2006 632 770 964
+                ☎️ رقم 3 : 2006 632 750 964
               </a>
             </li>
           </ul>

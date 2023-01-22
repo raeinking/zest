@@ -1,5 +1,5 @@
 .heroalewd {
-    background-image: url("../../../../public/imagespublic/KHLOOD.jpg");
+    background-image: url("../../../../public/images/KHLOOD.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -12,7 +12,7 @@
     align-items: center;
 }
 .heroalwedd {
-    background-image: url("../../../../public/imagespublic/sdfaf.jpg");
+    background-image: url("../../../../public/images/sdfaf.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -25,7 +25,7 @@
     align-items: center;
 }
 .heroMajidi {
-    background-image: url("../../../../public/imagespublic/property/majidi/majidihero.jpg");
+    background-image: url("../../../../public/images/property/majidi/majidihero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -71,6 +71,11 @@
     visibility: hidden;
     transition: opacity 0.6s ease-out, transform 1.2s ease-out;
     will-change: opacity, visibility;
+}
+.b {
+    font-weight: 800;
+    color: black;
+    margin: 15px 0 5px 0;
 }
 
 .fade-in-section.is-visible {

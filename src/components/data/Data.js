@@ -3353,7 +3353,7 @@ export const arnav = [
     path: "/ar/agents",
   },
   {
-    text: "مجدي فیو",
+    text: "ماجدي فیو",
     path: "/ar/Majidi-View",
   },
   {
