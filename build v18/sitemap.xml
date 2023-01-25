@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://zest-property.com/</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+  <link rel='canonical' href='/' />
+</url>
+<url>
+  <loc>https://zest-property.com/ar</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+  <link rel='canonical' href='/ar' />
+</url>
+<url> 
+  <loc>https://zest-property.com/properties</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+  <link rel='canonical' href='/properties' />
+</url>
+<url>
+  <loc>https://zest-property.com/ar/properties</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+  <link rel='canonical' href='/ar/properties' />
+</url>
+<url>
+  <loc>https://zest-property.com/agents</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+  <link rel='canonical' href='/agents' />
+</url>
+<url>
+  <loc>https://zest-property.com/ar/agents</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+  <link rel='canonical' href='/ar/agents' />
+</url>
+<url>
+  <loc>https://zest-property.com/contact</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+  <link rel='canonical' href='/contact' />
+</url>
+<url>
+  <loc>https://zest-property.com/ar/contact</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+  <link rel='canonical' href='/ar/contact' />
+</url>
+<url>
+  <loc>https://zest-property.com/about</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+  <link rel='canonical' href='/about' />
+</url>
+<url>
+  <loc>https://zest-property.com/ar/about</loc>
+  <lastmod>2022-12-21T18:00:42+00:00</lastmod>
+  <link rel='canonical' href='/ar/about' />
+</url>
+</urlset>
