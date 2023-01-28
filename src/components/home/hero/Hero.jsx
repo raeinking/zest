@@ -1,4 +1,4 @@
-import React from "react"
+import React , {useState} from "react"
 import Heading from "../../common/Heading"
 import { useLocation } from "react-router-dom";
 import "./hero.css"
@@ -7,6 +7,12 @@ import Snowfall from 'react-snowfall'
 
 
 const Hero = () => {
+    const email = 'zest@zest-property.com'
+  const [name , setName] = useState('')
+  const [phone , setPhone] = useState('')
+  const [body , setBody] = useState('')
+
+
   const location = useLocation();
   const paths = window.location.pathname;
 
@@ -17,139 +23,59 @@ const Hero = () => {
       <div className="snow">
     <Snowfall />
   </div>
+
           <h1 title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.'>Zest Property</h1>
           <p>Find Your Next Home In Zest Property.</p>
-          <form className='flexsearch'>
-            {/* <div className='box'>
-              <input className="inputs" type='text' placeholder='name' />
-            </div> */}
-            <div className='box'>
-              <select className="inputs" name="city" id="city">
-                <option selected disabled value="city">City</option>
-                <option value="Erbil">Erbil</option>
-                {/* <option value="Sulaymaniyah">Sulaymaniyah</option> */}
-                <option value="Baghdad">Baghdad</option>
-                <option value="Kirkuk">Kirkuk</option>
-              </select>
+          <div class="login-box">
+          <h2>Contact us to easily find your new home</h2>
+          <form>
+            <div class="user-box">
+              <input onChange={e => setName(e.target.value)} placeholder="Name " type="text" name="" required=""></input>
             </div>
-            {/* <div className='box'>
-              <select className="inputs" name="property-type" id="property-type">
-                <option selected disabled value="Property Type">Property Type</option>
-                <option value="Commercial land">Commercial land</option>
-                <option value="Medical Center">Medical Center</option>
-                <option value="Palace">Palace</option>
-                <option value="Residential land">Residential land</option>
-                <option value="Restaurant land">Restaurant</option>
-                <option value="House">House</option>
-                <option value="Apartment">Apartment</option>
-                <option value="Building">Building</option>
-                <option value="Villa">Villa</option>
-                <option value="Car Wash">Car Wash</option>
-                <option value="Hotel">Hotel</option>
-                <option value="Shop">Shop</option>
-                <option value="Factory">Factory</option>
-                <option value="Farm">Farm</option>
-                <option value="School">School</option>
-                <option value="Market">Market</option>
-                <option value="Gallery">Gallery</option>
-                <option value="Office">Office</option>
-                <option value="Store">Store</option>
-                <option value="Store">Compound</option>
-                <option value="Duplex">Duplex</option>
-                <option value="Full floor">Full floor</option>
-              </select>
-            </div> */}
-            <div className='box'>
-              <select className="inputs" name="purpose" id="purpose">
-                <option selected disabled value="Project">Project</option>
-                {/* <option value="Pavilion">Pavilion</option> */}
-                <option value="Lalav Sky View">Lalav Sky View</option>
-                <option value="Lalav vinus towers">Lalav vinus towers</option>
-                <option value="Lalav nova towers">Lalav nova towers</option>
-
-              </select>
+            <div class="user-box">
+              <input onChange={e => setPhone(e.target.value)} placeholder="Number" type="text" name="" required=""></input>
             </div>
-            <div className='box'>
-              <select className="inputs" name="projectinput" id="projectinput">
-                <option selected disabled value="Erbil">Purpose</option>
-                <option value="Erbil">Buy</option>
-                <option value="Sulaymaniyah">Rent</option>
-              </select>
+            <div class="user-box">
+              <input onChange={e => setBody(e.target.value)} placeholder="Email" type="text" name="" required=""></input>
             </div>
-            {/* <div className=' advance'>
-              <a href="#">Advance Filter</a>
-            </div> */}
-            <a href="properties" className='btn1'>
-                <img className="search" src={search}></img>
+            <a href={`mailto:${email}?subject=${name + ': ' + phone}&body=${body}`}>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <p>Submit</p>
             </a>
           </form>
+          </div>
       </section>
       :       
       <section className='hero'>
       <div className="snow">
     <Snowfall />
-  </div>,
+  </div>
           <h1 className="ar">شركة زيست</h1>
           <p className="ar">فرصة لعرض احدث واجدد العقارات القريبة منك</p>
-          <form className='flexsearch'>
-            <div className='box'>
-              <select className="inputs" name="city" id="city">
-                <option selected disabled value="city">المحافظة</option>
-                <option value="Erbil">أربیل</option>
-                <option value="Baghdad">بغداد</option>
-                <option value="Kirkuk">کركوک</option>
-              </select>
+          <div class="login-box">
+          <h2>تواصل معنا لتسهيل عملية ايجاد عقارك الجديد</h2>
+          <form>
+            <div class="user-box">
+              <input  onChange={e => setName(e.target.value)} placeholder="الأسم " type="text" name="" required=""></input>
             </div>
-            {/* <div className='box'>
-              <select className="inputs" name="property-type" id="property-type">
-                <option selected disabled value="Property Type">Property Type</option>
-                <option value="Commercial land">Commercial land</option>
-                <option value="Medical Center">Medical Center</option>
-                <option value="Palace">Palace</option>
-                <option value="Residential land">Residential land</option>
-                <option value="Restaurant land">Restaurant</option>
-                <option value="House">House</option>
-                <option value="Apartment">Apartment</option>
-                <option value="Building">Building</option>
-                <option value="Villa">Villa</option>
-                <option value="Car Wash">Car Wash</option>
-                <option value="Hotel">Hotel</option>
-                <option value="Shop">Shop</option>
-                <option value="Factory">Factory</option>
-                <option value="Farm">Farm</option>
-                <option value="School">School</option>
-                <option value="Market">Market</option>
-                <option value="Gallery">Gallery</option>
-                <option value="Office">Office</option>
-                <option value="Store">Store</option>
-                <option value="Store">Compound</option>
-                <option value="Duplex">Duplex</option>
-                <option value="Full floor">Full floor</option>
-              </select>
-            </div> */}
-            <div className='box'>
-              <select className="inputs" name="قصد" id="قصد">
-                <option className="ar" selected disabled value="مشروع">مشروع</option>
-                {/* <option value="Pavilion">Pavilion</option> */}
-                <option className="ar" value="لالاف سكاي فيو">لالاف سكاي فيو</option>
-                <option className="ar" value="أبراج لالاف فينوس">أبراج لالاف فينوس</option>
-                <option className="ar" value="أبراج لالاف نوفا">أبراج لالاف نوفا</option>
-              </select>
+            <div class="user-box">
+              <input  onChange={e => setPhone(e.target.value)} placeholder="رقم الهاتف" type="text" name="" required=""></input>
             </div>
-            <div className='box'>
-              <select className="inputs" name="projectinput" id="projectinput">
-                <option className="ar" selected disabled value="قصد">بحث عن</option>
-                <option className="ar" value="للبيع">للبيع</option>
-                <option className="ar" value="للإجار">للإجار</option>
-              </select> 
+            <div class="user-box">
+              <input  onChange={e => setBody(e.target.value)} placeholder="الأيميل " type="text" name="" required=""></input>
             </div>
-            {/* <div className=' advance'>
-              <a href="#">Advance Filter</a>
-            </div> */}
-            <a href="/ar/properties" className='btn1'>
-                <img className="search" src={search}></img>
+            <a href={`mailto:${email}?subject=${name + ': ' + phone}&body=${body}`}>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <p className="ar">إرسال</p>
             </a>
           </form>
+          </div>
       </section>
       }
     </>
