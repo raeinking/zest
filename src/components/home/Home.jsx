@@ -29,7 +29,6 @@ const Home = () => {
       : 
       <Helmet>
         <title>Zest-Property - Property For Sale</title>
-        <meta name="keywords" content="Property-For-Sale Sale Property House real estate"/>
         <meta name="description" content="Zest property is a real estate company that started at 2006 to ensure a special experience for the investors in iraq and kurdistan" />
       </Helmet>
       }

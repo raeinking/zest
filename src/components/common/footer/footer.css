@@ -13,8 +13,8 @@ footer {
 }
 footer .container .footerleft {
   margin: 0 0 20px 0;
-        flex-direction: column;
-        align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 footer .container {
   display: flex;
@@ -81,21 +81,21 @@ footer ul li {
 }
 @media screen and (max-width: 800px) {
 
-  footer .container .footerleft {
+    footer .container .footerleft {
       margin: 0 0 20px 0;
       display: flex;
       flex-direction: column;
       align-items: center;
     }
-  footer .container {
-    flex-direction: column;
-  }
+    footer .container {
+      flex-direction: column;
+    }
     footer h3 {
       margin-top: 20px;
     }
-            .forms {
-              flex-direction: row;
-              margin-bottom: 50px;
-            }
+    .forms {
+      flex-direction: row;
+      margin-bottom: 50px;
+    }
 }
 

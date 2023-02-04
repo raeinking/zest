@@ -32,7 +32,7 @@ const Khlood = () => {
   const [nname , setName] = useState('')
   const [phone , setPhone] = useState('')
   const [body , setBody] = useState('مرحبا، أنا مهتم ب ' + "[ " + "مجمع الخلود السكني" + " ]")
-  const [enbody , setEnbody] = useState(" i'm intrestied in " + "[ " + "al khlood" + " ]")
+    const [enbody , setEnbody] = useState(" i'm intrestied in " + "[ " + "al khlood" + " ]")
 
 
   const location = useLocation();

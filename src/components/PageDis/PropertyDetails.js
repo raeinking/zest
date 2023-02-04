@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet"
 
 
-    
+
 
 
 const PropertyDetails = (val) => {
@@ -131,13 +131,10 @@ const PropertyDetails = (val) => {
                   className='buttonss'
                   type='submit'
                 >
-                  أرسل رسالة
-                </p>
+                  أرسل رسالة</p>
             </a>
               <a href={arproperty.agent.phone}>
-                <p  className='buttonss'>
-                  اتصال
-                </p>
+                <p  className='buttonss'>اتصال</p>
               </a>
             </div>
           </form>
@@ -212,7 +209,7 @@ const PropertyDetails = (val) => {
             <textarea
               type='text'
               placeholder='Message*'
-              defaultValue={"Hello, I am interested in"  + "[ " + id + " ]"}
+              defaultValue={"Hello, I am interested in"  + "[ " + val.url + " ]"}
               onChange={e => setBody(e.target.value)}
             />
             <div className='flex gap-x-2'>
