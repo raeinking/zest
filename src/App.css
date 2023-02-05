@@ -1,22 +1,27 @@
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: 'myFirstFont';
+  src: url('./fonts/APERTOBOLDREGULAR.OTF');
+}
+@font-face {
+  font-family: 'arabic';
+  src: url('./fonts/UNIQAIDAR_HEWAL035.TTF');
+}
 body {
-  font-family: "APERTO";
+  font-family: 'myFirstFont';
   background-color: #fff;
   /* max-width: 100vw; */
   overflow-x: hidden;
 }
-@font-face {
-  font-family: 'APERTO';
-  src: local('APERTO'), url('/src/components/fonts/ApertoButSmarter-Regular.otf') format('otf');
-}
-@font-face {
+/* @font-face {
   font-family: 'UNIQAIDAR';
   src: local('UNIQAIDAR'), url('/src/components/fonts/UNIQAIDAR_HEWAL035.TTF') format('TTF');
-}
+} */
 .container {
   max-width: 100%;
   margin: auto; 
@@ -267,6 +272,8 @@ color: #fff;
   min-height: 100vh;
 }
 
+
+
 @media screen and (max-width: 500px) {
   select {
     width: 100%;
@@ -297,5 +304,5 @@ color: #fff;
 }
 
 .ar {
-  font-family: "UNIQAIDAR";
+  font-family: "arabic";
 }

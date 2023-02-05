@@ -383,17 +383,7 @@ export const listAll = [
   type: "1 + 4",
   area: "201.6 m²"
   },
-  {
-    id: 3,
-    cover: "../images/property/nova/ewr.jpg",
-    url: "Apartment-for-Sale-Nova-towers-A2-15-Floor",
-    name: "Apartment for Sale Nova towers A2 15 Floor",
-    location: "Erbil",
-    category: "For Sale",
-    price: "$13,490",
-    type: "1 + 1",
-    area: "88 meter"
-  },
+
   {
     id: 4,
     cover: "../images/property/skyview/dsf.jpg",
@@ -426,17 +416,6 @@ export const listAll = [
     price: "$37,000",
     type: "1 + 1",
     area: "81 meter"
-  },
-  {
-    id: 8,
-    cover: "../images/property/skyview/dsf.jpg",
-    url: "Apartment-for-Sale-Sky-View-A1-10-Floor",
-    name: "Apartment for Sale Sky View A1 10 Floor",
-    location: "Lalav Sky View, Erbil",
-    category: "For Sale",
-    price: "$38,256",
-    type: "2 + 1",
-    area: "120 meter"
   },
       {
     id: 36,
@@ -481,17 +460,6 @@ export const listAll = [
     price: "$35,856",
     type: "2 + 1",
     area: "120 meter"
-  },
-  {
-    id: 12,
-    cover: "../images/property/venus/asdfaf.jpg",
-    url: "Apartment-for-Sale-Venus-Towers-A2-10-Floor",
-    name: "Apartment for Sale Venus Towers A2 10 Floor",
-    location: "Erbil",
-    category: "For Sale",
-    price: "$12,951",
-    type: "1 + 1",
-    area: "67 meter"
   },
   {
     id: 13,
@@ -742,6 +710,28 @@ export const list = [
     type: "1 + 1",
     area: "78 meter"
   },
+   {
+    id: 24,
+    cover: "../images/property/venus/asdfaf.jpg",
+    url: "Apartment-for-Sale-Venus-Towers-B1-21-Floor",
+    name: "Apartment for Sale Venus Towers B1 21 Floor",
+    location: "Erbil",
+    category: "For Sale",
+    price: "$17,054",
+    type: "2 + 1",
+    area: "115 meter"
+  },
+      {
+    id: 39,
+    cover: "../images/property/north/north_holland_blog.jpg",
+    url: "Apartment-for-Sale-North-Holland-B-5-floor",
+    name: "Apartment for Sale North Holland B 5",
+    location: "Erbil - Mosul Road, opposite of Dream City",
+    category: "For Sale",
+    price: "$12,087", 
+    type: "1 + 1",
+    area: "90 m²"
+  },
   {
   id: 43,
   cover: "../images/property/qaywan/qaywan_blog.jpg",
@@ -752,17 +742,6 @@ export const list = [
   price: "$28,305",
   type: "1 + 4",
   area: "201.6 m²"
-  },
-  {
-    id: 3,
-    cover: "../images/property/nova/ewr.jpg",
-    url:'Apartment-for-Sale-Nova-towers-A2-15-Floor',
-    name: "Nova towers A2 15 Floor",
-    location: "Erbil",
-    category: "For Sale",
-    price: "$13,490",
-    type: "1 + 1",
-    area: "88 meter"
   },
   {
     id: 4,
@@ -808,17 +787,6 @@ export const list = [
     type: "2 + 1",
     area: "105 meter"
   },
-  {
-    id: 8,
-    cover: "../images/property/skyview/dsf.jpg",
-    url: "Apartment-for-Sale-Sky-View-A1-10-Floor",
-    name: "Sky View A1 10 Floor",
-    location: "Lalav Sky View, Erbil",
-    category: "For Sale",
-    price: "$38,256",
-    type: "2 + 1",
-    area: "120 meter"
-  },
 ]
 
 export const arhousesData = [
@@ -844,30 +812,6 @@ export const arhousesData = [
       name: 'كيوان كيفي',
       phone:"tel:+9647506662006",
       email:"kaiwankaify@zest-property.com"
-    },
-  },
-  {
-    id: 3,
-    type: 'شقة',
-    url: 'شقة-للبیع-نوفا-تاورز-١٥-ئەی٢',
-    name: 'A2 15 شقة للبیع نوفا تاورز',
-    nameproperty:'نوفا تاورز ',
-    build: '5',
-    Allbuild: '22',
-    image: '/images/property/nova/ewr1.jpg',
-    imageLg: '/images/property/nova/ewr1.jpg',
-    country: 'عراق',
-    address: ' اربيل - طريق بحركة طريق',
-    bedrooms: '1',
-    bathrooms: '1',
-    area: '88 متر',
-    year: '2023',
-    price: '13,490',
-    agent: {
-      image: '/images/customer/rasty.webp',
-      name: 'راستي كيفي',
-      phone:"tel:+9647507342006",
-      email:"Rasty.kayfi@zest-property.com"
     },
   },
   {
@@ -943,30 +887,6 @@ export const arhousesData = [
     },
   },
   {
-    id: 8,
-    type: 'شقة',
-    url:'شقة-للبیع-لالاف-سكاي-فيو-١٠-ئەی١',
-    name: 'A1 10 شقة للبیع لالاف سكاي فيو',
-    nameproperty:'سكاي فيو ',
-    build: '6',
-    Allbuild: '39',
-    image: '/images/property/skyview/dsf1.jpg',
-    imageLg: '/images/property/skyview/dsf1.jpg',
-    country: 'عراق',
-    address: 'اربيل - امام بارك سامي عبد الرحمن',
-    bedrooms: '2',
-    bathrooms: '1',
-    area: '120 متر',
-    year: '2023',
-    price: '38,256',
-    agent: {
-      image: '/images/customer/muhammedrasul.webp',
-      name: 'محمد رسول',
-      phone:"tel:+9647506912006",
-      email: "M.Rasul@zest-property.com",
-    },
-  },
-  {
     id: 9,
     type: 'شقة',
     url:'شقة-للبیع-فینوس-تاوەر-٢٥-ئەی١',
@@ -1036,30 +956,6 @@ export const arhousesData = [
       name: 'كيوان كيفي',
       phone:"tel:+9647506662006",
       email:"kaiwankaify@zest-property.com"
-    },
-  },
-  {
-    id: 12,
-    type: 'شقة',
-    url:'شقة-للبیع-فینوس-تاوەر-١٠-ئەی٢',
-    name: 'A2 10 شقة للبیع فینوس تاوەر',
-    nameproperty:'فینوس تاوەر ',
-    build: '6',
-    Allbuild: '30',
-    image: '/images/property/venus/asdfaf1.jpg',
-    imageLg: '/images/property/venus/asdfaf1.jpg',
-    country: 'عراق',
-    address: 'اربيل - شارع 120 - امام هوليري نوي',
-    bedrooms: '1',
-    bathrooms: '1',
-    area: '67 متر',
-    year: '2022',
-    price: '12,951',
-    agent: {
-      image: '/images/customer/rasty.webp',
-      name: 'راستي كيفي',
-      phone:"tel:+9647507342006",
-      email:"Rasty.kayfi@zest-property.com"
     },
   },
   {
@@ -1695,17 +1591,6 @@ export const arlistAll = [
     area: "78 متر",
   },
   {
-    id: 3,
-    cover: "../images/property/nova/ewr.jpg",
-    url:'شقة-للبیع-نوفا-تاورز-١٥-ئەی٢',
-    name: "A2 15 شقة للبیع نوفا تاوەر",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$13,490",
-    type: "1 + 1",
-    area: "88 متر"
-  },
-  {
     id: 4,
     cover: "../images/property/skyview/dsf.jpg",
     url:'شقة-للبیع-لالاف-سكاي-فيو-١٢-ب١',
@@ -1772,17 +1657,6 @@ export const arlistAll = [
     area: "81 متر"
   },
   {
-    id: 8,
-    cover: "../images/property/skyview/dsf.jpg",
-    url:'شقة-للبیع-لالاف-سكاي-فيو-١٠-ئەی١',
-    name: "A1 10 شقة للبیع سكاي فيو",
-    location: "لالاف سكاي فيو, اربيل",
-    category: "للبيع",
-    price: "$38,256",
-    type: "2 + 1",
-    area: "120 متر"
-  },
-  {
     id: 9,
     cover: "../images/property/venus/asdfaf.jpg",
     url:'شقة-للبیع-فینوس-تاوەر-٢٥-ئەی١',
@@ -1814,17 +1688,6 @@ export const arlistAll = [
     price: "$35,856",
     type: "2 + 1",
     area: "120 متر"
-  },
-  {
-    id: 12,
-    cover: "../images/property/venus/asdfaf.jpg",
-    url:'شقة-للبیع-فینوس-تاوەر-١٠-ئەی٢',
-    name: " A2 10 شقة للبیع فينوس تاوەر",
-    location: "اربيل",
-    category: "للبيع",
-    price: "$12,951",
-    type: "1 + 1",
-    area: "67 متر"
   },
   {
     id: 13,
@@ -2094,15 +1957,15 @@ export const arlistAll = [
   area: "201.6 m²"
   },
   {
-    id: 3,
-    cover: "../images/property/nova/ewr.jpg",
-    url:'شقة-للبیع-نوفا-تاورز-١٥-ئەی٢',
-    name: "A2 15 شقة للبیع نوفا تاوەر",
+    id: 27,
+    cover: "../images/property/venus/asdfaf.jpg",
+    url:'شقة-للبیع-فینوس-تاوەر-٦-ئەی٣',
+    name: "A3 6 شقة للبیع فينوس تاوەر",
     location: "اربيل",
     category: "للبيع",
-    price: "$13,490",
+    price: "$14,442",
     type: "1 + 1",
-    area: "88 متر"
+    area: "81 متر"
   },
   {
     id: 4,
@@ -2148,17 +2011,18 @@ export const arlistAll = [
     type: "2 + 1",
     area: "105 متر"
   },
-  {
-    id: 8,
-    cover: "../images/property/skyview/dsf.jpg",
-    url:'شقة-للبیع-لالاف-سكاي-فيو-١٠-ئەی١',
-    name: "A1 10 شقة للبیع سكاي فيو",
-    location: "لالاف سكاي فيو, اربيل",
+      {
+    id: 32,
+    cover: "../images/property/north/north_holland_blog.jpg",
+    url: "شقة-للبیع-نورث-هولند-٩-ئەی",
+    name: "A 9 شقة للبیع نورث هولند",
+    location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$38,256",
-    type: "2 + 1",
-    area: "120 متر"
+    price: "$18,802",
+    type: "1 + 2",
+    area: "140 m²"
   },
+
 ]
 
 
@@ -2185,30 +2049,6 @@ export const housesData = [
       name: 'Kaywan Kayfi',
       phone:"tel:+9647506662006",
       email:"kaiwankaify@zest-property.com"
-    },
-  },
-  {
-    id: 3,
-    type: 'Apartment',
-    url: 'Apartment-for-Sale-Nova-towers-A2-15-Floor',
-    name: 'Apartment for Sale Nova towers A2 15 Floor',
-    nameproperty:'Nova towers ',
-    build: '5',
-    Allbuild: '22',
-    image: '../images/property/nova/ewr1.jpg',
-    imageLg: '../images/property/nova/ewr1.jpg',
-    country: 'Iraq',
-    address: 'Erbil - bahrka road',
-    bedrooms: '1',
-    bathrooms: '1',
-    area: '88 meter',
-    year: '2023',
-    price: '13,490',
-    agent: {
-      image: '../images/customer/rasty.webp',
-      name: 'Rasty Kayfi',
-      phone:"tel:+9647507342006",
-      email:"Rasty.kayfi@zest-property.com"
     },
   },
   {
@@ -2284,30 +2124,6 @@ export const housesData = [
     },
   },
   {
-    id: 8,
-    type: 'Apartament',
-    url:'Apartment-for-Sale-Sky-View-A1-10-Floor',
-    name: 'Apartment for Sale Sky View A1 10 Floor',
-    nameproperty: 'Sky view',
-    build: '6',
-    Allbuild: '39',
-    image: '../images/property/skyview/dsf1.jpg',
-    imageLg: '../images/property/skyview/dsf1.jpg',
-    country: 'Iraq',
-    address: 'Erbil - in front of sami abdulrahman park',
-    bedrooms: '2',
-    bathrooms: '1',
-    area: '120 meter',
-    year: '2023',
-    price: '38,256',
-    agent: {
-      image: '../images/customer/muhammedrasul.webp',
-      name: 'Mohammed Rasul',
-      phone:"tel:+9647506912006",
-      email: "M.Rasul@zest-property.com",
-    },
-  },
-  {
     id: 9,
     type: 'Apartament',
     url:'Apartment-for-Sale-Venus-Towers-A1-25-Floor',
@@ -2377,30 +2193,6 @@ export const housesData = [
       name: 'Kaywan Kayfi',
       phone:"tel:+9647506662006",
       email:"kaiwankaify@zest-property.com"
-    },
-  },
-  {
-    id: 12,
-    type: 'Apartment',
-    url:'Apartment-for-Sale-Venus-Towers-A2-10-Floor',
-    name: 'Apartment for Sale Venus Towers A2 10 Floor',
-    nameproperty:'Venus Towers ',
-    build: '6',
-    Allbuild: '30',
-    image: '../images/property/venus/asdfaf1.jpg',
-    imageLg: '../images/property/venus/asdfaf1.jpg',
-    country: 'Iraq',
-    address: 'Erbil - 120m in front of hawlery nwe',
-    bedrooms: '1',
-    bathrooms: '1',
-    area: '67 meter',
-    year: '2022',
-    price: '12,951',
-    agent: {
-      image: '../images/customer/rasty.webp',
-      name: 'Rasty Kayfi',
-      phone:"tel:+9647507342006",
-      email:"Rasty.kayfi@zest-property.com"
     },
   },
   {

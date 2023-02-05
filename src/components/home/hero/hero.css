@@ -38,14 +38,38 @@
       justify-content: center;
       align-items: center;
 }
-.snow {
-  height: calc(100vh - 60px);
-  width: 100%;
-  background: #282c34;
-  position: absolute;
-  z-index: 0;
-  opacity:0.5
+
+.herocontain {
+  width: 80%;
 }
+.herocontain h2 {
+  font-size: 90px;
+  color: #7a5c3e;
+  height: 110px;
+}
+.herocontain h3 {
+  color: #7a5c3e;
+  /* margin-bottom: -10px; */
+  font-size: 20px;
+  height: 20px;
+  /* font-family: second; */
+}
+.herocontain .heroborder {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 30px;
+  margin-top: 10px;
+  background-color: #7a5c3e;
+}
+.herocontain .heroborder h3 {
+color: #fff;
+}
+
+
 .hero .container {
   padding-top: 15%;
 }
@@ -274,7 +298,25 @@ form h4 {
 form {
   background-color:transparent;
 }
+.hero h1,
+.hero p {
+  color: #7a5c3e;
+}
 
+.herologo {
+  align-items: center;
+  margin-top: 20px;
+  display: flex;
+}
+.herologo img{
+  width: 100px;
+}
+.zestborder {
+  border-right: 3px solid #7a5c3eed;
+  width: 4px;
+  height: 60px;
+  margin: 0 10px;
+}
 
 
 
@@ -304,6 +346,10 @@ form {
   form input {
     width: 100%;
   }
+    .herocontain h2 {
+      font-size: 45px;
+      height: 45px;
+    }
 }
 @media screen and (max-width: 1100px) {
 .flexsearch {
@@ -311,6 +357,23 @@ form {
   align-items: center;
   justify-content: space-between;
   margin: 20px;
+}
+@media screen and (max-width: 400px) {
+.herocontain h2 {
+    font-size: 50px;
+    height: 55px;
+
+  }
+.herocontain h3 {
+    font-size: 20px;
+    height: 25px;
+  }
+.herocontain .h3 {
+    font-size: 20px;
+    height: 40px;
+    margin-top: 20px;
+  }
+
 }
 }
 .search{
