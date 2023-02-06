@@ -45,24 +45,25 @@
 .herocontain h2 {
   font-size: 90px;
   color: #7a5c3e;
-  height: 110px;
+  /* height: 110px; */
 }
 .herocontain h3 {
   color: #7a5c3e;
   /* margin-bottom: -10px; */
   font-size: 20px;
-  height: 20px;
+  /* height: 20px; */
   /* font-family: second; */
 }
 .herocontain .heroborder {
-  width: 200px;
+  width: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 5px 10px;
+  padding:10px 10px;
   border-radius: 30px;
   margin-top: 10px;
+
   background-color: #7a5c3e;
 }
 .herocontain .heroborder h3 {
@@ -348,7 +349,7 @@ form {
   }
     .herocontain h2 {
       font-size: 45px;
-      height: 45px;
+      /* height: 45px; */
     }
 }
 @media screen and (max-width: 1100px) {
@@ -361,17 +362,17 @@ form {
 @media screen and (max-width: 400px) {
 .herocontain h2 {
     font-size: 50px;
-    height: 55px;
+    /* height: 55px; */
 
   }
 .herocontain h3 {
     font-size: 20px;
-    height: 25px;
+    /* height: 25px; */
   }
 .herocontain .h3 {
     font-size: 20px;
-    height: 40px;
-    margin-top: 20px;
+    /* height: 40px; */
+    /* margin-top: 20px; */
   }
 
 }
