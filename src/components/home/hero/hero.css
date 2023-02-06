@@ -73,7 +73,7 @@ color: #fff;
 }
 .hero h1 {
   color: #fff;
-  font-size: 30px;
+  font-size: 110px;
   z-index: 1;
 }
 .hero p {
@@ -321,7 +321,6 @@ form {
 
 @media screen and (max-width: 800px) {
   .hero h1 {
-    font-size: 18px;
   }
   .hero p {
     font-size: 12px;
@@ -349,6 +348,11 @@ form {
       /* height: 45px; */
     }
 }
+@media screen and (max-width: 800px) {
+  .hero h1 {
+    font-size: 70px;
+  }
+}
 @media screen and (max-width: 1100px) {
 .flexsearch {
   display: flex; 
@@ -357,6 +361,9 @@ form {
   margin: 20px;
 }
 @media screen and (max-width: 400px) {
+    .hero h1 {
+        font-size: 58px;
+      }
 .herocontain h2 {
     font-size: 50px;
     /* height: 55px; */
@@ -370,7 +377,6 @@ form {
     line-height: 20px;
     margin-bottom: 10px;
   }
-
 }
 }
 .search{

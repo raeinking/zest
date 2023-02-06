@@ -27,7 +27,7 @@ const Hero = () => {
           <p>Find Your Next Home In Zest Property.</p> */}
           <div className="herocontain" >
           <h3>Zest Property - Luxury Estate</h3>
-            <h2>VISIT US!</h2>
+            <h1>VISIT US!</h1>
             <h3 className="h3">International Property Show. Dubai 2023</h3>
             <h3 className="h3">Dubai World Trade Center. United. AE. Arab</h3>
             <div className="heroborder">
