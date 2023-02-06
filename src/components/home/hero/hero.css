@@ -33,10 +33,10 @@
   min-height: calc(100vh - 60px);
   width: 100%;
   position: relative;
-    display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .herocontain {
@@ -316,9 +316,6 @@ form {
   margin: 0 10px;
 }
 
-
-
-
 @media screen and (max-width: 800px) {
   .hero h1 {
   }
@@ -361,9 +358,9 @@ form {
   margin: 20px;
 }
 @media screen and (max-width: 400px) {
-    .hero h1 {
-        font-size: 58px;
-      }
+.hero h1 {
+    font-size: 58px;
+  }
 .herocontain h2 {
     font-size: 50px;
     /* height: 55px; */
