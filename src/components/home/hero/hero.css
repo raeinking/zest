@@ -55,7 +55,7 @@
   /* font-family: second; */
 }
 .herocontain .heroborder {
-  width: 300px;
+  width: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -363,7 +363,6 @@ form {
 .herocontain h2 {
     font-size: 50px;
     /* height: 55px; */
-
   }
 .herocontain h3 {
     font-size: 20px;
