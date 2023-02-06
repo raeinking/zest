@@ -49,10 +49,7 @@
 }
 .herocontain h3 {
   color: #7a5c3e;
-  /* margin-bottom: -10px; */
   font-size: 20px;
-  /* height: 20px; */
-  /* font-family: second; */
 }
 .herocontain .heroborder {
   width: 250px;
@@ -365,13 +362,13 @@ form {
     /* height: 55px; */
   }
 .herocontain h3 {
-    font-size: 20px;
+    font-size: 15px;
     /* height: 25px; */
   }
 .herocontain .h3 {
-    font-size: 20px;
-    /* height: 40px; */
-    /* margin-top: 20px; */
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 10px;
   }
 
 }
