@@ -43,3 +43,9 @@ p {
 .flex .div button {
   border-radius: 0px;
 }
+.zoom {
+  transition: ease-in-out 350ms;
+}
+.zoom:hover {
+  transform: scale(1.1);
+}

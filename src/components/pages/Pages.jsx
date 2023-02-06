@@ -1,4 +1,4 @@
-import React from "react"
+import React,{useEffect} from "react"
 import Header from "../common/header/Header"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Home from "../home/Home"
@@ -15,10 +15,18 @@ import PropertyDetails from "../PageDis/PropertyDetails"
 import khlood from "../projects/khlood/Khlood"
 import alwedd from "../projects/alwedd/Alwedd"
 import Majedy from "../projects/majedy/Majedy"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
+
 
 
 
 const   Pages = () => {
+        useEffect(() => {
+        AOS.init();
+      }, [])
 
   return (
     <>

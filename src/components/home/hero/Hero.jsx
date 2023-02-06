@@ -9,6 +9,7 @@ import ips from './ips.png'
 
 
 
+
 const Hero = () => {
     const email = 'zest@zest-property.com'
   const [name , setName] = useState('')
@@ -22,7 +23,7 @@ const Hero = () => {
   return (
     <>
     {paths == '/' ? 
-      <section className='hero'>
+      <section data-aos="fade-up" className='hero'>
           {/* <h1 title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.'>Zest Property</h1>
           <p>Find Your Next Home In Zest Property.</p> */}
           <div className="herocontain" >
@@ -62,7 +63,7 @@ const Hero = () => {
           </div> */}
       </section>
       :       
-      <section className='hero'>
+      <section data-aos="fade-up" className='hero'>
       <div className="snow">
   </div>
           {/* <h1 className="ar">شركة زيست</h1>

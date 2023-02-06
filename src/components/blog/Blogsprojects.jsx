@@ -22,7 +22,7 @@ export default function Blogsprojects() {
         {listAll.map((val, index) => {
           const { cover, category, location, name, price, type, area } = val
           return (
-            <a href={ '/' + val.url}>
+            <a className='zoom' href={ '/' + val.url}>
             <div className='box shadow' key={index}>
               <div className='img'>
                 <img src={cover} alt={name} />
@@ -56,7 +56,7 @@ export default function Blogsprojects() {
         {arlistAll.map((val, index) => {
           const { cover, category, location, name, price, type, area } = val
           return (
-            <a href={ '/ar/' + val.url}>
+            <a className='zoom' href={ '/ar/' + val.url}>
             <div className='box shadow' key={index}>
               <div className='img'>
                 <img src={cover} alt={name} />

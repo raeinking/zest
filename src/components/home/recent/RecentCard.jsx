@@ -15,7 +15,7 @@ const RecentCard = () => {
         {list.map((val, index) => {
           const { cover, category, location, name, price, type , area } = val
           return (
-            <a href={ '/' + val.url} key={index}>
+            <a className="zoom" href={ '/' + val.url} key={index}>
             <div className='box shadow' >
               <div className='img'>
                 <img src={cover} alt={name} />
@@ -47,7 +47,7 @@ const RecentCard = () => {
         {arlist.map((val, index) => {
           const {cover, category, location, name, price, type , area } = val
           return (
-            <a href={ '/ar/' + val.url} key={index}>
+            <a className="zoom" href={ '/ar/' + val.url} key={index}>
             <div className='box shadow' >
               <div className='img'>
                 <img src={cover} alt={name} />

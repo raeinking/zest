@@ -40,7 +40,7 @@ export default function Agents() {
           <Heading title='Our Featured Agents' subtitle='' />
           <div className='gridbox'>
             {allAgents.map((val, index) => (
-                <div className='box' key={index}>
+                <div className='box zoom' key={index}>
                   {/* <button className='btn3'>{val.list} Listings</button> */}
                   <div className='details'>
                     <div className='img'>
@@ -78,7 +78,7 @@ export default function Agents() {
           <Heading title='افضل الوكلاء' subtitle='' />
           <div className='gridbox'>
             {arallAgents.map((val, index) => (
-                <div className='box' key={index}>
+                <div className='box zoom' key={index}>
                   <div className='details'>
                     <div className='img'>
                       <img src={val.cover} alt={val.name} />

@@ -710,6 +710,28 @@ export const list = [
     type: "2 + 1",
     area: "115 meter"
   },
+    {
+    id: 22,
+    cover: "../images/property/venus/asdfaf.jpg",
+    url: "Apartment-for-Sale-Venus-Towers-B1-14-Floor",
+    name: "Apartment for Sale Venus Towers B1 14 Floor",
+    location: "Erbil",
+    category: "For Sale",
+    price: "$15,571",
+    type: "2 + 1",
+    area: "105 meter"
+  },
+    {
+    id: 17,
+    cover: "../images/property/skyview/dsf.jpg",
+    url: "Apartment-for-Sale-Sky-View-B3-7-Floor",
+    name: "Apartment for Sale Sky View B3 7 Floor",
+    location: "Lalav Sky View, Erbil",
+    category: "For Sale",
+    price: "$23,120",
+    type: "1 + 1",
+    area: "80 meter"
+  },
       {
     id: 39,
     cover: "../images/property/north/north_holland_blog.jpg",
@@ -751,28 +773,6 @@ export const list = [
     location: "Erbil",
     category: "For Sale",
     price: "$16,096",
-    type: "2 + 1",
-    area: "105 meter"
-  },
-        {
-    id: 39,
-    cover: "../images/property/north/north_holland_blog.jpg",
-    url: "Apartment-for-Sale-North-Holland-B-5-floor",
-    name: "Apartment for Sale North Holland B 5",
-    location: "Erbil - Mosul Road, opposite of Dream City",
-    category: "For Sale",
-    price: "$12,087", 
-    type: "1 + 1",
-    area: "90 m²"
-  },
-  {  
-    id: 22,
-    cover: "../images/property/venus/asdfaf.jpg",
-    url: "Apartment-for-Sale-Venus-Towers-B1-14-Floor",
-    name: "Apartment for Sale Venus Towers B1 14 Floor",
-    location: "Erbil",
-    category: "For Sale",
-    price: "$15,571",
     type: "2 + 1",
     area: "105 meter"
   },

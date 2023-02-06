@@ -11,14 +11,14 @@ const Awards = () => {
   return (
     <>
       {paths == '/' ? 
-      <section className='awards padding'>
+      <section  className='awards padding'>
         <div className='container'>
-          <Heading title='Over +35,000 Happy User Bieng With Us Still They Love Our Services' subtitle='Our Awards' />
+          <Heading title='Over +35,000 Happy Users around Iraq thanks to Zest Properties Staff' subtitle='Our achievements' />
           <div className='content grid4 mtop'>
             {awards.map((val, index) => (
               <div className='box' key={index}>
-                <div className='icon'>
-                  <img className="" src={val.icon} alt='awards'></img>
+                <div data-aos='flip-left' data-aos-duration='2500' className='icon'>
+                  <img className="flep" src={val.icon} alt='awards'></img>
                 </div>
                 <h2>{val.num}</h2>
                 <p>{val.name}</p>
@@ -34,7 +34,7 @@ const Awards = () => {
           <div className='content grid4 mtop'>
             {arawards.map((val, index) => (
               <div className='box' key={index}>
-                <div className='icon'>
+                <div data-aos='flip-left' data-aos-duration='2500' className='icon'>
                   <img className="" src={val.icon} alt='awards'></img>
                 </div>
                 <h2 className="ar">{val.num}</h2>
