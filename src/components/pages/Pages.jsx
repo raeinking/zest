@@ -17,6 +17,7 @@ import alwedd from "../projects/alwedd/Alwedd"
 import Majedy from "../projects/majedy/Majedy"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import pagenotfoud from "../pagenotfoud"
 
 
 
@@ -49,8 +50,9 @@ const   Pages = () => {
           <Route exact path='/ar/alwedd' component={alwedd} />
           <Route exact path='/Majidi-View' component={Majedy} />
           <Route exact path='/ar/Majidi-View' component={Majedy} />
-          <Route exact path='/:id' component={PropertyDetails} />
-          <Route exact path='/ar/:id' component={PropertyDetails} />
+          <Route exact path='/properties/:id' component={PropertyDetails} />
+          <Route exact path='/ar/properties/:id' component={PropertyDetails} />
+          <Route path='*' component={pagenotfoud} />
         </Switch>
         <Footer />
       </Router>

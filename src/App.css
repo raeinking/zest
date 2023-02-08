@@ -223,6 +223,13 @@ option {
 .zoom:hover {
   transform: scale(1.1);
 }
+.pagenotfound{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 100%;
+}
 
 
 .mtop {

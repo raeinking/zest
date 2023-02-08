@@ -1531,6 +1531,7 @@ export const arlistAll = [
     type: "1 + 1",
     area: "78 متر",
   },
+  
   {
     id: 4,
     cover: "../images/property/skyview/dsf.jpg",
@@ -1875,16 +1876,16 @@ export const arlistAll = [
     type: "1 + 1",
     area: "78 متر"
   },
-  {
-  id: 43,
-  cover: "../images/property/venus/asdfaf.jpg",
-  url: "شقة-للبیع-قیوان-میرادور-٦-بي-٢٠١",
-  name: "B 6 شقة للبیع قیوان میرادور",
-  location: "اربيل",
-  category: "للبيع",
-  price: "$28,305",
-  type: "1 + 4",
-  area: "201.6 m²"
+    {
+    id: 13,
+    cover: "../images/property/skyview/dsf.jpg",
+    url:'شقة-للبیع-لالاف-سكاي-فيو-٣٧-ب٣',
+    name: "B3 37 شقة للبیع سكاي فيو",
+    location: "لالاف سكاي فيو, اربيل",
+    category: "للبيع",
+    price: "$38,256",
+    type: "2 + 1",
+    area: "120 متر"
   },
   {
     id: 27,
