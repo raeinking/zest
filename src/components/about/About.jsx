@@ -38,9 +38,9 @@ const About = () => {
         <div className='aboutmain'>
           <div className='aboutcontent'>
             <h2>Zest Property Story</h2>
-            <p>Zest belongs to IZ-GROUP, IZ-GROUP is also the leading company when it comes to real estate, properties. investments, and project engineering and project management since 2006.</p>
-            <p>We offer a wide knowledge of skills and experiences, with clever minds that invested 15 years of experience in business between Dubai, Baghdad, Erbil, And different Iraqi provinces.</p>
-            <p>So as we seek a bright future to service our people, and society.. we have opened a series of branches in several governorates, including Erbil, Kirkuk and Baghdad, to manage real estate brokerage.</p>
+            <p>Zest is owned by IZ-GROUP, which is the leading real estate .</p>
+            <p>company in Iraq. and also properties. investments, engineering.</p>
+            <p>and project management since 2006.</p>
           </div>
           <div className='aboutimg'>
             <img className="imageabout" src={img3} alt='About Us' />
@@ -51,7 +51,7 @@ const About = () => {
         <div className='aboutmain'>
           <div className='aboutcontent'>
             <h2>Our vision</h2>
-            <p>Real estates are the soul industry behind economy in the world. So for any operation to success in this field, we have to operate correct decisions. and mix all of our skills in engineering, economy, business management, and marketing towards a passionate direction.</p>
+            <p>We offer a wide range of skills and Clever minds with 15 years of experience in field. So we work hard to expand our branches, including our team in Dubai.</p>
           </div>
           <div className='aboutimg'>
             <img className="imageabout" src={img1} alt='About Us' />
@@ -62,7 +62,7 @@ const About = () => {
         <div className='aboutmain'>
           <div className='aboutcontent'>
             <h2>Our Message</h2>
-            <p>In order to achieve a better life style, we had to put our lives and experiences in Zest. And invest wisely to ensure the future of our clients.</p>
+            <p>we have launched a series of branches in several governorates, including: Erbil, Kirkuk and Baghdad, to provide real estate brokerage services.</p>
           </div>
           <div className='aboutimg'>
             <img className="imageabout" src={img2} alt='About Us' />
