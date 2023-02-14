@@ -17,9 +17,8 @@ header img {
   width: 70px;
 }
 header a {
-  margin-left: 30px;
+  margin-left: 15px;
   transition: 0.5s;
-  font-weight: 500;
 }
 header a:hover {
   color: black;
