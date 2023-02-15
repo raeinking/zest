@@ -60,7 +60,8 @@
     height: 80px;
 }
  p {
-    color: #72809d;
+    color: #5c5c5c;
+    font-weight: 100;
 }
 .flexs {
     display: flex;
