@@ -26,7 +26,7 @@ const Alwedd = () => {
   const [newslatter , setNewslatter] = useState('')
   const [nname , setName] = useState('')
   const [phone , setPhone] = useState('')
-  const [enbody , setEnbody] = useState(" i'm intrestied in " + "[ " + "bianca" + " ]")
+  const [enbody , setEnbody] = useState('مرحبا، أنا مهتم ب ' + "[ " + "مشروع بيانكا" + " ]")
 
 
   const location = useLocation();
@@ -44,14 +44,10 @@ const Alwedd = () => {
         <h1>مشروع بيانكا</h1>
     </section>
     <main>
-    <form className='formss' ref={form} onSubmit={sendEmail}>
-        <input onChange={e => setNewslatter(e.target.value)} className='formsinput' type='text' name='email' placeholder='Email Address *' />
-        <button className="">Subscribe</button>
-        </form>
       <div className='test'>
         <img src={alweddb}  alt='klood' />
         <div className='paraghraf'>
-        <h2> Bianca Prices Starts From </h2>
+        <h2> أسعار بيانكا تبدأ من </h2>
           <ol className='ulsklood'>
             <li>
               ٣٦٠،٠٠٠$ غرفتين نوم وصاله 
@@ -60,15 +56,15 @@ const Alwedd = () => {
                 ٥٠٠،٠٠٠$  ثلاث غرف نوم وصاله 
             </li>
             <li>
-                 ٥٥٥،٥٥٥$ اربع غرف نوم وصالة 
+                ٥٥٥،٥٥٥$ اربع غرف نوم وصالة 
             </li>
           </ol>
         </div>
       </div>
      <div className='test revers'>
         <img src={alweddh2}  alt='klood' />
-               <div className='paraghraf'>
-        <h2> Payment Plan For Bianca </h2>
+        <div className='paraghraf'>
+        <h2> خطة الدفع لبيانكا </h2>
           <ol className='ulsklood'>
             <li>
                مقدمة ١٠٪ شهريا ١٪ تحصل على خصم (٥٪)
@@ -101,18 +97,18 @@ const Alwedd = () => {
       <form className='formpage'>
             <input
               type='text'
-              placeholder='Name*'
+              placeholder='اسم*'
               onChange={e => setName(e.target.value)}
             />
             <input
               type='text'
-              placeholder='Phone Number*'
+              placeholder='الهاتف*'
               onChange={e => setPhone(e.target.value)}
             />
             <textarea
               type='text'
               placeholder='رسالة*'
-              defaultValue={"I'm interested " + "[ " + "bianca" + " ]"}
+              defaultValue={'مرحبا، أنا مهتم ب ' + "[ " + "مشروع بيانكا" + " ]"}
               onChange={e => setEnbody(e.target.value)}
             />
             <div className='flex gap-x-2'>
@@ -121,7 +117,7 @@ const Alwedd = () => {
                   className='buttonss'
                   type='submit'
                 >
-                  Send Message
+                  أرسل رسالة
                 </p>
             </a>
             </div>

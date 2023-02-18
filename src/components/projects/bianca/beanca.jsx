@@ -111,7 +111,7 @@ const Alwedd = () => {
             />
             <textarea
               type='text'
-              placeholder='رسالة*'
+              placeholder='message*'
               defaultValue={"I'm interested " + "[ " + "bianca" + " ]"}
               onChange={e => setEnbody(e.target.value)}
             />

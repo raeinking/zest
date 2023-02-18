@@ -247,10 +247,6 @@ const Khlood = () => {
             />
             <input
               type='text'
-              placeholder='البريد الإلكتروني*'
-            />
-            <input
-              type='text'
               placeholder='الهاتف*'
               onChange={e => setPhone(e.target.value)}
             />
