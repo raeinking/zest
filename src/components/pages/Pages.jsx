@@ -18,6 +18,8 @@ import Majedy from "../projects/majedy/Majedy"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import pagenotfoud from "../pagenotfoud"
+import beanca from '../projects/bianca/beanca'
+import arbianca from '../projects/bianca/arbianca'
 
 
 
@@ -45,6 +47,8 @@ const   Pages = () => {
           <Route exact path='/about' component={About} />
           <Route exact path='/ar/about' component={About} />
           <Route exact path='/khlood' component={khlood} />
+          <Route exact path='/bianca' component={beanca} />
+          <Route exact path='/ar/bianca' component={arbianca} />
           <Route exact path='/ar/khlood' component={khlood} />
           <Route exact path='/alwedd' component={alwedd} />
           <Route exact path='/ar/alwedd' component={alwedd} />

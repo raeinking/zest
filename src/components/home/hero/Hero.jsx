@@ -24,9 +24,23 @@ const Hero = () => {
     <>
     {paths == '/' ? 
       <section data-aos="fade-up" className='hero'>
-          <p>Find Your Next Home In.</p>
-          <h1 title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.'>Zest Property</h1>
-          <div class="login-box">
+          {/* <h1 title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.'>Zest Property</h1>
+          <p>Find Your Next Home In Zest Property.</p> */}
+          <div className="herocontain" >
+          <h3>Zest Property - Luxury Estate</h3>
+            <h1>VISIT US!</h1>
+            <h3 className="h3">International Property Show. Dubai 2023</h3>
+            <h3 className="h3">Dubai World Trade Center. United. AE. Arab</h3>
+            <div className="heroborder">
+              <h3>12 - 14 February 2023</h3>
+            </div>
+            <div className="herologo">
+              <img src={zest}  alt="zest"></img>
+              <div className='zestborder'></div>
+              <a href="https://www.internationalpropertyshow.ae/dubai"><img src={ips} alt="ips" ></img></a>
+            </div>
+          </div>
+          {/* <div class="login-box">
           <h2>Contact us to easily find your new home</h2>
           <form>
             <div class="user-box">
@@ -46,15 +60,29 @@ const Hero = () => {
               <p>Submit</p>
             </a>
           </form>
-          </div>
+          </div> */}
       </section>
       :       
       <section data-aos="fade-up" className='hero'>
       <div className="snow">
   </div>
-          <p className="ar">فرصة لعرض احدث واجدد العقارات القريبة منك</p>
-          <h1 className="ar">شركة زيست</h1>
-          <div class="login-box">
+          {/* <h1 className="ar">شركة زيست</h1>
+          <p className="ar">فرصة لعرض احدث واجدد العقارات القريبة منك</p> */}
+            <div className="herocontain" >
+          <h3 className="h3 ar">زيست للعقارات الفاخرة</h3>
+            <h2 className="ar">!زوروا جناحنا</h2>
+            <h3 className="h3 ar">في معرض العقارات الدولي - دبي 2023</h3>
+            <h3 className="h3 ar">برج التجارة العالمي، دبي، الامارات</h3>
+            <div className="heroborder">
+              <h3 className="h3e ar">12-14 شباط 2023</h3>
+            </div>
+            <div className="herologo">
+              <img src={zest}  alt="zest"></img>
+              <div className='zestborder'></div>
+              <img src={ips} alt="ips"></img>
+            </div>
+          </div>
+          {/* <div class="login-box">
           <h2>تواصل معنا لتسهيل عملية ايجاد عقارك الجديد</h2>
           <form>
             <div class="user-box">
@@ -74,7 +102,7 @@ const Hero = () => {
               <p className="ar">إرسال</p>
             </a>
           </form>
-          </div>
+          </div> */}
       </section>
       }
     </>

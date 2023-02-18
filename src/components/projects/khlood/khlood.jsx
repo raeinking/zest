@@ -229,7 +229,7 @@ const Khlood = () => {
       <div className='test'>
         <img src={khlood2}  alt='klood' />
         <div className='paraghraf'>
-                  <h2>للحجز الاتصال على الأرقام التالية:</h2>
+          <h2>للحجز الاتصال على الأرقام التالية:</h2>
           <ul className='ulsklood'>
             <li>
             <a href='tel:+9647706212006'>
