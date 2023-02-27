@@ -531,17 +531,6 @@ export const listAll = [
     type: "1 + 1",
     area: "67 meter"
   },
-    {
-    id: 30,
-    cover: "../images/property/north/north_holland_blog.jpg",
-    url: "Apartment-for-Sale-North-Holland-A-9-Floor",
-    name: "Apartment for Sale North Holland A 9 Floor",
-    location: "Erbil - Mosul Road, opposite of Dream City",
-    category: "For Sale",
-    price: "$28,203",
-    type: "1 + 3",
-    area: "210 m²"
-  },
   {
     id: 19,
     cover: "../images/property/skyview/dsf.jpg",
@@ -629,6 +618,28 @@ export const listAll = [
     price: "$12,087", 
     type: "1 + 1",
     area: "90 m²"
+  },
+      {
+    id: 39,
+    cover: "../images/property/north/north_holland_blog.jpg",
+    url: "Apartment-for-Sale-North-Holland-A-13",
+    name: "Apartment for Sale North Holland A 13",
+    location: "Erbil - Mosul Road, opposite of Dream City",
+    category: "For Sale",
+    price: "$12,087", 
+    type: "1 + 1",
+    area: "90 m²"
+  },
+      {
+    id: 39,
+    cover: "../images/property/north/north_holland_blog.jpg",
+    url: "Apartment-for-Sale-North-Holland-A-11-floor",
+    name: "Apartment for Sale North Holland A 11",
+    location: "Erbil - Mosul Road, opposite of Dream City",
+    category: "For Sale",
+    price: "$28,203", 
+    type: "1 + 3",
+    area: "210 m²"
   },
       {
     id: 39,
@@ -1316,8 +1327,8 @@ export const arhousesData = [
     {
     id: 30,
     type: 'Apartament',
-    url: "Apartment-for-Sale-North-Holland-A-9-Floor",
-    name: "Apartment for Sale North Holland A 9 Floor",
+    url: "Apartment-for-Sale-North-Holland-A-11-Floor",
+    name: "Apartment for Sale North Holland A 11 Floor",
     nameproperty:'North Holland',
     build: '6',
     Allbuild: '20',
@@ -1389,6 +1400,30 @@ export const arhousesData = [
     {
     id: 56,
     type: 'شقة',
+    url: "شقة-للبیع-نورث-هولند-١٣-ئەی",
+    name: "A 13 شقة للبیع نورث هولند",
+    nameproperty:'نورث هولند',
+    build: '6',
+    Allbuild: '20',
+    image: '/images/property/north/north_holland_hd.jpg',
+    imageLg: '/images/property/north/north_holland_hd.jpg',
+    country: 'Iraq',
+    address: 'Erbil - Mosul Road, opposite of Dream City',
+    bedrooms: '1',
+    bathrooms: '1',
+    area: '90 m²',
+    year: '2022',
+    price: '12,087',
+    agent: {
+      image: '/images/customer/kaywan.webp',
+      name: 'Kaywan Kayfi',
+      phone:"tel:+9647506662006",
+      email:"kaiwankaify@zest-property.com"
+    },
+  },
+    {
+    id: 56,
+    type: 'شقة',
     url: "شقة-للبیع-نورث-هولند-١١-ئەی",
     name: "A 11 شقة للبیع نورث هولند",
     nameproperty:'نورث هولند',
@@ -1403,6 +1438,30 @@ export const arhousesData = [
     area: '90 m²',
     year: '2022',
     price: '12,087',
+    agent: {
+      image: '/images/customer/kaywan.webp',
+      name: 'Kaywan Kayfi',
+      phone:"tel:+9647506662006",
+      email:"kaiwankaify@zest-property.com"
+    },
+  },
+    {
+    id: 56,
+    type: 'شقة',
+    url: "شقة-للبیع-نورث-هولند-١١-ئەی-٢١٠",
+    name: "A 11 شقة للبیع نورث هولند",
+    nameproperty:'نورث هولند',
+    build: '6',
+    Allbuild: '20',
+    image: '/images/property/north/north_holland_hd.jpg',
+    imageLg: '/images/property/north/north_holland_hd.jpg',
+    country: 'Iraq',
+    address: 'Erbil - Mosul Road, opposite of Dream City',
+    bedrooms: '1',
+    bathrooms: '1',
+    area: '210 m²',
+    year: '2022',
+    price: '28,203',
     agent: {
       image: '/images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -1608,17 +1667,6 @@ export const arlistAll = [
     area: "80 متر"
   },
     {
-    id: 30,
-    cover: "../images/property/north/north_holland_blog.jpg",
-    url: "شقة-للبیع-نورث-هولند-٩-ئەی-٦",
-    name: "A 9   شقة للبیع نورث هولند",
-    location: "أربيل - شارع موسل",
-    category: "للبيع",
-    price: "$28,203",
-    type: "1 + 3",
-    area: "210 m²"
-  },
-    {
     id: 18,
     cover: "../images/property/venus/asdfaf.jpg",
     url:'شقة-للبیع-فینوس-تاوەر-٦-ئەی٢',
@@ -1720,6 +1768,17 @@ export const arlistAll = [
       {
     id: 56,
     cover: "../images/property/north/north_holland_blog.jpg",
+    url: "شقة-للبیع-نورث-هولند-١٣-ئەی",
+    name: "A 13 شقة للبیع نورث هولند",
+    location: "أربيل - شارع موسل",
+    category: "للبيع",
+    price: "$12,087", 
+    type: "1 + 1",
+    area: "90 m²"
+  },
+      {
+    id: 56,
+    cover: "../images/property/north/north_holland_blog.jpg",
     url: "شقة-للبیع-نورث-هولند-١١-ئەی",
     name: "A 11 شقة للبیع نورث هولند",
     location: "أربيل - شارع موسل",
@@ -1727,6 +1786,17 @@ export const arlistAll = [
     price: "$12,087", 
     type: "1 + 1",
     area: "90 m²"
+  },
+      {
+    id: 56,
+    cover: "../images/property/north/north_holland_blog.jpg",
+    url: "شقة-للبیع-نورث-هولند-١١-ئەی-٢١٠",
+    name: "A 11 شقة للبیع نورث هولند",
+    location: "أربيل - شارع موسل",
+    category: "للبيع",
+    price: "$28,203", 
+    type: "1 + 3",
+    area: "210 m²"
   },
   {
     id: 14,
@@ -2544,30 +2614,6 @@ export const housesData = [
     }
   },
   {
-    id: 30,
-    type: 'Apartament',
-    url: "Apartment-for-Sale-North-Holland-A-9-Floor",
-    name: "Apartment for Sale North Holland A 9 Floor",
-    nameproperty:'North Holland',
-    build: '6',
-    Allbuild: '20',
-    image: '../images/property/north/north_holland_hd.jpg',
-    imageLg: '../images/property/north/north_holland_hd.jpg',
-    country: 'Iraq',
-    address: 'Erbil - Mosul Road, opposite of Dream City ',
-    bedrooms: '3',
-    bathrooms: '1',
-    area: '210 m²',
-    year: '2022',
-    price: '28,203',
-    agent: {
-      image: '../images/customer/kaywan.webp',
-      name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
-    },
-  },
-  {
     id: 32,
     type: 'Apartament',
     url: "Apartment-for-Sale-North-Holland-A-7-6",
@@ -2632,6 +2678,30 @@ export const housesData = [
     area: '90 m²',
     year: '2022',
     price: '12,087',
+    agent: {
+      image: '../images/customer/kaywan.webp',
+      name: 'Kaywan Kayfi',
+      phone:"tel:+9647506662006",
+      email:"kaiwankaify@zest-property.com"
+    },
+  },
+    {
+    id: 56,
+    type: 'Apartament',
+    url: "Apartment-for-Sale-North-Holland-A-11-floor",
+    name: "Apartment for Sale North Holland A 11",
+    nameproperty:'North Holland',
+    build: '6',
+    Allbuild: '20',
+    image: '../images/property/north/north_holland_hd.jpg',
+    imageLg: '../images/property/north/north_holland_hd.jpg',
+    country: 'Iraq',
+    address: 'Erbil - Mosul Road, opposite of Dream City ',
+    bedrooms: '1',
+    bathrooms: '1',
+    area: '210 m²',
+    year: '2023',
+    price: '28,203',
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
@@ -2836,6 +2906,30 @@ export const housesData = [
     type: 'Apartament',
     url: "Apartment-for-Sale-North-Holland-A-7",
     name: "Apartment for Sale North Holland A 7",
+    nameproperty:'North Holland',
+    build: '6',
+    Allbuild: '20',
+    image: '../images/property/north/north_holland_hd.jpg',
+    imageLg: '../images/property/north/north_holland_hd.jpg',
+    country: 'Iraq',
+    address: 'Erbil - Mosul Road, opposite of Dream City ',
+    bedrooms: '1',
+    bathrooms: '1',
+    area: '90 m²',
+    year: '2022',
+    price: '12,087',
+    agent: {
+      image: '../images/customer/kaywan.webp',
+      name: 'Kaywan Kayfi',
+      phone:"tel:+9647506662006",
+      email:"kaiwankaify@zest-property.com"
+    },
+  },
+      {
+    id: 52,
+    type: 'Apartament',
+    url: "Apartment-for-Sale-North-Holland-A-13",
+    name: "Apartment for Sale North Holland A 13",
     nameproperty:'North Holland',
     build: '6',
     Allbuild: '20',
