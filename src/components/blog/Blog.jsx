@@ -173,7 +173,7 @@ const Blog = () => {
                 <option value="210">210</option>
               </select>
             </div> */}
-            <input className="searchbar" type='text' onChange={(e) => searchItems(e.target.value)} placeholder='Search...' />
+            <input className="searchbar" type='text' onChange={(e) => searchItems(e.target.value)} placeholder='...يبحث' />
           </div>
       </section>
       <section className="blogFillters">
