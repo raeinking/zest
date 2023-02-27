@@ -17,9 +17,14 @@ const Blog = () => {
   const fword = paths[1] + paths[2]
   const [searchInput, setSearchInput] = useState('');
   const [APIData, setAPIData] = useState([])
+  const [ArAPIData, setArAPIData] = useState([])
   
   useEffect(() => {
     setAPIData(listAll.filter((item) => {
+        return Object.values(item.name).join('').toLowerCase().includes(searchInput.toLowerCase())
+      }
+      ))
+    setArAPIData(arlistAll.filter((item) => {
         return Object.values(item.name).join('').toLowerCase().includes(searchInput.toLowerCase())
       }
       ))
@@ -55,18 +60,17 @@ const Blog = () => {
        <section>
       <section className='blog'>
           <div className="searchbardiv">
-            <div className="select">
-              <select onChange={(e) => searchItems(e.target.value)} value='Projects'>
-                <option selected disabled >Projects</option>
-                <option value="">All</option>
-                <option value="north">north</option>
-                <option value="sky view">sky view</option>
-                <option value="venus">venus</option>
-                <option value="qaiwan">qaiwan</option>
-                <option value="nova">nova</option>
+            {/*<div className="select sleft">
+              <select onChange={(e) => searchItems(e.target.value)}>
+                <option value="" >Projects</option>
+                <option value="North">North</option>
+                <option value="Sky View">Sky View</option>
+                <option value="venus">Venus</option>
+                <option value="Qaiwan">Qaiwan</option>
+                <option value="Nova">Nova</option>
               </select>
-              <select onChange={(e) => searchItems(e.target.value)} value='Rooms'>
-                <option selected disabled>Rooms</option>
+              <select className="select" onChange={(e) => searchItems(e.target.value)}>
+                <option value="">Rooms</option>
                 <option value="1 + 1">1 + 1</option>
                 <option value="1 + 2">1 + 2</option>
                 <option value="1 + 3">1 + 3</option>
@@ -74,7 +78,23 @@ const Blog = () => {
                 <option value="1 + 5">1 + 5</option>
                 <option value="1 + 6">1 + 6</option>
               </select>
-            </div>
+              <select className="select sright" onChange={(e) => searchItems(e.target.value)}>
+                <option value=''>Meter</option>
+                <option value="67">67</option>
+                <option value="72">72</option>
+                <option value="76">76</option>
+                <option value="78">78</option>
+                <option value="80">80</option>
+                <option value="81">81</option>
+                <option value="90">90</option>
+                <option value="105">105</option>
+                <option value="115">115</option>
+                <option value="120">120</option>
+                <option value="140">140</option>
+                <option value="201">201</option>
+                <option value="210">210</option>
+              </select>
+            </div> */}
             <input className="searchbar" type='text' onChange={(e) => searchItems(e.target.value)} placeholder='Search...' />
           </div>
       </section>
@@ -116,7 +136,45 @@ const Blog = () => {
       : 
       <section>
       <section className='blog'>
-          <Back title='ابحث عن منزل مميز' subtitle='ابحث عن عقار جديد ومميز يقع في مدينتك المحلية.' cover={img} />
+          {/* <Back title='ابحث عن منزل مميز' subtitle='ابحث عن عقار جديد ومميز يقع في مدينتك المحلية.' cover={img} /> */}
+       <div className="searchbardiv">
+            {/*<div className="select sleft">
+              <select onChange={(e) => searchItems(e.target.value)}>
+                <option value="" >Projects</option>
+                <option value="North">North</option>
+                <option value="Sky View">Sky View</option>
+                <option value="venus">Venus</option>
+                <option value="Qaiwan">Qaiwan</option>
+                <option value="Nova">Nova</option>
+              </select>
+              <select className="select" onChange={(e) => searchItems(e.target.value)}>
+                <option value="">Rooms</option>
+                <option value="1 + 1">1 + 1</option>
+                <option value="1 + 2">1 + 2</option>
+                <option value="1 + 3">1 + 3</option>
+                <option value="1 + 4">1 + 4</option>
+                <option value="1 + 5">1 + 5</option>
+                <option value="1 + 6">1 + 6</option>
+              </select>
+              <select className="select sright" onChange={(e) => searchItems(e.target.value)}>
+                <option value=''>Meter</option>
+                <option value="67">67</option>
+                <option value="72">72</option>
+                <option value="76">76</option>
+                <option value="78">78</option>
+                <option value="80">80</option>
+                <option value="81">81</option>
+                <option value="90">90</option>
+                <option value="105">105</option>
+                <option value="115">115</option>
+                <option value="120">120</option>
+                <option value="140">140</option>
+                <option value="201">201</option>
+                <option value="210">210</option>
+              </select>
+            </div> */}
+            <input className="searchbar" type='text' onChange={(e) => searchItems(e.target.value)} placeholder='Search...' />
+          </div>
       </section>
       <section className="blogFillters">
           {/* {projectFilter.map((val, index) => {
@@ -125,7 +183,40 @@ const Blog = () => {
             </div>
           })} */}
       </section>
-      <Blogsprojects />
+      {/* <Blogsprojects /> */}
+      <div className='grid'>
+        <div className='gridbox'>
+        {ArAPIData.map((val, index) => {
+          const { cover, category, location, name, price, type, area } = val
+          return (
+            <a className='zoom' href={ '/ar/properties/' + val.url}>
+            <div className='box shadow' key={index}>
+              <div className='img'>
+                <img src={cover} alt={name} />
+              </div>
+              <div className='text'>
+                <div className='category'>
+                  <span style={{ background: category === "For Sale" ? "#25b5791a" : "#ff98001a", color: category === "For Sale" ? "#25b579" : "#ff9800" }}>{category}</span>
+                </div>
+                <div className="dis">
+                <h4 className='ar'>{name}</h4>
+                <p>
+                  <img className="imglocation" src={Locationimg} alt='location'></img> {location}
+                </p>
+                </div>
+              </div>
+              <div className='buttonpr'>
+                <button  className='btn2 ar'>{price}</button>
+                <div className="flezs"></div>
+                <label htmlFor='' className='ar'>{area}</label>
+                <span className='ar'>{type}</span>
+              </div>
+            </div>
+            </a>
+          )
+        })}
+        </div>
+      </div>
       </section>
       }
     </>

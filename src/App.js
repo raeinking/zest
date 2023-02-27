@@ -5,11 +5,9 @@ import "./fonts/APERTOBOLDREGULAR.OTF";
 
 
 function App() {
-
   return (
   <Pages />
   )
-  
 }
 
 export default App
