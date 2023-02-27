@@ -2,6 +2,8 @@
     height: 40vh;
     width: 100%;
     background: unset;
+    margin-bottom: 5rem;
+    
 }
 .blogFillters {
     background-color: rgb(237, 237, 237);
@@ -15,6 +17,48 @@
     width: 200px;
     padding: 15px 10px;
     margin: 0 20px;
+}
+.searchbardiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 20rem;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/property.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 15rem;
+}
+.searchbar {
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    padding: 0px 60px 0px 20px;
+    outline: none;
+    border-radius: 40px;
+    z-index: 10;
+    margin: 0 20px;
+}
+
+.select {
+    z-index: 10;
+}
+select{
+    margin: 0 10px 1rem 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    outline: none;
+}
+.searchbardiv::after {
+    content: '';
+    position: absolute;
+    background-color: rgba(28, 4, 4, 0.414);
+    width: 100vw;
+    height: 20rem;
 }
 
 .text {
