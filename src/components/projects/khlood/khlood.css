@@ -1,4 +1,339 @@
-.heroalewd {
+.imageofheader {
+    width: 100%;
+    min-height: 350px;
+    background-color: rgba(0, 128, 0, 0.252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainmajidi {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navleft {
+    justify-content: flex-start;
+    width: 600px;
+    margin: 20px;
+    padding: 0 20px;
+    border-right: 1px solid rgba(42, 42, 42, 0.1);;
+}
+.navp p {
+    margin: 20px 0 10px 10px;
+}
+
+.content {
+    width: 100%;
+    max-width: 924px;
+    margin: 20px;
+    padding: 0 20px;
+}
+
+.twothink {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.407);
+}
+
+
+.slideimage{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(59, 167, 56, 0.337);
+    margin: 30px 0 60px 0;
+}
+
+
+.overview {
+    display: flex;
+    padding: 50px;
+    width: 100%;
+    border: 1px solid rgba(42, 42, 42, 0.1);
+    margin: 15px 0 60px;
+}
+
+.borderandmargin:not(:first-child) {
+    border-left: 1px solid rgb(42, 42, 42) ;
+    padding: 0 20px;
+}
+.borderandmargin {
+    margin-left: 2rem;
+}
+.borderandmargin h5{
+    padding : 4px 0 ;
+}
+
+
+
+.pdis {
+    margin: 20px 0 60px 0
+}
+
+.parents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+.div4 {
+    position: relative;
+    grid-area: 1 / 1 / 2 / 2;
+    background-color: rgba(59, 167, 56, 0.337);
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-out;
+}
+
+.div5 {
+    position: relative;
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: rgba(59, 167, 56, 0.337);
+    width: 100%;
+    height: 100%;
+    /* min-height: 250px; */
+    transition: 0.3s ease-out;
+}
+
+.div6 {
+    position: relative;
+    grid-area: 2 / 1 / 3 / 3;   
+    background-color: rgba(59, 167, 56, 0.337);
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-out;
+}
+
+
+
+
+
+
+
+.div4 img {
+    display: block;
+    width: 100%;
+    height: 250px;
+}
+
+.overlays {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #19191988;
+}
+
+.div4:hover .overlays {
+    opacity: 1;
+}
+
+.div4 .overlays h3 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 35px;
+    left: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 3.2px;
+}
+
+.div4 .overlays p {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 3.2px;
+}
+
+
+
+
+.div5 img {
+    display: block;
+    width: 100%;
+    height: 250px;
+}
+.div5:hover .overlays {
+    opacity: 1;
+}
+
+.div5 .overlays h3 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 35px;
+    left: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 3.2px;
+}
+
+.div5 .overlays p {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 3.2px;
+}
+
+
+
+.div6 img {
+    display: block;
+    width: 100%;
+    height: 250px;
+}
+.div6:hover .overlays {
+    opacity: 1;
+}
+
+.div6 .overlays h3 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 35px;
+    left: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 3.2px;
+}
+
+.div6 .overlays p {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 3.2px;
+}
+
+
+.map {
+    width: 100%;
+    height: 250px;
+    background-color: rgba(59, 167, 56, 0.337);
+    margin: 30px 0 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.imageproperty {
+    margin: 30px 0 60px 0;
+    width: 100%;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    display: flex;
+    float: left;
+}
+.imageproperty img {
+    width: 250px;
+    height: 250px;
+    margin-right: 1rem;
+}
+
+
+.iconsss {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    width: 100%;
+    border: 1px solid rgba(42, 42, 42, 0.1);
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.row {
+    display: flex;
+    margin-top: 30px;
+}
+
+.iconss {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(59, 167, 56, 0.337);
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .heroalewd {
     background-image: url("../../../../public/images/KHLOOD.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -177,4 +512,4 @@ main {
     .test {
         flex-direction: column;
     }
-}
+} */

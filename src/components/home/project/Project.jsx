@@ -6,8 +6,8 @@ import Projectname from './Projectname'
 const Project = () => {
   return (
     <>
-      <section className='sss'>
-        <Heading title='Our Projects' subtitle='' />
+      <section  data-aos='zoom-in-up' data-aos-duration='2000' className='container ssss'>
+        <Heading title='OUR PROJECTS' subtitle='' />
         <Projectname />
       </section>
     </>

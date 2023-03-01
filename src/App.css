@@ -4,20 +4,11 @@
   margin: 0;
   box-sizing: border-box;
 }
-@font-face {
-  font-family: 'myFirstFont';
-  src: url('./fonts/Roboto-Medium.ttf');
-}
-@font-face {
-  font-family: 'arabic';
-  src: url('./fonts/UNIQAIDAR_HEWAL035.TTF');
-}
 body {
-  font-family: 'myFirstFont';
+  font-family: 'Open Sans', sans-serif;
   background-color: #fff;
   overflow-x: hidden;
-  font-weight: 100;
-  letter-spacing: 1.05px;
+  font-weight: 600;
 }
 .container {
   max-width: 100%;
@@ -105,7 +96,7 @@ label {
 }
 
 h4 {
-  font-weight: 100;
+  font-weight: 500;
   margin-top: 10px;
 }
 .shadow {
