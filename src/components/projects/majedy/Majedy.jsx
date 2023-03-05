@@ -10,15 +10,55 @@ import { Helmet } from "react-helmet"
 import React, { useState , useRef} from 'react';
 import emailjs from '@emailjs/browser';
 import image from '../../images/Biancaicon.jpg'
+// import {
+//   withScriptjs,
+//   withGoogleMap,
+//   GoogleMap,
+//   Marker,
+// } from "react-google-maps";
+import { GoogleMap, LoadScript, MarkerF } from '@react-google-maps/api';
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
 
 
+const allprojects = [
+  {
+    Imas: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
+    Imas: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
+    Imas: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
+    Imas: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg'
+  }
+]
+const buttonStyle = {
+    width: "30px",
+    hight: "30px",
+    border: '0px',
+    backgroundColor: 'rgba(42, 42, 42, 0.41)',
+    borderRadius: '4px',
+    padding:'10px'
+
+
+    // zIndex:200
+};
+
+const properties = {
+    prevArrow: <svg style={buttonStyle} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff"><path d="M242 180.6v-138L0 256l242 213.4V331.2h270V180.6z"/></svg>,
+    nextArrow: <svg style={buttonStyle} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff"><path d="M512 256L270 42.6v138.2H0v150.6h270v138z"/></svg>
+}
 
 
 const Majedy = () => {
+
+  const containerStyle = {
+      width: '100%',
+      height: '250px'
+    };
+
   return (
+    
     <>
       <section>
-        <div className='imageofheader'>image</div>
+        <div className='imageofheader'><h1>MAJIDI VIEW</h1></div>
 
         <section className='mainmajidi'>
           <div className='navleft'>
@@ -36,22 +76,30 @@ const Majedy = () => {
           <div className='content'>
 
             <div className='twothink'>
-              <h2>Name</h2>
-              <button>GET BROCHURE</button>
+              <h3>MAJIDI VIEW</h3>
+              <a className='BROCHURE' href='https://google.com'>GET BROCHURE</a>
             </div>
 
-            <div className='slideimage'>slide image</div> 
+            <div >
+              <Slide {...properties} autoplay={true} transitionDuration={400} canSwipe={true} infinite={true} arrows={true} pauseOnHover={true} duration={400} >
+                <div className='slideimage'>
+                  {allprojects.map((slideImage, index)=> (
+                      <div key={index} className="tset" style={{'backgroundImage': `url(${slideImage.Imas})`}}></div>
+                  ))} 
+                </div>
+                </Slide>
+            </div> 
 
             <div className='margin'>
               <h2>Overview</h2>
               <div className='overview'>
                 <div className='borderandmargin'>
                   <h5>LOCATION</h5>
-                  <h5>Residential</h5>
+                  <h5>Dubai Production City, Dubai</h5>
                 </div>
                 <div className='borderandmargin'>
                   <h5>PROJECT TYPE</h5>
-                  <h5>Dubai Production City, Dubai</h5>
+                  <h5>Residential</h5>
                 </div>
                 <div className='borderandmargin'>
                   <h5>EXPECTED COMPLETION</h5>
@@ -73,48 +121,6 @@ const Majedy = () => {
                 <br />
                 There is so much to do at Midtown, with stimulating sports courts, relaxing family and lap pools, an inspiring jogging track, and a dedicated daycare facility – add to the experience of living in a vibrant community. The interiors are as exciting as the outdoors. Each apartment is crafted to perfection, enriching the lives of the ones who will call it home. With two (Afnan & Dania) out of the four districts ready for occupancy and work for the remaining two (Noor & Mesk) in full-swing, Midtown is here to redefine community living.
               </p>
-              <div class="parents">
-                <div class="div4">
-                <img src={image} />
-                  <div className='overlays'>
-                  <h3>Name</h3>
-                  <p>Place</p>
-                  </div>
-                </div>
-                <div class="div5">
-                <img src={image} />
-                  <div className='overlays'>
-                  <h3>Name</h3>
-                  <p>Place</p>
-                  </div>
-                </div>
-                <div class="div6">
-                <img src={image} />
-                  <div className='overlays'>
-                  <h3>Name</h3>
-                  <p>Place</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <h3>Location</h3>
-              <div className='map'>map</div>
-            </div>
-
-            <div>
-              <h3>Construction Updates</h3>
-              <div className='imageproperty'>
-                <img src={image} />
-                <img src={image} />
-                <img src={image} />
-                <img src={image} />
-                <img src={image} />
-                <img src={image} />
-              </div>
-            </div>
-
             <div>
               <h3>Facilities & Amenities</h3>
               <div className='iconsss'>
@@ -128,31 +134,31 @@ const Majedy = () => {
                 <div>
                   <div className='row'>
                     <div className='iconss'></div>
-                    <p>24-hour security</p>
+                    <p>Backup power system</p>
                   </div>
                 </div>
                 <div>
                   <div className='row'>
                     <div className='iconss'></div>
-                    <p>24-hour security</p>
+                    <p>Building management system</p>
                   </div>
                 </div>
                 <div>
                   <div className='row'>
                     <div className='iconss'></div>
-                    <p>24-hour security</p>
+                    <p>CCTV surveillance</p>
                   </div>
                 </div>
                 <div>
                   <div className='row'>
                     <div className='iconss'></div>
-                    <p>24-hour security</p>
+                    <p>Central air conditioning</p>
                   </div>
                 </div>
                 <div>
                   <div className='row'>
                     <div className='iconss'></div>
-                    <p>24-hour security</p>
+                    <p>Child day care center</p>
                   </div>
                 </div>
               </div>
@@ -160,37 +166,37 @@ const Majedy = () => {
                 <div>
                   <div className='row'>
                     <div className='iconss'></div>
-                    <p>24-hour security</p>
+                    <p>Concierge service</p>
                   </div>
                 </div>
                 <div>
                   <div className='row'>
                     <div className='iconss'></div>
-                    <p>24-hour security</p>
+                    <p>Elevators</p>
                   </div>
                 </div>
                 <div>
                   <div className='row'>
                     <div className='iconss'></div>
-                    <p>24-hour security</p>
+                    <p>Emergency lighting system</p>
                   </div>
                 </div>
                 <div>
                   <div className='row'>
                     <div className='iconss'></div>
-                    <p>24-hour security</p>
+                    <p>Fire alarm & fire fighting system</p>
                   </div>
                 </div>
                 <div>
                   <div className='row'>
                     <div className='iconss'></div>
-                    <p>24-hour security</p>
+                    <p>Gymnasium</p>
                   </div>
                 </div>
                 <div>
                   <div className='row'>
                     <div className='iconss'></div>
-                    <p>24-hour security</p>
+                    <p>Kids play area</p>
                   </div>
                 </div>
               </div>
@@ -198,41 +204,91 @@ const Majedy = () => {
                 <div>
                   <div className='row'>
                     <div className='iconss'></div>
-                    <p>24-hour security</p>
+                    <p>Landscaped open plaza</p>
                   </div>
                 </div>
                 <div>
                   <div className='row'>
                     <div className='iconss'></div>
-                    <p>24-hour security</p>
+                    <p>Outdoor sitting area</p>
                   </div>
                 </div>
                 <div>
                   <div className='row'>
                     <div className='iconss'></div>
-                    <p>24-hour security</p>
+                    <p>Residents parking</p>
                   </div>
                 </div>
                 <div>
                   <div className='row'>
                     <div className='iconss'></div>
-                    <p>24-hour security</p>
+                    <p>Restaurants & coffee shops</p>
                   </div>
                 </div>
                 <div>
                   <div className='row'>
                     <div className='iconss'></div>
-                    <p>24-hour security</p>
+                    <p>Retail</p>
                   </div>
                 </div>
                 <div>
                   <div className='row'>
                     <div className='iconss'></div>
-                    <p>24-hour security</p>
+                    <p>Shaded community spaces</p>
                   </div>
                 </div>
               </div>
-                
+              </div>
+            </div>
+            </div>
+
+            <div>
+              <h3>Location</h3>
+              <div className='map'>
+                <LoadScript googleMapsApiKey="AIzaSyAoeC-jhvkXaUUCYG8S4KiSzGCxCoiFAO0">
+                  <GoogleMap
+                    mapContainerStyle={containerStyle}
+                    center={{lat: 36.2015944,lng: 44.0911409 , position: {lat: 36.2015944,lng:44.0911409} }}
+                    zoom={12}
+                  >
+                  <MarkerF position={{lat: 36.202406902533625,lng: 44.08651131810995}} />
+                  </GoogleMap>
+                </LoadScript>
+              </div>
+            </div>
+
+              <div class="parents">
+                <div class="div4">
+                <div className='imagealwed'></div>
+                  <div className='overlays'>
+                  <h3>Al Wed</h3>
+                  <p>Baghdad</p>
+                  </div>
+                </div>
+                <div class="div5">
+                <div className='imageklood'></div>
+                  <div className='overlays'>
+                  <h3>Al Khlood</h3>
+                  <p>Baghdad</p>
+                  </div>
+                </div>
+                <div class="div6">
+                  <div className='imagebianca'></div>
+                  <div className='overlays'>
+                  <h3>Bianca</h3>
+                  <p>UAE Dubai</p>
+                  </div>
+                </div>
+              </div>
+            <div>
+              <h3>Construction Updates</h3>
+              <div className='imageproperty'>
+                <img src={image} />
+                <img src={image} />
+                <img src={image} />
+                <img src={image} />
+                <img src={image} />
+                <img src={image} />
               </div>
             </div>
 

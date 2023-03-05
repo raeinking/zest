@@ -5,6 +5,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url("../../../../public/images/property/majidi/majidihero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.imagealwed {
+    background-image: url("../../../../public/images/alwed2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+.imageklood {
+    background-image: url("../../../../public/images/KHLOOD.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+.imagebianca {
+    background-image: url("../../../../public/images/Bianca-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
 }
 
 .mainmajidi {
@@ -12,10 +37,13 @@
     display: flex;
     justify-content: center;
 }
+.imageofheader h1 {
+    color: rgb(238, 238, 238);
+}
 
 .navleft {
     justify-content: flex-start;
-    width: 600px;
+    width: 200px;
     margin: 20px;
     padding: 0 20px;
     border-right: 1px solid rgba(42, 42, 42, 0.1);;
@@ -35,6 +63,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    padding: 0 0 20px 0;
     align-items: center;
     border-bottom: 1.5px solid rgba(128, 128, 128, 0.407);
 }
@@ -128,6 +157,13 @@
     width: 100%;
     height: 250px;
 }
+.BROCHURE {
+    background-color:  #916f4e ;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 4px;
+}
+
 
 .overlays {
     position: absolute;
@@ -148,26 +184,19 @@
 
 .div4 .overlays h3 {
     color: white;
-    font-size: 20px;
     position: absolute;
     bottom: 35px;
     left: 10px;
     text-align: center;
-    font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 3.2px;
 }
 
 .div4 .overlays p {
     color: white;
-    font-size: 20px;
     position: absolute;
     bottom: 10px;
     left: 10px;
     text-align: center;
-    font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 3.2px;
+    /* letter-spacing: 3.2px; */
 }
 
 
@@ -184,26 +213,19 @@
 
 .div5 .overlays h3 {
     color: white;
-    font-size: 20px;
     position: absolute;
     bottom: 35px;
     left: 10px;
     text-align: center;
-    font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 3.2px;
 }
 
 .div5 .overlays p {
     color: white;
-    font-size: 20px;
     position: absolute;
     bottom: 10px;
     left: 10px;
     text-align: center;
     font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 3.2px;
 }
 
 
@@ -219,28 +241,26 @@
 
 .div6 .overlays h3 {
     color: white;
-    font-size: 20px;
     position: absolute;
     bottom: 35px;
     left: 10px;
     text-align: center;
-    font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 3.2px;
 }
 
 .div6 .overlays p {
     color: white;
-    font-size: 20px;
     position: absolute;
     bottom: 10px;
     left: 10px;
     text-align: center;
-    font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 3.2px;
 }
-
+.tset{ 
+    width: 100%;
+    height: 300px;
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
 
 .map {
     width: 100%;
@@ -295,10 +315,24 @@
 
 
 
+@media screen and (max-width:1200px) {
+    .navleft {
+        display: none;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .iconsss {
+        flex-direction: column;
+    }
+}
 
 
-
-
+@media screen and (max-width:550px) {
+    .overview {
+        flex-direction: column;
+    }
+}
 
 
 
