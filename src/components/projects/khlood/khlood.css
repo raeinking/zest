@@ -10,6 +10,30 @@
     background-size: cover;
     background-position: center center;
 }
+.imageofheaderkhlood {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(0, 128, 0, 0.252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../../../public/images/KHLOOD.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.imageofheaderwedd {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(0, 128, 0, 0.252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../../../public/images/alwed2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 .imagealwed {
     background-image: url("../../../../public/images/alwed2.jpg");
     background-repeat: no-repeat;
@@ -31,6 +55,13 @@
     background-position: center center;
     height: 250px;
 }
+.imagemajidi {
+    background-image: url(".././majedy/img456.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
 
 .mainmajidi {
     width: 100%;
@@ -38,6 +69,12 @@
     justify-content: center;
 }
 .imageofheader h1 {
+    color: rgb(238, 238, 238);
+}
+.imageofheaderkhlood h1 {
+    color: rgb(238, 238, 238);
+}
+.imageofheaderwedd h1 {
     color: rgb(238, 238, 238);
 }
 
@@ -48,8 +85,12 @@
     padding: 0 20px;
     border-right: 1px solid rgba(42, 42, 42, 0.1);;
 }
-.navp p {
+.navp a {
     margin: 20px 0 10px 10px;
+}
+.navp  {
+    display: flex;
+    flex-direction: column;
 }
 
 .content {
@@ -201,7 +242,6 @@
 
 
 
-
 .div5 img {
     display: block;
     width: 100%;
@@ -256,7 +296,7 @@
 }
 .tset{ 
     width: 100%;
-    height: 300px;
+    height: 400px;
     background-position: center center;
     background-repeat:no-repeat;
     background-size: cover;
@@ -308,8 +348,9 @@
 .iconss {
     width: 20px;
     height: 20px;
-    background-color: rgba(59, 167, 56, 0.337);
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-left: 15px;
+    align-content: center;
 }
 
 

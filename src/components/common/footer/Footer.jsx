@@ -47,7 +47,7 @@ const Footer = () => {
       </section> */}
       <footer>
         <div className='container'>
-                <img src={image} alt='zest property' />
+          <img src={image} alt='zest property' />
           <div className='box'>
             <div className='logo'>
               <div className="footerleft">
