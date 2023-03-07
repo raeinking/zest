@@ -34,6 +34,18 @@
     background-size: cover;
     background-position: center center;
 }
+.imageofheaderbianca {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(0, 128, 0, 0.252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../../../public/images/Bianca-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 .imagealwed {
     background-image: url("../../../../public/images/alwed2.jpg");
     background-repeat: no-repeat;
@@ -77,13 +89,16 @@
 .imageofheaderwedd h1 {
     color: rgb(238, 238, 238);
 }
+.imageofheaderbianca h1 {
+    color: rgb(238, 238, 238);
+}
 
 .navleft {
     justify-content: flex-start;
     width: 200px;
     margin: 20px;
     padding: 0 20px;
-    border-right: 1px solid rgba(42, 42, 42, 0.1);;
+    border-right: 1px solid rgba(42, 42, 42, 0.1);
 }
 .navp a {
     margin: 20px 0 10px 10px;

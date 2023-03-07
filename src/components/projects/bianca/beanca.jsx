@@ -97,9 +97,14 @@ const Alwedd = () => {
     };
 
   return (
+    
     <>
+    <Helmet>
+  <title>Bianca - Zest Property</title>
+  <meta name="description" content="Looking for a luxurious villa in Dubai, Bianca? Our selection of stunning villas is sure to impress. From spacious layouts and gorgeous interiors to outdoor amenities like private pools and landscaped gardens, our villas have everything you need for an unforgettable stay in this glamorous city. Browse our collection now and find your dream villa in Dubai, Bianca." />
+</Helmet>
                 <section>
-        <div className='imageofheaderkhlood'><h1>BIANCA</h1></div>
+        <div className='imageofheaderbianca'><h1>BIANCA</h1></div>
 
         <section className='mainmajidi'>
           <div className='navleft'>
@@ -117,7 +122,7 @@ const Alwedd = () => {
           <div className='content'>
             <div className='twothink'>
               <h3>BIANCA</h3>
-              <a className='BROCHURE' target={'_blank'} href='khlood.pdf'>GET BROCHURE</a>
+              <a className='BROCHURE' target={'_blank'} href='bianca.pdf'>GET BROCHURE</a>
             </div>
             <div className="">
               <Slide {...properties} autoplay={true} transitionDuration={500} canSwipe={true} infinite={true} arrows={true} pauseOnHover={true} duration={2000} >
@@ -137,11 +142,11 @@ const Alwedd = () => {
               <div className='overview'>
                 <div className='borderandmargin'>
                   <h5>LOCATION</h5>
-                  <h5>Baghdad - Hai Al Adel - Opposite of Um Al qurra Mosque</h5>
+                  <h5>Dubai - Al Meydan Rd  - Near Meydan Bridge</h5>
                 </div>
                 <div className='borderandmargin'>
                   <h5>PROJECT TYPE</h5>
-                  <h5>Residential</h5>
+                  <h5>Villa</h5>
                 </div>
                 <div className='borderandmargin'>
                   <h5>EXPECTED COMPLETION</h5>
@@ -149,17 +154,16 @@ const Alwedd = () => {
                 </div>
               </div>
             </div> 
-
             <div className='dis'>
               <h3>Description</h3>
               <p className='pdis'>
-                <p>Al Khlood is the perfect residential complex for those seeking a luxurious and convenient living experience. Located in a prime location, this exceptional development boasts four elegant buildings, each rising 20 floors high. Step into the world of Al Khlood and be mesmerized by the stunning architecture and contemporary design of the complex.</p>
+                <p>Bianca is located in the vibrant city of Dubai, one of the most sought-after destinations in the world. Situated in a prime location, this development offers easy access to all of the city's amenities and attractions.</p>
                   <br />
                   <br />
-                <p>The spacious and well-lit apartments offer breathtaking views of the surrounding cityscape, providing the perfect backdrop for a comfortable and sophisticated lifestyle. The complex is equipped with state-of-the-art facilities, including a fully-equipped gym, swimming pool, and children's play area, ensuring that every member of the family is catered to. The round-the-clock security system and ample parking space provide a secure and convenient living experience.</p>
+                <p>Dubai is known for its world-class shopping malls, cultural landmarks, and exciting nightlife, making it the perfect place for those seeking a luxurious and convenient lifestyle. With its year-round sunshine and beautiful beaches, Dubai is also the perfect place for those looking to enjoy a relaxed and laid-back lifestyle.</p>
                   <br />
                   <br />
-                <p>Al Khlood is the epitome of luxury and convenience, providing a lifestyle that is second to none. Whether you are a family, a young professional, or a retiree, this development has something for everyone. Don't miss out on the opportunity to experience the best of modern living - invest in Al Khlood today!</p>
+                <p>Bianca's location in Dubai offers residents the best of both worlds - the excitement and convenience of city living, coupled with the tranquility and serenity of a beautiful villa complex. With its perfect combination of luxury and convenience, Bianca is the ideal place to call home for those looking to experience the best that Dubai has to offer.</p>
               </p>
             <div>
               <h3>Facilities & Amenities</h3>
@@ -304,11 +308,11 @@ const Alwedd = () => {
                   <p>Erbil</p>
                   </div>
                 </a>
-                <a href='bianca' class="div6">
-                  <div className='imagebianca'></div>
+                <a href='khlood' class="div6">
+                  <div className='imageklood'></div>
                   <div className='overlays'>
-                  <h3>Bianca</h3>
-                  <p>UAE Dubai</p>
+                  <h3>Al Khlood</h3>
+                  <p>Baghdad</p>
                   </div>
                 </a>
               </div>
@@ -325,8 +329,6 @@ const Alwedd = () => {
             </div>
           </div>
         </section>
-
-
       </section>
     </>
   )

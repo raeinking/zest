@@ -1,23 +1,13 @@
-import '../khlood/khlood.css'
-import alweddb from '../../images/Bianca-park.jpg'
-import alwedd1 from '../../images/Bianca-water.jpg'
-import alweddc from '../../images/Bianca-water.jpg'
-import alweddh from '../../images/Bianca-night.jpg'
-import alweddicon from '../../images/Biancaicon.jpg'
-import alweddh2 from '../../images/Bianca-garden.jpg'
-import { useLocation } from "react-router-dom";
-import { Helmet } from "react-helmet"
-import React, { useState , useRef} from 'react';
-import emailjs from '@emailjs/browser';
+import React from 'react'
 
 
-import image1 from './1.jpg'
-import image2 from './2.jpg'
-import image3 from './3.jpg'
-import image4 from './4.jpg'
-import image5 from './5.jpg'
-import image6 from './6.jpg'
-import image7 from './last.jpg'
+
+import image1 from '../../images/alwedb.jpg'
+import image2 from '../../images/alwedd3.jpg'
+import image3 from '../../images/alwed2.jpg'
+import image4 from '../../images/New_Catalogue-58.jpg'
+import image5 from '../../images/alweddiacon.jpg'
+import image6 from '../../images/alwedh.jpg'
 
 import { GoogleMap, LoadScript, MarkerF } from '@react-google-maps/api';
 import { Slide } from 'react-slideshow-image';
@@ -35,6 +25,7 @@ import {CgGym} from 'react-icons/cg'
 import {IoChatbubblesOutline,IoRestaurantSharp} from 'react-icons/io5'
 import {AiTwotoneShop} from 'react-icons/ai'
 import {GiParkBench} from 'react-icons/gi'
+import { Helmet } from 'react-helmet'
 
 
 const divStyle = {
@@ -64,9 +55,6 @@ const slideImages = [
   {
     url: image6,
   },
-  {
-    url: image7,
-  },
   
 ];
 const buttonStyle = {
@@ -87,24 +75,19 @@ const properties = {
 }
 
 
-
-
-
-const Alwedd = () => {
-
-  const containerStyle = {
-  width: '100%',
-  height: '250px'
-};
-
+function Araled() {
+    const containerStyle = {
+      width: '100%',
+      height: '250px'
+    };
   return (
-    <>
-      <Helmet>
-        <title>مشروع بيانكا - عقارات زيست </title>
-        <meta name="description" content="هل تبحث عن فيلا فاخرة في دبي بيانكا؟ تتميز مجموعتنا من الفلل الرائعة بالمساحات الواسعة والتصاميم الداخلية الفاخرة، بالإضافة إلى وسائل الراحة في الهواء الطلق مثل حمامات السباحة الخاصة والحدائق المزينة. تحتوي فللنا على كل ما تحتاجه لقضاء إقامة لا تُنسى في هذه المدينة الفاخرة. تصفح مجموعتنا الآن واعثر على فيلا الأحلام الخاصة بك في دبي، بيانكا." />
-      </Helmet>
-      <section>
-        <div className='imageofheaderbianca'><h1>مشروع بيانكا</h1></div>
+     <>
+     <Helmet>
+      <title>مجمع الود السكني - عقارات زيست</title>
+      <meta name='description' content="ان مجمع الود السكني يتكون من 6 عمارات ذات 15 طابق لكل منها بنظام حماية كامل وخصوصية مناسبة لكل الشقق.. مواد عازلة للصوت وبلكونات مُطلة على مناظر خضراء" />
+    </Helmet>
+            <section>
+        <div className='imageofheaderwedd'><h1>مجمع الود السكني</h1></div>
 
         <section className='mainmajidi'>
           <div className='navleft'>
@@ -121,8 +104,8 @@ const Alwedd = () => {
 
           <div className='content'>
             <div className='twothink'>
-              <h3>بيانكا</h3>
-              <a className='BROCHURE' target={'_blank'} href='bianca.pdf'>تحمیل بروشور</a>
+              <h3>الود</h3>
+              <a className='BROCHURE' target={'_blank'} href=''>تحمیل بروشور</a>
             </div>
             <div className="">
               <Slide {...properties} autoplay={true} transitionDuration={500} canSwipe={true} infinite={true} arrows={true} pauseOnHover={true} duration={2000} >
@@ -142,11 +125,11 @@ const Alwedd = () => {
               <div className='overview'>
                 <div className='borderandmargin'>
                   <h5>موقع</h5>
-                  <h5>دبي - طريق الميدان - بالقرب من جسر الميدان</h5>
+                  <h5>بغداد - الئمیر - طريق ابو غريب القديم</h5>
                 </div>
                 <div className='borderandmargin'>
                   <h5>نوع المشروع</h5>
-                  <h5>فيلا</h5>
+                  <h5>سكني</h5>
                 </div>
                 <div className='borderandmargin'>
                   <h5>يتوقع الانتهاء</h5>
@@ -154,22 +137,25 @@ const Alwedd = () => {
                 </div>
               </div>
             </div> 
+
             <div className='dis'>
               <h3>وصف</h3>
               <p className='pdis'>
-                <p>بيانكا هو مجمع فيلات رائع يعيد تعريف الحياة الفاخرة. مع وجود العديد من الفيلات المصممة بشكل جميل ، يوفر هذا التطوير تجربة سكنية لا مثيل لها ستبهرك بالتأكيد.
+                <p>الوضّ هو مجمع سكني فاخر يعيد تعريف الحياة الحديثة. يتألف هذا المشروع من 22 مبنى أنيق يتكون كل منها من 15 طابقًا، مما يوفر تجربة سكنية لا مثيل لها.
 
-ادخل إلى عالم بيانكا وستستقبلك الهندسة المعمارية الرائعة والتصميم الحديث الذي سيجعلك مندهشًا. تم تصميم كل فيلا بشكل مثالي وتوفر مساحة معيشة واسعة ومضيئة مثالية للعائلات والمحترفين الشباب أو المتقاعدين.</p>
-                  <br />
-                  <br />
-                <p>يتميز المجمع بمرافق حديثة تلبي كل احتياجاتك. سواء كنت ترغب في الاسترخاء في السبا أو الاستمتاع بسباحة منعشة في المسبح أو القيام بتمارين رياضية في الصالة الرياضية ، فإن بيانكا لديها كل شيء. بفضل نظام الأمن على مدار الساعة ومساحات وفيرة لوقوف السيارات ، يمكنك الاستمتاع بتجربة سكنية آمنة ومريحة.
+دخل عالم الوضّ واستمتع بالهندسة المعمارية الرائعة والتصميم العصري الذي سيبهرك بالتأكيد. توفر الشقق الفسيحة والمضيئة مناظر خلابة للمناظر الطبيعية المحيطة، مما يوفر الأجواء المثالية لنمط حياة مريح وراقي.
 
 </p>
                   <br />
                   <br />
-                <p>يقع بيانكا في موقع متميز في مدينة دبي ، وهي واحدة من أكثر الوجهات التي يبحث عنها الناس في العالم. تقع الحدائق الخضراء والمتنزهات ومراكز التسوق الفاخرة ومعالم الثقافية في مدينة دبي على بعد دقائق قليلة فقط من بيانكا ، مما يجعلها مكانًا مثاليًا للعيش.
+                <p>يتميز الوضّ بالتجهيزات الحديثة، حيث يضم مرافق عالية المستوى تلبي كل احتياجاتك. استمتع بالسباحة في المسبح المنعش، والتمرين في الصالة الرياضية المجهزة بالكامل، أو تدلل ببعض الوقت الهادئ في السبا. يمكنك الاستمتاع بتجربة سكنية آمنة ومريحة بفضل نظام الأمان على مدار الساعة ووجود مساحات واسعة لوقوف السيارات.
 
-استثمر في بيانكا اليوم واستمتع بأفضل ما في الحياة الفاخرة. لا تفوت هذه الفرصة للعيش في مجمع فيلات جميل سيأسرك. مع مزيجها المثالي من الفخامة والراحة والهدوء ، فإن بيانكا هو المكان المثالي للعيش.
+</p>
+                  <br />
+                  <br />
+                <p> يقع هذا المجمع في موقع متميز، مما يجعله المكان المثالي للعيش فيه. سواء كنت محترفًا شابًا أو عائلة أو متقاعدًا، يحتوي الوضّ على كل ما يحتاجه كل شخص. تم تصميم المجمع لتوفير نمط حياة فاخر ومريح، مما يضمن أن يتمتع كل ساكن بأفضل تجربة للحياة الحديثة.
+
+استثمر في الوضّ اليوم واستمتع بأفضل تجربة للحياة الحديثة. لا تفوت هذه الفرصة للعيش في مجمع فاخر ومريح يأسر الأنفاس.
 
 
 
@@ -295,19 +281,19 @@ const Alwedd = () => {
                 <LoadScript googleMapsApiKey="AIzaSyAoeC-jhvkXaUUCYG8S4KiSzGCxCoiFAO0">
                   <GoogleMap
                     mapContainerStyle={containerStyle}
-                    center={{lat: 25.0953761,lng: 55.3531664 , position: {lat: 25.0953761,lng:55.3531664} }}
+                    center={{lat: 33.309369,lng: 44.2147845 , position: {lat: 33.309369,lng:44.2147845} }}
                     zoom={18}
                   >
-                  <MarkerF position={{lat: 25.0953761,lng: 55.3531664}} />
+                  <MarkerF position={{lat: 33.309369,lng: 44.2147845}} />
                   </GoogleMap>
                 </LoadScript>
               </div>
             </div>
               <div class="parents">
-                <a href='alwedd' class="div4">
-                <div className='imagealwed'></div>
+                <a href='khlood' class="div4">
+                <div className='imageklood'></div>
                   <div className='overlays'>
-                    <h3>الود </h3>
+                    <h3>الخلود</h3>
                     <p>بغداد</p>
                   </div>
                 </a>
@@ -318,11 +304,11 @@ const Alwedd = () => {
                   <p>یربیل</p>
                   </div>
                 </a>
-                <a href='khlood' class="div6">
-                  <div className='imageklood'></div>
+                <a href='bianca' class="div6">
+                  <div className='imagebianca'></div>
                   <div className='overlays'>
-                  <h3>الخلود </h3>
-                  <p>بغداد</p>
+                  <h3>بيانكا</h3>
+                  <p>الإمارات دبي</p>
                   </div>
                 </a>
               </div>
@@ -339,110 +325,11 @@ const Alwedd = () => {
             </div>
           </div>
         </section>
+
+
       </section>
     </>
   )
 }
 
-export default Alwedd
-
-
-
-  
-
-  {/* <section className='herobianca'>
-      <p>سوف تعيش في رفاهية في</p>
-      <h1>مشروع بيانكا</h1>
-  </section>
-  <main>
-    <div className='test'>
-      <img src={alweddb}  alt='klood' />
-      <div className='paraghraf'>
-      <h2> أسعار بيانكا تبدأ من </h2>
-        <ol className='ulsklood'>
-          <li>
-            ٣٦٠،٠٠٠$ غرفتين نوم وصاله 
-          </li>
-          <li>
-              ٥٠٠،٠٠٠$  ثلاث غرف نوم وصاله 
-          </li>
-          <li>
-              ٥٥٥،٥٥٥$ اربع غرف نوم وصالة 
-          </li>
-        </ol>
-      </div>
-    </div>
-   <div className='test revers'>
-      <img src={alweddh2}  alt='klood' />
-      <div className='paraghraf'>
-      <h2> خطة الدفع لبيانكا </h2>
-        <ol className='ulsklood'>
-          <li>
-             مقدمة ١٠٪ شهريا ١٪ تحصل على خصم (٥٪)
-          </li>
-          <li>
-             مقدمة ٢٠٪ شهريا ١٪ تحصل على خصم (١٠٪)
-          </li>
-          <li>
-             مقدمة ٣٠٪ تحصل على خصم (١٥٪)
-          </li>
-          <li>
-          دفع كاش خصم ٪٤٠
-          </li>
-        </ol>
-      </div>
-    </div>
-    <div className='test'>
-      <img src={alweddicon}  alt='klood' />
-      <div className='paraghraf'>
-      <h2>للحجز الاتصال على الأرقام التالية :</h2>
-        <ul className='ulsklood'>
-          <li>
-              <a href='tel:+9647502552006 '>
-                  رقم 1 : 2006 255 750 964
-              </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <form className='formpage'>
-          <input
-            type='text'
-            placeholder='اسم*'
-            onChange={e => setName(e.target.value)}
-          />
-          <input
-            type='text'
-            placeholder='الهاتف*'
-            onChange={e => setPhone(e.target.value)}
-          />
-          <textarea
-            type='text'
-            placeholder='رسالة*'
-            defaultValue={'مرحبا، أنا مهتم ب ' + "[ " + "مشروع بيانكا" + " ]"}
-            onChange={e => setEnbody(e.target.value)}
-          />
-          <div className='flex gap-x-2'>
-            <a href={`mailto:zest@zest-property.com?subject=${nname + ': ' + phone}&body=${enbody}`}>
-              <p
-                className='buttonss'
-                type='submit'
-              >
-                أرسل رسالة
-              </p>
-          </a>
-          </div>
-        </form>
-          <a className='buttonsss' href='bianca.pdf'>Bianca PDF</a>
-        <div className="video-responsive">
-  <iframe
-    width="853"
-    height="480"
-    src={'https://www.youtube.com/embed/Ea1-rdvC4Jw'}
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen
-    title="Embedded youtube"
-  ></iframe>
-</div>
-  </main> */}
+export default Araled

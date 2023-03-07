@@ -20,6 +20,9 @@ import 'aos/dist/aos.css';
 import pagenotfoud from "../pagenotfoud"
 import beanca from '../projects/bianca/beanca'
 import arbianca from '../projects/bianca/arbianca'
+import Arkhlood from "../projects/khlood/Arkhlood"
+import Armajidi from "../projects/majedy/Armajidi"
+import Araled from "../projects/alwedd/Araled"
 
 
 
@@ -49,11 +52,11 @@ const   Pages = () => {
           <Route exact path='/khlood' component={khlood} />
           <Route exact path='/bianca' component={beanca} />
           <Route exact path='/ar/bianca' component={arbianca} />
-          <Route exact path='/ar/khlood' component={khlood} />
+          <Route exact path='/ar/khlood' component={Arkhlood} />
           <Route exact path='/alwedd' component={alwedd} />
-          <Route exact path='/ar/alwedd' component={alwedd} />
+          <Route exact path='/ar/alwedd' component={Araled} />
           <Route exact path='/Majidi-View' component={Majedy} />
-          <Route exact path='/ar/Majidi-View' component={Majedy} />
+          <Route exact path='/ar/Majidi-View' component={Armajidi} />
           <Route exact path='/properties/:id' component={PropertyDetails} />
           <Route exact path='/ar/properties/:id' component={PropertyDetails} />
           <Route path='*' component={pagenotfoud} />

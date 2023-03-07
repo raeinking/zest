@@ -87,10 +87,10 @@ const properties = {
 
 const Alwedd = () => {
 
-   const containerStyle = {
-      width: '100%',
-      height: '250px'
-    };
+    const containerStyle = {
+        width: '100%',
+        height: '250px'
+      };
 
   return (
     <>
