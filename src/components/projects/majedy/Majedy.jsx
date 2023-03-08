@@ -110,7 +110,7 @@ const Majedy = () => {
 
             <div className='twothink'>
               <h3>MAJIDI VIEW</h3>
-              <a className='BROCHURE' target={'_blank'} href='Brochure_20x20_4Folded.pdf'>GET BROCHURE</a>
+              <a className='BROCHURE' target={'_blank'} href='Brochure_20x20_4Folded.pdf'>DOWNLOAD BROCHURE</a>
             </div>
             <div className="">
               <Slide {...properties} autoplay={true} transitionDuration={500} canSwipe={true} infinite={true} arrows={true} pauseOnHover={true} duration={2000} >

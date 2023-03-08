@@ -94,7 +94,7 @@ function Araled() {
           <div className='content'>
             <div className='twothink'>
               <h3>الود</h3>
-              <a className='BROCHURE' target={'_blank'} href=''>تحمیل بروشور</a>
+              <a className='BROCHURE' target={'_blank'} href='/Brochure_Wedd.pdf'>تحمیل بروشور</a>
             </div>
             <div className="">
               <Slide {...properties} autoplay={true} transitionDuration={500} canSwipe={true} infinite={true} arrows={true} pauseOnHover={true} duration={2000} >

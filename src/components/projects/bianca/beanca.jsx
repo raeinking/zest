@@ -112,11 +112,10 @@ const Alwedd = () => {
               </div>
             </div>
           </div>
-
           <div className='content'>
             <div className='twothink'>
               <h3>BIANCA</h3>
-              <a className='BROCHURE' target={'_blank'} href='bianca.pdf'>GET BROCHURE</a>
+              <a className='BROCHURE' target={'_blank'} href='bianca.pdf'>DOWNLOAD BROCHURE</a>
             </div>
             <div className="">
               <Slide {...properties} autoplay={true} transitionDuration={500} canSwipe={true} infinite={true} arrows={true} pauseOnHover={true} duration={2000} >

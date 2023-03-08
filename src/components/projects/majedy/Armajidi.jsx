@@ -84,10 +84,10 @@ function Armajidi() {
             <div>
               <h6>تطوير العقارات</h6>
               <div className='navp'>
-                <a href='Majidi-View'>ماجدي فیو</a>
-                <a href='bianca'>بيانكا</a>
-                <a href='alwedd'>الود</a>
-                <a href='khlood'>خلود</a>
+                <a href='/ar/Majidi-View'>ماجدي فیو</a>
+                <a href='/ar/bianca'>بيانكا</a>
+                <a href='/ar/alwedd'>الود </a>
+                <a href='/ar/khlood'>الخلود </a>
               </div>
             </div>
           </div>
@@ -96,7 +96,7 @@ function Armajidi() {
 
             <div className='twothink'>
               <h3>ماجدي فیو</h3>
-              <a className='BROCHURE' target={'_blank'} href='Brochure_20x20_4Folded.pdf'>تحميل بروشور</a>
+              <a className='BROCHURE' target={'_blank'} href='/Brochure_20x20_4Folded.pdf'>تحميل بروشور</a>
             </div>
             <div className="">
               <Slide {...properties} autoplay={true} transitionDuration={500} canSwipe={true} infinite={true} arrows={true} pauseOnHover={true} duration={2000} >

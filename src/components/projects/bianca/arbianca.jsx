@@ -102,10 +102,10 @@ const Alwedd = () => {
             <div>
               <h6>تطوير العقارات</h6>
               <div className='navp'>
-                <a href='ar/Majidi-View'>ماجدي فیو</a>
-                <a href='ar/bianca'>بيانكا</a>
-                <a href='ar/alwedd'>الود </a>
-                <a href='ar/khlood'>الخلود </a>
+                <a href='/ar/Majidi-View'>ماجدي فیو</a>
+                <a href='/ar/bianca'>بيانكا</a>
+                <a href='/ar/alwedd'>الود </a>
+                <a href='/ar/khlood'>الخلود </a>
               </div>
             </div>
           </div>
@@ -113,7 +113,7 @@ const Alwedd = () => {
           <div className='content'>
             <div className='twothink'>
               <h3>بيانكا</h3>
-              <a className='BROCHURE' target={'_blank'} href='bianca.pdf'>تحمیل بروشور</a>
+              <a className='BROCHURE' target={'_blank'} href='/bianca.pdf'>تحمیل بروشور</a>
             </div>
             <div className="">
               <Slide {...properties} autoplay={true} transitionDuration={500} canSwipe={true} infinite={true} arrows={true} pauseOnHover={true} duration={2000} >

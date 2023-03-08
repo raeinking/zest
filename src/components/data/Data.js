@@ -3000,7 +3000,7 @@ export const arnav = [
   },
   {
     text: "مشروع",
-    path: "/projects",
+    path: "/ar/projects",
   },
   {
     text: "عن شركتنا",
