@@ -13,12 +13,12 @@ const Team = () => {
   return (
     <>
       {paths == '/' ?
-      <section data-aos='zoom-in-up' data-aos-duration='2000' className='team background'>
+      <section  className='team background'>
         <div className='container'>
           <Heading title='Our Featured Agents' subtitle='' />
           <div className='gridbox'>
             {team.map((val, index) => (
-                <div className='box zoom' key={index}>
+                <div data-aos='zoom-in-up' data-aos-duration='2000' className='box zoom' key={index}>
                   <div className='details'>
                     <div className='img'>
                       <img className="calls" src={val.cover} alt={val.name} />
@@ -52,7 +52,7 @@ const Team = () => {
           <Heading title='افضل الوكلاء' subtitle='' />
           <div className='gridbox'>
             {arteam.map((val, index) => (
-                <div className='box zoom' key={index}>
+                <div data-aos='zoom-in-up' data-aos-duration='2000' className='box zoom' key={index}>
                   {/* <button className='btn3'>{val.list} Kirkuk</button> */}
                   <div className='details'>
                     <div className='img'>

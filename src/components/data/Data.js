@@ -15,20 +15,8 @@ export const nav = [
     path: "/agents",
   },
   {
-    text: "Majidi View",
-    path: "/Majidi-View",
-  },
-  {
-    text: "bianca",
-    path: "/bianca",
-  },
-  {
-    text: "alwedd",
-    path: "/alwedd",
-  },
-  {
-    text: "khlood",
-    path: "/khlood",
+    text: "Projects",
+    path: "/projects",
   },
   {
     text: "about",
@@ -3011,20 +2999,8 @@ export const arnav = [
     path: "/ar/agents",
   },
   {
-    text: "ماجدي فیو",
-    path: "/ar/Majidi-View",
-  },
-  {
-    text: "بيانكا",
-    path: "/ar/bianca",
-  },
-  {
-    text: "الود",
-    path: "/ar/alwedd",
-  },
-  {
-    text: "الخلود",
-    path: "/ar/khlood",
+    text: "مشروع",
+    path: "/projects",
   },
   {
     text: "عن شركتنا",

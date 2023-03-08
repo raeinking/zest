@@ -85,10 +85,10 @@ export default function Arkhlood() {
             <div>
               <h6>تطوير العقارات</h6>
               <div className='navp'>
-                <a href='Majidi-View'>ماجدي فیو</a>
-                <a href='bianca'>بيانكا</a>
-                <a href='alwedd'>الود</a>
-                <a href='khlood'>خلود</a>
+                <a href='ar/Majidi-View'>ماجدي فیو</a>
+                <a href='ar/bianca'>بيانكا</a>
+                <a href='ar/alwedd'>الود </a>
+                <a href='ar/khlood'>الخلود </a>
               </div>
             </div>
           </div>
@@ -279,21 +279,21 @@ export default function Arkhlood() {
               </div>
             </div>
               <div class="parents">
-                <a href='alwedd' class="div4">
+                <a href='ar/alwedd' class="div4">
                 <div className='imagealwed'></div>
                   <div className='overlays'>
                     <h3>الود</h3>
                     <p>بغداد</p>
                   </div>
                 </a>
-                <a href='majidi-view' class="div5">
+                <a href='ar/majidi-view' class="div5">
                 <div className='imagemajidi'></div>
                   <div className='overlays'>
                   <h3>ماجدي فیو</h3>
                   <p>یربیل</p>
                   </div>
                 </a>
-                <a href='bianca' class="div6">
+                <a href='ar/bianca' class="div6">
                   <div className='imagebianca'></div>
                   <div className='overlays'>
                   <h3>بيانكا</h3>

@@ -1,6 +1,6 @@
 .imageofheader {
     width: 100%;
-    min-height: 350px;
+    min-height: 400px;
     background-color: rgba(0, 128, 0, 0.252);
     display: flex;
     align-items: center;
@@ -68,7 +68,7 @@
     height: 250px;
 }
 .imagemajidi {
-    background-image: url(".././majedy/img456.jpg");
+    background-image: url(".././majedy/4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

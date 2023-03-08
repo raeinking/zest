@@ -11,12 +11,10 @@ import React, { useState , useRef} from 'react';
 import emailjs from '@emailjs/browser';
 
 
-import image1 from '../../images/alwedb.jpg'
-import image2 from '../../images/alwedd3.jpg'
-import image3 from '../../images/alwed2.jpg'
-import image4 from '../../images/New_Catalogue-58.jpg'
-import image5 from '../../images/alweddiacon.jpg'
-import image6 from '../../images/alwedh.jpg'
+import image1 from './1.jpg'
+import image2 from './2.jpg'
+import image3 from './3.jpg'
+
 
 import { GoogleMap, LoadScript, MarkerF } from '@react-google-maps/api';
 import { Slide } from 'react-slideshow-image';
@@ -53,15 +51,6 @@ const slideImages = [
   },
   {
     url: image3,
-  },
-  {
-    url: image4,
-  },
-  {
-    url: image5,
-  },
-  {
-    url: image6,
   },
   
 ];

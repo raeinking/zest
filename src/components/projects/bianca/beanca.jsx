@@ -16,8 +16,7 @@ import image2 from './2.jpg'
 import image3 from './3.jpg'
 import image4 from './4.jpg'
 import image5 from './5.jpg'
-import image6 from './6.jpg'
-import image7 from './last.jpg'
+
 
 import { GoogleMap, LoadScript, MarkerF } from '@react-google-maps/api';
 import { Slide } from 'react-slideshow-image';
@@ -61,12 +60,7 @@ const slideImages = [
   {
     url: image5,
   },
-  {
-    url: image6,
-  },
-  {
-    url: image7,
-  },
+
   
 ];
 const buttonStyle = {

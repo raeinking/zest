@@ -20,10 +20,10 @@ import { GoogleMap, LoadScript, MarkerF } from '@react-google-maps/api';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 // import pdf from './Brochure_20x20_4Folded.pdf'
-import image1 from './img404.jpg'
-import image2 from './img405.jpg'
-import image3 from './img406.jpg'
-import image4 from './img456.jpg'
+import image1 from './1.jpg'
+import image2 from './2.jpg'
+import image3 from './3.jpg'
+import image4 from './4.jpg'
 
 import {BsFillLightningFill} from 'react-icons/bs'
 import {BsBuildingGear} from 'react-icons/bs'

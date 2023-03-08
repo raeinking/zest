@@ -15,7 +15,7 @@ const Recent = () => {
   return (
     <>
     {paths == '/' ?
-      <section data-aos='fade-zoom-in' data-aos-delay="300" className='recent padding '>
+      <section  className='recent padding '>
         <div className='container'>
           <Heading title='Recent Property Listed' subtitle='' />
           <RecentCard />
@@ -25,7 +25,7 @@ const Recent = () => {
         </div>
       </section>
      :
-    <section data-aos='fade-zoom-in' data-aos-delay="300" className='recent padding'>
+    <section className='recent padding'>
         <div className='container'>
           <Heading title='احدث العقارات' subtitle='' />
           <RecentCard />

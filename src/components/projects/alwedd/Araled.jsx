@@ -2,12 +2,10 @@ import React from 'react'
 
 
 
-import image1 from '../../images/alwedb.jpg'
-import image2 from '../../images/alwedd3.jpg'
-import image3 from '../../images/alwed2.jpg'
-import image4 from '../../images/New_Catalogue-58.jpg'
-import image5 from '../../images/alweddiacon.jpg'
-import image6 from '../../images/alwedh.jpg'
+import image1 from './1.jpg'
+import image2 from './2.jpg'
+import image3 from './3.jpg'
+
 
 import { GoogleMap, LoadScript, MarkerF } from '@react-google-maps/api';
 import { Slide } from 'react-slideshow-image';
@@ -45,15 +43,6 @@ const slideImages = [
   },
   {
     url: image3,
-  },
-  {
-    url: image4,
-  },
-  {
-    url: image5,
-  },
-  {
-    url: image6,
   },
   
 ];
@@ -290,21 +279,21 @@ function Araled() {
               </div>
             </div>
               <div class="parents">
-                <a href='khlood' class="div4">
+                <a href='ar/khlood' class="div4">
                 <div className='imageklood'></div>
                   <div className='overlays'>
                     <h3>الخلود</h3>
                     <p>بغداد</p>
                   </div>
                 </a>
-                <a href='majidi-view' class="div5">
+                <a href='ar/majidi-view' class="div5">
                 <div className='imagemajidi'></div>
                   <div className='overlays'>
                   <h3>ماجدي فیو</h3>
                   <p>یربیل</p>
                   </div>
                 </a>
-                <a href='bianca' class="div6">
+                <a href='ar/bianca' class="div6">
                   <div className='imagebianca'></div>
                   <div className='overlays'>
                   <h3>بيانكا</h3>

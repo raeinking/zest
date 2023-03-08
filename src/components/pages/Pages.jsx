@@ -23,16 +23,13 @@ import arbianca from '../projects/bianca/arbianca'
 import Arkhlood from "../projects/khlood/Arkhlood"
 import Armajidi from "../projects/majedy/Armajidi"
 import Araled from "../projects/alwedd/Araled"
+import Projectss from "../projects/Projectss"
+import Projectssar from "../projects/Projectssar"
 
-
-
-
-
-
-const   Pages = () => {
-        useEffect(() => {
-        AOS.init();
-      }, [])
+const Pages = () => {
+    useEffect(() => {
+    AOS.init();
+  }, [])
 
   return (
     <>
@@ -40,24 +37,26 @@ const   Pages = () => {
         <Header />
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route exact path='/ar' component={Home} />
           <Route exact path='/properties' component={Blog} />
-          <Route exact path='/ar/properties' component={Blog} />
           <Route exact path='/agents' component={Agents} />
-          <Route exact path='/ar/agents' component={Agents} />
-          <Route exact path='/contact' component={Contact} />
-          <Route exact path='/ar/contact' component={Contact} />
-          <Route exact path='/about' component={About} />
-          <Route exact path='/ar/about' component={About} />
-          <Route exact path='/khlood' component={khlood} />
+          <Route exact path='/properties/:id' component={PropertyDetails} />
+          <Route exact path='/Majidi-View' component={Majedy} />
+          <Route exact path='/alwedd' component={alwedd} />
+          <Route exact path='/projects' component={Projectss} />
           <Route exact path='/bianca' component={beanca} />
+          <Route exact path='/khlood' component={khlood} />
+          <Route exact path='/about' component={About} />
+          <Route exact path='/contact' component={Contact} />
+          <Route exact path='/ar' component={Home} />
+          <Route exact path='/ar/properties' component={Blog} />
+          <Route exact path='/ar/agents' component={Agents} />
+          <Route exact path='/ar/contact' component={Contact} />
+          <Route exact path='/ar/about' component={About} />
+          <Route exact path='/ar/projects' component={Projectssar} />
           <Route exact path='/ar/bianca' component={arbianca} />
           <Route exact path='/ar/khlood' component={Arkhlood} />
-          <Route exact path='/alwedd' component={alwedd} />
           <Route exact path='/ar/alwedd' component={Araled} />
-          <Route exact path='/Majidi-View' component={Majedy} />
           <Route exact path='/ar/Majidi-View' component={Armajidi} />
-          <Route exact path='/properties/:id' component={PropertyDetails} />
           <Route exact path='/ar/properties/:id' component={PropertyDetails} />
           <Route path='*' component={pagenotfoud} />
         </Switch>

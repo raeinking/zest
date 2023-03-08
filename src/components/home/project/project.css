@@ -17,11 +17,10 @@
     display: grid;
     position: relative;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 50px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
     grid-row-gap: 0px;
     justify-content: center;
-    height: 450px;
     width: 100%;
     max-width: 1080px;
     z-index: 2;
@@ -29,21 +28,21 @@
     scrollbar-width: thin;
     margin: 5rem 0;
 }
-.div1 , .div2 , .div3, .div4{
+.home1 , .home2 , .home3, .home4{
     overflow: hidden;
     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
 }
-.div1{
+.home1{
     position: relative;
     width:100%;
-    height: 450px;
+    height: 500px;
     transition: 0.3s ease-out;
     grid-area: 1 / 1 / 4 / 3;
 }
-.div1 img {
+.home1 img {
     display: block;
     width: 100%;
-    height: 450px;
+    height: 500px;
 }
 
 .overlay {
@@ -58,10 +57,10 @@
     transition: .5s ease;
     background-color: #19191988;
 }
-.div1:hover .overlay {
+.home1:hover .overlay {
     opacity: 1;
 }
-.div1 .overlay h3{
+.home1 .overlay h3{
     color: white;
     font-size: 20px;
     position: absolute;
@@ -72,7 +71,7 @@
     font-size: 20px;
     letter-spacing: 3.2px;
 }
-.div1 .overlay p{
+.home1 .overlay p{
     color: white;
     font-size: 20px;
     position: absolute;
@@ -84,15 +83,15 @@
 
 
 
-.div2 {
+.home2 {
     position: relative;
     width: 100%;
     height: 150px;
     transition: 0.3s ease-out;
-    grid-area: 1 / 1 / 4 / 3;
+    grid-area: 1 / 1 / 4 / 4;
 }
 
-.div2 img {
+.home2 img {
     display: block;
     width: 100%;
     height: 150px;
@@ -112,11 +111,11 @@
     background-color: #19191988;
 }
 
-.div2:hover .overlay1 {
+.home2:hover .overlay1 {
     opacity: 1;
 }
 
-.div2 .overlay1 h3 {
+.home2 .overlay1 h3 {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -128,7 +127,7 @@
     letter-spacing: 3.2px;
 }
 
-.div2 .overlay1 p {
+.home2 .overlay1 p {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -138,7 +137,7 @@
 }
 
 
-.div3 {
+.home3 {
     position: relative;
     width: 100%;
     height: 150px;
@@ -146,7 +145,7 @@
     grid-area: 1 / 1 / 4 / 3;
 }
 
-.div3 img {
+.home3 img {
     display: block;
     width: 100%;
     height: 150px;
@@ -166,11 +165,11 @@
     background-color: #19191988;
 }
 
-.div3:hover .overlay2 {
+.home3:hover .overlay2 {
     opacity: 1;
 }
 
-.div3 .overlay2 h3 {
+.home3 .overlay2 h3 {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -182,7 +181,7 @@
     letter-spacing: 3.2px;
 }
 
-.div3 .overlay2 p {
+.home3 .overlay2 p {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -194,15 +193,15 @@
 
 
 
-.div4 {
+.home4 {
     position: relative;
     width: 100%;
     height: 250px;
     transition: 0.3s ease-out;
-    grid-area: 1 / 1 / 4 / 3;
+
 }
 
-.div4 img {
+.home4 img {
     display: block;
     width: 100%;
     height: 250px;
@@ -222,11 +221,11 @@
     background-color: #19191988;
 }
 
-.div4:hover .overlay3 {
+.home4:hover .overlay3 {
     opacity: 1;
 }
 
-.div4 .overlay3 h3 {
+.home4 .overlay3 h3 {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -238,7 +237,7 @@
     letter-spacing: 3.2px;
 }
 
-.div4 .overlay3 p {
+.home4 .overlay3 p {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -259,16 +258,21 @@
 
 
 
+
+.div1 {
+    grid-area: 1 / 1 / 3 / 3;
+}
+
 .div2 {
-    grid-area: 3 / 3 / 4 / 4;
+    grid-area: 1 / 3 / 2 / 4;
 }
 
 .div3 {
-    grid-area: 3 / 4 / 4 / 5;
+    grid-area: 1 / 4 / 2 / 5;
 }
 
 .div4 {
-    grid-area: 1 / 3 / 3 / 5;
+    grid-area: 2 / 3 / 4 / 5;
 }
 .grid {
     width: 100%;
@@ -304,6 +308,21 @@
     justify-content: center;
     width: 100%;
 }
+.home1 {
+    grid-area: 1 / 1 / 3 / 3;
+}
+
+.home2 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.home3 {
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+.home4 {
+    grid-area: 2 / 3 / 3 / 5;
+}
 
 
 
@@ -327,49 +346,46 @@
         /* min-width: 300px;     */
         padding: 0;
     }
-    .div1 {
+    .home1 {
         grid-area: 1 / 1 / 2 / 2;
     }
 
-    .div2 {
+    .home2 {
         grid-area: 2 / 1 / 3 / 2;
     }
 
-    .div3 {
+    .home3 {
         grid-area: 3 / 1 / 4 / 2;
     }
 
-    .div4 {
-       
-    }
-    .div1  {
+    .home1  {
        height: 300px;
     }
 
-    .div2  {
+    .home2  {
         height: 300px;
     }
 
-    .div3  {
+    .home3  {
     height: 300px;
     }
 
-    .div4  {
+    .home4  {
         height: 300px;
     }
-    .div1  img{
+    .home1  img{
        height: 300px;
     }
 
-    .div2  img{
+    .home2  img{
         height: 300px;
     }
 
-    .div3  img{
+    .home3  img{
     height: 300px;
     }
 
-    .div4  img{
+    .home4  img{
         height: 300px;
     }
 }

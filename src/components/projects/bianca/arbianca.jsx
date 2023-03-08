@@ -16,8 +16,6 @@ import image2 from './2.jpg'
 import image3 from './3.jpg'
 import image4 from './4.jpg'
 import image5 from './5.jpg'
-import image6 from './6.jpg'
-import image7 from './last.jpg'
 
 import { GoogleMap, LoadScript, MarkerF } from '@react-google-maps/api';
 import { Slide } from 'react-slideshow-image';
@@ -61,13 +59,6 @@ const slideImages = [
   {
     url: image5,
   },
-  {
-    url: image6,
-  },
-  {
-    url: image7,
-  },
-  
 ];
 const buttonStyle = {
     width: "30px",
@@ -82,8 +73,8 @@ const buttonStyle = {
 };
 
 const properties = {
-    prevArrow: <svg style={buttonStyle} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff"><path d="M242 180.6v-138L0 256l242 213.4V331.2h270V180.6z"/></svg>,
-    nextArrow: <svg style={buttonStyle} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff"><path d="M512 256L270 42.6v138.2H0v150.6h270v138z"/></svg>
+  prevArrow: <svg style={buttonStyle} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff"><path d="M242 180.6v-138L0 256l242 213.4V331.2h270V180.6z"/></svg>,
+  nextArrow: <svg style={buttonStyle} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff"><path d="M512 256L270 42.6v138.2H0v150.6h270v138z"/></svg>
 }
 
 
@@ -304,21 +295,21 @@ const Alwedd = () => {
               </div>
             </div>
               <div class="parents">
-                <a href='alwedd' class="div4">
+                <a href='ar/alwedd' class="div4">
                 <div className='imagealwed'></div>
                   <div className='overlays'>
                     <h3>الود </h3>
                     <p>بغداد</p>
                   </div>
                 </a>
-                <a href='majidi-view' class="div5">
+                <a href='ar/majidi-view' class="div5">
                 <div className='imagemajidi'></div>
                   <div className='overlays'>
                   <h3>ماجدي فیو</h3>
                   <p>یربیل</p>
                   </div>
                 </a>
-                <a href='khlood' class="div6">
+                <a href='ar/khlood' class="div6">
                   <div className='imageklood'></div>
                   <div className='overlays'>
                   <h3>الخلود </h3>

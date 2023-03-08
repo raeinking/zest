@@ -16,7 +16,7 @@ const RecentCard = () => {
           const { cover, category, location, name, price, type , area } = val
           return (
             <a className="zoom" href={ '/properties/' + val.url} key={index}>
-            <div className='box shadow' >
+            <div  data-aos='zoom-in-up' data-aos-duration='2000' className='box shadow' >
               <div className='img'>
                 <img src={cover} alt={name} />
               </div>
@@ -48,7 +48,7 @@ const RecentCard = () => {
           const {cover, category, location, name, price, type , area } = val
           return (
             <a className="zoom" href={ '/ar/properties/' + val.url} key={index}>
-            <div className='box shadow' >
+            <div data-aos='zoom-in-up' data-aos-duration='2000' className='box shadow' >
               <div className='img'>
                 <img src={cover} alt={name} />
               </div>
