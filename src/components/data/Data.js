@@ -292,13 +292,13 @@ export const price = [
 export const footer = [
   {
     title: "Social",
-    text: [{ list: "Facebook", link: 'https://www.facebook.com/zest.real.estate.erbil' }, { list: "Instagram" , link : 'https://www.instagram.com/zest_properties/' }, { list: "Youtube", link : 'https://www.youtube.com/channel/UCj1_7eqoDzWn6RFLAj6ScNQ' },{list: "Telegram", link: 'https://t.me/+UY2vzSdjnmY1Njli'},{list: "Privacy Policy", link: 'PrivacyPolicy.pdf'}],
+    text: [{ list: "Facebook", link: 'https://www.facebook.com/zest.real.estate.erbil' }, { list: "Instagram" , link : 'https://www.instagram.com/zest_properties/' }, { list: "Youtube", link : 'https://www.youtube.com/channel/UCj1_7eqoDzWn6RFLAj6ScNQ' },{list: "Telegram", link: 'https://t.me/+UY2vzSdjnmY1Njli'},{list: "Privacy Policy", link: '/Privacy-Policy'}],
   },
 ]
 export const arfooter = [
   {
     title: "اجتماعي",
-    text: [{ list: "فيس بوك" ,link: 'https://www.facebook.com/zest.real.estate.erbil' }, { list: "ئینستاگرام",link : 'https://www.instagram.com/zest_properties/' }, { list: "یوتوب", link : 'https://www.youtube.com/channel/UCj1_7eqoDzWn6RFLAj6ScNQ' },{list: "تیلیگرام", link: 'https://t.me/+UY2vzSdjnmY1Njli'},{list: "الخصوصية والأمان", link: 'PrivacyPolicy.pdf'}]
+    text: [{ list: "فيس بوك" ,link: 'https://www.facebook.com/zest.real.estate.erbil' }, { list: "ئینستاگرام",link : 'https://www.instagram.com/zest_properties/' }, { list: "یوتوب", link : 'https://www.youtube.com/channel/UCj1_7eqoDzWn6RFLAj6ScNQ' },{list: "تیلیگرام", link: 'https://t.me/+UY2vzSdjnmY1Njli'},{list: "الخصوصية والأمان", link: '/Privacy-Policy'}]
   },
 ]
 
