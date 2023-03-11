@@ -25,6 +25,7 @@ import Armajidi from "../projects/majedy/Armajidi"
 import Araled from "../projects/alwedd/Araled"
 import Projectss from "../projects/Projectss"
 import Projectssar from "../projects/Projectssar"
+import PrivacyPolicy from "../common/PrivacyPolicy"
 
 const Pages = () => {
     useEffect(() => {
@@ -58,6 +59,7 @@ const Pages = () => {
           <Route exact path='/ar/alwedd' component={Araled} />
           <Route exact path='/ar/Majidi-View' component={Armajidi} />
           <Route exact path='/ar/properties/:id' component={PropertyDetails} />
+          <Route exact path='/Privacy-Policy' component={PrivacyPolicy} />
           <Route path='*' component={pagenotfoud} />
         </Switch>
         <Footer />

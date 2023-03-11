@@ -1,0 +1,37 @@
+.Privacy {
+    padding: 20px 5rem;
+    width: 100%;
+}
+
+.Privacy h1 ,.Privacy h2 ,.Privacy h3,.Privacy h4{
+    margin: 3rem 0 0 0; 
+    padding: 20px 0 0 0;
+    text-align: center;
+    padding: 0;
+}
+.Privacy p {
+    padding: 30px 0;
+    width: 100%;
+    text-align: start;
+}
+
+.first ul{
+    list-style: circle;
+    align-items: flex-start;
+}
+.secund ul{
+    list-style: circle;
+    align-items: flex-start;
+}
+.third ul{
+    list-style: circle;
+    align-items: flex-start;
+}
+.four ul{
+    list-style: circle;
+    align-items: flex-start;
+}
+.five ul{
+    list-style: circle;
+    align-items: flex-start;
+}
