@@ -38,7 +38,6 @@ const Home = () => {
       <Awards />
       <Projecta />
       <Team />
-      {/* <Location /> */}
     </>
   )
 }
