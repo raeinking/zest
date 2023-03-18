@@ -33,14 +33,14 @@ function Projectname() {
                 <img src={image2} />
                 <div className='overlay2'>
                   <h3>Al Wed</h3>
-                  <p>Iraq Mosul</p>
+                  <p>Baghdad</p>
                 </div>
             </a>
             <a href='/khlood' data-aos='zoom-in-up' data-aos-duration='2000' className='home4'>
                 <img src={image3} />
                 <div className='overlay3'>
                   <h3>AL Khlood</h3>
-                  <p>Iraq Mosul</p>
+                  <p>Baghdad</p>
                 </div>
             </a>
         </div>
