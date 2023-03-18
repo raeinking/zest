@@ -73,7 +73,7 @@ color: #fff;
 }
 .hero h1 {
   color: #fff;
-  font-size: 110px;
+  font-size: 32px;
   z-index: 1;
 }
 .hero p {
@@ -298,7 +298,7 @@ form {
 }
 .hero h1,
 .hero p {
-  color: #7a5c3e;
+  color: #ffffff;
 }
 
 .herologo {
@@ -347,7 +347,7 @@ form {
 }
 @media screen and (max-width: 800px) {
   .hero h1 {
-    font-size: 70px;
+    /* font-size: 70px; */
   }
 }
 @media screen and (max-width: 1100px) {
@@ -359,7 +359,7 @@ form {
 }
 @media screen and (max-width: 400px) {
 .hero h1 {
-    font-size: 58px;
+    /* font-size: 58px; */
   }
 .herocontain h2 {
     font-size: 50px;

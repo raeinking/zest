@@ -24,11 +24,11 @@ const Hero = () => {
     <>
     {paths == '/' ? 
       <section data-aos="fade-up" className='hero'>
-          {/* <h1 title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.'>Zest Property</h1>
-          <p>Find Your Next Home In Zest Property.</p> */}
-          <div className="herocontain" >
+          <h1 title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.'>Zest Property</h1>
+          <p>Find Your Next Home In Zest Property.</p>
+          {/* <div className="herocontain" >
           <h3>Zest Property - Luxury Estate</h3>
-            <h1>VISIT US!</h1>
+            <h1>Zest Property - Luxury Estate!</h1>
             <h3 className="h3">International Property Show. Dubai 2023</h3>
             <h3 className="h3">Dubai World Trade Center. United. AE. Arab</h3>
             <div className="heroborder">
@@ -39,7 +39,7 @@ const Hero = () => {
               <div className='zestborder'></div>
               <a href="https://www.internationalpropertyshow.ae/dubai"><img src={ips} alt="ips" ></img></a>
             </div>
-          </div>
+          </div> */}
           {/* <div class="login-box">
           <h2>Contact us to easily find your new home</h2>
           <form>
