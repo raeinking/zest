@@ -66,9 +66,9 @@ const Hero = () => {
       <section data-aos="fade-up" className='hero'>
       <div className="snow">
   </div>
-          {/* <h1 className="ar">شركة زيست</h1>
-          <p className="ar">فرصة لعرض احدث واجدد العقارات القريبة منك</p> */}
-            <div className="herocontain" >
+          <h1 className="ar">شركة زيست</h1>
+          <p className="ar">فرصة لعرض احدث واجدد العقارات القريبة منك</p>
+            {/* <div className="herocontain" >
           <h3 className="h3 ar">زيست للعقارات الفاخرة</h3>
             <h2 className="ar">!زوروا جناحنا</h2>
             <h3 className="h3 ar">في معرض العقارات الدولي - دبي 2023</h3>
@@ -81,7 +81,7 @@ const Hero = () => {
               <div className='zestborder'></div>
               <img src={ips} alt="ips"></img>
             </div>
-          </div>
+          </div> */}
           {/* <div class="login-box">
           <h2>تواصل معنا لتسهيل عملية ايجاد عقارك الجديد</h2>
           <form>
