@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import './discription.css'
 import { useLocation } from "react-router-dom";
 
@@ -7,6 +7,10 @@ import { useLocation } from "react-router-dom";
 import { arhousesData } from '../data/Data';
 import { housesData } from '../data/Data';
 import { listAll } from '../data/Data';
+import { arlistAll } from '../data/Data'
+import Locationimg from ".././images/location.jpg";
+
+
 //  useParams
 import { useParams } from 'react-router-dom';
 // import icons
@@ -38,6 +42,33 @@ const PropertyDetails = (val) => {
   const location = useLocation();
   const paths = window.location.pathname;
   const fword = paths[1] + paths[2]
+
+  const [searchInput, setSearchInput] = useState('');
+  const [APIData, setAPIData] = useState([])
+  const [ArAPIData, setArAPIData] = useState([])
+  
+  useEffect(() => {
+    setAPIData(listAll.filter((item) => {
+        return Object.values(item.name).join('').toLowerCase().includes(searchInput.toLowerCase())
+      }
+      ))
+    setArAPIData(arlistAll.filter((item) => {
+        return Object.values(item.name).join('').toLowerCase().includes(searchInput.toLowerCase())
+      }
+      ))
+  }, [searchInput])
+
+  const searchItems = (searchValue) => {
+      setSearchInput(searchValue)
+      console.log(APIData.filter((item) => {
+          return Object.values(item.name).join('').toLowerCase().includes(searchInput.toLowerCase())
+          setAPIData(item)
+      }))
+      APIData.filter((item) => {
+        return Object.values(item.name).join('').toLowerCase().includes(searchInput.toLowerCase())
+      })
+  }
+
 
   return (
     <>
@@ -228,6 +259,39 @@ const PropertyDetails = (val) => {
               </a>
             </div>
           </form>
+        </div>
+      </div>
+          <div className='grid'>
+        <div className='gridbox'>
+        {APIData.map((val, index) => {
+          const { cover, category, location, name, price, type, area } = val
+          return (
+            <a className='zoom' href={ '/ar/properties/' + val.url}>
+            <div className='box shadow' key={index}>
+              <div className='img'>
+                <img src={cover} alt={name} />
+              </div>
+              <div className='text'>
+                <div className='category'>
+                  <span style={{ background: category === "For Sale" ? "#25b5791a" : "#ff98001a", color: category === "For Sale" ? "#25b579" : "#ff9800" }}>{category}</span>
+                </div>
+                <div className="dis">
+                <h4 className='ar'>{name}</h4>
+                <p>
+                  <img className="imglocation" src={Locationimg} alt='location'></img> {location}
+                </p>
+                </div>
+              </div>
+              <div className='buttonpr'>
+                <button  className='btn2 ar'>{price}</button>
+                <div className="flezs"></div>
+                <label htmlFor='' className='ar'>{area}</label>
+                <span className='ar'>{type}</span>
+              </div>
+            </div>
+            </a>
+          )
+        })}
         </div>
       </div>
     </div>

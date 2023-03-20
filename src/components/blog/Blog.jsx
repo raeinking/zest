@@ -3,7 +3,6 @@ import Back from "../common/Back"
 import "../home/recent/recent.css"
 import img from "../images/property.jpg"
 import './blog.css'
-import Blogsprojects from "./Blogsprojects"
 import { useLocation } from "react-router-dom";
 import { Helmet } from "react-helmet"
 import Locationimg from ".././images/location.jpg";
