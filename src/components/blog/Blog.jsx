@@ -3,7 +3,7 @@ import Back from "../common/Back"
 import "../home/recent/recent.css"
 import img from "../images/property.jpg"
 import './blog.css'
-import { useLocation } from "react-router-dom";
+import { useLocation, useParams   } from "react-router-dom";
 import { Helmet } from "react-helmet"
 import Locationimg from ".././images/location.jpg";
 import { listAll } from '../data/Data'
@@ -12,34 +12,58 @@ import { arlistAll } from '../data/Data'
 
 const Blog = () => {
   const location = useLocation();
-  const paths = window.location.pathname;
+  const paths = window.location.pathname
+  const search = window.location.search
+  const queryParams = new URLSearchParams(search)
+  const resident = queryParams.get("project")
   const fword = paths[1] + paths[2]
-  const [searchInput, setSearchInput] = useState('');
+  const [project, setProject] = useState(resident || 'north');
+  const [room, setRoom] = useState('1 + 1');
   const [APIData, setAPIData] = useState([])
   const [ArAPIData, setArAPIData] = useState([])
+
   
+
+  
+
   useEffect(() => {
     setAPIData(listAll.filter((item) => {
-        return Object.values(item.name).join('').toLowerCase().includes(searchInput.toLowerCase())
+       const projectName = Object.values(item.name).join('').toLowerCase().includes(project.toLowerCase())
+       const typeRoom = Object.values(item.type).join('').toLowerCase().includes(room.toLowerCase())
+       console.log(Object.values(item.type).join('').toLowerCase().includes(room.toLowerCase()))
+        return typeRoom
       }
       ))
     setArAPIData(arlistAll.filter((item) => {
-        return Object.values(item.name).join('').toLowerCase().includes(searchInput.toLowerCase())
+        return Object.values(item.type).join('').toLowerCase().includes(room.toLowerCase())
       }
       ))
-  }, [searchInput])
+  }, [project])
 
-  const searchItems = (searchValue) => {
-      setSearchInput(searchValue)
-      console.log(APIData.filter((item) => {
-          return Object.values(item.name).join('').toLowerCase().includes(searchInput.toLowerCase())
-          setAPIData(item)
-      }))
-      APIData.filter((item) => {
-        return Object.values(item.name).join('').toLowerCase().includes(searchInput.toLowerCase())
-      })
-  }
 
+  // useEffect(() => {
+  //   setAPIData(listAll.filter((item) => {
+  //       return Object.values(item.name).join('').toLowerCase().includes(project.toLowerCase())
+  //     }
+  //     ))
+  //   setArAPIData(arlistAll.filter((item) => {
+  //       return Object.values(item.name).join('').toLowerCase().includes(project.toLowerCase())
+  //     }
+  //     ))
+  // }, [project])
+
+  // const searchItems = (searchValue) => {
+  //     setSearchInput(searchValue)
+  //     console.log(APIData.filter((item) => {
+  //         return Object.values(item.name).join('').toLowerCase().includes(searchInput.toLowerCase())
+  //         setAPIData(item)
+  //     }))
+  //     APIData.filter((item) => {
+  //       return Object.values(item.name).join('').toLowerCase().includes(searchInput.toLowerCase())
+  //     })
+  // }
+
+  console.log()
 
 
   return (
@@ -59,16 +83,21 @@ const Blog = () => {
        <section>
       <section className='blog'>
           <div className="searchbardiv">
+            <form action="/properties">
             <div className="all">
-              <select className="selectt" onChange={(e) => searchItems(e.target.value)}>
-                <option value="" >Projects</option>
+              <select defaultValue={resident} name="project" className="selectt" 
+              // onChange={(e) => searchItems(e.target.value)}
+              >
+                <option value="">Projects</option>
                 <option value="North">North</option>
                 <option value="Sky View">Sky View</option>
                 <option value="venus">Venus</option>
                 <option value="Qaiwan">Qaiwan</option>
                 <option value="Nova">Nova</option>
               </select>
-              <select className="selectt" onChange={(e) => searchItems(e.target.value)}>
+              <select name="type" className="selectt" 
+              // onChange={(e) => searchItems(e.target.value)}
+              >
                 <option value="">Rooms</option>
                 <option value="1 + 1">1 + 1</option>
                 <option value="1 + 2">1 + 2</option>
@@ -77,7 +106,9 @@ const Blog = () => {
                 <option value="1 + 5">1 + 5</option>
                 <option value="1 + 6">1 + 6</option>
               </select>
-              <select className="selectt" onChange={(e) => searchItems(e.target.value)}>
+              <select name="meter" className="selectt" 
+              // onChange={(e) => searchItems(e.target.value)}
+              >
                 <option value=''>Meter</option>
                 <option value="67">67</option>
                 <option value="72">72</option>
@@ -94,6 +125,8 @@ const Blog = () => {
                 <option value="210">210</option>
               </select>
             </div>
+            <button>Search</button>
+          </form>
             {/* <input className="searchbar" type='text' onChange={(e) => searchItems(e.target.value)} placeholder='Search...' /> */}
           </div>
       </section>
@@ -172,7 +205,7 @@ const Blog = () => {
                 <option value="210">210</option>
               </select>
             </div> */}
-            <input className="searchbar" type='text' onChange={(e) => searchItems(e.target.value)} placeholder='...يبحث' />
+            {/* <input className="searchbar" type='text' onChange={(e) => searchItems(e.target.value)} placeholder='...يبحث' /> */}
           </div>
       </section>
       <section className="blogFillters">

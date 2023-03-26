@@ -7,6 +7,7 @@ import zest from './zest.png'
 import ips from './ips.png'
 
 
+const options = ['Option 1', 'Option 2', 'Option 3']; // array of selectable options
 
 
 
@@ -19,6 +20,10 @@ const Hero = () => {
 
   const location = useLocation();
   const paths = window.location.pathname;
+  const search = window.location.search
+  const queryParams = new URLSearchParams(search)
+   const resident = queryParams.get("project")
+
 
   return (
     <>
@@ -27,25 +32,51 @@ const Hero = () => {
           <h1 title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.'>Zest Property</h1>
           <p>Find Your Next Home In Zest Property.</p>
           <div className="">
-          <form>
-            <label htmlFor="header-search">
-            <span className="visually-hidden">Search blog posts</span>
-        </label>
-        <input
-            type="text"
-            id="header-search"
-            placeholder="Search blog posts"
-            name="property-name" 
-        />
-        <input
-            type="text"
-            id="header-search"
-            placeholder="Search blog posts"
-            name="size" 
-        />
-        <button type="submit">Search</button>
-            </form>
-          </div>
+          <form action="/properties">
+            <div className="all">
+              <select name="project" className="selectt" 
+              // onChange={(e) => searchItems(e.target.value)}
+              >
+                <option value="">Projects</option>
+                <option value="North">North</option>
+                <option value="Sky View">Sky View</option>
+                <option value="venus">Venus</option>
+                <option value="Qaiwan">Qaiwan</option>
+                <option value="Nova">Nova</option>
+              </select>
+              <select name="type" className="selectt" 
+              // onChange={(e) => searchItems(e.target.value)}
+              >
+                <option value="">Rooms</option>
+                <option value="1 + 1">1 + 1</option>
+                <option value="1 + 2">1 + 2</option>
+                <option value="1 + 3">1 + 3</option>
+                <option value="1 + 4">1 + 4</option>
+                <option value="1 + 5">1 + 5</option>
+                <option value="1 + 6">1 + 6</option>
+              </select>
+              <select name="meter" className="selectt" 
+              // onChange={(e) => searchItems(e.target.value)}
+              >
+                <option value=''>Meter</option>
+                <option value="67">67</option>
+                <option value="72">72</option>
+                <option value="76">76</option>
+                <option value="78">78</option>
+                <option value="80">80</option>
+                <option value="81">81</option>
+                <option value="90">90</option>
+                <option value="105">105</option>
+                <option value="115">115</option>
+                <option value="120">120</option>
+                <option value="140">140</option>
+                <option value="201">201</option>
+                <option value="210">210</option>
+              </select>
+            </div>
+            <button>Search</button>
+          </form>
+    </div>
       </section>
       :       
       <section data-aos="fade-up" className='hero'>
