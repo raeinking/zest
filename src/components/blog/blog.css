@@ -30,30 +30,42 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 15rem;
+    z-index: 90;
 }
 .searchbar {
     display: flex;
-    max-width: 600px;
+    max-width: 300px;
     width: 90%;
-    height: 60px;
+    /* height: 60px; */
     font-size: 20px;
-    padding: 0px 60px 0px 20px;
+    /* padding: 0px 60px 0px 60px; */
     outline: none;
-    border-radius: 40px;
+    border-radius: 7px;
     z-index: 10;
-    margin: 0 20px;
+    /* margin: 0 20px; */
+    text-align: center;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
 }
 
-.select {
-    z-index: 10;
+.selectt {
+    /* z-index: 100; */
+    padding: 5px 10px;
+    border: solid 1px #9b9b9b ;
+    margin: 0 3px;
+    border-radius: 4px;
 }
 select{
-    margin: 0 -8px;
-    padding: 0 25px;
+    /* margin: 0 -8px;
+    /* padding: 0 25px; */
     border: none;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     outline: none;
-    height: 50px;
+    
     font-size: 18px;
 }
 
@@ -122,4 +134,17 @@ select{
 }
 .flex .div button {
     border-radius: 0px;
+}
+
+.all {
+    display: flex;
+    height: 177px;
+    padding: 2.4rem;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 90%;
+    z-index: 100;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
 }

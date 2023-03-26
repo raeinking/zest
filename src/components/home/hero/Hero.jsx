@@ -26,41 +26,26 @@ const Hero = () => {
       <section data-aos="fade-up" className='hero'>
           <h1 title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.'>Zest Property</h1>
           <p>Find Your Next Home In Zest Property.</p>
-          {/* <div className="herocontain" >
-          <h3>Zest Property - Luxury Estate</h3>
-            <h1>Zest Property - Luxury Estate!</h1>
-            <h3 className="h3">International Property Show. Dubai 2023</h3>
-            <h3 className="h3">Dubai World Trade Center. United. AE. Arab</h3>
-            <div className="heroborder">
-              <h3>12 - 14 February 2023</h3>
-            </div>
-            <div className="herologo">
-              <img src={zest}  alt="zest"></img>
-              <div className='zestborder'></div>
-              <a href="https://www.internationalpropertyshow.ae/dubai"><img src={ips} alt="ips" ></img></a>
-            </div>
-          </div> */}
-          {/* <div class="login-box">
-          <h2>Contact us to easily find your new home</h2>
+          <div className="">
           <form>
-            <div class="user-box">
-              <input onChange={e => setName(e.target.value)} placeholder="Name " type="text" name="" required=""></input>
-            </div>
-            <div class="user-box">
-              <input onChange={e => setPhone(e.target.value)} placeholder="Number" type="text" name="" required=""></input>
-            </div>
-            <div class="user-box">
-              <input onChange={e => setBody(e.target.value)} placeholder="Email" type="text" name="" required=""></input>
-            </div>
-            <a href={`mailto:${email}?subject=${name + ': ' + phone}&body=${body}`}>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <p>Submit</p>
-            </a>
-          </form>
-          </div> */}
+            <label htmlFor="header-search">
+            <span className="visually-hidden">Search blog posts</span>
+        </label>
+        <input
+            type="text"
+            id="header-search"
+            placeholder="Search blog posts"
+            name="property-name" 
+        />
+        <input
+            type="text"
+            id="header-search"
+            placeholder="Search blog posts"
+            name="size" 
+        />
+        <button type="submit">Search</button>
+            </form>
+          </div>
       </section>
       :       
       <section data-aos="fade-up" className='hero'>

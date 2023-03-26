@@ -59,8 +59,8 @@ const Blog = () => {
        <section>
       <section className='blog'>
           <div className="searchbardiv">
-            {/*<div className="select sleft">
-              <select onChange={(e) => searchItems(e.target.value)}>
+            <div className="all">
+              <select className="selectt" onChange={(e) => searchItems(e.target.value)}>
                 <option value="" >Projects</option>
                 <option value="North">North</option>
                 <option value="Sky View">Sky View</option>
@@ -68,7 +68,7 @@ const Blog = () => {
                 <option value="Qaiwan">Qaiwan</option>
                 <option value="Nova">Nova</option>
               </select>
-              <select className="select" onChange={(e) => searchItems(e.target.value)}>
+              <select className="selectt" onChange={(e) => searchItems(e.target.value)}>
                 <option value="">Rooms</option>
                 <option value="1 + 1">1 + 1</option>
                 <option value="1 + 2">1 + 2</option>
@@ -77,7 +77,7 @@ const Blog = () => {
                 <option value="1 + 5">1 + 5</option>
                 <option value="1 + 6">1 + 6</option>
               </select>
-              <select className="select sright" onChange={(e) => searchItems(e.target.value)}>
+              <select className="selectt" onChange={(e) => searchItems(e.target.value)}>
                 <option value=''>Meter</option>
                 <option value="67">67</option>
                 <option value="72">72</option>
@@ -93,8 +93,8 @@ const Blog = () => {
                 <option value="201">201</option>
                 <option value="210">210</option>
               </select>
-            </div> */}
-            <input className="searchbar" type='text' onChange={(e) => searchItems(e.target.value)} placeholder='Search...' />
+            </div>
+            {/* <input className="searchbar" type='text' onChange={(e) => searchItems(e.target.value)} placeholder='Search...' /> */}
           </div>
       </section>
       {/* <section className="blogFillters"></section> */}
