@@ -16,22 +16,21 @@ const Blog = () => {
   const search = window.location.search
   const queryParams = new URLSearchParams(search)
   const resident = queryParams.get("project")
+  const type = queryParams.get("type")
+  const meter = queryParams.get("meter")
   const fword = paths[1] + paths[2]
-  const [project, setProject] = useState(resident || 'north');
-  const [room, setRoom] = useState('1 + 1');
+  const [project, setProject] = useState(resident || '');
+  const [room, setRoom] = useState(type || '');
+  const [area, setArea] = useState(type || '');
   const [APIData, setAPIData] = useState([])
   const [ArAPIData, setArAPIData] = useState([])
 
-  
-
-  
 
   useEffect(() => {
     setAPIData(listAll.filter((item) => {
-       const projectName = Object.values(item.name).join('').toLowerCase().includes(project.toLowerCase())
-       const typeRoom = Object.values(item.type).join('').toLowerCase().includes(room.toLowerCase())
-       console.log(Object.values(item.type).join('').toLowerCase().includes(room.toLowerCase()))
-        return typeRoom
+      //  const projectName = Object.values(item.name).join('').toLowerCase().includes(project.toLowerCase())
+       const test = Object.values(item.type).join('').toLowerCase().includes(room.toLowerCase()) &&  Object.values(item.name).join('').toLowerCase().includes(resident.toLowerCase()) && Object.values(item.area).join('').toLowerCase().includes(meter.toLowerCase()) 
+        return test
       }
       ))
     setArAPIData(arlistAll.filter((item) => {
@@ -85,45 +84,45 @@ const Blog = () => {
           <div className="searchbardiv">
             <form action="/properties">
             <div className="all">
-              <select defaultValue={resident} name="project" className="selectt" 
-              // onChange={(e) => searchItems(e.target.value)}
-              >
-                <option value="">Projects</option>
-                <option value="North">North</option>
-                <option value="Sky View">Sky View</option>
-                <option value="venus">Venus</option>
-                <option value="Qaiwan">Qaiwan</option>
-                <option value="Nova">Nova</option>
-              </select>
-              <select name="type" className="selectt" 
-              // onChange={(e) => searchItems(e.target.value)}
-              >
-                <option value="">Rooms</option>
-                <option value="1 + 1">1 + 1</option>
-                <option value="1 + 2">1 + 2</option>
-                <option value="1 + 3">1 + 3</option>
-                <option value="1 + 4">1 + 4</option>
-                <option value="1 + 5">1 + 5</option>
-                <option value="1 + 6">1 + 6</option>
-              </select>
-              <select name="meter" className="selectt" 
-              // onChange={(e) => searchItems(e.target.value)}
-              >
-                <option value=''>Meter</option>
-                <option value="67">67</option>
-                <option value="72">72</option>
-                <option value="76">76</option>
-                <option value="78">78</option>
-                <option value="80">80</option>
-                <option value="81">81</option>
-                <option value="90">90</option>
-                <option value="105">105</option>
-                <option value="115">115</option>
-                <option value="120">120</option>
-                <option value="140">140</option>
-                <option value="201">201</option>
-                <option value="210">210</option>
-              </select>
+            <div>
+              <input type="radio" name='typeseller' value='vasdflk' defaultChecked></input>
+              <input type="radio" name="typeseller"></input>
+            </div>
+              <div className="allselect">
+                <select defaultValue={resident} name="project" className="selectt">
+                  <option value="">Projects</option>
+                  <option value="North">North</option>
+                  <option value="Sky View">Sky View</option>
+                  <option value="venus">Venus</option>
+                  <option value="Qaiwan">Qaiwan</option>
+                  <option value="Nova">Nova</option>
+                </select>
+                <select defaultValue={type}  name="type" className="selectt">
+                  <option value="">Rooms</option>
+                  <option value="1 + 1">1 + 1</option>
+                  <option value="1 + 2">1 + 2</option>
+                  <option value="1 + 3">1 + 3</option>
+                  <option value="1 + 4">1 + 4</option>
+                  <option value="1 + 5">1 + 5</option>
+                  <option value="1 + 6">1 + 6</option>
+                </select>
+                <select defaultValue={meter}  name="meter" className="selectt">
+                  <option value=''>Meter</option>
+                  <option value="67">67</option>
+                  <option value="72">72</option>
+                  <option value="76">76</option>
+                  <option value="78">78</option>
+                  <option value="80">80</option>
+                  <option value="81">81</option>
+                  <option value="90">90</option>
+                  <option value="105">105</option>
+                  <option value="115">115</option>
+                  <option value="120">120</option>
+                  <option value="140">140</option>
+                  <option value="201">201</option>
+                  <option value="210">210</option>
+                </select>
+              </div>
             </div>
             <button>Search</button>
           </form>

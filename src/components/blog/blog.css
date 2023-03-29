@@ -148,3 +148,14 @@ select{
     justify-content: center;
     align-items: center;
 }
+.allselect {
+    display: flex;
+    padding: 2.4rem;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 90%;
+    z-index: 100;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+}
