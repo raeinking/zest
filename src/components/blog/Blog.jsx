@@ -15,21 +15,34 @@ const Blog = () => {
   const paths = window.location.pathname
   const search = window.location.search
   const queryParams = new URLSearchParams(search)
+
   const resident = queryParams.get("project")
   const type = queryParams.get("type")
   const meter = queryParams.get("meter")
-  const fword = paths[1] + paths[2]
+  const cityParams = queryParams.get("city")
+  const priceParams = queryParams.get("Price")
+
   const [project, setProject] = useState(resident || '');
   const [room, setRoom] = useState(type || '');
-  const [area, setArea] = useState(type || '');
+  const [areaMeter, setArea] = useState(meter || '');
+  const [city, setCity] = useState(cityParams || '');
+  const [price, setPrice] = useState(priceParams || '');
+
+
   const [APIData, setAPIData] = useState([])
   const [ArAPIData, setArAPIData] = useState([])
-
+  
+  const fword = paths[1] + paths[2]
 
   useEffect(() => {
     setAPIData(listAll.filter((item) => {
       //  const projectName = Object.values(item.name).join('').toLowerCase().includes(project.toLowerCase())
-       const test = Object.values(item.type).join('').toLowerCase().includes(room.toLowerCase()) &&  Object.values(item.name).join('').toLowerCase().includes(resident.toLowerCase()) && Object.values(item.area).join('').toLowerCase().includes(meter.toLowerCase()) 
+       const test = 
+       Object.values(item.name).join('').toLowerCase().includes(project.toLowerCase()) && 
+       Object.values(item.type).join('').toLowerCase().includes(room.toLowerCase()) && 
+       Object.values(item.area).join('').toLowerCase().includes(areaMeter.toLowerCase()) &&
+       Object.values(item.citys).join('').toLowerCase().includes(city.toLowerCase()) &&
+       Object.values(item.price).join('').toLowerCase().includes(price.toLowerCase()) 
         return test
       }
       ))
@@ -84,10 +97,10 @@ const Blog = () => {
           <div className="searchbardiv">
             <form action="/properties">
             <div className="all">
-            <div>
+            {/* <div>
               <input type="radio" name='typeseller' value='vasdflk' defaultChecked></input>
               <input type="radio" name="typeseller"></input>
-            </div>
+            </div> */}
               <div className="allselect">
                 <select defaultValue={resident} name="project" className="selectt">
                   <option value="">Projects</option>
@@ -121,6 +134,12 @@ const Blog = () => {
                   <option value="140">140</option>
                   <option value="201">201</option>
                   <option value="210">210</option>
+                </select>
+                <select defaultValue={cityParams}  name="meter" className="selectt">
+                  <option value=''>City</option>
+                  <option value="Erbil">Erbil</option>
+                  <option value="Baghdad">Baghdad</option>
+                  <option value="Kirkuk">Kirkuk</option>
                 </select>
               </div>
             </div>
