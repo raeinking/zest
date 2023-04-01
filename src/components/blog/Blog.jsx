@@ -21,12 +21,14 @@ const Blog = () => {
   const meter = queryParams.get("meter")
   const cityParams = queryParams.get("city")
   const priceParams = queryParams.get("Price")
+  const propertyParams = queryParams.get("Property")
 
   const [project, setProject] = useState(resident || '');
   const [room, setRoom] = useState(type || '');
   const [areaMeter, setArea] = useState(meter || '');
   const [city, setCity] = useState(cityParams || '');
   const [price, setPrice] = useState(priceParams || '');
+  const [propertyuse, setProperty] = useState(propertyParams || '');
 
 
   const [APIData, setAPIData] = useState([])
@@ -42,7 +44,8 @@ const Blog = () => {
        Object.values(item.type).join('').toLowerCase().includes(room.toLowerCase()) && 
        Object.values(item.area).join('').toLowerCase().includes(areaMeter.toLowerCase()) &&
        Object.values(item.citys).join('').toLowerCase().includes(city.toLowerCase()) &&
-       Object.values(item.price).join('').toLowerCase().includes(price.toLowerCase()) 
+       Object.values(item.price).join('').toLowerCase().includes(price.toLowerCase()) &&
+       Object.values(item.property).join('').toLowerCase().includes(propertyuse.toLowerCase()) 
         return test
       }
       ))
@@ -95,20 +98,34 @@ const Blog = () => {
        <section>
       <section className='blog'>
           <div className="searchbardiv">
-            <form action="/properties">
-            <div className="all">
-            {/* <div>
-              <input type="radio" name='typeseller' value='vasdflk' defaultChecked></input>
-              <input type="radio" name="typeseller"></input>
-            </div> */}
+            <form className="alls" action="/properties">
+            <div className="">
+            <div className="sdsd">
+            <div>
+              <label for="Buy" className="selectType">Buy</label>
+              <label for="Sell" className="selectType">Sell</label>
+            </div>
+            <button >Search</button>
+            </div>
               <div className="allselect">
                 <select defaultValue={resident} name="project" className="selectt">
-                  <option value="">Projects</option>
+                  <option value="">Projects Name</option>
                   <option value="North">North</option>
                   <option value="Sky View">Sky View</option>
                   <option value="venus">Venus</option>
                   <option value="Qaiwan">Qaiwan</option>
                   <option value="Nova">Nova</option>
+                </select>
+                <select defaultValue={propertyParams}  name="Property" className="selectt">
+                  <option value=''>Property Type</option>
+                  <option value="Apartment">Apartment</option>
+                  <option value="House">House</option>
+                </select>
+                <select defaultValue={cityParams}  name="city" className="selectt">
+                  <option value=''>City</option>
+                  <option value="Erbil">Erbil</option>
+                  <option value="Baghdad">Baghdad</option>
+                  <option value="Kirkuk">Kirkuk</option>
                 </select>
                 <select defaultValue={type}  name="type" className="selectt">
                   <option value="">Rooms</option>
@@ -135,15 +152,8 @@ const Blog = () => {
                   <option value="201">201</option>
                   <option value="210">210</option>
                 </select>
-                <select defaultValue={cityParams}  name="meter" className="selectt">
-                  <option value=''>City</option>
-                  <option value="Erbil">Erbil</option>
-                  <option value="Baghdad">Baghdad</option>
-                  <option value="Kirkuk">Kirkuk</option>
-                </select>
               </div>
             </div>
-            <button>Search</button>
           </form>
             {/* <input className="searchbar" type='text' onChange={(e) => searchItems(e.target.value)} placeholder='Search...' /> */}
           </div>

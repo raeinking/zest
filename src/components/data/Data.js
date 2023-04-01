@@ -363,7 +363,8 @@ export const listAll = [
     price: "$22,620",
     type: "1 + 1",
     area: "78 meter",
-    citys: 'Erbil'
+    citys: 'Erbil',
+    property: 'apartment'
   },
   {
   id: 43,
@@ -375,7 +376,8 @@ export const listAll = [
   price: "$28,305",
   type: "1 + 4",
   area: "201.6 m²",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
 
   {
@@ -388,7 +390,8 @@ export const listAll = [
     price: "$23,920",
     type: "1 + 1",
     area: "80 meter",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
   {
     id: 5,
@@ -400,7 +403,8 @@ export const listAll = [
     price: "$16,096",
     type: "2 + 1",
     area: "105 meter",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
   {
     id: 6,
@@ -412,7 +416,8 @@ export const listAll = [
     price: "$37,000",
     type: "1 + 1",
     area: "81 meter",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
   {
     id: 9,
@@ -424,7 +429,8 @@ export const listAll = [
     price: "$10,317",
     type: "1 + 1",
     area: "72 meter",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
   {
     id: 10,
@@ -436,7 +442,8 @@ export const listAll = [
     price: "$11,397",
     type: "1 + 1",
     area: "72 meter",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
   {
     id: 11,
@@ -448,7 +455,8 @@ export const listAll = [
     price: "$35,856",
     type: "2 + 1",
     area: "120 meter",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
   {
     id: 13,
@@ -460,7 +468,8 @@ export const listAll = [
     price: "$38,256",
     type: "2 + 1",
     area: "120 meter",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
   {
     id: 14,
@@ -472,7 +481,8 @@ export const listAll = [
     price: "$13,550",
     type: "1 + 1",
     area: "76 meter",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
     {
     id: 32,
@@ -484,7 +494,8 @@ export const listAll = [
     price: "$18,802",
     type: "1 + 2",
     area: "140 m²",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
   {
     id: 15,
@@ -496,7 +507,8 @@ export const listAll = [
     price: "$38,256",
     type: "2 + 1",
     area: "120 meter",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
   {
     id: 16,
@@ -508,7 +520,8 @@ export const listAll = [
     price: "$15,904",
     type: "2 + 1",
     area: "115 meter",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
   {
     id: 17,
@@ -520,7 +533,8 @@ export const listAll = [
     price: "$23,120",
     type: "1 + 1",
     area: "80 meter",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
   {
     id: 18,
@@ -532,7 +546,8 @@ export const listAll = [
     price: "$12,951",
     type: "1 + 1",
     area: "67 meter",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
   {
     id: 19,
@@ -544,7 +559,8 @@ export const listAll = [
     price: "$34,400",
     type: "1 + 1",
     area: "80 meter",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
   {
     id: 20,
@@ -556,7 +572,8 @@ export const listAll = [
     price: "$12,951",
     type: "1 + 1",
     area: "67 meter",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
   {
     id: 21,
@@ -568,7 +585,8 @@ export const listAll = [
     price: "$23,120",
     type: "1 + 1",
     area: "80 meter",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
       {
     id: 40,
@@ -580,7 +598,8 @@ export const listAll = [
     price: "$12,087", 
     type: "1 + 1",
     area: "90 m²",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
   {
     id: 22,
@@ -592,7 +611,8 @@ export const listAll = [
     price: "$15,571",
     type: "2 + 1",
     area: "105 meter",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
   {
     id: 23,
@@ -604,7 +624,8 @@ export const listAll = [
     price: "$23,120",
     type: "1 + 1",
     area: "80 meter",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
   {
     id: 24,
@@ -616,7 +637,8 @@ export const listAll = [
     price: "$17,054",
     type: "2 + 1",
     area: "115 meter",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
       {
     id: 39,
@@ -628,7 +650,8 @@ export const listAll = [
     price: "$12,087", 
     type: "1 + 1",
     area: "90 m²",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
       {
     id: 39,
@@ -640,7 +663,8 @@ export const listAll = [
     price: "$12,087", 
     type: "1 + 1",
     area: "90 m²",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
       {
     id: 39,
@@ -652,7 +676,8 @@ export const listAll = [
     price: "$28,203", 
     type: "1 + 3",
     area: "210 m²",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
       {
     id: 39,
@@ -664,7 +689,8 @@ export const listAll = [
     price: "$12,087", 
     type: "1 + 1",
     area: "90 m²",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
       {
     id: 44,
@@ -676,7 +702,8 @@ export const listAll = [
     price: "$12,087", 
     type: "1 + 1",
     area: "90 m²",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
   {
     id: 25,
@@ -688,7 +715,8 @@ export const listAll = [
     price: "$11,276",
     type: "1 + 1",
     area: "67 meter",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
   },
   {
     id: 26,
@@ -700,7 +728,9 @@ export const listAll = [
     price: "$16,096",
     type: "2 + 1",
     area: "105 meter",
-  citys: 'Erbil'
+  citys: 'Erbil',
+    property: 'apartment'
+
   },
   {
     id: 27,
@@ -713,6 +743,8 @@ export const listAll = [
     type: "1 + 1",
     area: "81 meter",
   citys: 'Erbil'
+  ,
+    property: 'apartment'
   },
 
     {
@@ -725,6 +757,7 @@ export const listAll = [
     price: "$28,305",
     type: "1 + 4",
     area: "201.6 m²",
+    property: 'apartment',
   citys: 'Erbil'
   },
 
