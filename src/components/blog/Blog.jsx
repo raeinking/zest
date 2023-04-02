@@ -22,6 +22,7 @@ const Blog = () => {
   const cityParams = queryParams.get("city")
   const priceParams = queryParams.get("Price")
   const propertyParams = queryParams.get("Property")
+  const saleTypeParams = queryParams.get("saleType")
 
   const [project, setProject] = useState(resident || '');
   const [room, setRoom] = useState(type || '');
@@ -29,10 +30,12 @@ const Blog = () => {
   const [city, setCity] = useState(cityParams || '');
   const [price, setPrice] = useState(priceParams || '');
   const [propertyuse, setProperty] = useState(propertyParams || '');
+  const [saleType, setSaleType] = useState( saleTypeParams || 'buy' || null)
 
 
   const [APIData, setAPIData] = useState([])
   const [ArAPIData, setArAPIData] = useState([])
+  
   
   const fword = paths[1] + paths[2]
 
@@ -45,7 +48,8 @@ const Blog = () => {
        Object.values(item.area).join('').toLowerCase().includes(areaMeter.toLowerCase()) &&
        Object.values(item.citys).join('').toLowerCase().includes(city.toLowerCase()) &&
        Object.values(item.price).join('').toLowerCase().includes(price.toLowerCase()) &&
-       Object.values(item.property).join('').toLowerCase().includes(propertyuse.toLowerCase()) 
+       Object.values(item.property).join('').toLowerCase().includes(propertyuse.toLowerCase()) && 
+       Object.values(item.category).join('').toLowerCase().includes(saleType.toLowerCase()) 
         return test
       }
       ))
@@ -101,11 +105,14 @@ const Blog = () => {
             <form className="alls" action="/properties">
             <div className="">
             <div className="sdsd">
-            <div>
-              <label for="Buy" className="selectType">Buy</label>
-              <label for="Sell" className="selectType">Sell</label>
+            <div >
+              <input id="radCreateMode"  type='radio' value='Buy' name="saleType" className='none' ></input>
+              <label onClick={()=> setSaleType('buy')} for="radCreateMode" className={saleType == 'buy' ? 'selectType  selectet ' : 'selectType'}>Buy</label>
+             
+              <input id="red"  type='radio' value='Rent' name="saleType" className='none' ></input>
+              <label onClick={()=> setSaleType('rent')} for="red" className={saleType == 'rent' ? 'selectType  selectet ' : 'selectType'}>Rent</label>    
             </div>
-            <button >Search</button>
+            <button>Search</button>
             </div>
               <div className="allselect">
                 <select defaultValue={resident} name="project" className="selectt">
@@ -171,7 +178,7 @@ const Blog = () => {
               </div>
               <div className='text'>
                 <div className='category'>
-                  <span style={{ background: category === "For Sale" ? "#25b5791a" : "#ff98001a", color: category === "For Sale" ? "#25b579" : "#ff9800" }}>{category}</span>
+                  <span style={{ background: category === "buy" ? "#25b5791a" : "#ff98001a", color: category === "buy" ? "#25b579" : "#ff9800" }}>{category}</span>
                 </div>
                 <div className="dis">
                 <h4>{name}</h4>
@@ -180,7 +187,7 @@ const Blog = () => {
                 </p>
                 </div>
               </div>
-              <div className='buttonpr'>
+              <div className='buttonprs'>
                 <button className='btn2'>{price}</button>
                 <div className="flezs"></div>
                 <label htmlFor=''>{area}</label>
@@ -256,7 +263,7 @@ const Blog = () => {
               </div>
               <div className='text'>
                 <div className='category'>
-                  <span style={{ background: category === "For Sale" ? "#25b5791a" : "#ff98001a", color: category === "For Sale" ? "#25b579" : "#ff9800" }}>{category}</span>
+                  <span style={{ background: category === "buy" ? "#25b5791a" : "#ff98001a", color: category === "buy" ? "#25b579" : "#ff9800" }}>{category}</span>
                 </div>
                 <div className="dis">
                 <h4 className='ar'>{name}</h4>
@@ -265,7 +272,7 @@ const Blog = () => {
                 </p>
                 </div>
               </div>
-              <div className='buttonpr'>
+              <div className='buttonprs'>
                 <button  className='btn2 ar'>{price}</button>
                 <div className="flezs"></div>
                 <label htmlFor='' className='ar'>{area}</label>

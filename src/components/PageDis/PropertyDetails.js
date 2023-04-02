@@ -20,9 +20,6 @@ import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet"
 
 
-
-
-
 const PropertyDetails = (val) => {
   const { id } = useParams();
   const property = housesData.find((house) => {
@@ -35,6 +32,8 @@ const PropertyDetails = (val) => {
   const [nname , setName] = useState('')
   const [phone , setPhone] = useState('')
   const [body , setBody] = useState('مرحبا، أنا مهتم ب ' + "[ " + id + " ]")
+  
+
   
   const noRefresh = function(e) {
     e.preventDefault()
@@ -57,7 +56,6 @@ const PropertyDetails = (val) => {
       }
       ))
   }, [searchInput])
-
   const searchItems = (searchValue) => {
       setSearchInput(searchValue)
       console.log(APIData.filter((item) => {
@@ -259,39 +257,6 @@ const PropertyDetails = (val) => {
               </a>
             </div>
           </form>
-        </div>
-      </div>
-          <div className='grid'>
-        <div className='gridbox'>
-        {APIData.map((val, index) => {
-          const { cover, category, location, name, price, type, area } = val
-          return (
-            <a className='zoom' href={ '/ar/properties/' + val.url}>
-            <div className='box shadow' key={index}>
-              <div className='img'>
-                <img src={cover} alt={name} />
-              </div>
-              <div className='text'>
-                <div className='category'>
-                  <span style={{ background: category === "For Sale" ? "#25b5791a" : "#ff98001a", color: category === "For Sale" ? "#25b579" : "#ff9800" }}>{category}</span>
-                </div>
-                <div className="dis">
-                <h4 className='ar'>{name}</h4>
-                <p>
-                  <img className="imglocation" src={Locationimg} alt='location'></img> {location}
-                </p>
-                </div>
-              </div>
-              <div className='buttonpr'>
-                <button  className='btn2 ar'>{price}</button>
-                <div className="flezs"></div>
-                <label htmlFor='' className='ar'>{area}</label>
-                <span className='ar'>{type}</span>
-              </div>
-            </div>
-            </a>
-          )
-        })}
         </div>
       </div>
     </div>
