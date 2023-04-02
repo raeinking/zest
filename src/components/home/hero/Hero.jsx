@@ -125,25 +125,67 @@ const Hero = () => {
           </div> */}
           {/* <div class="login-box">
           <h2>تواصل معنا لتسهيل عملية ايجاد عقارك الجديد</h2>
-          <form>
-            <div class="user-box">
-              <input  onChange={e => setName(e.target.value)} placeholder="الأسم " type="text" name="" required=""></input>
-            </div>
-            <div class="user-box">
-              <input  onChange={e => setPhone(e.target.value)} placeholder="رقم الهاتف" type="text" name="" required=""></input>
-            </div>
-            <div class="user-box">
-              <input  onChange={e => setBody(e.target.value)} placeholder="الأيميل " type="text" name="" required=""></input>
-            </div>
-            <a href={`mailto:${email}?subject=${name + ': ' + phone}&body=${body}`}>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <p className="ar">إرسال</p>
-            </a>
-          </form>
           </div> */}
+          <form className="alls" action="/ar/properties">
+            <div className="fromsearch">
+            <div className="sdsd">
+            <div className="buysell">
+              <input id="radCreateMode"  type='radio' value='للبيع' name="saleType" className='none' ></input>
+              <label onClick={()=> setSaleType('للبيع')} for="radCreateMode" className={saleType == 'للبيع' ? 'selectType  selectet ' : 'selectType'}>للبيع</label>
+             
+              <input id="red"  type='radio' value='يجار' name="saleType" className='none' ></input>
+              <label onClick={()=> setSaleType('يجار')} for="red" className={saleType == 'يجار' ? 'selectType  selectet ' : 'selectType'}>يجار</label>    
+            </div>
+            <input type='submit' value='بعث' className="searchbtn"></input>
+            </div>
+              <div className="allselect">
+                <select defaultValue={resident} name="project" className="selectt search1 ">
+                  <option value="">اسم المشروع</option>
+                  <option value="نورث هولند">نورث هولند</option>
+                  <option value="سكاي فيو">سكاي فيو</option>
+                  <option value="فينوس تاوەر">فينوس تاوەر</option>
+                  <option value="قیوان میرادور">قیوان میرادور</option>
+                  <option value="نوفا تاوەر">نوفا تاوەر</option>
+                </select>
+                <select defaultValue={propertyParams}  name="Property" className="selectt">
+                  <option value=''>نوع المشروع</option>
+                  <option value="شقة">شقة</option>
+                  <option value="بوت">بوت</option>
+                </select>
+                <select defaultValue={cityParams}  name="city" className="selectt">
+                  <option value=''>الموقع</option>
+                  <option value="اربيل">اربيل</option>
+                  <option value="بغداد">بغداد</option>
+                  <option value="کیرکوك">کیرکوك</option>
+                </select>
+                <select defaultValue={type}  name="type" className="selectt">
+                  <option value="">عدد الغرف</option>
+                  <option value="1 + 1">1 + 1</option>
+                  <option value="1 + 2">1 + 2</option>
+                  <option value="1 + 3">1 + 3</option>
+                  <option value="1 + 4">1 + 4</option>
+                  <option value="1 + 5">1 + 5</option>
+                  <option value="1 + 6">1 + 6</option>
+                </select>
+                <select defaultValue={meter}  name="meter" className="selectt">
+                  <option value=''>متر</option>
+                  <option value="67">67</option>
+                  <option value="72">72</option>
+                  <option value="76">76</option>
+                  <option value="78">78</option>
+                  <option value="80">80</option>
+                  <option value="81">81</option>
+                  <option value="90">90</option>
+                  <option value="105">105</option>
+                  <option value="115">115</option>
+                  <option value="120">120</option>
+                  <option value="140">140</option>
+                  <option value="201">201</option>
+                  <option value="210">210</option>
+                </select>
+              </div>
+            </div>
+          </form>
       </section>
       }
     </>

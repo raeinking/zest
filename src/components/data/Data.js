@@ -1705,6 +1705,8 @@ export const arlistAll = [
     price: "$22,620",
     type: "1 + 1",
     area: "78 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
   
   {
@@ -1716,7 +1718,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$23,920",
     type: "1 + 1",
-    area: "80 متر"
+    area: "80 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
     {
     id: 18,
@@ -1727,7 +1731,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$12,951",
     type: "1 + 1",
-    area: "67 متر"
+    area: "67 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
   {
     id: 5,
@@ -1738,7 +1744,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$16,096",
     type: "2 + 1",
-    area: "105 متر"
+    area: "105 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
       {
     id: 39,
@@ -1749,7 +1757,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$12,087", 
     type: "1 + 1",
-    area: "90 m²"
+    area: "90 m²",
+    citys: 'اربيل',
+    property: 'شقة'
   },
   {
     id: 6,
@@ -1760,7 +1770,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$37,000",
     type: "1 + 1",
-    area: "81 متر"
+    area: "81 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
   {
     id: 9,
@@ -1771,7 +1783,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$10,317",
     type: "1 + 1",
-    area: "72 متر"
+    area: "72 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
   {
     id: 10,
@@ -1782,7 +1796,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$11,397",
     type: "1 + 1",
-    area: "72 متر"
+    area: "72 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
   {
     id: 11,
@@ -1793,7 +1809,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$35,856",
     type: "2 + 1",
-    area: "120 متر"
+    area: "120 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
   {
     id: 13,
@@ -1804,7 +1822,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$38,256",
     type: "2 + 1",
-    area: "120 متر"
+    area: "120 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
       {
     id: 38,
@@ -1815,7 +1835,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$12,087", 
     type: "1 + 1",
-    area: "90 m²"
+    area: "90 m²",
+    citys: 'اربيل',
+    property: 'شقة'
   },
       {
     id: 56,
@@ -1826,7 +1848,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$12,087", 
     type: "1 + 1",
-    area: "90 m²"
+    area: "90 m²",
+    citys: 'اربيل',
+    property: 'شقة'
   },
       {
     id: 56,
@@ -1837,7 +1861,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$12,087", 
     type: "1 + 1",
-    area: "90 m²"
+    area: "90 m²",
+    citys: 'اربيل',
+    property: 'شقة'
   },
       {
     id: 56,
@@ -1848,7 +1874,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$28,203", 
     type: "1 + 3",
-    area: "210 m²"
+    area: "210 m²",
+    citys: 'اربيل',
+    property: 'شقة'
   },
   {
     id: 14,
@@ -1859,7 +1887,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$13,550",
     type: "1 + 1",
-    area: "76 متر"
+    area: "76 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
   {
     id: 15,
@@ -1870,7 +1900,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$38,256",
     type: "2 + 1",
-    area: "120 متر"
+    area: "120 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
   {
     id: 16,
@@ -1881,7 +1913,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$15,904",
     type: "2 + 1",
-    area: "115 متر"
+    area: "115 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
     {
   id: 43,
@@ -1892,7 +1926,9 @@ export const arlistAll = [
   category: "للبيع",
   price: "$28,305",
   type: "1 + 4",
-  area: "201.6 m²"
+  area: "201.6 m²",
+    citys: 'اربيل',
+    property: 'شقة'
   },
   {
     id: 17,
@@ -1903,7 +1939,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$23,120",
     type: "1 + 1",
-    area: "80 متر"
+    area: "80 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
   {
     id: 19,
@@ -1914,7 +1952,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$34,400",
     type: "1 + 1",
-    area: "80 متر"
+    area: "80 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
   {
     id: 20,
@@ -1925,7 +1965,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$12,951",
     type: "1 + 1",
-    area: "67 متر"
+    area: "67 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
   {
     id: 21,
@@ -1936,7 +1978,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$23,120",
     type: "1 + 1",
-    area: "80 متر"
+    area: "80 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
       {
     id: 40,
@@ -1947,7 +1991,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$12,087", 
     type: "1 + 1",
-    area: "90 m²"
+    area: "90 m²",
+    citys: 'اربيل',
+    property: 'شقة'
   },
   {
     id: 22,
@@ -1958,7 +2004,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$15,571",
     type: "2 + 1",
-    area: "105 متر"
+    area: "105 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
   {
     id: 23,
@@ -1969,7 +2017,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$23,120",
     type: "1 + 1",
-    area: "80 متر"
+    area: "80 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
       {
     id: 33,
@@ -1980,7 +2030,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$12,087",
     type: "1 + 1",
-    area: "90 m²"
+    area: "90 m²",
+    citys: 'اربيل',
+    property: 'شقة'
   },
       {
     id: 44,
@@ -1991,7 +2043,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$12,087",
     type: "1 + 1",
-    area: "90 m²"
+    area: "90 m²",
+    citys: 'اربيل',
+    property: 'شقة'
   },
       {
     id: 45,
@@ -2002,7 +2056,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$12,087",
     type: "1 + 1",
-    area: "90 m²"
+    area: "90 m²",
+    citys: 'اربيل',
+    property: 'شقة'
   },
   {
     id: 24,
@@ -2013,7 +2069,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$17,054",
     type: "2 + 1",
-    area: "115 متر"
+    area: "115 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
   {
     id: 25,
@@ -2024,7 +2082,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$11,276",
     type: "1 + 1",
-    area: "67 متر"
+    area: "67 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
 
   {
@@ -2036,7 +2096,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$16,096",
     type: "2 + 1",
-    area: "105 متر"
+    area: "105 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
   {
     id: 27,
@@ -2047,7 +2109,9 @@ export const arlistAll = [
     category: "للبيع",
     price: "$14,442",
     type: "1 + 1",
-    area: "81 متر"
+    area: "81 متر",
+    citys: 'اربيل',
+    property: 'شقة'
   },
 ]
 
