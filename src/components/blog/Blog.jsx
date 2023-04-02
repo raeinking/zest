@@ -103,19 +103,19 @@ const Blog = () => {
       <section className='blog'>
           <div className="searchbardiv">
             <form className="alls" action="/properties">
-            <div className="">
+            <div className="fromsearch">
             <div className="sdsd">
-            <div >
+            <div className="buysell">
               <input id="radCreateMode"  type='radio' value='Buy' name="saleType" className='none' ></input>
               <label onClick={()=> setSaleType('buy')} for="radCreateMode" className={saleType == 'buy' ? 'selectType  selectet ' : 'selectType'}>Buy</label>
              
               <input id="red"  type='radio' value='Rent' name="saleType" className='none' ></input>
               <label onClick={()=> setSaleType('rent')} for="red" className={saleType == 'rent' ? 'selectType  selectet ' : 'selectType'}>Rent</label>    
             </div>
-            <button>Search</button>
+            <input type='submit' value='Search' className="searchbtn"></input>
             </div>
               <div className="allselect">
-                <select defaultValue={resident} name="project" className="selectt">
+                <select defaultValue={resident} name="project" className="selectt search1 ">
                   <option value="">Projects Name</option>
                   <option value="North">North</option>
                   <option value="Sky View">Sky View</option>

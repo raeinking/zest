@@ -5,6 +5,9 @@
     margin-bottom: 5rem;
     
 }
+form input{
+    margin: 0;
+}
 .blogFillters {
     background-color: rgb(237, 237, 237);
     width: 100%;
@@ -50,10 +53,12 @@ select {
 }
 
     .selectt {
-        padding:0.8rem 1.2rem;
+        padding: 10px 20px;
         border: solid 1px #9b9b9b ;
         margin: 0 3px;
-        border-radius: 4px;
+        border-radius: 5px;
+        color: #797979;
+
     }
 
 select{
@@ -149,6 +154,7 @@ select{
     width: 100%;
     align-content: center;
     justify-content: space-between;
+    margin-bottom: 10px;
 
 }
 .typeseller {
@@ -157,21 +163,21 @@ select{
 
 .selectType {
     border: #bbb8bd solid 0.8px ;
-    padding: 6px 14px;
-    height: 30px;
-    width: 60px;
+    padding: 10px 20px;
+    /* height: 30px; */
+    /* width: 60px; */
     border-radius: 4px;
-    margin: 15px 8px 15px 8px;
+    margin: 0px 8px 0px 8px;
     background-color: #fff;
 }
 
 .selectet {
     border: #bbb8bd solid 0.8px;
-    padding: 6px 14px;
-    height: 30px;
-    width: 60px;
+    /* padding: 6px 14px; */
+    /* height: 30px; */
+    /* width: 60px; */
     border-radius: 4px;
-    margin: 15px 8px 15px 8px;
+    /* margin: 15px 8px 15px 8px; */
     background-color: rgb(219, 219, 219);
 }
 .radio {
@@ -181,13 +187,60 @@ select{
 .none {
     display: none;
 }
+ .searchbtn {
+    border: #bbb8bd solid 0.8px;
+    padding: 10px 20px;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: #916f4e;
+    color: white;
+    margin: 0 0 0 0;
+ }
+ .buysell{
+    margin-top: 8px;
+ }
+ 
 
 @media only screen and (max-width: 800px) {
     .alls {
-        background-color: rgba(0, 157, 255, 0.205);
+        background-color: rgba(255, 255, 255, 0.205);
         backdrop-filter: blur(5px);
-        box-shadow: 0px 2px 123px -13px rgba(0, 157, 255, 0.905);
-            -webkit-box-shadow: 0px 2px 123px -13pxrgba(0, 157, 255, 0.905);
-            -moz-box-shadow: 0px 2px 123px -13px rgba(0, 157, 255, 0.905);
+        height: 300px;
     }
+    .fromsearch {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sdsd {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 8px;
+    }
+    .allselect {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+    .search1 {
+        grid-area: 1 / 1 / 2 / 3;
+    }
+    .searchbtn {
+        border: #bbb8bd solid 0.8px;
+        padding: 10px 20px;
+        height: 40px;
+        width: 100%;
+        border-radius: 4px;
+        background-color: #916f4e;
+        color: white;
+        margin: 5px 0 0 0 ;
+    }
+         .buysell {
+             margin-top: 3px;
+         }
+   
 }
