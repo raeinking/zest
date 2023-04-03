@@ -25,7 +25,7 @@ function Projectname() {
             <a href='/Majidi-view' data-aos='zoom-in-up' data-aos-duration='1500' className='home2'>
                 <img src={image1} />
                 <div className='overlay1'>
-                  <h3>Majidi</h3>
+                  <h3>Majidi View</h3>
                   <p>Iraq Erbil</p>
                 </div>
             </a>

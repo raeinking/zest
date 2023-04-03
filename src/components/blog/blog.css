@@ -46,26 +46,28 @@ form input{
     text-align: center;
 }
 select {
-    -webkit-appearance: none;
+    /* -webkit-appearance: none;
     -moz-appearance: none;
     text-indent: 1px;
-    text-overflow: '';
+    text-overflow: ''; */
+    /* margin-right: 20px; */
 }
 
     .selectt {
         padding: 10px 20px;
-        border: solid 1px #9b9b9b ;
+        border: solid 1px #bbb8bd ;
         margin: 0 3px;
         border-radius: 5px;
-        color: #797979;
+        color: #3c3c3c;
+        font-weight: 100;
 
     }
 
 select{
-
     border: none;
     outline: none;
-    font-size: 18px;
+    /* font-size: 18px; */
+    
 }
 
 .sleft {
@@ -142,11 +144,14 @@ select{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    max-width: 720px;
+    max-width: 820px;
     height: 135px;
 }
 .allselect {
     display: flex;
+}
+.allselect select {
+    cursor: pointer;
 }
 
 .sdsd {
@@ -237,7 +242,7 @@ select{
         border-radius: 4px;
         background-color: #916f4e;
         color: white;
-        margin: 5px 0 0 0 ;
+        margin: 5px 0 0 0 ; 
     }
          .buysell {
              margin-top: 3px;

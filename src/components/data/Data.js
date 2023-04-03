@@ -261,14 +261,14 @@ export const allAgents = [
     email: "mailto:hozan.j@zest-property.com",
     phone:"tel:+9647509102006",
   },
-  {
-    list: "50",
-    cover: "../images/customer/muhammadmajed.webp",
-    address: "project: Erbil",
-    name: "Muhammed Majed",
-    email: "mailto:mohammad.m@zest-property.com",
-    phone:"tel:+9647502422006",
-  },
+  // {
+  //   list: "50",
+  //   cover: "../images/customer/muhammadmajed.webp",
+  //   address: "project: Erbil",
+  //   name: "Muhammed Majed",
+  //   email: "mailto:mohammad.m@zest-property.com",
+  //   phone:"tel:+9647502422006",
+  // },
   {
     list: "50",
     cover: "../images/customer/muhammedrasul.webp",
@@ -277,14 +277,14 @@ export const allAgents = [
     email: "mailto:M.Rasul@zest-property.com",
     phone:"tel:+9647506912006",
   },
-  {
-    list: "50",
-    cover: "../images/customer/aliagha.webp",
-    address: "project: Erbil",
-    name: "Ali Agha", 
-    email: "mailto:ali.a@zest-property.com",
-    phone:"tel:+9647505912006",
-  },
+  // {
+  //   list: "50",
+  //   cover: "../images/customer/aliagha.webp",
+  //   address: "project: Erbil",
+  //   name: "Ali Agha", 
+  //   email: "mailto:ali.a@zest-property.com",
+  //   phone:"tel:+9647505912006",
+  // },
 ]
 export const price = [
   
@@ -645,19 +645,6 @@ export const listAll = [
     cover: "../images/property/north/north_holland_blog.jpg",
     url: "Apartment-for-Sale-North-Holland-A-11",
     name: "Apartment for Sale North Holland A 11",
-    location: "Erbil - Mosul Road, opposite of Dream City",
-    category: "buy",
-    price: "$12,087", 
-    type: "1 + 1",
-    area: "90 m²",
-  citys: 'Erbil',
-    property: 'apartment'
-  },
-      {
-    id: 39,
-    cover: "../images/property/north/north_holland_blog.jpg",
-    url: "Apartment-for-Sale-North-Holland-A-13",
-    name: "Apartment for Sale North Holland A 13",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "buy",
     price: "$12,087", 
@@ -1452,30 +1439,6 @@ export const arhousesData = [
     {
     id: 56,
     type: 'شقة',
-    url: "شقة-للبیع-نورث-هولند-١٣-ئەی",
-    name: "A 13 شقة للبیع نورث هولند",
-    nameproperty:'نورث هولند',
-    build: '6',
-    Allbuild: '20',
-    image: '/images/property/north/north_holland_hd.jpg',
-    imageLg: '/images/property/north/north_holland_hd.jpg',
-    country: 'Iraq',
-    address: 'Erbil - Mosul Road, opposite of Dream City',
-    bedrooms: '1',
-    bathrooms: '1',
-    area: '90 m²',
-    year: '2022',
-    price: '12,087',
-    agent: {
-      image: '/images/customer/kaywan.webp',
-      name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
-    },
-  },
-    {
-    id: 56,
-    type: 'شقة',
     url: "شقة-للبیع-نورث-هولند-١١-ئەی",
     name: "A 11 شقة للبیع نورث هولند",
     nameproperty:'نورث هولند',
@@ -1839,19 +1802,7 @@ export const arlistAll = [
     citys: 'اربيل',
     property: 'شقة'
   },
-      {
-    id: 56,
-    cover: "../images/property/north/north_holland_blog.jpg",
-    url: "شقة-للبیع-نورث-هولند-١٣-ئەی",
-    name: "A 13 شقة للبیع نورث هولند",
-    location: "أربيل - شارع موسل",
-    category: "للبيع",
-    price: "$12,087", 
-    type: "1 + 1",
-    area: "90 m²",
-    citys: 'اربيل',
-    property: 'شقة'
-  },
+
       {
     id: 56,
     cover: "../images/property/north/north_holland_blog.jpg",
@@ -3044,30 +2995,6 @@ export const housesData = [
       {
     id: 52,
     type: 'Apartament',
-    url: "Apartment-for-Sale-North-Holland-A-13",
-    name: "Apartment for Sale North Holland A 13",
-    nameproperty:'North Holland',
-    build: '6',
-    Allbuild: '20',
-    image: '../images/property/north/north_holland_hd.jpg',
-    imageLg: '../images/property/north/north_holland_hd.jpg',
-    country: 'Iraq',
-    address: 'Erbil - Mosul Road, opposite of Dream City ',
-    bedrooms: '1',
-    bathrooms: '1',
-    area: '90 m²',
-    year: '2022',
-    price: '12,087',
-    agent: {
-      image: '../images/customer/kaywan.webp',
-      name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
-    },
-  },
-      {
-    id: 52,
-    type: 'Apartament',
     url: "Apartment-for-Sale-North-Holland-A-8",
     name: "Apartment for Sale North Holland A 8",
     nameproperty:'North Holland',
@@ -3289,14 +3216,14 @@ export const arallAgents = [
     email: "mailto:hozan.j@zest-property.com",
     phone:"tel:+9647509102006",
   },
-  {
-    list: "50",
-    cover: "../images/customer/muhammadmajed.webp",
-    address: "المشروع: اربيل",
-    name: "محمد مجيد",
-    email: "mailto:mohammad.m@zest-property.com",
-    phone:"tel:+9647502422006",
-  },
+  // {
+  //   list: "50",
+  //   cover: "../images/customer/muhammadmajed.webp",
+  //   address: "المشروع: اربيل",
+  //   name: "محمد مجيد",
+  //   email: "mailto:mohammad.m@zest-property.com",
+  //   phone:"tel:+9647502422006",
+  // },
   {
     list: "50",
     cover: "../images/customer/muhammedrasul.webp",
@@ -3305,14 +3232,14 @@ export const arallAgents = [
     email: "mailto:M.Rasul@zest-property.com",
     phone:"tel:+9647506912006",
   },
-  {
-    list: "50",
-    cover: "../images/customer/aliagha.webp",
-    address: "المشروع: اربيل",
-    name: "علي آغا",
-    email: "mailto:ali.a@zest-property.com",
-    phone:"tel:+9647505912006",
-  },
+  // {
+  //   list: "50",
+  //   cover: "../images/customer/aliagha.webp",
+  //   address: "المشروع: اربيل",
+  //   name: "علي آغا",
+  //   email: "mailto:ali.a@zest-property.com",
+  //   phone:"tel:+9647505912006",
+  // },
 ]
 
 
