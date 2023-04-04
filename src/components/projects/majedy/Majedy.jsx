@@ -81,6 +81,10 @@ const properties = {
 
 
 const Majedy = () => {
+  const [brochureDownload , setBrochureDownload ] = useState(false)
+  const [name , setName ] = useState('')
+  const [phone , setPhone ] = useState('')
+  const [email , setEmail ] = useState('')
 
   const containerStyle = {
       width: '100%',
@@ -91,6 +95,38 @@ const Majedy = () => {
     
     <>
       <section>
+
+      {brochureDownload ? <div className='absoluteForm'>
+          <div className='brochurForm'>
+            <div className='brochurLeft'></div>
+            <div className='brochurRight'>
+            <form action='Brochure_20x20_4Folded.pdf'>
+              <div className='closeButton' onClick={() => setBrochureDownload(false)}>X</div>
+
+                <h2>Download Brochure</h2>
+                <p>Please provide your details to download brochure</p>
+                <label>Name</label>
+                <input type='text' placeholder='Your Name' required></input>
+                <label>Email</label>
+                <input type='email' placeholder='Your Email' required></input>
+                <label>Phone Number</label>
+                <input type='text' placeholder='964 750 666 2006' required></input>
+
+                <input className='btnsubmit' type='submit' value='Download' onClick={ name !== '' || email !== '' || phone !== '' ?   window.location.href = '/Brochure_20x20_4Folded.pdf' : ''}></input>
+
+            </form>
+            </div>
+          </div>   
+        </div>
+        :
+        ''}
+        
+
+
+
+
+
+
         <div className='imageofheader'><h1>MAJIDI VIEW</h1></div>
 
         <section className='mainmajidi'>
@@ -110,7 +146,7 @@ const Majedy = () => {
 
             <div className='twothink'>
               <h3>MAJIDI VIEW</h3>
-              <a className='BROCHURE' target={'_blank'} href='Brochure_20x20_4Folded.pdf'>DOWNLOAD BROCHURE</a>
+              <a className='BROCHURE' onClick={() => setBrochureDownload(true)}>DOWNLOAD BROCHURE</a>
             </div>
             <div className="">
               <Slide {...properties} autoplay={true} transitionDuration={500} canSwipe={true} infinite={true} arrows={true} pauseOnHover={true} duration={2000} >

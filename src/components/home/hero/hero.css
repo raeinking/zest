@@ -102,8 +102,8 @@ form span {
   color: grey;
 }
 input::placeholder {
-  font-size: 17px;
-  color: black;
+  /* font-size: 17px;
+  color: black; */
 }
 form .box {
   padding: 15px;
