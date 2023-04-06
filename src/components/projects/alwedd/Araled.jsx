@@ -92,7 +92,7 @@ const config = {
 
 let handleSubmit = async (e) => {
     e.preventDefault();
-      await axios.post("https://node-email-sendersss.glitch.me/majidi", {email, name, phone} ,config).then(window.open('Brochure_20x20_4Folded.pdf'))
+      await axios.post("https://node-email-sendersss.glitch.me/majidi", {email, name, phone} ,config).then(window.open('Brochure_Wedd.pdf'))
   };
 
 
