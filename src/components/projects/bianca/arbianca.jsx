@@ -9,6 +9,9 @@ import { useLocation } from "react-router-dom";
 import { Helmet } from "react-helmet"
 import React, { useState , useRef} from 'react';
 import emailjs from '@emailjs/browser';
+import whatsapp from '../../images/whatsapp-svgrepo-com.svg'
+import axios from 'axios'
+
 
 
 import image1 from './1.jpg'
@@ -82,6 +85,35 @@ const properties = {
 
 
 const Alwedd = () => {
+  
+  const [brochureDownload , setBrochureDownload ] = useState(false)
+  const [name , setName ] = useState('')
+  const [phone , setPhone ] = useState('')
+  const [email , setEmail ] = useState('')
+
+
+
+
+
+
+
+const config = {
+  headers: {
+    'Content-Type': 'application/json',
+    'accept':'application/json'
+  },
+};
+
+
+
+
+let handleSubmit = async (e) => {
+    e.preventDefault();
+      await axios.post("https://node-email-sendersss.glitch.me/majidi", {email, name, phone} ,config).then(window.open('Brochure_20x20_4Folded.pdf'))
+  };
+
+
+
 
   const containerStyle = {
   width: '100%',
@@ -95,6 +127,41 @@ const Alwedd = () => {
         <meta name="description" content="هل تبحث عن فيلا فاخرة في دبي بيانكا؟ تتميز مجموعتنا من الفلل الرائعة بالمساحات الواسعة والتصاميم الداخلية الفاخرة، بالإضافة إلى وسائل الراحة في الهواء الطلق مثل حمامات السباحة الخاصة والحدائق المزينة. تحتوي فللنا على كل ما تحتاجه لقضاء إقامة لا تُنسى في هذه المدينة الفاخرة. تصفح مجموعتنا الآن واعثر على فيلا الأحلام الخاصة بك في دبي، بيانكا." />
       </Helmet>
       <section>
+      
+
+      
+             {brochureDownload ? <div className='absoluteForm'>
+          <div className='brochurForm'>
+            <div className='brochurLeft biancaimage'></div>
+            <div className='brochurRight arfrom'>
+            <form className='arfrom' style={{width:'100%',maxWidth:'1000px' , maxHeight:'1000px' , display: 'flex' , flexWrap: 'nowrap'}} onSubmit={handleSubmit}>
+              <div className='closeButton' onClick={() => setBrochureDownload(false)}>X</div>
+
+                <h2>تحميل البروشور</h2>
+                <p>يرجى ادخال التفاصيل لتحميل البروشور</p>
+                <label for='name'>أسم</label>
+                <input value={name} type='text' onChange={(e) => setName(e.target.value)} name='name' placeholder='الإسم' required></input>
+                <label for='email' >برید ألکترونی</label>
+                <input value={email} type='email' onChange={(e) => setEmail(e.target.value)} name='email'  placeholder='البريد الالكتروني' required></input>
+                <label for='phone'>رقم الهاتف</label>
+                <input value={phone} type='text' onChange={(e) => setPhone(e.target.value)} name='phone' placeholder='رقم الهاتف' required></input>
+                <div style={{display:'flex' , marginTop:10, marginBottom:10, alignItems:'center' ,width: '100%', justifyContent: 'space-between'}}>
+                  <h5>تواصل معنا مباشرة عبر واتساب </h5>
+                  <a href={"//api.whatsapp.com/send?phone=9647502552006&text=مرحباً ، أنا مهتم بإطلالة bianca ، هل يمكنك أن ترسل لي التفاصيل؟"}>
+                    <img className='whatsapp' src={whatsapp} />
+                  </a>
+                </div>
+                <input className='btnsubmit' value='تحميل' type='submit'></input>
+            </form>
+            </div>
+          </div>   
+        </div>
+        :
+        ''}
+        
+
+
+
         <div className='imageofheaderbianca'><h1>مشروع بيانكا</h1></div>
 
         <section className='mainmajidi'>
@@ -113,7 +180,7 @@ const Alwedd = () => {
           <div className='content'>
             <div className='twothink'>
               <h3>بيانكا</h3>
-              <a className='BROCHURE' target={'_blank'} href='/bianca.pdf'>تحمیل بروشور</a>
+              <a className='BROCHURE' onClick={() => setBrochureDownload(true)}>تحمیل بروشور</a>
             </div>
             <div className="">
               <Slide {...properties} autoplay={true} transitionDuration={500} canSwipe={true} infinite={true} arrows={true} pauseOnHover={true} duration={2000} >

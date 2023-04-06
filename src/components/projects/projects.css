@@ -78,6 +78,9 @@
     left: 10px;
     text-align: center;
 }
+.arfrom {
+    direction: rtl;
+}
 
 .div2P .overlays p {
     color: white;
@@ -106,6 +109,10 @@
     left: 10px;
     text-align: center;
     /* letter-spacing: 3.2px; */
+}
+.whatsapp {
+    width: 40px;
+    height: 40px;
 }
 
 
@@ -136,7 +143,9 @@
 }
 .brochurForm {
     width: 90%;
+    min-width: 90%;
     height: 90%;
+    min-width: 90%;
     background-image: url();
     display: flex;
     justify-content: center;
@@ -155,7 +164,27 @@
 .brochurLeft {
     width: 50%;
     padding: 20px 30px;
-    background-image: url('https://baghyshaqlawa.net/files/properties/333818267_537498795120296_2313997965606089993_n_0.jpg');
+}
+.majdiimage {
+    background-image: url('./majedy/MAJDI@0.75x.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.khloodimage{
+    background-image: url('./khlood/khloodoo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.biancaimage {
+    background-image: url('./bianca/Bianca-32@0.33x.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.alweddimage {
+    background-image: url('./alwedd/alewd@0.5x.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -167,12 +196,15 @@
     flex-direction: column;
     background-color: white;
     position: relative;
+    align-items: center;
+    justify-content: center;
 }
 .brochurRight form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    min-height: 100%;
     margin: 0;
 }
 .brochurRight form input {
@@ -188,7 +220,6 @@
     color: white;
     transition: ease-in-out 300ms ;
     cursor: pointer;
-    margin-top: 60px;
 }
 .btnsubmit:hover {
     background-color: rgb(57, 244, 88);
@@ -198,7 +229,31 @@
     margin : 2rem 0
 }
 
+@media only screen and (max-width: 900px) {
+    .closeButton {
+        right: 10px;
+        top: 10px;
+    }
+    .brochurLeft {
+        display: none;
+    }
+    .brochurRight {
+        width: 100%;
+        padding: 30px 20px;
+    }
+}
 @media only screen and (max-width: 500px) {
+    .closeButton {
+        right: 10px;
+        top: 10px;
+    }
+    .brochurLeft {
+        display: none;
+    }
+    .brochurRight {
+        width: 100%;
+        padding: 30px 20px;
+    }
     .parentsP {
             display: grid;
             grid-template-columns: 1fr;

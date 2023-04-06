@@ -9,6 +9,8 @@ import { useLocation } from "react-router-dom";
 import { Helmet } from "react-helmet"
 import React, { useState , useRef} from 'react';
 import emailjs from '@emailjs/browser';
+import axios from 'axios'
+import whatsapp from '../../images/whatsapp-svgrepo-com.svg'
 
 
 import image1 from './1.jpg'
@@ -75,6 +77,35 @@ const properties = {
 
 
 const Alwedd = () => {
+  
+  const [brochureDownload , setBrochureDownload ] = useState(false)
+  const [name , setName ] = useState('')
+  const [phone , setPhone ] = useState('')
+  const [email , setEmail ] = useState('')
+
+
+
+
+
+
+
+const config = {
+  headers: {
+    'Content-Type': 'application/json',
+    'accept':'application/json'
+  },
+};
+
+
+
+
+let handleSubmit = async (e) => {
+    e.preventDefault();
+      await axios.post("https://node-email-sendersss.glitch.me/majidi", {email, name, phone} ,config).then(window.open('Brochure_20x20_4Folded.pdf'))
+  };
+
+
+
 
     const containerStyle = {
         width: '100%',
@@ -84,6 +115,40 @@ const Alwedd = () => {
   return (
     <>
             <section>
+
+
+      {brochureDownload ? <div className='absoluteForm'>
+          <div className='brochurForm'>
+            <div className='brochurLeft alweddimage'></div>
+            <div className='brochurRight'>
+            <form style={{width:'100%',maxWidth:'1000px' , maxHeight:'1000px' , display: 'flex' , flexWrap: 'nowrap'}} onSubmit={handleSubmit}>
+              <div className='closeButton' onClick={() => setBrochureDownload(false)}>X</div>
+
+                <h2>Download Brochure</h2>
+                <p>Please provide your details to download brochure</p>
+                <label for='name'>Name</label>
+                <input value={name} type='text' onChange={(e) => setName(e.target.value)} name='name' placeholder='Your Name' required></input>
+                <label for='email' >Email</label>
+                <input value={email} type='email' onChange={(e) => setEmail(e.target.value)} name='email'  placeholder='Your Email' required></input>
+                <label for='phone'>Phone Number</label>
+                <input value={phone} type='text' onChange={(e) => setPhone(e.target.value)} name='phone' placeholder='Your Phone Number' required></input>
+                <div style={{display:'flex' , marginTop:10, marginBottom:10, alignItems:'center' ,width: '100%', justifyContent: 'space-between'}}>
+                  <h5>to Contact our service please click this icon </h5>
+                  <a href={"//api.whatsapp.com/send?phone=9647502552006&text=hello iam interested in alwedd view can you send me details"}>
+                    <img className='whatsapp' src={whatsapp} />
+                  </a>
+                </div>
+                <input className='btnsubmit' type='submit'></input>
+            </form>
+            </div>
+          </div>   
+        </div>
+        :
+        ''}
+        
+
+
+
         <div className='imageofheaderwedd'><h1>AL WEDD</h1></div>
 
         <section className='mainmajidi'>
@@ -102,7 +167,7 @@ const Alwedd = () => {
           <div className='content'>
             <div className='twothink'>
               <h3>AL WEDD</h3>
-              <a className='BROCHURE' target={'_blank'} href='Brochure_Wedd.pdf'>DOWNLOAD BROCHURE</a>
+              <a className='BROCHURE' onClick={()=> setBrochureDownload(true)}>DOWNLOAD BROCHURE</a>
             </div>
             <div className="">
               <Slide {...properties} autoplay={true} transitionDuration={500} canSwipe={true} infinite={true} arrows={true} pauseOnHover={true} duration={2000} >

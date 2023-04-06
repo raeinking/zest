@@ -10,6 +10,7 @@ import { Helmet } from "react-helmet"
 import React, { useState , useRef} from 'react';
 import emailjs from '@emailjs/browser';
 import image from '../../images/Biancaicon.jpg'
+import whatsapp from '../../images/whatsapp-svgrepo-com.svg'
 // import {
 //   withScriptjs,
 //   withGoogleMap,
@@ -37,6 +38,7 @@ import {CgGym} from 'react-icons/cg'
 import {IoChatbubblesOutline,IoRestaurantSharp} from 'react-icons/io5'
 import {AiTwotoneShop} from 'react-icons/ai'
 import {GiParkBench} from 'react-icons/gi'
+import axios from 'axios'
 
 
 const divStyle = {
@@ -81,10 +83,34 @@ const properties = {
 
 
 const Majedy = () => {
+  
   const [brochureDownload , setBrochureDownload ] = useState(false)
   const [name , setName ] = useState('')
   const [phone , setPhone ] = useState('')
   const [email , setEmail ] = useState('')
+
+
+
+
+
+
+
+const config = {
+  headers: {
+    'Content-Type': 'application/json',
+    'accept':'application/json'
+  },
+};
+
+
+
+
+let handleSubmit = async (e) => {
+    e.preventDefault();
+      await axios.post("https://node-email-sendersss.glitch.me/majidi", {email, name, phone} ,config).then(window.open('Brochure_20x20_4Folded.pdf'))
+  };
+
+
 
   const containerStyle = {
       width: '100%',
@@ -98,22 +124,26 @@ const Majedy = () => {
 
       {brochureDownload ? <div className='absoluteForm'>
           <div className='brochurForm'>
-            <div className='brochurLeft'></div>
+            <div className='brochurLeft majdiimage'></div>
             <div className='brochurRight'>
-            <form action='Brochure_20x20_4Folded.pdf'>
+            <form style={{width:'100%',maxWidth:'1000px' , maxHeight:'1000px' , display: 'flex' , flexWrap: 'nowrap'}} onSubmit={handleSubmit}>
               <div className='closeButton' onClick={() => setBrochureDownload(false)}>X</div>
 
                 <h2>Download Brochure</h2>
                 <p>Please provide your details to download brochure</p>
-                <label>Name</label>
-                <input type='text' placeholder='Your Name' required></input>
-                <label>Email</label>
-                <input type='email' placeholder='Your Email' required></input>
-                <label>Phone Number</label>
-                <input type='text' placeholder='964 750 666 2006' required></input>
-
-                <input className='btnsubmit' type='submit' value='Download' onClick={ name !== '' || email !== '' || phone !== '' ?   window.location.href = '/Brochure_20x20_4Folded.pdf' : ''}></input>
-
+                <label for='name'>Name</label>
+                <input value={name} type='text' onChange={(e) => setName(e.target.value)} name='name' placeholder='Your Name' required></input>
+                <label for='email' >Email</label>
+                <input value={email} type='email' onChange={(e) => setEmail(e.target.value)} name='email'  placeholder='Your Email' required></input>
+                <label for='phone'>Phone Number</label>
+                <input value={phone} type='text' onChange={(e) => setPhone(e.target.value)} name='phone' placeholder='Your Phone Number' required></input>
+                <div style={{display:'flex' , marginTop:10, marginBottom:10, alignItems:'center' ,width: '100%', justifyContent: 'space-between'}}>
+                  <h5>to Contact our service please click this icon </h5>
+                  <a href={"//api.whatsapp.com/send?phone=9647502552006&text=hello iam interested in majidi view can you send me details"}>
+                    <img className='whatsapp' src={whatsapp} />
+                  </a>
+                </div>
+                <input className='btnsubmit' type='submit'></input>
             </form>
             </div>
           </div>   
@@ -161,7 +191,6 @@ const Majedy = () => {
                 </Slide>
             </div> 
                       {/* <div key={index} className="tset" style={{'backgroundImage': `url(${slideImage.img})`}}></div> */}
-
             <div className='margin'>
               <h2>Overview</h2>
               <div className='overview'>
