@@ -14,7 +14,7 @@ function Projectname() {
     <>
       {paths == '/' ? 
       <div className='grid'>
-        <div data-aos='zoom-in-up' data-aos-duration='1000' className='gridboxs'>
+        <div  data-aos-duration='1000' className='gridboxs'>
             <a href='/Bianca' className='home1'>
                 <img src={image} />
                 <div className='overlay'>
@@ -22,21 +22,21 @@ function Projectname() {
                   <p>UAE Dubai</p>
                 </div>
             </a>
-            <a href='/Majidi-view' data-aos='zoom-in-up' data-aos-duration='1500' className='home2'>
+            <a href='/Majidi-view'  data-aos-duration='1500' className='home2'>
                 <img src={image1} />
                 <div className='overlay1'>
                   <h3>Majidi View</h3>
                   <p>Iraq Erbil</p>
                 </div>
             </a>
-            <a href='/alwedd' data-aos='zoom-in-up' data-aos-duration='1500' className='home3'>
+            <a href='/alwedd'  data-aos-duration='1500' className='home3'>
                 <img src={image2} />
                 <div className='overlay2'>
                   <h3>Al Wed</h3>
                   <p>Baghdad</p>
                 </div>
             </a>
-            <a href='/khlood' data-aos='zoom-in-up' data-aos-duration='2000' className='home4'>
+            <a href='/khlood' data-aos-duration='2000' className='home4'>
                 <img src={image3} />
                 <div className='overlay3'>
                   <h3>AL Khlood</h3>

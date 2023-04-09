@@ -8,6 +8,7 @@ import Price from "./price/Price"
 import Recent from "./recent/Recent"
 import Team from "./team/Team"
 import Projecta from "./project/Project"
+import Form from "../form/Form"
 import {Helmet} from "react-helmet";
 import { useLocation } from "react-router-dom";
 
@@ -34,9 +35,10 @@ const Home = () => {
       }
       <Hero />
       {/* <Featured /> */}
+      <Projecta />
+      {/* <Form /> */}
       <Recent />
       <Awards />
-      <Projecta />
       <Team />
     </>
   )

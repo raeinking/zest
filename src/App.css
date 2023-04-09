@@ -102,7 +102,7 @@ h4 {
 .shadow {
   box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
   overflow: hidden;
-  border-radius: 4px;
+  border-radius: 26px;
 }
 .padding {
   padding: 80px 0;
@@ -219,7 +219,7 @@ select:after {
   display: flex;
 }
 .zoom:hover {
-  transform: scale(1.1);
+  /* back */
 }
 .pagenotfound{
   display: flex;
@@ -279,6 +279,12 @@ color: #fff;
   min-height: 100vh;
 }
 
+.flexs {
+  display: flex;
+  padding: 20px 0;
+  align-self: flex-end;
+  width: 150px;
+}
 
 
 @media screen and (max-width: 500px) {
@@ -304,6 +310,7 @@ color: #fff;
     height: 50vh;
     min-height: 50vh;
   }
+
 }
 
 .linedown {

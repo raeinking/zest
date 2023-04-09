@@ -15,8 +15,6 @@ import PropertyDetails from "../PageDis/PropertyDetails"
 import khlood from "../projects/khlood/Khlood"
 import alwedd from "../projects/alwedd/Alwedd"
 import Majedy from "../projects/majedy/Majedy"
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import pagenotfoud from "../pagenotfoud"
 import beanca from '../projects/bianca/beanca'
 import arbianca from '../projects/bianca/arbianca'
@@ -28,9 +26,6 @@ import Projectssar from "../projects/Projectssar"
 import PrivacyPolicy from "../common/PrivacyPolicy"
 
 const Pages = () => {
-    useEffect(() => {
-    AOS.init();
-  }, [])
 
   return (
     <>

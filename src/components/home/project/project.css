@@ -4,7 +4,7 @@
     max-width: 1440px;
     width: 100%;
     gap: 65px 25px;
-    grid-template-columns: repeat(auto-fill, 270px);
+    grid-template-columns: repeat(auto-fill, 280px);
     margin: 2% 0;
     border-radius: 5px;
     z-index: 2;

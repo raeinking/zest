@@ -37,7 +37,7 @@ const Hero = () => {
   return (
     <>
     {paths == '/' ? 
-      <section data-aos="fade-up" className='hero'>
+      <section className='hero'>
           <h1 title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.'>Zest Property</h1>
           <p>Find Your Next Home In Zest Property.</p>
           <div className="">
@@ -51,7 +51,7 @@ const Hero = () => {
               <input id="red"  type='radio' value='Rent' name="saleType" className='none' ></input>
               <label onClick={()=> setSaleType('rent')} for="red" className={saleType == 'rent' ? 'selectType  selectet ' : 'selectType'}>Rent</label>    
             </div>
-            <input type='submit' value='Search' className="searchbtn"></input>
+            <button type='submit' value='Search' className="searchbtn">Search</button>
             </div>
               <div className="allselect">
                 <select defaultValue={resident} name="project" className="selectt search1 ">
@@ -136,7 +136,7 @@ const Hero = () => {
               <input id="red"  type='radio' value='يجار' name="saleType" className='none' ></input>
               <label onClick={()=> setSaleType('يجار')} for="red" className={saleType == 'يجار' ? 'selectType  selectet ' : 'selectType'}>يجار</label>    
             </div>
-            <input type='submit' value='بعث' className="searchbtn"></input>
+            <button type='submit' value='بعث' className="searchbtn">بعث</button>
             </div>
               <div className="allselect">
                 <select defaultValue={resident} name="project" className="selectt search1 ">
