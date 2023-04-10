@@ -30,14 +30,15 @@ const Awards = () => {
       :
       <section className='awards padding'>
         <div className='container'>
-          <Heading title='اكثر من 35,000+ مستخدم سعيد بخدمتنا' subtitle='جوائزنا' />
+          <p className="ar">جوائزنا</p>
+          <h4 className='ar'>اكثر من 35,000+ مستخدم سعيد بخدمتنا</h4>
           <div className='content grid4 mtop'>
             {arawards.map((val, index) => (
               <div className='box' key={index}>
                 <div data-aos='flip-left' data-aos-duration='2500' className='icon'>
-                  <img className="" src={val.icon} alt='awards'></img>
+                  <img className="ar" src={val.icon} alt='awards'></img>
                 </div>
-                <h2 className="ar">{val.num}</h2>
+                <h4 className="ar">{val.num}</h4>
                 <p className="ar">{val.name}</p>
               </div>
             ))}

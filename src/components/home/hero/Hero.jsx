@@ -131,12 +131,12 @@ const Hero = () => {
             <div className="sdsd">
             <div className="buysell">
               <input id="radCreateMode"  type='radio' value='للبيع' name="saleType" className='none' ></input>
-              <label onClick={()=> setSaleType('للبيع')} for="radCreateMode" className={saleType == 'للبيع' ? 'selectType  selectet ' : 'selectType'}>للبيع</label>
+              <label onClick={()=> setSaleType('للبيع')} for="radCreateMode" className={saleType == 'للبيع' ? 'selectType  selectet  ar' : 'selectType ar'} >للبيع </label>
              
               <input id="red"  type='radio' value='يجار' name="saleType" className='none' ></input>
-              <label onClick={()=> setSaleType('يجار')} for="red" className={saleType == 'يجار' ? 'selectType  selectet ' : 'selectType'}>يجار</label>    
+              <label onClick={()=> setSaleType('يجار')} for="red" className={saleType == 'يجار' ? 'selectType  selectet ar' : 'selectType ar'}>يجار</label>    
             </div>
-            <button type='submit' value='بعث' className="searchbtn">بعث</button>
+            <button type='submit' value='بعث' className="searchbtn">بحث</button>
             </div>
               <div className="allselect">
                 <select defaultValue={resident} name="project" className="selectt search1 ">

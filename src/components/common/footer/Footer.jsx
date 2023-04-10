@@ -78,7 +78,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className='legal'>
-        <span className="ar">© 2023 عقارات زيست. تصميم ريان جعفر.</span>
+        <span className="">© 2023 عقارات زيست. تصميم ريان جعفر.</span>
       </div>
     </section>
       :
