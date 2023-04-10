@@ -55,7 +55,7 @@ const RecentCard = () => {
                 <img src={cover} alt={name} />
               </div>
               <div className='text'>
-                <p style={{ textAlign: 'left', padding: '10px 0 10px 20px' , color : '#25b579'}}>{nameproject}</p>
+                <p style={{ textAlign: 'right', padding: '10px 20px 10px 0' , color : '#25b579'}}>{nameproject}</p>
                 <div className='categorys'> 
                   <span style={{ background: "#25b5791a", color: "#25b579" , fontSize:12 }}>{category}</span>
                   <span style={{ background: "#25b5791a", color: "#25b579" ,fontSize:12}}>{number}</span>
