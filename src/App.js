@@ -1,6 +1,6 @@
 import "./App.css"
 import Pages from "./components/pages/Pages"
-import "./fonts/NotoSansArabic.ttf";
+import "./fonts/arabicfont.otf";
 
 
 
