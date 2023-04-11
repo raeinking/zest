@@ -82,6 +82,8 @@ const Alwedd = () => {
   const [name , setName ] = useState('')
   const [phone , setPhone ] = useState('')
   const [email , setEmail ] = useState('')
+  const [projectname, setProjectname] = useState('alwedd')
+
 
 
 
@@ -101,7 +103,7 @@ const config = {
 
 let handleSubmit = async (e) => {
     e.preventDefault();
-      await axios.post("https://node-email-sendersss.glitch.me/majidi", {email, name, phone} ,config).then(window.open('Brochure_Wedd.pdf'))
+      await axios.post("https://node-email-sendersss.glitch.me/majidi", {email, name, phone, projectname} ,config).then(window.open('Brochure_Wedd.pdf'))
   };
 
 
