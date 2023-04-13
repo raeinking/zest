@@ -11,6 +11,7 @@ import Projecta from "./project/Project"
 import Form from "../form/Form"
 import {Helmet} from "react-helmet";
 import { useLocation } from "react-router-dom";
+import Searchhero from "../searchhero/Searchhero"
 
 
 
@@ -34,6 +35,7 @@ const Home = () => {
       </Helmet>
       }
       <Hero />
+      <Searchhero />
       {/* <Featured /> */}
       <Projecta />
       {/* <Form /> */}

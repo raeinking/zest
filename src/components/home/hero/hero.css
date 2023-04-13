@@ -3,9 +3,10 @@
   border: none;
   outline: none;
   background-color: #fff;
-  
+
   -webkit-background-clip: unset;
 }
+
 .heromain {
   display: flex;
   flex-direction: column;
@@ -19,18 +20,20 @@
   right: 0;
   top: 10px;
   padding: 10px 15px;
-  border:none;
+  border: none;
 }
+
 .advance a {
   color: white;
   font-weight: 600;
 }
+
 .hero {
   background-image: url("../../../../public/images/banner1.jpg");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
-  min-height: calc(100vh - 60px);
+  min-height: calc(80vh - 60px);
   width: 100%;
   position: relative;
   display: flex;
@@ -42,46 +45,53 @@
 .herocontain {
   width: 80%;
 }
+
 .herocontain h2 {
   font-size: 90px;
   color: #7a5c3e;
   /* height: 110px; */
 }
+
 .herocontain h3 {
   color: #7a5c3e;
   font-size: 20px;
 }
+
 .herocontain .heroborder {
   width: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding:10px 10px;
+  padding: 10px 10px;
   border-radius: 30px;
   margin-top: 10px;
 
   background-color: #7a5c3e;
 }
+
 .herocontain .heroborder h3 {
-color: #fff;
+  color: #fff;
 }
 
 
 .hero .container {
   padding-top: 15%;
 }
+
 .hero h1 {
   color: #fff;
   font-size: 32px;
   z-index: 1;
 }
+
 .hero p {
   color: #fff;
   opacity: 0.8;
   font-size: 24;
   z-index: 2;
 }
+
 form {
   background-color: #fff;
   border-radius: 5px;
@@ -89,6 +99,7 @@ form {
   padding: 0 20px;
   z-index: 2;
 }
+
 form input {
   /* padding: 10px 0; */
   width: 100%;
@@ -97,24 +108,30 @@ form input {
   border-radius: 5px;
   height: 100%;
 }
+
 form span {
   font-size: 14px;
   color: grey;
 }
+
 input::placeholder {
   /* font-size: 17px;
   color: black; */
 }
+
 form .box {
   padding: 15px;
   border-left: 1px solid rgba(128, 128, 128, 0.2);
 }
+
 form .box:nth-child(1) {
   border-left: none;
 }
+
 form h4 {
   font-weight: 500;
 }
+
 .flexsearch {
   display: flex;
   align-items: center;
@@ -172,7 +189,7 @@ form h4 {
 .login-box .user-box input:valid~label {
   top: -20px;
   left: 0;
-  color:white;
+  color: white;
   font-size: 12px;
 }
 
@@ -261,6 +278,7 @@ form h4 {
   animation: btn-anim3 1s linear infinite;
   animation-delay: .5s
 }
+
 .login-box input::placeholder {
   color: rgb(176, 176, 176);
   font-weight: 300;
@@ -299,8 +317,9 @@ form h4 {
 }
 
 form {
-  background-color:transparent;
+  background-color: transparent;
 }
+
 .hero h1,
 .hero p {
   color: #ffffff;
@@ -311,9 +330,11 @@ form {
   margin-top: 20px;
   display: flex;
 }
-.herologo img{
+
+.herologo img {
   width: 100px;
 }
+
 .zestborder {
   border-right: 3px solid #7a5c3eed;
   width: 4px;
@@ -322,66 +343,78 @@ form {
 }
 
 @media screen and (max-width: 800px) {
-  .hero h1 {
-  }
+  .hero h1 {}
+
   .hero p {
     font-size: 12px;
   }
-  
+
   .hero {
-      height: calc(110vh - 60px);
+    height: calc(80vh - 60px);
   }
+
   .hero .container {
     padding-top: 10%;
   }
+
   form {
     display: flex;
     flex-wrap: wrap;
   }
+
   form .box {
     border-left: none;
     width: 50%;
   }
+
   form input {
     width: 100%;
   }
-    .herocontain h2 {
-      font-size: 45px;
-      /* height: 45px; */
-    }
+
+  .herocontain h2 {
+    font-size: 45px;
+    /* height: 45px; */
+  }
 }
+
 @media screen and (max-width: 800px) {
   .hero h1 {
     /* font-size: 70px; */
   }
 }
+
 @media screen and (max-width: 1100px) {
-.flexsearch {
-  display: flex; 
-  align-items: center;
-  justify-content: space-between;
-  margin: 20px;
+  .flexsearch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+  }
+
+  @media screen and (max-width: 400px) {
+    .hero h1 {
+      /* font-size: 58px; */
+    }
+
+    .herocontain h2 {
+      font-size: 50px;
+      /* height: 55px; */
+    }
+
+    .herocontain h3 {
+      font-size: 15px;
+      /* height: 25px; */
+    }
+
+    .herocontain .h3 {
+      font-size: 15px;
+      line-height: 20px;
+      margin-bottom: 10px;
+    }
+  }
 }
-@media screen and (max-width: 400px) {
-.hero h1 {
-    /* font-size: 58px; */
-  }
-.herocontain h2 {
-    font-size: 50px;
-    /* height: 55px; */
-  }
-.herocontain h3 {
-    font-size: 15px;
-    /* height: 25px; */
-  }
-.herocontain .h3 {
-    font-size: 15px;
-    line-height: 20px;
-    margin-bottom: 10px;
-  }
-}
-}
-.search{
+
+.search {
   width: 30px;
   height: 30px;
 }

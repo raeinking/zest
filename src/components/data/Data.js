@@ -118,16 +118,16 @@ export const team = [
     address: "project: Sky Land Kirkuk",
     name: "Mr.Akam Ali",
     email: "mailto:akam.a@zest-property.com",
-    phone:"tel:+9647501762006",
+    phone: "tel:+9647501762006",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
-    {
+  {
     list: "50",
     cover: "../images/customer/mriam.jpg",
     address: "project: Erbil",
     name: "Mriam Mufaq",
     email: "mailto:mriam.m@zest-property.com",
-    phone:"tel:+9647502252006",
+    phone: "tel:+9647502252006",
   },
   {
     list: "50",
@@ -135,7 +135,7 @@ export const team = [
     address: "project: Erbil",
     name: "Kaywan Kayfi",
     email: "mailto:kaiwankaify@zest-property.com",
-    phone:"tel:+9647506662006",
+    phone: "tel:+9647506662006",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
@@ -144,74 +144,43 @@ export const team = [
     address: "project: Erbil",
     name: "Rasty Kaify",
     email: "mailto:Rasty.kayfi@zest-property.com",
-    phone:"tel:+9647507342006",
+    phone: "tel:+9647507342006",
   },
-  {
-    list: "50",
-    cover: "../images/customer/M.Sami.webp",
-    address: "project: Kirkuk",
-    name: "Muhammed Sami",
-    email: "mailto:m.sami@zest-property.com",
-    phone:"tel:+9647708652006",
-  },
-  {
-    list: "50",
-    cover: "../images/customer/Aya.Alsaab.webp",
-    address: "project: Erbil",
-    name: "Aya Al-saab",
-    email: "mailto:aya.s@zest-property.com",
-    phone:"tel:+9647506322006",
-  },
-  {
-    list: "50",
-    cover: "../images/customer/abdulla.jpg",
-    address: "project: Erbil",
-    name: "Abdulla Fars",
-    email: "mailto:abdulla.f@zest-property.com",
-    phone:"tel:+9647506522006",
-  },
-  {
-    list: "50",
-    cover: "../images/customer/mahmood.webp",
-    address: "project: Erbil",
-    name: "Mahmood Abdullah",
-    email: "mailto:'mahmood@zest-property.com'",
-    phone:"tel:+9647501882006",
-  },
-  
+
+
 ]
 export const allAgents = [
-    {
+  {
     list: "50",
     cover: "../images/customer/mahmood.webp",
     address: "project: Erbil",
     name: "Mahmood Abdullah",
     email: "mailto:'mahmood@zest-property.com'",
-    phone:"tel:+9647501882006",
+    phone: "tel:+9647501882006",
   },
-   {
+  {
     list: "50",
     cover: "../images/customer/AkamAli.webp",
     address: "project: Sky Land Kirkuk",
     name: "Akam Ali",
     email: "mailto:akam.a@zest-property.com",
-    phone:"tel:+9647501762006",
+    phone: "tel:+9647501762006",
   },
-    {
+  {
     list: "50",
     cover: "../images/customer/mriam.jpg",
     address: "project: Erbil",
     name: "Mriam Mufaq",
     email: "mailto:mriam.m@zest-property.com",
-    phone:"tel:+9647502252006",
+    phone: "tel:+9647502252006",
   },
-    {
+  {
     list: "50",
     cover: "../images/customer/abdulla.jpg",
     address: "project: Erbil",
     name: "Abdulla Fars",
     email: "mailto:abdulla.f@zest-property.com",
-    phone:"tel:+9647506522006",
+    phone: "tel:+9647506522006",
   },
   {
     list: "50",
@@ -219,7 +188,7 @@ export const allAgents = [
     address: "project: Erbil",
     name: "Kaywan Kayfi",
     email: "mailto:kaiwankaify@zest-property.com",
-    phone:"tel:+9647506662006",
+    phone: "tel:+9647506662006",
   },
   {
     list: "50",
@@ -227,7 +196,7 @@ export const allAgents = [
     address: "project: Erbil",
     name: "Rasty Kaify",
     email: "mailto:Rasty.kayfi@zest-property.com",
-    phone:"tel:+9647507342006",
+    phone: "tel:+9647507342006",
   },
   {
     list: "50",
@@ -235,7 +204,7 @@ export const allAgents = [
     address: "project: Kirkuk",
     name: "Shahoo Dieyaree",
     email: "mailto:shahoo.d@zest-property.com",
-    phone:"tel:+9647509632006",
+    phone: "tel:+9647509632006",
   },
   {
     list: "50",
@@ -243,7 +212,7 @@ export const allAgents = [
     address: "project: Kirkuk",
     name: "Muhammed Sami",
     email: "mailto:m.sami@zest-property.com",
-    phone:"tel:+9647708652006",
+    phone: "tel:+9647708652006",
   },
   {
     list: "50",
@@ -251,7 +220,7 @@ export const allAgents = [
     address: "project: Erbil",
     name: "Aya Al-saab",
     email: "mailto:aya.s@zest-property.com",
-    phone:"tel:+9647506322006",
+    phone: "tel:+9647506322006",
   },
   {
     list: "50",
@@ -259,7 +228,7 @@ export const allAgents = [
     address: "project: Kirkuk",
     name: "Hozan Jumaa",
     email: "mailto:hozan.j@zest-property.com",
-    phone:"tel:+9647509102006",
+    phone: "tel:+9647509102006",
   },
   // {
   //   list: "50",
@@ -275,7 +244,7 @@ export const allAgents = [
     address: "project: Erbil",
     name: "Mohammad Rasul",
     email: "mailto:M.Rasul@zest-property.com",
-    phone:"tel:+9647506912006",
+    phone: "tel:+9647506912006",
   },
   // {
   //   list: "50",
@@ -287,18 +256,18 @@ export const allAgents = [
   // },
 ]
 export const price = [
-  
+
 ]
 export const footer = [
   {
     title: "Social",
-    text: [{ list: "Facebook", link: 'https://www.facebook.com/zest.real.estate.erbil' }, { list: "Instagram" , link : 'https://www.instagram.com/zest_properties/' }, { list: "Youtube", link : 'https://www.youtube.com/channel/UCj1_7eqoDzWn6RFLAj6ScNQ' },{list: "Telegram", link: 'https://t.me/+UY2vzSdjnmY1Njli'},{list: "Privacy Policy", link: '/Privacy-Policy'}],
+    text: [{ list: "Facebook", link: 'https://www.facebook.com/zest.real.estate.erbil' }, { list: "Instagram", link: 'https://www.instagram.com/zest_properties/' }, { list: "Youtube", link: 'https://www.youtube.com/channel/UCj1_7eqoDzWn6RFLAj6ScNQ' }, { list: "Telegram", link: 'https://t.me/+UY2vzSdjnmY1Njli' }, { list: "Privacy Policy", link: '/Privacy-Policy' }],
   },
 ]
 export const arfooter = [
   {
     title: "اجتماعي",
-    text: [{ list: "فيس بوك" ,link: 'https://www.facebook.com/zest.real.estate.erbil' }, { list: "ئینستاگرام",link : 'https://www.instagram.com/zest_properties/' }, { list: "یوتوب", link : 'https://www.youtube.com/channel/UCj1_7eqoDzWn6RFLAj6ScNQ' },{list: "تیلیگرام", link: 'https://t.me/+UY2vzSdjnmY1Njli'},{list: "الخصوصية والأمان", link: '/Privacy-Policy'}]
+    text: [{ list: "فيس بوك", link: 'https://www.facebook.com/zest.real.estate.erbil' }, { list: "ئینستاگرام", link: 'https://www.instagram.com/zest_properties/' }, { list: "یوتوب", link: 'https://www.youtube.com/channel/UCj1_7eqoDzWn6RFLAj6ScNQ' }, { list: "تیلیگرام", link: 'https://t.me/+UY2vzSdjnmY1Njli' }, { list: "الخصوصية والأمان", link: '/Privacy-Policy' }]
   },
 ]
 
@@ -364,25 +333,25 @@ export const listAll = [
     type: "1 + 1",
     nameproject: 'Sky View',
     number: 'B1-30',
-    place:'Erbil - Newroz',
+    place: 'Erbil - Newroz',
     area: "78 m",
     citys: 'Erbil',
     property: 'apartment'
   },
   {
-  id: 43,
+    id: 43,
     cover: "../images/property/qaywan/qaywan_blog.jpg",
-  url: "Apartment-for-Sale-QAIWAN-MIRADOR-B-6-201",
-  name: "Apartment for Sale QAIWAN MIRADOR B 6",
-  location: "Erbil - Masif Road Pirmam",
-  category: "buy",
-  price: "$28,305",
-  type: "1 + 4",
-  nameproject: 'Qaiwan mirador',
-  number: 'B-6',
-  place:'Erbil - Dream city',
-  area: "201.6 m",
-  citys: 'Erbil',
+    url: "Apartment-for-Sale-QAIWAN-MIRADOR-B-6-201",
+    name: "Apartment for Sale QAIWAN MIRADOR B 6",
+    location: "Erbil - Masif Road Pirmam",
+    category: "buy",
+    price: "$28,305",
+    type: "1 + 4",
+    nameproject: 'Qaiwan mirador',
+    number: 'B-6',
+    place: 'Erbil - Dream city',
+    area: "201.6 m",
+    citys: 'Erbil',
     property: 'apartment'
   },
 
@@ -397,25 +366,25 @@ export const listAll = [
     type: "1 + 1",
     nameproject: 'Sky View',
     number: 'B1-12',
-    place:'Erbil - Newroz',
+    place: 'Erbil - Newroz',
     area: "80 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
   {
     id: 5,
     cover: "../images/property/venus/asdfaf.jpg",
-    url:"Apartment-for-Sale-Venus-Towers-A1-22-Floor",
-    name:"Apartment for Sale Venus Towers A1 22 Floor",
+    url: "Apartment-for-Sale-Venus-Towers-A1-22-Floor",
+    name: "Apartment for Sale Venus Towers A1 22 Floor",
     location: "Erbil",
     category: "buy",
     price: "$16,096",
     type: "2 + 1",
     nameproject: 'Venus Towers',
     number: 'A1-22',
-    place:'Erbil - hawlery new',
+    place: 'Erbil - hawlery new',
     area: "105 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
   {
@@ -429,9 +398,9 @@ export const listAll = [
     type: "1 + 1",
     nameproject: 'Nova towers',
     number: 'A2-14',
-    place:'Erbil - Ganjan city',
+    place: 'Erbil - Ganjan city',
     area: "81 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
   {
@@ -445,23 +414,23 @@ export const listAll = [
     type: "1 + 1",
     nameproject: 'Venus Towers',
     number: 'A1-25',
-    place:'Erbil - hawlery nwe',
+    place: 'Erbil - hawlery nwe',
     area: "72 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
-       {
+  {
     id: 39,
     cover: "../images/property/north/north_holland_blog.jpg",
     url: "Apartment-for-Sale-North-Holland-A-6-floor",
     name: "Apartment for Sale North Holland A 6",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "buy",
-    price: "$28,203", 
+    price: "$28,203",
     type: "1 + 3",
     nameproject: 'North Holland',
     number: 'A-6',
-    place:'Erbil - Dream city',
+    place: 'Erbil - Dream city',
     area: "210 m",
     citys: 'Erbil',
     property: 'apartment'
@@ -477,9 +446,9 @@ export const listAll = [
     type: "1 + 1",
     nameproject: 'Venus Towers',
     number: 'A1-8',
-    place:'Erbil - hawlery nwe',
+    place: 'Erbil - hawlery nwe',
     area: "72 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
   {
@@ -493,9 +462,9 @@ export const listAll = [
     type: "2 + 1",
     nameproject: 'Sky View',
     number: 'A3-31',
-    place:'Erbil - Newroz',
+    place: 'Erbil - Newroz',
     area: "120 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
   {
@@ -509,9 +478,9 @@ export const listAll = [
     type: "2 + 1",
     nameproject: 'Sky View',
     number: 'B3-37',
-    place:'Erbil - Newroz',
+    place: 'Erbil - Newroz',
     area: "120 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
   {
@@ -525,9 +494,9 @@ export const listAll = [
     type: "1 + 1",
     nameproject: 'Venus Towers',
     number: 'A2-14',
-    place:'Erbil - hawlery nwe',
+    place: 'Erbil - hawlery nwe',
     area: "76 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
   {
@@ -541,9 +510,9 @@ export const listAll = [
     type: "2 + 1",
     nameproject: 'Sky View',
     number: 'B3-22',
-    place:'Erbil - Newroz',
+    place: 'Erbil - Newroz',
     area: "120 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
   {
@@ -557,9 +526,9 @@ export const listAll = [
     type: "2 + 1",
     nameproject: 'Venus Towers',
     number: 'A1-13',
-    place:'Erbil - hawlery nwe',
+    place: 'Erbil - hawlery nwe',
     area: "115 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
   {
@@ -573,9 +542,9 @@ export const listAll = [
     type: "1 + 1",
     nameproject: 'Sky View',
     number: 'B3-7',
-    place:'Erbil - Newroz',
+    place: 'Erbil - Newroz',
     area: "80 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
   {
@@ -589,9 +558,9 @@ export const listAll = [
     type: "1 + 1",
     nameproject: 'Venus Towers',
     number: 'A2-6',
-    place:'Erbil - hawlery nwe',
+    place: 'Erbil - hawlery nwe',
     area: "67 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
   {
@@ -605,9 +574,9 @@ export const listAll = [
     type: "1 + 1",
     nameproject: 'Sky View',
     number: 'A1-7',
-    place:'Erbil - Newroz',
+    place: 'Erbil - Newroz',
     area: "80 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
   {
@@ -621,9 +590,9 @@ export const listAll = [
     type: "1 + 1",
     nameproject: 'Venus Towers',
     number: 'A2-5',
-    place:'Erbil - hawlery nwe',
+    place: 'Erbil - hawlery nwe',
     area: "67 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
   {
@@ -637,25 +606,25 @@ export const listAll = [
     type: "1 + 1",
     nameproject: 'Sky View',
     number: 'B2-6',
-    place:'Erbil - Newroz',
+    place: 'Erbil - Newroz',
     area: "80 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
-      {
+  {
     id: 40,
     cover: "../images/property/north/north_holland_blog.jpg",
     url: "Apartment-for-Sale-North-Holland-D-6-floor",
     name: "Apartment for Sale North Holland D 6",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "buy",
-    price: "$12,087", 
+    price: "$12,087",
     type: "1 + 1",
     nameproject: 'North Holland',
     number: 'D-6',
-    place:'Erbil - Dream city',
+    place: 'Erbil - Dream city',
     area: "90 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
   {
@@ -669,9 +638,9 @@ export const listAll = [
     type: "2 + 1",
     nameproject: 'Venus Towers',
     number: 'B1-14',
-    place:'Erbil - hawlery nwe',
+    place: 'Erbil - hawlery nwe',
     area: "105 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
   {
@@ -685,9 +654,9 @@ export const listAll = [
     type: "1 + 1",
     nameproject: 'Sky View',
     number: 'B2-10',
-    place:'Erbil - Newroz',
+    place: 'Erbil - Newroz',
     area: "80 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
   {
@@ -701,89 +670,89 @@ export const listAll = [
     type: "2 + 1",
     nameproject: 'Venus Towers',
     number: 'B1-21',
-    place:'Erbil - hawlery nwe',
+    place: 'Erbil - hawlery nwe',
     area: "115 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
-      {
+  {
     id: 39,
     cover: "../images/property/north/north_holland_blog.jpg",
     url: "Apartment-for-Sale-North-Holland-A-11",
     name: "Apartment for Sale North Holland A 11",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "buy",
-    price: "$12,087", 
+    price: "$12,087",
     type: "1 + 1",
     nameproject: 'North Holland',
     number: 'A-11',
-    place:'Erbil - Dream city',
+    place: 'Erbil - Dream city',
     area: "90 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
-      {
+  {
     id: 39,
     cover: "../images/property/north/north_holland_blog.jpg",
     url: "Apartment-for-Sale-North-Holland-A-13",
     name: "Apartment for Sale North Holland A 13",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "buy",
-    price: "$12,087", 
+    price: "$12,087",
     type: "1 + 1",
     nameproject: 'North Holland',
     number: 'A-13',
-    place:'Erbil - Dream city',
+    place: 'Erbil - Dream city',
     area: "90 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
-      {
+  {
     id: 39,
     cover: "../images/property/north/north_holland_blog.jpg",
     url: "Apartment-for-Sale-North-Holland-D-5",
     name: "Apartment for Sale North Holland D 5",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "buy",
-    price: "$12,087", 
+    price: "$12,087",
     type: "1 + 1",
     nameproject: 'North Holland',
     number: 'D-5',
-    place:'Erbil - Dream city',
+    place: 'Erbil - Dream city',
     area: "90 m",
     citys: 'Erbil',
     property: 'apartment'
   },
-      {
+  {
     id: 39,
     cover: "../images/property/north/north_holland_blog.jpg",
     url: "Apartment-for-Sale-North-Holland-B-5-floor",
     name: "Apartment for Sale North Holland B 5",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "buy",
-    price: "$12,087", 
+    price: "$12,087",
     type: "1 + 1",
     nameproject: 'North Holland',
     number: 'B-5',
-    place:'Erbil - Dream city',
+    place: 'Erbil - Dream city',
     area: "90 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
-      {
+  {
     id: 44,
     cover: "../images/property/north/north_holland_blog.jpg",
     url: "Apartment-for-Sale-North-Holland-B-8",
     name: "Apartment for Sale North Holland B 8",
     location: "Erbil - Mosul Road, opposite of Dream City",
     category: "buy",
-    price: "$12,087", 
+    price: "$12,087",
     type: "1 + 1",
     nameproject: 'North Holland',
     number: 'B-8',
-    place:'Erbil - Dream city',
+    place: 'Erbil - Dream city',
     area: "90 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
   {
@@ -797,9 +766,9 @@ export const listAll = [
     type: "1 + 1",
     nameproject: 'Venus Towers',
     number: 'A2-17',
-    place:'Erbil - hawlery nwe',
+    place: 'Erbil - hawlery nwe',
     area: "67 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
   },
   {
@@ -813,9 +782,9 @@ export const listAll = [
     type: "2 + 1",
     nameproject: 'Venus Towers',
     number: 'B3-13',
-    place:'Erbil - hawlery nwe',
+    place: 'Erbil - hawlery nwe',
     area: "105 m",
-  citys: 'Erbil',
+    citys: 'Erbil',
     property: 'apartment'
 
   },
@@ -830,14 +799,14 @@ export const listAll = [
     type: "1 + 1",
     nameproject: 'Venus Towers',
     number: 'A3-6',
-    place:'Erbil - hawlery nwe',
+    place: 'Erbil - hawlery nwe',
     area: "81 m",
-  citys: 'Erbil'
-  ,
+    citys: 'Erbil'
+    ,
     property: 'apartment'
   },
 
-    {
+  {
     id: 41,
     cover: "../images/property/qaywan/qaywan_blog.jpg",
     url: "Apartment-for-Sale-QAIWAN-MIRADOR-C-19-floor",
@@ -848,10 +817,10 @@ export const listAll = [
     type: "1 + 4",
     nameproject: 'Qaiwan mirador',
     number: 'C-19',
-    place:'Erbil - Dream city',
+    place: 'Erbil - Dream city',
     area: "201 m",
     property: 'apartment',
-  citys: 'Erbil'
+    citys: 'Erbil'
   },
 
 ]
@@ -859,63 +828,63 @@ export const listAll = [
 
 
 export const list = [
-   {
+  {
     id: 1,
     cover: "../images/property/skyview/dsf.jpg",
-    url:'Apartment-for-Sale-Sky-View-B1-30-Floor',
+    url: 'Apartment-for-Sale-Sky-View-B1-30-Floor',
     name: "Sky View B1 30 Floor",
-    nameproject:'Sky View',
+    nameproject: 'Sky View',
     number: 'B1-30',
     location: "Lalav Sky View, Erbil",
     category: "buy",
     price: "$22,620",
     type: "1 + 1",
     area: "78 m",
-    place:'Erbil - Nawroz'
+    place: 'Erbil - Nawroz'
   },
   {
     id: 39,
     cover: "../images/property/north/north_holland_blog.jpg",
-url: "Apartment-for-Sale-North-Holland-B-5-floor",
-name: "Apartment for Sale North Holland B 5",
-    nameproject:'North Holland',
+    url: "Apartment-for-Sale-North-Holland-B-5-floor",
+    name: "Apartment for Sale North Holland B 5",
+    nameproject: 'North Holland',
     number: 'B-5',
-        place:'Erbil - Dream city',
-location: "Erbil - Mosul Road, opposite of Dream City",
-category: "buy",
-price: "$12,087", 
-type: "1 + 1",
-area: "90 m"
-},
-{
-id: 43,
-cover: "../images/property/qaywan/qaywan_blog.jpg",
-url: "Apartment-for-Sale-QAIWAN-MIRADOR-B-6-201",
-name: "Apartment for Sale QAIWAN MIRADOR B 6",
-location: "Erbil - Masif Road Pirmam",
-    nameproject:'Qaiwan Mirador',
-        number: 'B-6',
-        place:'Erbil - Shaways',
-category: "buy",
-price: "$28,305",
-type: "1 + 4",
-area: "201.6 m"
-},
-   {
+    place: 'Erbil - Dream city',
+    location: "Erbil - Mosul Road, opposite of Dream City",
+    category: "buy",
+    price: "$12,087",
+    type: "1 + 1",
+    area: "90 m"
+  },
+  {
+    id: 43,
+    cover: "../images/property/qaywan/qaywan_blog.jpg",
+    url: "Apartment-for-Sale-QAIWAN-MIRADOR-B-6-201",
+    name: "Apartment for Sale QAIWAN MIRADOR B 6",
+    location: "Erbil - Masif Road Pirmam",
+    nameproject: 'Qaiwan Mirador',
+    number: 'B-6',
+    place: 'Erbil - Shaways',
+    category: "buy",
+    price: "$28,305",
+    type: "1 + 4",
+    area: "201.6 m"
+  },
+  {
     id: 24,
     cover: "../images/property/venus/asdfaf.jpg",
     url: "Apartment-for-Sale-Venus-Towers-B1-21-Floor",
     name: "Apartment for Sale Venus Towers B1 21 Floor",
-        nameproject:'Venus Towers',
-        number: 'B1-21',
-        place:'Erbil - New Haweler',
+    nameproject: 'Venus Towers',
+    number: 'B1-21',
+    place: 'Erbil - New Haweler',
     location: "Erbil",
     category: "buy",
     price: "$17,054",
     type: "2 + 1",
     area: "115 m"
   },
-    
+
 ]
 
 export const arhousesData = [
@@ -924,7 +893,7 @@ export const arhousesData = [
     type: 'شقة',
     url: 'شقة-للبیع-سكاي-فيو-٣٠-ب١',
     name: 'B1 30 شقة للبیع لالاف سكاي فيو',
-    nameproperty:'سكاي فيو ',
+    nameproperty: 'سكاي فيو ',
     build: '6',
     Allbuild: '39',
     image: '/images/property/skyview/dsf1.jpg',
@@ -939,8 +908,8 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/kaywan.webp',
       name: 'كيوان كيفي',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
   {
@@ -948,7 +917,7 @@ export const arhousesData = [
     type: 'شقة',
     url: 'شقة-للبیع-لالاف-سكاي-فيو-١٢-ب١',
     name: 'B1 12 شقة للبیع لالاف سكاي فيو',
-    nameproperty:'سكاي فيو ',
+    nameproperty: 'سكاي فيو ',
     build: '6',
     Allbuild: '39',
     image: '/images/property/skyview/dsf1.jpg',
@@ -963,16 +932,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/mahmood.webp',
       name: 'محمود عبدالله',
-      phone:"tel:+9647501882006",
-      email:'mahmood@zest-property.com'
+      phone: "tel:+9647501882006",
+      email: 'mahmood@zest-property.com'
     },
   },
-      {
+  {
     id: 56,
     type: 'شقة',
     url: "شقة-للبیع-نورث-هولند-٦-ئەی-٢١٠",
     name: "A 6 شقة للبیع نورث هولند",
-    nameproperty:'نورث هولند',
+    nameproperty: 'نورث هولند',
     build: '6',
     Allbuild: '20',
     image: '/images/property/north/north_holland_hd.jpg',
@@ -987,16 +956,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
   {
     id: 5,
     type: 'شقة',
-    url:'شقة-للبیع-فینوس-تاوەر-٢٢-ئەی١',
+    url: 'شقة-للبیع-فینوس-تاوەر-٢٢-ئەی١',
     name: 'A1 22 شقة للبیع فینوس تاوەر',
-    nameproperty:'فینوس تاوەر ',
+    nameproperty: 'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1011,7 +980,7 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/muhammadmajed.webp',
       name: 'محمد مجيد',
-      phone:"tel:+9647502422006",
+      phone: "tel:+9647502422006",
       email: "mohammad.m@zest-property.com",
     },
   },
@@ -1020,7 +989,7 @@ export const arhousesData = [
     type: 'شقة',
     url: 'شقة-للبیع-نوفا-تاورز-١٤-ئەی٢',
     name: 'A2 14 شقة للبیع نوفا تاورز',
-    nameproperty:'نوفا تاورز ',
+    nameproperty: 'نوفا تاورز ',
     build: '5',
     Allbuild: '22',
     image: '/images/property/nova/ewr1.jpg',
@@ -1035,16 +1004,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/shaho.webp',
       name: 'شاهو دياري',
-      phone:"tel:+9647509632006",
+      phone: "tel:+9647509632006",
       email: "shahoo.d@zest-property.com",
     },
   },
   {
     id: 9,
     type: 'شقة',
-    url:'شقة-للبیع-فینوس-تاوەر-٢٥-ئەی١',
+    url: 'شقة-للبیع-فینوس-تاوەر-٢٥-ئەی١',
     name: 'A1 25 شقة للبیع فینوس تاوەر',
-    nameproperty:'فینوس تاوەر ',
+    nameproperty: 'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1059,16 +1028,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/AkamAli.webp',
       name: 'اكام علي',
-      phone:"tel:+9647501762006",
+      phone: "tel:+9647501762006",
       email: "akam.a@zest-property.com",
     },
   },
   {
     id: 10,
     type: 'شقة',
-    url:'شقة-للبیع-فینوس-تاوەر-٨-ئەی١',
+    url: 'شقة-للبیع-فینوس-تاوەر-٨-ئەی١',
     name: 'A1 8 شقة للبیع فینوس تاوەر',
-    nameproperty:'فینوس تاوەر ',
+    nameproperty: 'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1083,16 +1052,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/Aya.Alsaabb.webp',
       name: 'ايه الصعبb',
-      phone:"tel:+9647506322006",
-      email:"aya.s@zest-property.com"
+      phone: "tel:+9647506322006",
+      email: "aya.s@zest-property.com"
     },
   },
   {
     id: 11,
     type: 'شقة',
-    url:'شقة-للبیع-لالاف-سكاي-فيو-٣١-ئەی٣',
+    url: 'شقة-للبیع-لالاف-سكاي-فيو-٣١-ئەی٣',
     name: 'A3 31 شقة للبیع لالاف سكاي فيو',
-    nameproperty:'سكاي فيو ',
+    nameproperty: 'سكاي فيو ',
     build: '6',
     Allbuild: '39',
     image: '/images/property/skyview/dsf1.jpg',
@@ -1107,16 +1076,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/kaywan.webp',
       name: 'كيوان كيفي',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
   {
     id: 13,
     type: 'شقة',
-    url:'شقة-للبیع-لالاف-سكاي-فيو-٣٧-ب٣',
+    url: 'شقة-للبیع-لالاف-سكاي-فيو-٣٧-ب٣',
     name: 'B3 37 شقة للبیع لالاف سكاي فيو',
-    nameproperty:'سكاي فيو ',
+    nameproperty: 'سكاي فيو ',
     build: '6',
     Allbuild: '39',
     image: '/images/property/skyview/dsf1.jpg',
@@ -1131,16 +1100,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/mahmood.webp',
       name: 'محمود عبدالله',
-      phone:"tel:+9647501882006",
-      email:'mahmood@zest-property.com'
+      phone: "tel:+9647501882006",
+      email: 'mahmood@zest-property.com'
     },
   },
   {
     id: 14,
     type: 'شقة',
-    url:'شقة-للبیع-فینوس-تاوەر-١٤-ئەی٢',
+    url: 'شقة-للبیع-فینوس-تاوەر-١٤-ئەی٢',
     name: 'A2 14 شقة للبیع فینوس تاوەر',
-    nameproperty:'فینوس تاوەر ',
+    nameproperty: 'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1155,16 +1124,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/muhammadmajed.webp',
       name: 'محمد مجيد',
-      phone:"tel:+9647502422006",
+      phone: "tel:+9647502422006",
       email: "mohammad.m@zest-property.com",
     },
   },
   {
     id: 15,
     type: 'شقة',
-    url:'شقة-للبیع-لالاف-سكاي-فيو-٢٢-ب٣',
+    url: 'شقة-للبیع-لالاف-سكاي-فيو-٢٢-ب٣',
     name: 'B3 22 شقة للبیع لالاف سكاي فيو',
-    nameproperty:'سكاي فيو ',
+    nameproperty: 'سكاي فيو ',
     build: '6',
     Allbuild: '39',
     image: '/images/property/skyview/dsf1.jpg',
@@ -1179,16 +1148,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/aliagha.webp',
       name: 'علي آغا',
-      phone:"tel:+9647505912006",
-      email:'ali.a@zest-property.com',
+      phone: "tel:+9647505912006",
+      email: 'ali.a@zest-property.com',
     },
   },
   {
     id: 16,
     type: 'شقة',
-    url:'شقة-للبیع-فینوس-تاوەر-١٣-ئەی١',
+    url: 'شقة-للبیع-فینوس-تاوەر-١٣-ئەی١',
     name: 'A1 13 شقة للبیع فینوس تاوەر',
-    nameproperty:'فینوس تاوەر ',
+    nameproperty: 'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1203,16 +1172,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/muhammedrasul.webp',
       name: 'محمد رسول',
-      phone:"tel:+9647506912006",
+      phone: "tel:+9647506912006",
       email: "M.Rasul@zest-property.com",
     },
   },
   {
     id: 17,
     type: 'شقة',
-    url:'شقة-للبیع-لالاف-سكاي-فيو-٧-ب٣',
+    url: 'شقة-للبیع-لالاف-سكاي-فيو-٧-ب٣',
     name: 'B3 7 شقة للبیع لالاف سكاي فيو',
-    nameproperty:'سكاي فيو ',
+    nameproperty: 'سكاي فيو ',
     build: '6',
     Allbuild: '39',
     image: '/images/property/skyview/dsf1.jpg',
@@ -1227,16 +1196,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/Aya.Asaab.webp',
       name: 'ايه الصعب',
-      phone:"tel:+9647506322006",
-      email:"aya.s@zest-property.com"
+      phone: "tel:+9647506322006",
+      email: "aya.s@zest-property.com"
     },
   },
   {
     id: 18,
     type: 'شقة',
-    url:'شقة-للبیع-فینوس-تاوەر-٦-ئەی٢',
-    name: 'A2 6 شقة للبیع فینوس تاوەر', 
-    nameproperty:'فینوس تاوەر ',
+    url: 'شقة-للبیع-فینوس-تاوەر-٦-ئەی٢',
+    name: 'A2 6 شقة للبیع فینوس تاوەر',
+    nameproperty: 'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1251,15 +1220,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/rasty.webp',
       name: 'راستي كيفي',
-      phone:"tel:+9647507342006",
-      email:"Rasty.kayfi@zest-property.com"
-    }},
+      phone: "tel:+9647507342006",
+      email: "Rasty.kayfi@zest-property.com"
+    }
+  },
   {
     id: 19,
     type: 'شقة',
-    url:'شقة-للبیع-لالاف-سكاي-فيو-٧-ئەی١',
+    url: 'شقة-للبیع-لالاف-سكاي-فيو-٧-ئەی١',
     name: 'A1 7 شقة للبیع لالاف سكاي فيو',
-    nameproperty:'سكاي فيو ',
+    nameproperty: 'سكاي فيو ',
     build: '6',
     Allbuild: '39',
     image: '/images/property/skyview/dsf1.jpg',
@@ -1274,15 +1244,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/kaywan.webp',
       name: 'كيوان كيفي',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
-    }},
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    }
+  },
   {
     id: 20,
     type: 'شقة',
-    url:'شقة-للبیع-فینوس-تاوەر-٥-ئەی٢',
+    url: 'شقة-للبیع-فینوس-تاوەر-٥-ئەی٢',
     name: 'A2 5 شقة للبیع فینوس تاوەر',
-    nameproperty:'فینوس تاوەر ',
+    nameproperty: 'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1297,15 +1268,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/muhammadmajed.webp',
       name: 'محمد مجيد',
-      phone:"tel:+9647502422006",
+      phone: "tel:+9647502422006",
       email: "mohammad.m@zest-property.com",
-    }},
+    }
+  },
   {
     id: 21,
     type: 'شقة',
-    url:'شقة-للبیع-لالاف-سكاي-فيو-٦-ب٢',
+    url: 'شقة-للبیع-لالاف-سكاي-فيو-٦-ب٢',
     name: 'B2 6 شقة للبیع لالاف سكاي فيو',
-    nameproperty:'سكاي فيو ',
+    nameproperty: 'سكاي فيو ',
     build: '6',
     Allbuild: '39',
     image: '/images/property/skyview/dsf1.jpg',
@@ -1320,15 +1292,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/aliagha.webp',
       name: 'علي آغا',
-      phone:"tel:+9647505912006",
-      email:'ali.a@zest-property.com',
-    }},
+      phone: "tel:+9647505912006",
+      email: 'ali.a@zest-property.com',
+    }
+  },
   {
     id: 22,
     type: 'شقة',
-    url:'شقة-للبیع-فینوس-تاوەر-١٤-ب١',
+    url: 'شقة-للبیع-فینوس-تاوەر-١٤-ب١',
     name: 'B1 14 شقة للبیع فینوس تاوەر',
-    nameproperty:'فینوس تاوەر ',
+    nameproperty: 'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1343,15 +1316,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/kaywan.webp',
       name: 'كيوان كيفي',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
-    }},
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    }
+  },
   {
     id: 23,
     type: 'شقة',
-    url:'شقة-للبیع-لالاف-سكاي-فيو-١٠-ب٢',
+    url: 'شقة-للبیع-لالاف-سكاي-فيو-١٠-ب٢',
     name: 'B2 10 شقة للبیع لالاف سكاي فيو',
-    nameproperty:'سكاي فيو ',
+    nameproperty: 'سكاي فيو ',
     build: '6',
     Allbuild: '39',
     image: '/images/property/skyview/dsf1.jpg',
@@ -1366,15 +1340,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/rasty.webp',
       name: 'راستي كيفي',
-      phone:"tel:+9647507342006",
-      email:"Rasty.kayfi@zest-property.com"
-    }},
+      phone: "tel:+9647507342006",
+      email: "Rasty.kayfi@zest-property.com"
+    }
+  },
   {
     id: 24,
     type: 'شقة',
-    url:'شقة-للبیع-فینوس-تاوەر-٢١-ب١',
+    url: 'شقة-للبیع-فینوس-تاوەر-٢١-ب١',
     name: 'B1 21 شقة للبیع فینوس تاوەر',
-    nameproperty:'فینوس تاوەر ',
+    nameproperty: 'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1389,15 +1364,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/mahmood.webp',
       name: 'محمد مجيد',
-      phone:"tel:+9647501882006",
+      phone: "tel:+9647501882006",
       email: "mohammad.m@zest-property.com",
-    }},
+    }
+  },
   {
     id: 25,
     type: 'شقة',
-    url:'شقة-للبیع-فینوس-تاوەر-١٧-ئەی٢',
+    url: 'شقة-للبیع-فینوس-تاوەر-١٧-ئەی٢',
     name: 'A2 17 شقة للبیع فینوس تاوەر',
-    nameproperty:'فینوس تاوەر ',
+    nameproperty: 'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1412,15 +1388,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/aliagha.webp',
       name: 'علي آغا',
-      phone:"tel:+9647505912006",
-      email:'ali.a@zest-property.com',
-    }},
+      phone: "tel:+9647505912006",
+      email: 'ali.a@zest-property.com',
+    }
+  },
   {
     id: 26,
     type: 'شقة',
-    url:'شقة-للبیع-فینوس-تاوەر-١٣-ب٣',
+    url: 'شقة-للبیع-فینوس-تاوەر-١٣-ب٣',
     name: 'B3 13 شقة للبیع فینوس تاوەر',
-    nameproperty:'فینوس تاوەر ',
+    nameproperty: 'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1435,15 +1412,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/Aya.Alsaab.webp',
       name: 'ايه الصعب',
-      phone:"tel:+9647506322006",
-      email:"aya.s@zest-property.com"
-    }},
+      phone: "tel:+9647506322006",
+      email: "aya.s@zest-property.com"
+    }
+  },
   {
     id: 27,
     type: 'شقة',
-    url:'شقة-للبیع-فینوس-تاوەر-٦-ئەی٣',
+    url: 'شقة-للبیع-فینوس-تاوەر-٦-ئەی٣',
     name: 'A3 6 شقة للبیع فینوس تاوەر',
-    nameproperty:'فینوس تاوەر ',
+    nameproperty: 'فینوس تاوەر ',
     build: '6',
     Allbuild: '30',
     image: '/images/property/venus/asdfaf1.jpg',
@@ -1458,17 +1436,17 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/kaywan.webp',
       name: 'كيوان كيفي',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     }
   },
 
-    {
+  {
     id: 46,
     type: 'شقة',
     url: "شقة-للبیع-نورث-هولند-٩-ئەی-٦",
     name: "A 9 شقة للبیع نورث هولند",
-    nameproperty:'نورث هولند',
+    nameproperty: 'نورث هولند',
     build: '6',
     Allbuild: '20',
     image: '/images/property/north/north_holland_hd.jpg',
@@ -1483,16 +1461,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
-    {
+  {
     id: 46,
     type: 'شقة',
     url: "شقة-للبیع-نورث-هولند-٥-ئەی",
     name: "A 5 شقة للبیع نورث هولند",
-    nameproperty:'نورث هولند',
+    nameproperty: 'نورث هولند',
     build: '6',
     Allbuild: '20',
     image: '/images/property/north/north_holland_hd.jpg',
@@ -1507,16 +1485,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
-    {
+  {
     id: 56,
     type: 'شقة',
     url: "شقة-للبیع-نورث-هولند-١١-ئەی",
     name: "A 11 شقة للبیع نورث هولند",
-    nameproperty:'نورث هولند',
+    nameproperty: 'نورث هولند',
     build: '6',
     Allbuild: '20',
     image: '/images/property/north/north_holland_hd.jpg',
@@ -1531,17 +1509,17 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
 
-    {
+  {
     id: 44,
     type: 'شقة',
     url: "شقة-للبیع-نورث-هولند-٨-بی",
     name: "B 8 شقة للبیع نورث هولند",
-    nameproperty:'نورث هولند',
+    nameproperty: 'نورث هولند',
     build: '6',
     Allbuild: '20',
     image: '/images/property/north/north_holland_hd.jpg',
@@ -1556,16 +1534,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
-    {
+  {
     id: 45,
     type: 'شقة',
     url: "شقة-للبیع-نورث-هولند-٥-بی",
     name: "B 5 شقة للبیع نورث هولند",
-    nameproperty:'نورث هولند',
+    nameproperty: 'نورث هولند',
     build: '6',
     Allbuild: '20',
     image: '/images/property/north/north_holland_hd.jpg',
@@ -1580,16 +1558,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
-    {
+  {
     id: 39,
     type: 'شقة',
     url: "شقة-للبیع-نورث-هولند-٥-بي",
     name: "B 5 شقة للبیع نورث هولند",
-    nameproperty:'نورث هولند',
+    nameproperty: 'نورث هولند',
     build: '6',
     Allbuild: '20',
     image: '/images/property/north/north_holland_hd.jpg',
@@ -1604,16 +1582,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
-    {
+  {
     id: 39,
     type: 'شقة',
     url: "شقة-للبیع-نورث-هولند-٥-دي",
     name: "شقة للبیع نورث هولند",
-    nameproperty:'نورث هولند',
+    nameproperty: 'نورث هولند',
     build: '6',
     Allbuild: '20',
     image: '/images/property/north/north_holland_hd.jpg',
@@ -1628,16 +1606,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
-    {
+  {
     id: 39,
     type: 'شقة',
     url: "شقة-للبیع-نورث-هولند-١٣-ئەي",
     name: "شقة للبیع نورث هولند",
-    nameproperty:'نورث هولند',
+    nameproperty: 'نورث هولند',
     build: '6',
     Allbuild: '20',
     image: '/images/property/north/north_holland_hd.jpg',
@@ -1652,16 +1630,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
-    {
+  {
     id: 40,
     type: 'شقة',
     url: "شقة-للبیع-نورث-هولند-٦-دي",
     name: "D 6 شقة للبیع نورث هولند",
-    nameproperty:'نورث هولند',
+    nameproperty: 'نورث هولند',
     build: '6',
     Allbuild: '20',
     image: '/images/property/north/north_holland_hd.jpg',
@@ -1676,16 +1654,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
-    {
+  {
     id: 40,
     type: 'شقة',
     url: "شقة-للبیع-نورث-هولند-٧-فی",
     name: "F 7 شقة للبیع نورث هولند",
-    nameproperty:'نورث هولند',
+    nameproperty: 'نورث هولند',
     build: '6',
     Allbuild: '20',
     image: '/images/property/north/north_holland_hd.jpg',
@@ -1700,16 +1678,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
-    {
+  {
     id: 41,
     type: 'شقة',
     url: "شقة-للبیع-قیوان-میرادور-١٩-سي",
     name: "C 19 شقة للبیع نورث هولند",
-    nameproperty:'نورث هولند',
+    nameproperty: 'نورث هولند',
     build: '6',
     Allbuild: '20',
     image: '/images/property/north/north_holland_hd.jpg',
@@ -1724,16 +1702,16 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
   {
     id: 43,
     type: 'شقة',
     url: "شقة-للبیع-قیوان-میرادور-٦-بي-٢٠١",
-  name: "B 6 شقة للبیع قیوان میرادور",
-    nameproperty:'قیوان میرادور',
+    name: "B 6 شقة للبیع قیوان میرادور",
+    nameproperty: 'قیوان میرادور',
     build: '9',
     Allbuild: '29',
     image: '/images/property/qaywan/qaywan_hd.jpg',
@@ -1748,25 +1726,25 @@ export const arhousesData = [
     agent: {
       image: '/images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
 
-  ]
+]
 
- 
+
 
 export const arlistAll = [
   {
     id: 1,
     cover: "../images/property/skyview/dsf.jpg",
-    url:'شقة-للبیع-سكاي-فيو-٣٠-ب١',
+    url: 'شقة-للبیع-سكاي-فيو-٣٠-ب١',
     name: "B1 30 شقة للبیع سكاي فيو",
     location: "لالاف سكاي فيو, اربيل",
     nameproject: 'سكاي فيو',
     number: 'B1-30',
-    place:'إربیل - نوروز',
+    place: 'إربیل - نوروز',
     category: "للبيع",
     price: "$22,620",
     type: "1 + 1",
@@ -1777,12 +1755,12 @@ export const arlistAll = [
   {
     id: 4,
     cover: "../images/property/skyview/dsf.jpg",
-    url:'شقة-للبیع-لالاف-سكاي-فيو-١٢-ب١',
+    url: 'شقة-للبیع-لالاف-سكاي-فيو-١٢-ب١',
     name: "B1 12 شقة للبیع سكاي فيو",
     location: "لالاف سكاي فيو, اربيل",
     nameproject: 'سكاي فيو',
     number: 'B1-12',
-    place:'إربیل - نوروز',
+    place: 'إربیل - نوروز',
     category: "للبيع",
     price: "$23,920",
     type: "1 + 1",
@@ -1790,10 +1768,10 @@ export const arlistAll = [
     citys: 'اربيل',
     property: 'شقة'
   },
-    {
+  {
     id: 18,
     cover: "../images/property/venus/asdfaf.jpg",
-    url:'شقة-للبیع-فینوس-تاوەر-٦-ئەی٢',
+    url: 'شقة-للبیع-فینوس-تاوەر-٦-ئەی٢',
     name: "A2 6 شقة للبیع فينوس تاوەر",
     location: "اربيل",
     category: "للبيع",
@@ -1801,23 +1779,23 @@ export const arlistAll = [
     type: "1 + 1",
     nameproject: 'فينوس تاوەر',
     number: 'A2-6',
-    place:'إربیل - هیولیري نوي',
+    place: 'إربیل - هیولیري نوي',
     area: "67 م",
     citys: 'اربيل',
     property: 'شقة'
   },
-        {
+  {
     id: 56,
     cover: "../images/property/north/north_holland_blog.jpg",
     url: "شقة-للبیع-نورث-هولند-٦-ئەی-٢١٠",
     name: "A 6 شقة للبیع نورث هولند",
     location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$28,203", 
+    price: "$28,203",
     type: "1 + 3",
     nameproject: 'نورث هولند',
     number: 'A-6',
-    place:'إربیل - دریم ستي',
+    place: 'إربیل - دریم ستي',
     area: "210 م",
     citys: 'اربيل',
     property: 'شقة'
@@ -1825,7 +1803,7 @@ export const arlistAll = [
   {
     id: 5,
     cover: "../images/property/venus/asdfaf.jpg",
-    url:'شقة-للبیع-فینوس-تاوەر-٢٢-ئەی١',
+    url: 'شقة-للبیع-فینوس-تاوەر-٢٢-ئەی١',
     name: "A1 22 شقة للبیع فينوس تاوەر",
     location: "اربيل",
     category: "للبيع",
@@ -1833,39 +1811,39 @@ export const arlistAll = [
     type: "2 + 1",
     nameproject: 'فينوس تاوەر',
     number: 'A1-22',
-    place:'إربیل - هیولیري نوي',
+    place: 'إربیل - هیولیري نوي',
     area: "105 م",
     citys: 'اربيل',
     property: 'شقة'
   },
-      {
+  {
     id: 39,
     cover: "../images/property/north/north_holland_blog.jpg",
     url: "شقة-للبیع-نورث-هولند-٥-بي",
     name: "B 5 شقة للبیع نورث هولند",
     location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$12,087", 
+    price: "$12,087",
     type: "1 + 1",
     nameproject: 'نورث هولند',
     number: 'B-5',
-    place:'إربیل - دریم ستي',
+    place: 'إربیل - دریم ستي',
     area: "90 م",
     citys: 'اربيل',
     property: 'شقة'
   },
-      {
+  {
     id: 39,
     cover: "../images/property/north/north_holland_blog.jpg",
     url: "شقة-للبیع-نورث-هولند-١٣-ئەي",
     name: "شقة للبیع نورث هولند",
     location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$12,087", 
+    price: "$12,087",
     type: "1 + 1",
     nameproject: 'نورث هولند',
     number: 'A-13',
-    place:'إربیل - دریم ستي',
+    place: 'إربیل - دریم ستي',
     area: "90 م",
     citys: 'اربيل',
     property: 'شقة'
@@ -1873,7 +1851,7 @@ export const arlistAll = [
   {
     id: 6,
     cover: "../images/property/nova/ewr.jpg",
-    url:'شقة-للبیع-نوفا-تاورز-١٤-ئەی٢',
+    url: 'شقة-للبیع-نوفا-تاورز-١٤-ئەی٢',
     name: "A2 14 شقة للبیع نوفا تاوەر",
     location: "اربيل",
     category: "للبيع",
@@ -1881,7 +1859,7 @@ export const arlistAll = [
     type: "1 + 1",
     nameproject: 'نوفا تاوەر',
     number: 'A2-14',
-    place:'إربیل - کنجان ستي',
+    place: 'إربیل - کنجان ستي',
     area: "81 م",
     citys: 'اربيل',
     property: 'شقة'
@@ -1889,7 +1867,7 @@ export const arlistAll = [
   {
     id: 9,
     cover: "../images/property/venus/asdfaf.jpg",
-    url:'شقة-للبیع-فینوس-تاوەر-٢٥-ئەی١',
+    url: 'شقة-للبیع-فینوس-تاوەر-٢٥-ئەی١',
     name: "A1 25 شقة للبیع فينوس تاوەر",
     location: "اربيل",
     category: "للبيع",
@@ -1897,16 +1875,16 @@ export const arlistAll = [
     type: "1 + 1",
     nameproject: 'فينوس تاوەر',
     number: 'A1-25',
-    place:'إربیل - هیولیري نوي',
+    place: 'إربیل - هیولیري نوي',
     area: "72 م",
     citys: 'اربيل',
     property: 'شقة'
   },
- 
+
   {
     id: 10,
     cover: "../images/property/venus/asdfaf.jpg",
-    url:'شقة-للبیع-فینوس-تاوەر-٨-ئەی١',
+    url: 'شقة-للبیع-فینوس-تاوەر-٨-ئەی١',
     name: "A1 8 شقة للبیع فينوس تاوەر",
     location: "اربيل",
     category: "للبيع",
@@ -1914,7 +1892,7 @@ export const arlistAll = [
     type: "1 + 1",
     nameproject: 'فينوس تاوەر',
     number: 'A1-8',
-    place:'إربیل - هیولیري نوي',
+    place: 'إربیل - هیولیري نوي',
     area: "72 م",
     citys: 'اربيل',
     property: 'شقة'
@@ -1922,7 +1900,7 @@ export const arlistAll = [
   {
     id: 11,
     cover: "../images/property/skyview/dsf.jpg",
-    url:'شقة-للبیع-لالاف-سكاي-فيو-٣١-ئەی٣',
+    url: 'شقة-للبیع-لالاف-سكاي-فيو-٣١-ئەی٣',
     name: "A3 31 شقة للبیع سكاي فيو",
     location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
@@ -1930,7 +1908,7 @@ export const arlistAll = [
     type: "2 + 1",
     nameproject: 'سكاي فيو',
     number: 'A3-31',
-    place:'إربیل - نوروز',
+    place: 'إربیل - نوروز',
     area: "120 م",
     citys: 'اربيل',
     property: 'شقة'
@@ -1938,7 +1916,7 @@ export const arlistAll = [
   {
     id: 13,
     cover: "../images/property/skyview/dsf.jpg",
-    url:'شقة-للبیع-لالاف-سكاي-فيو-٣٧-ب٣',
+    url: 'شقة-للبیع-لالاف-سكاي-فيو-٣٧-ب٣',
     name: "B3 37 شقة للبیع سكاي فيو",
     location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
@@ -1946,40 +1924,40 @@ export const arlistAll = [
     type: "2 + 1",
     nameproject: 'سكاي فيو',
     number: 'B3-37',
-    place:'إربیل - نوروز',
+    place: 'إربیل - نوروز',
     area: "120 م",
     citys: 'اربيل',
     property: 'شقة'
   },
-      {
+  {
     id: 38,
     cover: "../images/property/north/north_holland_blog.jpg",
     url: "شقة-للبیع-نورث-هولند-٥-ئەی",
     name: "A 5 شقة للبیع نورث هولند",
     location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$12,087", 
+    price: "$12,087",
     type: "1 + 1",
     nameproject: 'نورث هولند',
     number: 'A-5',
-    place:'إربیل - دریم ستي',
+    place: 'إربیل - دریم ستي',
     area: "90 م",
     citys: 'اربيل',
     property: 'شقة'
   },
 
-      {
+  {
     id: 56,
     cover: "../images/property/north/north_holland_blog.jpg",
     url: "شقة-للبیع-نورث-هولند-١١-ئەی",
     name: "A 11 شقة للبیع نورث هولند",
     location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$12,087", 
+    price: "$12,087",
     type: "1 + 1",
     nameproject: 'نورث هولند',
     number: 'A-11',
-    place:'إربیل - دریم ستي',
+    place: 'إربیل - دریم ستي',
     area: "90 م",
     citys: 'اربيل',
     property: 'شقة'
@@ -1987,7 +1965,7 @@ export const arlistAll = [
   {
     id: 14,
     cover: "../images/property/venus/asdfaf.jpg",
-    url:'شقة-للبیع-فینوس-تاوەر-١٤-ئەی٢',
+    url: 'شقة-للبیع-فینوس-تاوەر-١٤-ئەی٢',
     name: "A2 14 شقة للبیع فينوس تاوەر",
     location: "اربيل",
     category: "للبيع",
@@ -1995,7 +1973,7 @@ export const arlistAll = [
     type: "1 + 1",
     nameproject: 'فينوس تاوەر',
     number: 'A2-14',
-    place:'إربیل - هیولیري نوي',
+    place: 'إربیل - هیولیري نوي',
     area: "76 م",
     citys: 'اربيل',
     property: 'شقة'
@@ -2003,7 +1981,7 @@ export const arlistAll = [
   {
     id: 15,
     cover: "../images/property/skyview/dsf.jpg",
-    url:'شقة-للبیع-لالاف-سكاي-فيو-٢٢-ب٣',
+    url: 'شقة-للبیع-لالاف-سكاي-فيو-٢٢-ب٣',
     name: "B3 22 شقة للبیع سكاي فيو",
     location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
@@ -2011,7 +1989,7 @@ export const arlistAll = [
     type: "2 + 1",
     nameproject: 'سكاي فيو',
     number: 'B3-22',
-    place:'إربیل - نوروز',
+    place: 'إربیل - نوروز',
     area: "120 م",
     citys: 'اربيل',
     property: 'شقة'
@@ -2019,7 +1997,7 @@ export const arlistAll = [
   {
     id: 16,
     cover: "../images/property/venus/asdfaf.jpg",
-    url:'شقة-للبیع-فینوس-تاوەر-١٣-ئەی١',
+    url: 'شقة-للبیع-فینوس-تاوەر-١٣-ئەی١',
     name: "A1 13 شقة للبیع فينوس تاوەر",
     location: "اربيل",
     category: "للبيع",
@@ -2027,31 +2005,31 @@ export const arlistAll = [
     type: "2 + 1",
     nameproject: 'فينوس تاوەر',
     number: 'A1-13',
-    place:'إربیل - هیولیري نوي',
+    place: 'إربیل - هیولیري نوي',
     area: "115 م",
     citys: 'اربيل',
     property: 'شقة'
   },
-    {
-  id: 43,
+  {
+    id: 43,
     cover: "../images/property/qaywan/qaywan_blog.jpg",
-  url: "شقة-للبیع-قیوان-میرادور-٦-بي-٢٠١",
-  name: "B 6 شقة للبیع قیوان میرادور",
-  location: "أربيل - شارع موسل",
-  category: "للبيع",
-  price: "$28,305",
-  type: "1 + 4",
-  nameproject: 'قیوان میرادور',
-  number: 'B-6',
-  place:'إربیل - دریم ستي',
-  area: "201.6 م",
+    url: "شقة-للبیع-قیوان-میرادور-٦-بي-٢٠١",
+    name: "B 6 شقة للبیع قیوان میرادور",
+    location: "أربيل - شارع موسل",
+    category: "للبيع",
+    price: "$28,305",
+    type: "1 + 4",
+    nameproject: 'قیوان میرادور',
+    number: 'B-6',
+    place: 'إربیل - دریم ستي',
+    area: "201.6 م",
     citys: 'اربيل',
     property: 'شقة'
   },
   {
     id: 17,
     cover: "../images/property/skyview/dsf.jpg",
-    url:'شقة-للبیع-لالاف-سكاي-فيو-٧-ب٣',
+    url: 'شقة-للبیع-لالاف-سكاي-فيو-٧-ب٣',
     name: "B3 7 شقة للبیع سكاي فيو",
     location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
@@ -2059,7 +2037,7 @@ export const arlistAll = [
     type: "1 + 1",
     nameproject: 'سكاي فيو',
     number: 'B3-7',
-    place:'إربیل - نوروز',
+    place: 'إربیل - نوروز',
     area: "80 م",
     citys: 'اربيل',
     property: 'شقة'
@@ -2067,7 +2045,7 @@ export const arlistAll = [
   {
     id: 19,
     cover: "../images/property/skyview/dsf.jpg",
-    url:'شقة-للبیع-لالاف-سكاي-فيو-٧-ئەی١',
+    url: 'شقة-للبیع-لالاف-سكاي-فيو-٧-ئەی١',
     name: "A1 7 شقة للبیع سكاي فيو",
     location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
@@ -2075,7 +2053,7 @@ export const arlistAll = [
     type: "1 + 1",
     nameproject: 'سكاي فيو',
     number: 'A1-7',
-    place:'إربیل - نوروز',
+    place: 'إربیل - نوروز',
     area: "80 م",
     citys: 'اربيل',
     property: 'شقة'
@@ -2083,7 +2061,7 @@ export const arlistAll = [
   {
     id: 20,
     cover: "../images/property/venus/asdfaf.jpg",
-    url:'شقة-للبیع-فینوس-تاوەر-٥-ئەی٢',
+    url: 'شقة-للبیع-فینوس-تاوەر-٥-ئەی٢',
     name: "A2 5 شقة للبیع فينوس تاوەر",
     location: "اربيل",
     category: "للبيع",
@@ -2091,7 +2069,7 @@ export const arlistAll = [
     type: "1 + 1",
     nameproject: 'فينوس تاوەر',
     number: 'A2-5',
-    place:'إربیل - هیولیري نوي',
+    place: 'إربیل - هیولیري نوي',
     area: "67 م",
     citys: 'اربيل',
     property: 'شقة'
@@ -2099,7 +2077,7 @@ export const arlistAll = [
   {
     id: 21,
     cover: "../images/property/skyview/dsf.jpg",
-    url:'شقة-للبیع-لالاف-سكاي-فيو-٦-ب٢',
+    url: 'شقة-للبیع-لالاف-سكاي-فيو-٦-ب٢',
     name: "B2 6 شقة للبیع سكاي فيو",
     location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
@@ -2107,23 +2085,23 @@ export const arlistAll = [
     type: "1 + 1",
     nameproject: 'سكاي فيو',
     number: 'B2-6',
-    place:'إربیل - نوروز',
+    place: 'إربیل - نوروز',
     area: "80 م",
     citys: 'اربيل',
     property: 'شقة'
   },
-      {
+  {
     id: 40,
     cover: "../images/property/north/north_holland_blog.jpg",
     url: "شقة-للبیع-نورث-هولند-٦-دي",
     name: "D 6 شقة للبیع نورث هولند",
     location: "أربيل - شارع موسل",
     category: "للبيع",
-    price: "$12,087", 
+    price: "$12,087",
     type: "1 + 1",
     nameproject: 'نورث هولند',
     number: 'D-6',
-    place:'إربیل - دریم ستي',
+    place: 'إربیل - دریم ستي',
     area: "90 م",
     citys: 'اربيل',
     property: 'شقة'
@@ -2131,7 +2109,7 @@ export const arlistAll = [
   {
     id: 22,
     cover: "../images/property/venus/asdfaf.jpg",
-    url:'شقة-للبیع-فینوس-تاوەر-١٤-ب١',
+    url: 'شقة-للبیع-فینوس-تاوەر-١٤-ب١',
     name: " B1 14 شقة للبیع فينوس تاوەر",
     location: "اربيل",
     category: "للبيع",
@@ -2139,7 +2117,7 @@ export const arlistAll = [
     type: "2 + 1",
     nameproject: 'فينوس تاوەر',
     number: 'B1-14',
-    place:'إربیل - هیولیري نوي',
+    place: 'إربیل - هیولیري نوي',
     area: "105 م",
     citys: 'اربيل',
     property: 'شقة'
@@ -2147,7 +2125,7 @@ export const arlistAll = [
   {
     id: 23,
     cover: "../images/property/skyview/dsf.jpg",
-    url:'شقة-للبیع-لالاف-سكاي-فيو-١٠-ب٢',
+    url: 'شقة-للبیع-لالاف-سكاي-فيو-١٠-ب٢',
     name: "B2 10 شقة للبیع سكاي فيو",
     location: "لالاف سكاي فيو, اربيل",
     category: "للبيع",
@@ -2155,13 +2133,13 @@ export const arlistAll = [
     type: "1 + 1",
     nameproject: 'سكاي فيو',
     number: 'B2-10',
-    place:'إربیل - نوروز',
+    place: 'إربیل - نوروز',
     area: "80 م",
     citys: 'اربيل',
     property: 'شقة'
   },
-  
-      {
+
+  {
     id: 33,
     cover: "../images/property/north/north_holland_blog.jpg",
     url: "شقة-للبیع-نورث-هولند-٧-فی",
@@ -2172,12 +2150,12 @@ export const arlistAll = [
     type: "1 + 1",
     nameproject: 'نورث هولند',
     number: 'F-7',
-    place:'إربیل - دریم ستي',
+    place: 'إربیل - دریم ستي',
     area: "90 م",
     citys: 'اربيل',
     property: 'شقة'
   },
-      {
+  {
     id: 33,
     cover: "../images/property/north/north_holland_blog.jpg",
     url: "شقة-للبیع-نورث-هولند-٥-دي",
@@ -2188,12 +2166,12 @@ export const arlistAll = [
     type: "1 + 1",
     nameproject: 'نورث هولند',
     number: 'D-5',
-    place:'إربیل - دریم ستي',
+    place: 'إربیل - دریم ستي',
     area: "90 م",
     citys: 'اربيل',
     property: 'شقة'
   },
-      {
+  {
     id: 44,
     cover: "../images/property/north/north_holland_blog.jpg",
     url: "شقة-للبیع-نورث-هولند-٨-بی",
@@ -2204,12 +2182,12 @@ export const arlistAll = [
     type: "1 + 1",
     nameproject: 'نورث هولند',
     number: 'B-8',
-    place:'إربیل - دریم ستي',
+    place: 'إربیل - دریم ستي',
     area: "90 م",
     citys: 'اربيل',
     property: 'شقة'
   },
-      {
+  {
     id: 45,
     cover: "../images/property/north/north_holland_blog.jpg",
     url: "شقة-للبیع-نورث-هولند-٥-بی",
@@ -2220,7 +2198,7 @@ export const arlistAll = [
     type: "1 + 1",
     nameproject: 'نورث هولند',
     number: 'B-5',
-    place:'إربیل - دریم ستي',
+    place: 'إربیل - دریم ستي',
     area: "90 م",
     citys: 'اربيل',
     property: 'شقة'
@@ -2228,7 +2206,7 @@ export const arlistAll = [
   {
     id: 24,
     cover: "../images/property/venus/asdfaf.jpg",
-    url:'شقة-للبیع-فینوس-تاوەر-٢١-ب١',
+    url: 'شقة-للبیع-فینوس-تاوەر-٢١-ب١',
     name: "B1 21 شقة للبیع فينوس تاوەر",
     location: "اربيل",
     category: "للبيع",
@@ -2236,7 +2214,7 @@ export const arlistAll = [
     type: "2 + 1",
     nameproject: 'فينوس تاوەر',
     number: 'B1-21',
-    place:'إربیل - هیولیري نوي',
+    place: 'إربیل - هیولیري نوي',
     area: "115 م",
     citys: 'اربيل',
     property: 'شقة'
@@ -2244,7 +2222,7 @@ export const arlistAll = [
   {
     id: 25,
     cover: "../images/property/venus/asdfaf.jpg",
-    url:'شقة-للبیع-فینوس-تاوەر-١٧-ئەی٢',
+    url: 'شقة-للبیع-فینوس-تاوەر-١٧-ئەی٢',
     name: "A2 17 شقة للبیع فينوس تاوەر",
     location: "اربيل",
     category: "للبيع",
@@ -2252,7 +2230,7 @@ export const arlistAll = [
     type: "1 + 1",
     nameproject: 'فينوس تاوەر',
     number: 'A2-17',
-    place:'إربیل - هیولیري نوي',
+    place: 'إربیل - هیولیري نوي',
     area: "67 م",
     citys: 'اربيل',
     property: 'شقة'
@@ -2261,7 +2239,7 @@ export const arlistAll = [
   {
     id: 26,
     cover: "../images/property/venus/asdfaf.jpg",
-    url:'شقة-للبیع-فینوس-تاوەر-١٣-ب٣',
+    url: 'شقة-للبیع-فینوس-تاوەر-١٣-ب٣',
     name: "B3 13 شقة للبیع فينوس تاوەر",
     location: "اربيل",
     category: "للبيع",
@@ -2269,7 +2247,7 @@ export const arlistAll = [
     type: "2 + 1",
     nameproject: 'فينوس تاوەر',
     number: 'B3-13',
-    place:'إربیل - هیولیري نوي',
+    place: 'إربیل - هیولیري نوي',
     area: "105 م",
     citys: 'اربيل',
     property: 'شقة'
@@ -2277,7 +2255,7 @@ export const arlistAll = [
   {
     id: 27,
     cover: "../images/property/venus/asdfaf.jpg",
-    url:'شقة-للبیع-فینوس-تاوەر-٦-ئەی٣',
+    url: 'شقة-للبیع-فینوس-تاوەر-٦-ئەی٣',
     name: "A3 6 شقة للبیع فينوس تاوەر",
     location: "اربيل",
     category: "للبيع",
@@ -2285,68 +2263,68 @@ export const arlistAll = [
     type: "1 + 1",
     nameproject: 'فينوس تاوەر',
     number: 'A3-6',
-    place:'إربیل - هیولیري نوي',
+    place: 'إربیل - هیولیري نوي',
     area: "81 م",
     citys: 'اربيل',
     property: 'شقة'
   },
 ]
 
- export const arlist = [
-   {
-     id: 1,
+export const arlist = [
+  {
+    id: 1,
     cover: "../images/property/skyview/dsf.jpg",
     url: "شقة-للبیع-سكاي-فيو-٣٠-ب١",
     name: "B1 30 شقة للبیع سكاي فيو",
     location: "لالاف سكاي فيو, اربيل",
     nameproject: 'سكاي فيو',
     number: 'B1-30',
-    place:'إربیل - نوروز',
+    place: 'إربیل - نوروز',
     category: "للبيع",
     price: "$22,620",
     type: "1 + 1",
     area: "78 م"
   },
   {
-  id: 39,
-  cover: "../images/property/north/north_holland_blog.jpg",
-  url: "شقة-للبیع-نورث-هولند-٥-بي",
-  name: "B 5 شقة للبیع نورث هولند",
-  location: "أربيل - شارع موسل",
-  nameproject: 'نورث هولند',
-  number: 'B-5',
-  place:'إربیل - دریم ستي',
-  category: "للبيع",
-  price: "$12,087", 
-  type: "1 + 1",
-  area: "90 م"
+    id: 39,
+    cover: "../images/property/north/north_holland_blog.jpg",
+    url: "شقة-للبیع-نورث-هولند-٥-بي",
+    name: "B 5 شقة للبیع نورث هولند",
+    location: "أربيل - شارع موسل",
+    nameproject: 'نورث هولند',
+    number: 'B-5',
+    place: 'إربیل - دریم ستي',
+    category: "للبيع",
+    price: "$12,087",
+    type: "1 + 1",
+    area: "90 م"
   },
- 
-       {
-  id: 43,
+
+  {
+    id: 43,
     cover: "../images/property/qaywan/qaywan_blog.jpg",
-  url: "شقة-للبیع-قیوان-میرادور-٦-بي-٢٠١",
-  name: "B 6 شقة للبیع قیوان میرادور",
-  location: "أربيل - شارع موسل",
-  nameproject: 'قیوان میرادور',
-  number: 'B-6',
-  place:'إربیل - دریم ستي',
-  category: "للبيع",
-  price: "$28,305",
-  type: "1 + 4",
-  area: "201.6 م",
+    url: "شقة-للبیع-قیوان-میرادور-٦-بي-٢٠١",
+    name: "B 6 شقة للبیع قیوان میرادور",
+    location: "أربيل - شارع موسل",
+    nameproject: 'قیوان میرادور',
+    number: 'B-6',
+    place: 'إربیل - دریم ستي',
+    category: "للبيع",
+    price: "$28,305",
+    type: "1 + 4",
+    area: "201.6 م",
     citys: 'اربيل',
     property: 'شقة'
   },
   {
     id: 27,
     cover: "../images/property/venus/asdfaf.jpg",
-    url:'شقة-للبیع-فینوس-تاوەر-٦-ئەی٣',
+    url: 'شقة-للبیع-فینوس-تاوەر-٦-ئەی٣',
     name: "A3 6 شقة للبیع فينوس تاوەر",
     location: "اربيل",
     nameproject: 'فينوس تاوەر',
     number: 'A3 - 6',
-    place:'إربیل - هیولیري نوي',
+    place: 'إربیل - هیولیري نوي',
     category: "للبيع",
     price: "$14,442",
     type: "1 + 1",
@@ -2376,8 +2354,8 @@ export const housesData = [
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
   {
@@ -2400,8 +2378,8 @@ export const housesData = [
     agent: {
       image: '../images/customer/mahmood.webp',
       name: 'Mahmood Abdulla',
-      phone:"tel:+9647501882006",
-      email:'mahmood@zest-property.com'
+      phone: "tel:+9647501882006",
+      email: 'mahmood@zest-property.com'
     },
   },
   {
@@ -2409,7 +2387,7 @@ export const housesData = [
     type: 'Apartment',
     url: 'Apartment-for-Sale-Venus-Towers-A1-22-Floor',
     name: 'Apartment for Sale Venus Towers A1 22 Floor',
-    nameproperty:'Venus Towers ',
+    nameproperty: 'Venus Towers ',
     build: '6',
     Allbuild: '30',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -2424,16 +2402,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/muhammadmajed.webp',
       name: 'Muhamad Majid',
-      phone:"tel:+9647502422006",
+      phone: "tel:+9647502422006",
       email: "mohammad.m@zest-property.com",
     },
   },
   {
     id: 6,
     type: 'Apartment',
-    url:'Apartment-for-Sale-Nova-towers-A2-14-Floor',
+    url: 'Apartment-for-Sale-Nova-towers-A2-14-Floor',
     name: 'Apartment for Sale Nova towers A2 14 Floor',
-    nameproperty:'Nova towers',
+    nameproperty: 'Nova towers',
     build: '5',
     Allbuild: '22',
     image: '../images/property/nova/ewr1.jpg',
@@ -2448,16 +2426,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/shaho.webp',
       name: 'Shaho Dyaree',
-      phone:"tel:+9647509632006",
+      phone: "tel:+9647509632006",
       email: "shahoo.d@zest-property.com",
     },
   },
   {
     id: 9,
     type: 'Apartament',
-    url:'Apartment-for-Sale-Venus-Towers-A1-25-Floor',
+    url: 'Apartment-for-Sale-Venus-Towers-A1-25-Floor',
     name: 'Apartment for Sale Venus Towers A1 25 Floor',
-    nameproperty:'Venus Towers ',
+    nameproperty: 'Venus Towers ',
     build: '6',
     Allbuild: '30',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -2472,16 +2450,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/AkamAli.webp',
       name: 'Akam Ali',
-      phone:"tel:+9647501762006",
-      email:'akam.a@zest-property.com'
+      phone: "tel:+9647501762006",
+      email: 'akam.a@zest-property.com'
     },
   },
   {
     id: 10,
     type: 'Apartment',
-    url:'Apartment-for-Sale-Venus-Towers-A1-8-Floor',
+    url: 'Apartment-for-Sale-Venus-Towers-A1-8-Floor',
     name: 'Apartment for Sale Venus Towers A1 8 Floor',
-    nameproperty:'Venus Towers ',
+    nameproperty: 'Venus Towers ',
     build: '6',
     Allbuild: '30',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -2496,14 +2474,14 @@ export const housesData = [
     agent: {
       image: '../images/customer/Aya.Alsaabb.webp',
       name: 'Aya Alsaabb',
-      phone:"tel:+9647506322006",
-      email:"aya.s@zest-property.com"
+      phone: "tel:+9647506322006",
+      email: "aya.s@zest-property.com"
     },
   },
   {
     id: 11,
     type: 'Apartment',
-    url:'Apartment-for-Sale-Sky-View-A3-31-Floor',
+    url: 'Apartment-for-Sale-Sky-View-A3-31-Floor',
     name: 'Apartment for Sale Sky View A3 31 Floor',
     nameproperty: 'sky view',
     build: '6',
@@ -2520,14 +2498,14 @@ export const housesData = [
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
   {
     id: 13,
     type: 'Apartment',
-    url:'Apartment-for-Sale-Sky-View-B3-37-Floor',
+    url: 'Apartment-for-Sale-Sky-View-B3-37-Floor',
     name: 'Apartment for Sale Sky View B3 37 Floor',
     nameproperty: 'Sky view',
     build: '6',
@@ -2544,16 +2522,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/mahmood.webp',
       name: 'Mahmood Abdulla',
-      phone:"tel:+9647501882006",
-      email:'mahmood@zest-property.com'
+      phone: "tel:+9647501882006",
+      email: 'mahmood@zest-property.com'
     },
   },
-      {
+  {
     id: 56,
     type: 'Apartament',
     url: "Apartment-for-Sale-North-Holland-A-6-floor",
     name: "Apartment for Sale North Holland A 6",
-    nameproperty:'North Holland',
+    nameproperty: 'North Holland',
     build: '6',
     Allbuild: '20',
     image: '../images/property/north/north_holland_hd.jpg',
@@ -2568,16 +2546,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
   {
     id: 14,
     type: 'Apartment',
-    url:'Apartment-for-Sale-Venus-Towers-A2-14-Floor',
+    url: 'Apartment-for-Sale-Venus-Towers-A2-14-Floor',
     name: 'Apartment for Sale Venus Towers A2 14 Floor',
-    nameproperty:'Venus Towers ',
+    nameproperty: 'Venus Towers ',
     build: '6',
     Allbuild: '30',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -2592,14 +2570,14 @@ export const housesData = [
     agent: {
       image: '../images/customer/muhammadmajed.webp',
       name: 'Muhammad Majed',
-      phone:"tel:+9647502422006",
+      phone: "tel:+9647502422006",
       email: "mohammad.m@zest-property.com",
     },
   },
   {
     id: 15,
     type: 'Apartment',
-    url:'Apartment-for-Sale-Sky-View-B3-22-Floor',
+    url: 'Apartment-for-Sale-Sky-View-B3-22-Floor',
     name: 'Apartment for Sale Sky View B3 22 Floor',
     nameproperty: 'Sky view',
     build: '6',
@@ -2616,16 +2594,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/aliagha.webp',
       name: 'Ali Agha',
-      phone:"tel:+9647505912006",
-      email:'ali.a@zest-property.com',
+      phone: "tel:+9647505912006",
+      email: 'ali.a@zest-property.com',
     },
   },
   {
     id: 16,
     type: 'Apartament',
-    url:'Apartment-for-Sale-Venus-Towers-A1-13-Floor',
+    url: 'Apartment-for-Sale-Venus-Towers-A1-13-Floor',
     name: 'Apartment for Sale Venus Towers A1 13 Floor',
-    nameproperty:'Venus Towers ',
+    nameproperty: 'Venus Towers ',
     build: '6',
     Allbuild: '30',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -2640,14 +2618,14 @@ export const housesData = [
     agent: {
       image: '../images/customer/muhammedrasul.webp',
       name: 'Muhammad Rasul',
-      phone:"tel:+9647506912006",
+      phone: "tel:+9647506912006",
       email: "M.Rasul@zest-property.com",
     },
   },
   {
     id: 17,
     type: 'Apartament',
-    url:'Apartment-for-Sale-Sky-View-B3-7-Floor',
+    url: 'Apartment-for-Sale-Sky-View-B3-7-Floor',
     name: 'Apartment for Sale Sky View B3 7 Floor',
     nameproperty: 'sky view',
     build: '6',
@@ -2664,16 +2642,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/Aya.Asaab.webp',
       name: 'Aya Asaab',
-      phone:"tel:+9647506322006",
-      email:"aya.s@zest-property.com"
+      phone: "tel:+9647506322006",
+      email: "aya.s@zest-property.com"
     },
   },
   {
     id: 18,
     type: 'Apartament',
-    url:'Apartment-for-Sale-Venus-Towers-A2-6-Floor',
+    url: 'Apartment-for-Sale-Venus-Towers-A2-6-Floor',
     name: 'Apartment for Sale Venus Towers A2 6 Floor',
-    nameproperty:'Venus Towers ',
+    nameproperty: 'Venus Towers ',
     build: '6',
     Allbuild: '30',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -2688,13 +2666,14 @@ export const housesData = [
     agent: {
       image: '../images/customer/rasty.webp',
       name: 'Rasty Kayfi',
-      phone:"tel:+9647507342006",
-      email:"Rasty.kayfi@zest-property.com"
-    }},
+      phone: "tel:+9647507342006",
+      email: "Rasty.kayfi@zest-property.com"
+    }
+  },
   {
     id: 19,
     type: 'Apartament',
-    url:'Apartment-for-Sale-Sky-View-A1-7-Floor',
+    url: 'Apartment-for-Sale-Sky-View-A1-7-Floor',
     name: 'Apartment for Sale Sky View A1 7 Floor',
     nameproperty: 'sky view',
     build: '6',
@@ -2711,15 +2690,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
-    }},
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    }
+  },
   {
     id: 20,
     type: 'Apartament',
-    url:'Apartment-for-Sale-Venus-Towers-A2-5-Floor',
+    url: 'Apartment-for-Sale-Venus-Towers-A2-5-Floor',
     name: 'Apartment for Sale Venus Towers A2 5 Floor',
-    nameproperty:'Venus Towers ',
+    nameproperty: 'Venus Towers ',
     build: '6',
     Allbuild: '30',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -2734,13 +2714,14 @@ export const housesData = [
     agent: {
       image: '../images/customer/muhammadmajed.webp',
       name: 'Muhammad Majed',
-      phone:"tel:+9647502422006",
+      phone: "tel:+9647502422006",
       email: "mohammad.m@zest-property.com",
-    }},
+    }
+  },
   {
     id: 21,
     type: 'Apartament',
-    url:'Apartment-for-Sale-Sky-View-B2-6-Floor',
+    url: 'Apartment-for-Sale-Sky-View-B2-6-Floor',
     name: 'Apartment for Sale Sky View B2 6 Floor',
     nameproperty: 'sky view',
     build: '6',
@@ -2757,15 +2738,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/aliagha.webp',
       name: 'Ali Agha',
-      phone:"tel:+9647505912006",
-      email:'ali.a@zest-property.com',
-    }},
+      phone: "tel:+9647505912006",
+      email: 'ali.a@zest-property.com',
+    }
+  },
   {
     id: 22,
     type: 'Apartament',
-    url:'Apartment-for-Sale-Venus-Towers-B1-14-Floor',
+    url: 'Apartment-for-Sale-Venus-Towers-B1-14-Floor',
     name: 'Apartment for Sale Venus Towers B1 14 Floor',
-    nameproperty:'Venus Towers ',
+    nameproperty: 'Venus Towers ',
     build: '6',
     Allbuild: '30',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -2780,13 +2762,14 @@ export const housesData = [
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
-    }},
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    }
+  },
   {
     id: 23,
     type: 'Apartament',
-    url:'Apartment-for-Sale-Sky-View-B2-10-Floor',
+    url: 'Apartment-for-Sale-Sky-View-B2-10-Floor',
     name: 'Apartment for Sale Sky View B2 10 Floor',
     nameproperty: 'sky view',
     build: '6',
@@ -2803,15 +2786,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/rasty.webp',
       name: 'Rasty Kayfi',
-      phone:"tel:+9647507342006",
-      email:"Rasty.kayfi@zest-property.com"
-    }},
+      phone: "tel:+9647507342006",
+      email: "Rasty.kayfi@zest-property.com"
+    }
+  },
   {
     id: 24,
     type: 'Apartament',
-    url:'Apartment-for-Sale-Venus-Towers-B1-21-Floor',
+    url: 'Apartment-for-Sale-Venus-Towers-B1-21-Floor',
     name: 'Apartment for Sale Venus Towers B1 21 Floor',
-    nameproperty:'Venus Towers ',
+    nameproperty: 'Venus Towers ',
     build: '6',
     Allbuild: '30',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -2826,15 +2810,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/mahmood.webp',
       name: 'Mahmood Majed',
-      phone:"tel:+9647501882006",
+      phone: "tel:+9647501882006",
       email: "mohammad.m@zest-property.com",
-    }},
+    }
+  },
   {
     id: 25,
     type: 'Apartament',
-    url:'Apartment-for-Sale-Venus-Towers-A2-17-Floor',
+    url: 'Apartment-for-Sale-Venus-Towers-A2-17-Floor',
     name: 'Apartment for Sale Venus Towers A2 17 Floor',
-    nameproperty:'Venus Towers ',
+    nameproperty: 'Venus Towers ',
     build: '6',
     Allbuild: '30',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -2849,15 +2834,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/aliagha.webp',
       name: 'Ali Agha',
-      phone:"tel:+9647505912006",
-      email:'ali.a@zest-property.com',
-    }},
+      phone: "tel:+9647505912006",
+      email: 'ali.a@zest-property.com',
+    }
+  },
   {
     id: 26,
     type: 'Apartament',
-    url:'Apartment-for-Sale-Venus-Towers-B3-13-Floor',
+    url: 'Apartment-for-Sale-Venus-Towers-B3-13-Floor',
     name: 'Apartment for Sale Venus Towers B3 13 Floor',
-    nameproperty:'Venus Towers ',
+    nameproperty: 'Venus Towers ',
     build: '6',
     Allbuild: '30',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -2872,15 +2858,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/Aya.Alsaab.webp',
       name: 'Aya Alsaab',
-      phone:"tel:+9647506322006",
-      email:"aya.s@zest-property.com"
-    }},
+      phone: "tel:+9647506322006",
+      email: "aya.s@zest-property.com"
+    }
+  },
   {
     id: 27,
     type: 'Apartament',
-    url:'Apartment-for-Sale-Venus-Towers-A3-6-Floor',
+    url: 'Apartment-for-Sale-Venus-Towers-A3-6-Floor',
     name: 'Apartment for Sale Venus Towers A3 6 Floor',
-    nameproperty:'Venus Towers ',
+    nameproperty: 'Venus Towers ',
     build: '6',
     Allbuild: '30',
     image: '../images/property/venus/asdfaf1.jpg',
@@ -2895,17 +2882,17 @@ export const housesData = [
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     }
   },
 
-    {
+  {
     id: 33,
     type: 'Apartament',
     url: "Apartment-for-Sale-North-Holland-F-7-floor",
     name: "Apartment for Sale North Holland F 7",
-    nameproperty:'North Holland',
+    nameproperty: 'North Holland',
     build: '6',
     Allbuild: '20',
     image: '../images/property/north/north_holland_hd.jpg',
@@ -2920,16 +2907,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
-    {
+  {
     id: 56,
     type: 'Apartament',
     url: "Apartment-for-Sale-North-Holland-A-11",
     name: "Apartment for Sale North Holland A 11",
-    nameproperty:'North Holland',
+    nameproperty: 'North Holland',
     build: '6',
     Allbuild: '20',
     image: '../images/property/north/north_holland_hd.jpg',
@@ -2944,16 +2931,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
-    {
+  {
     id: 56,
     type: 'Apartament',
     url: "Apartment-for-Sale-North-Holland-A-13",
     name: "Apartment for Sale North Holland A 13",
-    nameproperty:'North Holland',
+    nameproperty: 'North Holland',
     build: '6',
     Allbuild: '20',
     image: '../images/property/north/north_holland_hd.jpg',
@@ -2968,16 +2955,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
-    {
+  {
     id: 56,
     type: 'Apartament',
     url: "Apartment-for-Sale-North-Holland-D-5",
     name: "Apartment for Sale North Holland D 5",
-    nameproperty:'North Holland',
+    nameproperty: 'North Holland',
     build: '6',
     Allbuild: '20',
     image: '../images/property/north/north_holland_hd.jpg',
@@ -2992,17 +2979,17 @@ export const housesData = [
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
 
-    {
+  {
     id: 38,
     type: 'Apartament',
     url: "Apartment-for-Sale-North-Holland-B-5-floor",
     name: "Apartment for Sale North Holland B 5",
-    nameproperty:'North Holland',
+    nameproperty: 'North Holland',
     build: '6',
     Allbuild: '20',
     image: '../images/property/north/north_holland_hd.jpg',
@@ -3017,16 +3004,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
-    {
+  {
     id: 39,
     type: 'Apartament',
     url: "Apartment-for-Sale-North-Holland-B-5-floor",
     name: "Apartment for Sale North Holland B 5",
-    nameproperty:'North Holland',
+    nameproperty: 'North Holland',
     build: '6',
     Allbuild: '20',
     image: '../images/property/north/north_holland_hd.jpg',
@@ -3041,16 +3028,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
-    {
+  {
     id: 40,
     type: 'Apartament',
     url: "Apartment-for-Sale-North-Holland-D-6-floor",
     name: "Apartment for Sale North Holland D 6",
-    nameproperty:'North Holland',
+    nameproperty: 'North Holland',
     build: '6',
     Allbuild: '20',
     image: '../images/property/north/north_holland_hd.jpg',
@@ -3065,16 +3052,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
-    {
+  {
     id: 44,
     type: 'Apartament',
     url: "Apartment-for-Sale-North-Holland-B-8",
     name: "Apartment for Sale North Holland B 8",
-    nameproperty:'North Holland',
+    nameproperty: 'North Holland',
     build: '6',
     Allbuild: '20',
     image: '../images/property/north/north_holland_hd.jpg',
@@ -3089,8 +3076,8 @@ export const housesData = [
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
   //   {
@@ -3117,12 +3104,12 @@ export const housesData = [
   //     email:"kaiwankaify@zest-property.com"
   //   },
   // },
-    {
+  {
     id: 41,
     type: 'Apartament',
     url: "Apartment-for-Sale-QAIWAN-MIRADOR-C-19-floor",
     name: "Apartment for Sale QAIWAN MIRADOR C 19",
-    nameproperty:'QAIWAN MIRADOR',
+    nameproperty: 'QAIWAN MIRADOR',
     build: '9',
     Allbuild: '29',
     image: '../images/property/qaywan/qaywan_hd.jpg',
@@ -3137,16 +3124,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
   {
     id: 43,
     type: 'Apartament',
     url: "Apartment-for-Sale-QAIWAN-MIRADOR-B-6-201",
-  name: "Apartment for Sale QAIWAN MIRADOR B 6",
-    nameproperty:'QAIWAN MIRADOR',
+    name: "Apartment for Sale QAIWAN MIRADOR B 6",
+    nameproperty: 'QAIWAN MIRADOR',
     build: '9',
     Allbuild: '29',
     image: '../images/property/qaywan/qaywan_hd.jpg',
@@ -3161,16 +3148,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
-    {
+  {
     id: 50,
     type: 'Apartament',
     url: "Apartment-for-Sale-North-Holland-B-6",
     name: "Apartment for Sale North Holland B 6",
-    nameproperty:'North Holland',
+    nameproperty: 'North Holland',
     build: '6',
     Allbuild: '20',
     image: '../images/property/north/north_holland_hd.jpg',
@@ -3185,16 +3172,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
-      {
+  {
     id: 52,
     type: 'Apartament',
     url: "Apartment-for-Sale-North-Holland-A-7",
     name: "Apartment for Sale North Holland A 7",
-    nameproperty:'North Holland',
+    nameproperty: 'North Holland',
     build: '6',
     Allbuild: '20',
     image: '../images/property/north/north_holland_hd.jpg',
@@ -3209,16 +3196,16 @@ export const housesData = [
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
-      {
+  {
     id: 52,
     type: 'Apartament',
     url: "Apartment-for-Sale-North-Holland-A-8",
     name: "Apartment for Sale North Holland A 8",
-    nameproperty:'North Holland',
+    nameproperty: 'North Holland',
     build: '6',
     Allbuild: '20',
     image: '../images/property/north/north_holland_hd.jpg',
@@ -3233,18 +3220,18 @@ export const housesData = [
     agent: {
       image: '../images/customer/kaywan.webp',
       name: 'Kaywan Kayfi',
-      phone:"tel:+9647506662006",
-      email:"kaiwankaify@zest-property.com"
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
     },
   },
 
-  ]
+]
 
 
 export const images = [
   {
-    mainlogo:'../images/logo.png'
-  },  
+    mainlogo: '../images/logo.png'
+  },
 ]
 
 
@@ -3296,7 +3283,7 @@ export const arteam = [
     address: "مشروع: سكاي لاند كركوك",
     name: "اكام علي",
     email: "mailto:akam.a@zest-property.com",
-    phone:"tel:+9647501762006",
+    phone: "tel:+9647501762006",
   },
   {
     list: "50",
@@ -3304,7 +3291,7 @@ export const arteam = [
     address: "المشروع: اربيل",
     name: "كيوان كيفي",
     email: "mailto:kaiwankaify@zest-property.com",
-    phone:"tel:+9647506662006",
+    phone: "tel:+9647506662006",
   },
   {
     list: "50",
@@ -3312,7 +3299,7 @@ export const arteam = [
     address: "المشروع: اربيل",
     name: "مريم موفق",
     email: "mailto:mriam.m@zest-property.com",
-    phone:"tel:+9647502252006",
+    phone: "tel:+9647502252006",
   },
   {
     list: "50",
@@ -3320,7 +3307,7 @@ export const arteam = [
     address: "المشروع: اربيل",
     name: "راستي كيفي",
     email: "mailto:Rasty.kayfi@zest-property.com",
-    phone:"tel:+9647507342006",
+    phone: "tel:+9647507342006",
   },
   {
     list: "50",
@@ -3328,7 +3315,7 @@ export const arteam = [
     address: "المشروع: كركوك",
     name: "محمد سامي",
     email: "mailto:m.sami@zest-property.com",
-    phone:"tel:+9647708652006",
+    phone: "tel:+9647708652006",
   },
   {
     list: "50",
@@ -3336,7 +3323,7 @@ export const arteam = [
     address: "المشروع: اربيل",
     name: "ايه الصعب",
     email: "mailto:aya.s@zest-property.com",
-    phone:"tel:+9647506322006",
+    phone: "tel:+9647506322006",
   },
   {
     list: "50",
@@ -3344,26 +3331,26 @@ export const arteam = [
     address: "المشروع: اربيل",
     name: "عبد الله فارس ",
     email: "mailto:abdulla.f@zest-property.com",
-    phone:"tel:+9647506522006",
+    phone: "tel:+9647506522006",
   },
-     {
+  {
     list: "50",
     cover: "../images/customer/mahmood.webp",
     address: "المشروع: اربيل",
     name: " محمود عبدولله ",
     email: "mailto:'mahmood@zest-property.com'",
-    phone:"tel:+9647501882006",
+    phone: "tel:+9647501882006",
   },
 ]
 
 export const arallAgents = [
-   {
+  {
     list: "50",
     cover: "../images/customer/AkamAli.webp",
     address: "مشروع: سكاي لاند كركوك",
     name: "اكام علي",
     email: "mailto:akam.a@zest-property.com",
-    phone:"tel:+9647501762006",
+    phone: "tel:+9647501762006",
   },
   {
     list: "50",
@@ -3371,23 +3358,23 @@ export const arallAgents = [
     address: "المشروع: اربيل",
     name: "كيوان كيفي",
     email: "mailto:kaiwankaify@zest-property.com",
-    phone:"tel:+9647506662006",
+    phone: "tel:+9647506662006",
   },
-    {
+  {
     list: "50",
     cover: "../images/customer/mriam.jpg",
     address: "المشروع: اربيل",
     name: "مريم موفق",
     email: "mailto:mriam.m@zest-property.com",
-    phone:"tel:+9647502252006",
+    phone: "tel:+9647502252006",
   },
-    {
+  {
     list: "50",
     cover: "../images/customer/abdulla.jpg",
     address: "المشروع: اربيل",
     name: "عبد الله فارس ",
     email: "mailto:abdulla.f@zest-property.com",
-    phone:"tel:+9647506522006",
+    phone: "tel:+9647506522006",
   },
   {
     list: "50",
@@ -3395,7 +3382,7 @@ export const arallAgents = [
     address: "المشروع: اربيل",
     name: "راستي كيفي",
     email: "mailto:Rasty.kayfi@zest-property.com",
-    phone:"tel:+9647507342006",
+    phone: "tel:+9647507342006",
   },
   {
     list: "50",
@@ -3403,7 +3390,7 @@ export const arallAgents = [
     address: "المشروع: اربيل",
     name: "محمود عبدالله",
     email: "mailto:mahmood@zest-property.com",
-    phone:"tel:+9647501882006",
+    phone: "tel:+9647501882006",
   },
   {
     list: "50",
@@ -3411,7 +3398,7 @@ export const arallAgents = [
     address: "المشروع: كركوك",
     name: "شاهو دياري",
     email: "mailto:shahoo.d@zest-property.com",
-    phone:"tel:+9647509632006",
+    phone: "tel:+9647509632006",
   },
   {
     list: "50",
@@ -3419,7 +3406,7 @@ export const arallAgents = [
     address: "المشروع: كركوك",
     name: "محمد سامي",
     email: "mailto:m.sami@zest-property.com",
-    phone:"tel:+9647708652006",
+    phone: "tel:+9647708652006",
   },
   {
     list: "50",
@@ -3427,7 +3414,7 @@ export const arallAgents = [
     address: "المشروع: اربيل",
     name: "ايه الصعب",
     email: "mailto:aya.s@zest-property.com",
-    phone:"tel:+9647506322006",
+    phone: "tel:+9647506322006",
   },
   {
     list: "50",
@@ -3435,7 +3422,7 @@ export const arallAgents = [
     address: "المشروع: كركوك",
     name: "هوزان جمعة",
     email: "mailto:hozan.j@zest-property.com",
-    phone:"tel:+9647509102006",
+    phone: "tel:+9647509102006",
   },
   // {
   //   list: "50",
@@ -3451,7 +3438,7 @@ export const arallAgents = [
     address: "المشروع: اربيل",
     name: "محمد رسول",
     email: "mailto:M.Rasul@zest-property.com",
-    phone:"tel:+9647506912006",
+    phone: "tel:+9647506912006",
   },
   // {
   //   list: "50",

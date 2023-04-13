@@ -73,7 +73,7 @@ const PropertyDetails = (val) => {
     {fword == 'ar' ? 
       <Helmet>
         <title>  {arproperty.name} - عقارات زيست</title>
-        <meta name='description' content={ "دولار " + arproperty.price +" ارضيية و سعر يبدء من "  + arproperty.Allbuild +" عمارة و" + arproperty.build + 'الذي يتكون من ' + arproperty.name + 'تقوم زيست بالإستثمار في مشروع '} />
+        <meta name='description' content={ "دولار " + arproperty.price +" ارضيية و سعر يبدء من "  + arproperty.Allbuild +" عمارة و "  + arproperty.build + ' الذي يتكون من ' + arproperty.name + ' تقوم زيست بالإستثمار في مشروع '} />
       </Helmet>
       : 
       <Helmet>
@@ -120,7 +120,7 @@ const PropertyDetails = (val) => {
             </div>
           </div>
           <div className='discription'>
-            <p> مشروع <span>{arproperty.nameproperty}</span> في <span>{arproperty.address}</span> يتألف من <span>{arproperty.build}</span> عمارة كل عمارة <span>{arproperty.Allbuild}</span> طابق
+            <p> مشروع <span>{arproperty.nameproperty}</span> في <span>{arproperty.address}</span> يتألف من <span>{arproperty.build}</span> عمارة كل عمارة <span>{arproperty.Allbuild}</span> طابق 
 يتميز بـمساحات خضراء جميلة, نظام حماية وامن كامل, بلكونة على محيط الشقة </p>
           </div>
         </div>
