@@ -26,9 +26,6 @@ function Searchhero() {
     const propertyParams = queryParams.get("Property")
     const saleTypeParams = queryParams.get("saleType")
 
-
-
-
     return (
         <form className="backsearch" action="/properties">
             <ul className='fromsearch'>

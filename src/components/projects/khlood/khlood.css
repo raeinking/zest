@@ -242,7 +242,7 @@
 .div4 .overlays h3 {
     color: white;
     position: absolute;
-    bottom: 35px;
+    bottom: 10px;
     left: 10px;
     text-align: center;
 }
@@ -253,7 +253,6 @@
     bottom: 10px;
     left: 10px;
     text-align: center;
-    /* letter-spacing: 3.2px; */
 }
 
 
@@ -270,7 +269,7 @@
 .div5 .overlays h3 {
     color: white;
     position: absolute;
-    bottom: 35px;
+    bottom: 10px;
     left: 10px;
     text-align: center;
 }
@@ -298,7 +297,7 @@
 .div6 .overlays h3 {
     color: white;
     position: absolute;
-    bottom: 35px;
+    bottom: 10px;
     left: 10px;
     text-align: center;
 }

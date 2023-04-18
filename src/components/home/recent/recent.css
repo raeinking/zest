@@ -1,7 +1,8 @@
 .text {
   /* padding: 0 30px; */
 }
- .categorys span {
+
+.categorys span {
   padding: 4px 15px;
   border-radius: 2px;
   font-weight: 600;
@@ -10,23 +11,28 @@
   border-radius: 5px;
   margin: 0 3px;
 }
+
 .category i {
   font-size: 20px;
   color: #bec7d8;
 }
- .text {
+
+.text {
   /* margin: 40px 0; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 p {
   color: #72809d;
 }
- .button {
+
+.button {
   /* border-top: 1px solid #e4e8f3; */
   /* padding: 10px 30px; */
 }
+
 .categorys {
   /* margin: 10px 0px; */
   display: flex;
@@ -34,6 +40,7 @@ p {
   width: 100%;
   padding: 10px;
 }
+
 .msg {
   width: 100%;
   text-align: end;
@@ -43,12 +50,28 @@ p {
 .flex .div button {
   border-radius: 0px;
 }
+
 .zoom {
   transition: ease-in-out 150ms;
   background-color: transparent;
   border-radius: 25px;
 }
+
 .zoom:hover {
   /* transform: scale(1.04); */
   box-shadow: 0px 0px 21px 6px rgba(0, 0, 0, 0.1);
+}
+
+.propertybox {
+  transition: ease-in-out 250ms all;
+}
+
+.propertybox:hover {
+  transform: scale(1.09);
+}
+
+
+
+.propertyimg {
+  transition: ease-in-out 250ms all;
 }

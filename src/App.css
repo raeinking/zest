@@ -185,6 +185,7 @@ img {
   object-fit: cover;
 }
 
+
 .back::after {
   content: "";
   position: absolute;

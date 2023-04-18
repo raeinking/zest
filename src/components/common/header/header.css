@@ -69,6 +69,10 @@ header .toggle {
     margin-bottom: 20px;
     color: #fff;
   }
+    .fromsearch {
+      display: flex;
+      flex-direction: column;
+    }
 }
 .humberger {
   color: #fff;

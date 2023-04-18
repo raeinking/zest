@@ -13,6 +13,7 @@
     scrollbar-width: thin;
     min-width: 300px;
 }
+
 .gridboxs {
     display: grid;
     position: relative;
@@ -28,17 +29,23 @@
     scrollbar-width: thin;
     margin: 5rem 0;
 }
-.home1 , .home2 , .home3, .home4{
+
+.home1,
+.home2,
+.home3,
+.home4 {
     overflow: hidden;
     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
 }
-.home1{
+
+.home1 {
     position: relative;
-    width:100%;
+    width: 100%;
     height: 500px;
     transition: 0.3s ease-out;
     grid-area: 1 / 1 / 4 / 3;
 }
+
 .home1 img {
     display: block;
     width: 100%;
@@ -57,10 +64,12 @@
     transition: .5s ease;
     background-color: #19191988;
 }
+
 .home1:hover .overlay {
     opacity: 1;
 }
-.home1 .overlay h3{
+
+.home1 .overlay h3 {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -69,9 +78,9 @@
     text-align: center;
     font-weight: 700;
     font-size: 20px;
-    letter-spacing: 3.2px;
 }
-.home1 .overlay p{
+
+.home1 .overlay p {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -119,12 +128,11 @@
     color: white;
     font-size: 20px;
     position: absolute;
-    bottom: 35px;
+    bottom: 10px;
     left: 10px;
     text-align: center;
     font-weight: 700;
     font-size: 20px;
-    letter-spacing: 3.2px;
 }
 
 .home2 .overlay1 p {
@@ -173,12 +181,11 @@
     color: white;
     font-size: 20px;
     position: absolute;
-    bottom: 35px;
+    bottom: 10px;
     left: 10px;
     text-align: center;
     font-weight: 700;
     font-size: 20px;
-    letter-spacing: 3.2px;
 }
 
 .home3 .overlay2 p {
@@ -229,12 +236,11 @@
     color: white;
     font-size: 20px;
     position: absolute;
-    bottom: 35px;
+    bottom: 10px;
     left: 10px;
     text-align: center;
     font-weight: 700;
     font-size: 20px;
-    letter-spacing: 3.2px;
 }
 
 .home4 .overlay3 p {
@@ -274,18 +280,21 @@
 .div4 {
     grid-area: 2 / 3 / 4 / 5;
 }
+
 .grid {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .projects {
     position: relative;
-    overflow:  hidden;
+    overflow: hidden;
     border-radius: 10px;
     cursor: pointer;
 }
+
 .projects h3 {
     position: absolute;
     bottom: 20PX;
@@ -294,20 +303,23 @@
     color: white;
     font-weight: 500;
 }
+
 .projects p {
     position: absolute;
     bottom: 0px;
     padding: 15px 10px;
     color: white;
     z-index: 20;
-    
+
 }
-.ssss{
+
+.ssss {
     margin-top: 4rem;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
+
 .home1 {
     grid-area: 1 / 1 / 3 / 3;
 }
@@ -346,6 +358,7 @@
         /* min-width: 300px;     */
         padding: 0;
     }
+
     .home1 {
         grid-area: 1 / 1 / 2 / 2;
     }
@@ -358,34 +371,35 @@
         grid-area: 3 / 1 / 4 / 2;
     }
 
-    .home1  {
-       height: 300px;
-    }
-
-    .home2  {
+    .home1 {
         height: 300px;
     }
 
-    .home3  {
-    height: 300px;
-    }
-
-    .home4  {
-        height: 300px;
-    }
-    .home1  img{
-       height: 300px;
-    }
-
-    .home2  img{
+    .home2 {
         height: 300px;
     }
 
-    .home3  img{
-    height: 300px;
+    .home3 {
+        height: 300px;
     }
 
-    .home4  img{
+    .home4 {
+        height: 300px;
+    }
+
+    .home1 img {
+        height: 300px;
+    }
+
+    .home2 img {
+        height: 300px;
+    }
+
+    .home3 img {
+        height: 300px;
+    }
+
+    .home4 img {
         height: 300px;
     }
 }
