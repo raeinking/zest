@@ -13,16 +13,20 @@ header {
   justify-content: space-between;
   height: 60px;
 }
+
 header img {
   width: 70px;
 }
+
 header a {
   margin-left: 15px;
   transition: 0.5s;
 }
+
 header a:hover {
   color: black;
 }
+
 header span {
   width: auto;
   padding: 0px 6px;
@@ -32,29 +36,37 @@ header span {
   margin-right: 4px;
   font-weight: 400;
 }
+
 header h4 {
   font-weight: 500;
   margin-right: 20px;
 }
+
 header .toggle {
   display: none;
 }
+
 @media screen and (max-width: 920px) {
   .lang {
     color: #ffffff;
   }
+
   header {
     padding: 0;
   }
+
   header .button {
     display: none;
   }
+
   header .nav .flex {
     display: none;
   }
+
   header .toggle {
     display: block;
   }
+
   header .small {
     position: absolute;
     top: 60px;
@@ -64,19 +76,44 @@ header .toggle {
     padding: 20px;
     transition: all ease-in-out 250ms;
   }
+
   header li a {
     display: inline-block;
     margin-bottom: 20px;
     color: #fff;
   }
-    .fromsearch {
-      display: flex;
-      flex-direction: column;
-    }
+
+  .fromsearch {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .fromsearch li {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    justify-items: start;
+    justify-self: start;
+    padding: 0;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .backsearch {
+    height: 30rem;
+  }
+
 }
+
 .humberger {
   color: #fff;
 }
+
 .close {
   width: 15px;
 }

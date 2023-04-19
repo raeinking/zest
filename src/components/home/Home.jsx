@@ -9,7 +9,7 @@ import Recent from "./recent/Recent"
 import Team from "./team/Team"
 import Projecta from "./project/Project"
 import Form from "../form/Form"
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 import { useLocation } from "react-router-dom";
 import Searchhero from "../searchhero/Searchhero"
 
@@ -23,16 +23,16 @@ const Home = () => {
 
   return (
     <>
-    {fword == 'ar' ? 
-      <Helmet>
-        <title>  عقارات زیست - إقليم كردستان والعراق  </title>
-        <meta name='description' content="عقارات زيست انطلقت منذ عام 2006 لتضمن تجربة فريدة للمستثمرين في العراق وكردستان العراق" />
-      </Helmet>
-      : 
-      <Helmet>
-        <title>Zest-Property - Property For Sale</title>
-        <meta name="description" content="Zest property is a real estate company that started at 2006 to ensure a special experience for the investors in iraq and kurdistan" />
-      </Helmet>
+      {fword == 'ar' ?
+        <Helmet>
+          <title>  عقارات زیست - إقليم كردستان والعراق  </title>
+          <meta name='description' content="عقارات زيست انطلقت منذ عام 2006 لتضمن تجربة فريدة للمستثمرين في العراق وكردستان العراق" />
+        </Helmet>
+        :
+        <Helmet>
+          <title>Zest-Property - Property For Sale</title>
+          <meta name="description" content="Zest property is a real estate company that started at 2006 to ensure a special experience for the investors in iraq and kurdistan" />
+        </Helmet>
       }
       <Hero />
       <Searchhero />

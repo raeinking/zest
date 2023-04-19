@@ -47,6 +47,7 @@
     text-align: center;
     /* letter-spacing: 3.2px; */
 }
+
 .div1P:hover .overlays {
     opacity: 1;
 }
@@ -67,6 +68,7 @@
     text-align: center;
     /* letter-spacing: 3.2px; */
 }
+
 .div2P:hover .overlays {
     opacity: 1;
 }
@@ -78,6 +80,7 @@
     left: 10px;
     text-align: center;
 }
+
 .arfrom {
     direction: rtl;
 }
@@ -90,6 +93,7 @@
     text-align: center;
     /* letter-spacing: 3.2px; */
 }
+
 .div3P:hover .overlays {
     opacity: 1;
 }
@@ -110,6 +114,7 @@
     text-align: center;
     /* letter-spacing: 3.2px; */
 }
+
 .whatsapp {
     width: 40px;
     height: 40px;
@@ -131,6 +136,7 @@
     background-color: #19191988;
     z-index: 20;
 }
+
 .absoluteForm {
     position: fixed;
     width: 100%;
@@ -141,6 +147,7 @@
     align-items: center;
     display: flex;
 }
+
 .brochurForm {
     width: 90%;
     min-width: 90%;
@@ -153,6 +160,7 @@
     overflow: hidden;
     box-shadow: 18px 20px 35px -2px rgba(0, 0, 0, 0.2);
 }
+
 .closeButton {
     position: absolute;
     right: 50px;
@@ -165,30 +173,35 @@
     width: 50%;
     padding: 20px 30px;
 }
+
 .majdiimage {
     background-image: url('./majedy/MAJDI@0.75x.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.khloodimage{
+
+.khloodimage {
     background-image: url('./khlood/khloodoo.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .biancaimage {
     background-image: url('./bianca/Bianca-32@0.33x.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .alweddimage {
     background-image: url('./alwedd/alewd@0.5x.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .brochurRight {
     width: 50%;
     padding: 60px 40px;
@@ -199,6 +212,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .brochurRight form {
     display: flex;
     flex-direction: column;
@@ -207,26 +221,31 @@
     min-height: 100%;
     margin: 0;
 }
+
 .brochurRight form input {
     border: 1px solid rgb(133, 133, 133);
     border-radius: 4px;
     height: 38px;
 }
+
 .brochurRight form label {
     margin: 15px 0 0px 0;
 }
+
 .btnsubmit {
     background-color: #7a5e41;
     color: white;
-    transition: ease-in-out 300ms ;
+    transition: ease-in-out 300ms;
     cursor: pointer;
 }
+
 .btnsubmit:hover {
     background-color: rgb(57, 244, 88);
     color: black;
 }
+
 .ssss {
-    margin : 2rem 0
+    /* margin : 2rem 0 */
 }
 
 @media only screen and (max-width: 900px) {
@@ -234,47 +253,54 @@
         right: 10px;
         top: 10px;
     }
+
     .brochurLeft {
         display: none;
     }
+
     .brochurRight {
         width: 100%;
         padding: 30px 20px;
     }
 }
+
 @media only screen and (max-width: 500px) {
     .closeButton {
         right: 10px;
         top: 10px;
     }
+
     .brochurLeft {
         display: none;
     }
+
     .brochurRight {
         width: 100%;
         padding: 30px 20px;
     }
+
     .parentsP {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: repeat(4, 1fr);
-            grid-column-gap: 0px;
-            grid-row-gap: 40px;
-            padding: 4rem 0;
-        }
-        .div1P {
-            grid-area: 1 / 1 / 2 / 2;
-        }
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 40px;
+        padding: 4rem 0;
+    }
 
-        .div2P {
-            grid-area: 2 / 1 / 3 / 2;
-        }
+    .div1P {
+        grid-area: 1 / 1 / 2 / 2;
+    }
 
-        .div3P {
-            grid-area: 3 / 1 / 4 / 2;
-        }
+    .div2P {
+        grid-area: 2 / 1 / 3 / 2;
+    }
 
-        .div4P {
-            grid-area: 4 / 1 / 5 / 2;
-        }
+    .div3P {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .div4P {
+        grid-area: 4 / 1 / 5 / 2;
+    }
 }

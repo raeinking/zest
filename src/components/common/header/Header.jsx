@@ -16,51 +16,51 @@ const Header = () => {
 
   return (
     <>
-      {fword == 'ar'?
-            <header>
-        <div className='container flex'>
-          <div className='logo'>
-            <a href="/ar">
-              <img src={image} alt='zest property' />
-            </a>
-          </div>
-          <div className='nav'>
-            <ul className={navList ? "small" : "flex"}>
-              {arnav.map((list, index) => (
-                <li key={index}>
-                  <a className="ar" href={list.path}>{list.text}</a>
-                </li>
-              ))}
+      {fword == 'ar' ?
+        <header>
+          <div className='container flex'>
+            <div className='logo'>
+              <a href="/ar">
+                <img src={image} alt='zest property' />
+              </a>
+            </div>
+            <div className='nav'>
+              <ul className={navList ? "small" : "flex"}>
+                {arnav.map((list, index) => (
+                  <li key={index}>
+                    <a className="ar" href={list.path}>{list.text}</a>
+                  </li>
+                ))}
                 <a className="lang ar" href="/">إنجليزي</a>
-            </ul>
+              </ul>
+            </div>
+            <div className='toggle'>
+              <button onClick={() => setNavList(!navList)}>{navList ? <img className="close" src={close} alt='closes'></img> : <p className="humberger">☰</p>}</button>
+            </div>
           </div>
-          <div className='toggle'>
-            <button onClick={() => setNavList(!navList)}>{navList ? <img className="close" src={close} alt='closes'></img> : <p className="humberger">☰</p>}</button>
+        </header>
+        :
+        <header>
+          <div className='container flex'>
+            <div className='logo'>
+              <a href="/">
+                <img src={image} alt='zest property' />
+              </a>          </div>
+            <div className='nav'>
+              <ul className={navList ? "small" : "flex"}>
+                {nav.map((list, index) => (
+                  <li key={index}>
+                    <a href={list.path}>{list.text}</a>
+                  </li>
+                ))}
+                <a className="lang" href='/ar'>Arabic</a>
+              </ul>
+            </div>
+            <div className='toggle'>
+              <button onClick={() => setNavList(!navList)}>{navList ? <img className="close" src={close} alt='close'></img> : <p className="humberger">☰</p>}</button>
+            </div>
           </div>
-        </div>
-      </header>
-      :
-      <header>
-        <div className='container flex'>
-          <div className='logo'>
-            <a href="/">
-              <img src={image} alt='zest property' />
-            </a>          </div>
-          <div className='nav'>
-            <ul className={navList ? "small" : "flex"}>
-              {nav.map((list, index) => (
-                <li key={index}>
-                  <a href={list.path}>{list.text}</a>
-                </li>
-              ))}
-              <a href='/ar'>Arabic</a>
-            </ul>
-          </div>
-          <div className='toggle'>
-            <button onClick={() => setNavList(!navList)}>{navList ? <img className="close" src={close} alt='close'></img> : <p className="humberger">☰</p>}</button>
-          </div>
-        </div>
-      </header>
+        </header>
       }
     </>
   )

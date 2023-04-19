@@ -1,138 +1,147 @@
-.blog {
-    height: 40vh;
-    width: 100%;
-    background: unset;
-    margin-bottom: 5rem;
-    
-}
-form input{
-    margin: 0;
-}
-.blogFillters {
-    background-color: rgb(237, 237, 237);
-    width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.blogBtns {
-    width: 200px;
-    padding: 15px 10px;
-    margin: 0 20px;
-}
-.searchbardiv {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    min-height: 20rem;
-    align-items: center;
-    justify-content: center;
-    background-image: url('../images/property.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 15rem;
-    z-index: 90;
-}
-.searchbar {
-    display: flex;
-    max-width: 300px;
-    width: 90%;
-    font-size: 20px;
-    outline: none;
-    border-radius: 7px;
-    z-index: 10;
-    text-align: center;
-}
-select {
-    /* -webkit-appearance: none;
+ .blog {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+ }
+
+ form input {
+     margin: 0;
+ }
+
+ .blogFillters {
+     background-color: rgb(237, 237, 237);
+     width: 100%;
+     height: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .blogBtns {
+     width: 200px;
+     padding: 15px 10px;
+     margin: 0 20px;
+ }
+
+ .searchbardiv {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     height: 20vh;
+     min-height: 20rem;
+     align-items: center;
+     justify-content: center;
+     background-image: url('../images/property.jpg');
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     /* margin-bottom: 15rem; */
+     z-index: 90;
+ }
+
+ .searchbar {
+     display: flex;
+     max-width: 300px;
+     width: 90%;
+     font-size: 20px;
+     outline: none;
+     border-radius: 7px;
+     z-index: 10;
+     text-align: center;
+ }
+
+ select {
+     /* -webkit-appearance: none;
     -moz-appearance: none;
     text-indent: 1px;
     text-overflow: ''; */
-    /* margin-right: 20px; */
-}
+     /* margin-right: 20px; */
+ }
 
-select{
-    border: none;
-    outline: none;
-    /* font-size: 18px; */
-    
-}
+ select {
+     border: none;
+     outline: none;
+     /* font-size: 18px; */
 
-.sleft {
-    border-radius: 10px;
-}
+ }
 
-
-.searchbardiv::after {
-    content: '';
-    position: absolute;
-    background-color: rgba(28, 4, 4, 0.414);
-    width: 100vw;
-    height: 20rem;
-}
+ .sleft {
+     border-radius: 10px;
+ }
 
 
-.category {
-    display: flex;
-    justify-content: space-between;
-}
-.buttonprs {
-    border: none;
-    padding: 10px 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.category {
-    padding: 0 30px;
-}
+ .searchbardiv::after {
+     content: '';
+     position: absolute;
+     background-color: rgba(28, 4, 4, 0.414);
+     width: 100vw;
+     height: 20rem;
+     min-height: 20rem;
+ }
+
+
+ .category {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .buttonprs {
+     border: none;
+     padding: 10px 30px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .category {
+     padding: 0 30px;
+ }
 
  .category span {
-    padding: 4px 15px;
-    border-radius: 2px;
-    font-weight: 600;
-    font-size: 13px;
-    display: inline-block;
-    border-radius: 5px;
-}
+     padding: 4px 15px;
+     border-radius: 2px;
+     font-weight: 600;
+     font-size: 13px;
+     display: inline-block;
+     border-radius: 5px;
+ }
+
  .category i {
-    font-size: 20px;
-    color: #bec7d8;
-}
+     font-size: 20px;
+     color: #bec7d8;
+ }
 
  p {
-    color: #212b36;
-}
-.flexs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.flex .div button {
-    border-radius: 0px;
-}
+     color: #212b36;
+ }
+
+ .flexs {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .flex .div button {
+     border-radius: 0px;
+ }
 
 
-.typeseller {
-    display: none;
-}
-
-
-
-.radio {
-    background-color: transparent;
-    width:30px;
-}
+ .typeseller {
+     display: none;
+ }
 
 
 
+ .radio {
+     background-color: transparent;
+     width: 30px;
+ }
 
- 
- 
-
-@media only screen and (max-width: 800px) {
 
 
-}
+
+
+
+
+ @media only screen and (max-width: 800px) {}
