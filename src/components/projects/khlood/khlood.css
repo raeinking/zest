@@ -10,6 +10,7 @@
     background-size: cover;
     background-position: center center;
 }
+
 .imageofheaderkhlood {
     width: 100%;
     min-height: 400px;
@@ -22,6 +23,7 @@
     background-size: cover;
     background-position: center center;
 }
+
 .imageofheaderwedd {
     width: 100%;
     min-height: 400px;
@@ -34,6 +36,7 @@
     background-size: cover;
     background-position: center center;
 }
+
 .imageofheaderbianca {
     width: 100%;
     min-height: 400px;
@@ -46,6 +49,7 @@
     background-size: cover;
     background-position: center center;
 }
+
 .imagealwed {
     background-image: url("../../../../public/images/alwed2.jpg");
     background-repeat: no-repeat;
@@ -53,6 +57,7 @@
     background-position: center center;
     height: 250px;
 }
+
 .imageklood {
     background-image: url("../../../../public/images/KHLOOD.jpg");
     background-repeat: no-repeat;
@@ -60,6 +65,7 @@
     background-position: center center;
     height: 250px;
 }
+
 .imagebianca {
     background-image: url("../../../../public/images/Bianca-1.jpg");
     background-repeat: no-repeat;
@@ -67,8 +73,49 @@
     background-position: center center;
     height: 250px;
 }
+
 .imagemajidi {
     background-image: url(".././majedy/4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+.citybaghdad {
+    background-image: url("../../images/Bag.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+.citymosul {
+    background-image: url("../../images/Mos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+.citydubai {
+    background-image: url("../../images/Dub.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+.cityerbil {
+    background-image: url("../../images/erbil.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+.citykirkuk {
+    background-image: url("../../images/Kir.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -80,15 +127,19 @@
     display: flex;
     justify-content: center;
 }
+
 .imageofheader h1 {
     color: rgb(238, 238, 238);
 }
+
 .imageofheaderkhlood h1 {
     color: rgb(238, 238, 238);
 }
+
 .imageofheaderwedd h1 {
     color: rgb(238, 238, 238);
 }
+
 .imageofheaderbianca h1 {
     color: rgb(238, 238, 238);
 }
@@ -100,10 +151,12 @@
     padding: 0 20px;
     border-right: 1px solid rgba(42, 42, 42, 0.1);
 }
+
 .navp a {
     margin: 20px 0 10px 10px;
 }
-.navp  {
+
+.navp {
     display: flex;
     flex-direction: column;
 }
@@ -125,7 +178,7 @@
 }
 
 
-.slideimage{
+.slideimage {
     width: 100%;
     min-height: 300px;
     display: flex;
@@ -145,14 +198,16 @@
 }
 
 .borderandmargin:not(:first-child) {
-    border-left: 1px solid rgb(42, 42, 42) ;
+    border-left: 1px solid rgb(42, 42, 42);
     padding: 0 20px;
 }
+
 .borderandmargin {
     margin-left: 2rem;
 }
-.borderandmargin h5{
-    padding : 4px 0 ;
+
+.borderandmargin h5 {
+    padding: 4px 0;
 }
 
 
@@ -195,7 +250,7 @@
 
 .div6 {
     position: relative;
-    grid-area: 2 / 1 / 3 / 3;   
+    grid-area: 2 / 1 / 3 / 3;
     background-color: rgba(59, 167, 56, 0.337);
     width: 100%;
     height: 100%;
@@ -213,8 +268,9 @@
     width: 100%;
     height: 250px;
 }
+
 .BROCHURE {
-    background-color:  #916f4e ;
+    background-color: #916f4e;
     color: white;
     padding: 8px 14px;
     border-radius: 4px;
@@ -262,6 +318,7 @@
     width: 100%;
     height: 250px;
 }
+
 .div5:hover .overlays {
     opacity: 1;
 }
@@ -290,6 +347,7 @@
     width: 100%;
     height: 250px;
 }
+
 .div6:hover .overlays {
     opacity: 1;
 }
@@ -309,11 +367,12 @@
     left: 10px;
     text-align: center;
 }
-.tset{ 
+
+.tset {
     width: 100%;
     height: 400px;
     background-position: center center;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -338,6 +397,7 @@
     display: flex;
     float: left;
 }
+
 .imageproperty img {
     width: 250px;
     height: 250px;

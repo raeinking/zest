@@ -1,7 +1,7 @@
 .parentsP {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 40px;
     grid-row-gap: 40px;
     padding: 4rem 0;
@@ -27,7 +27,16 @@
     position: relative;
 }
 
+.div5P {
+    /* grid-area: 2 / 2 / 3 / 3; */
+    position: relative;
+}
+
 .div4P:hover .overlays {
+    opacity: 1;
+}
+
+.div5P:hover .overlays {
     opacity: 1;
 }
 
@@ -39,7 +48,24 @@
     text-align: center;
 }
 
+.div5P .overlays h3 {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-align: center;
+}
+
 .div4P .overlays p {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-align: center;
+    /* letter-spacing: 3.2px; */
+}
+
+.div5P .overlays p {
     color: white;
     position: absolute;
     bottom: 10px;
@@ -174,28 +200,28 @@
     padding: 20px 30px;
 }
 
-.majdiimage {
+.majdiimages {
     background-image: url('./majedy/MAJDI@0.75x.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.khloodimage {
+.khloodimages {
     background-image: url('./khlood/khloodoo.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.biancaimage {
+.biancaimages {
     background-image: url('./bianca/Bianca-32@0.33x.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.alweddimage {
+.alweddimages {
     background-image: url('./alwedd/alewd@0.5x.jpg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -262,6 +288,12 @@
         width: 100%;
         padding: 30px 20px;
     }
+}
+
+.locations {
+    width: 100%;
+    height: 100px;
+    background-color: green;
 }
 
 @media only screen and (max-width: 500px) {

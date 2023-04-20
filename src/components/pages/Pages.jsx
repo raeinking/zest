@@ -1,4 +1,4 @@
-import React,{useEffect} from "react"
+import React, { useEffect } from "react"
 import Header from "../common/header/Header"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Home from "../home/Home"
@@ -55,6 +55,16 @@ const Pages = () => {
           <Route exact path='/ar/Majidi-View' component={Armajidi} />
           <Route exact path='/ar/properties/:id' component={PropertyDetails} />
           <Route exact path='/Privacy-Policy' component={PrivacyPolicy} />
+
+          <Route exact path='/projects/erbil' component={Projectss} />
+          <Route exact path='/projects/kirkuk' component={Projectss} />
+          <Route exact path='/projects/baghdad' component={Projectss} />
+          <Route exact path='/projects/mosul' component={Projectss} />
+          <Route exact path='/projects/dubai' component={Projectss} />
+
+
+
+
           <Route path='*' component={pagenotfoud} />
         </Switch>
         <Footer />

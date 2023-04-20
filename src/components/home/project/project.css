@@ -19,8 +19,8 @@
     position: relative;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 0px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     justify-content: center;
     width: 100%;
     max-width: 1080px;
@@ -33,7 +33,8 @@
 .home1,
 .home2,
 .home3,
-.home4 {
+.home4,
+.home5 {
     overflow: hidden;
     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
 }
@@ -41,7 +42,7 @@
 .home1 {
     position: relative;
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
     transition: 0.3s ease-out;
     grid-area: 1 / 1 / 4 / 3;
 }
@@ -49,7 +50,7 @@
 .home1 img {
     display: block;
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
 }
 
 .overlay {
@@ -73,8 +74,8 @@
     color: white;
     font-size: 20px;
     position: absolute;
-    bottom: 60px;
-    left: 30px;
+    bottom: 10px;
+    left: 10px;
     text-align: center;
     font-weight: 700;
     font-size: 20px;
@@ -95,7 +96,7 @@
 .home2 {
     position: relative;
     width: 100%;
-    height: 150px;
+    /* height: 150px; */
     transition: 0.3s ease-out;
     grid-area: 1 / 1 / 4 / 4;
 }
@@ -103,7 +104,7 @@
 .home2 img {
     display: block;
     width: 100%;
-    height: 150px;
+    /* height: 150px; */
     object-fit: cover;
 }
 
@@ -148,7 +149,7 @@
 .home3 {
     position: relative;
     width: 100%;
-    height: 150px;
+    /* height: 150px; */
     transition: 0.3s ease-out;
     grid-area: 1 / 1 / 4 / 3;
 }
@@ -156,7 +157,7 @@
 .home3 img {
     display: block;
     width: 100%;
-    height: 150px;
+    /* height: 150px; */
     object-fit: cover;
 }
 
@@ -208,7 +209,22 @@
 
 }
 
+.home5 {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    transition: 0.3s ease-out;
+
+}
+
 .home4 img {
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.home5 img {
     display: block;
     width: 100%;
     height: 250px;
@@ -232,6 +248,11 @@
     opacity: 1;
 }
 
+.home5:hover .overlay3 {
+    opacity: 1;
+}
+
+
 .home4 .overlay3 h3 {
     color: white;
     font-size: 20px;
@@ -243,7 +264,27 @@
     font-size: 20px;
 }
 
+.home5 .overlay3 h3 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
 .home4 .overlay3 p {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    text-align: center;
+}
+
+.home5 .overlay3 p {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -278,6 +319,10 @@
 }
 
 .div4 {
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+.div5 {
     grid-area: 2 / 3 / 4 / 5;
 }
 
@@ -333,7 +378,7 @@
 }
 
 .home4 {
-    grid-area: 2 / 3 / 3 / 5;
+    grid-area: 2 / 3 / 3 / 3;
 }
 
 
@@ -380,26 +425,26 @@
     }
 
     .home3 {
-        height: 300px;
+        /* height: 300px; */
     }
 
     .home4 {
-        height: 300px;
+        /* height: 300px; */
     }
 
     .home1 img {
-        height: 300px;
+        /* height: 300px; */
     }
 
     .home2 img {
-        height: 300px;
+        /* height: 300px; */
     }
 
     .home3 img {
-        height: 300px;
+        /* height: 300px; */
     }
 
     .home4 img {
-        height: 300px;
+        /* height: 300px; */
     }
 }

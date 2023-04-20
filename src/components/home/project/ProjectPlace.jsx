@@ -1,8 +1,9 @@
 import React from 'react'
-import image from '../../images/Biancaicon.jpg'
-import image1 from '../../images/majidi1.jpg'
-import image2 from '../../images/alweddiacon.jpg'
-import image3 from '../../images/klood1.jpg'
+import image from '../../images/Dub.jpg'
+import image1 from '../../images/erbil.jpg'
+import image2 from '../../images/Bag.jpg'
+import image3 from '../../images/Mos.jpg'
+import image4 from '../../images/Kir.jpg'
 import { useLocation } from 'react-router-dom';
 
 function ProjectPlace() {
@@ -28,13 +29,19 @@ function ProjectPlace() {
                         <a href='/alwedd' data-aos-duration='1500' className='home3'>
                             <img src={image2} />
                             <div className='overlay2'>
-                                <h3>Mosul</h3>
+                                <h3>Baghdad</h3>
                             </div>
                         </a>
                         <a href='/khlood' data-aos-duration='2000' className='home4'>
                             <img src={image3} />
                             <div className='overlay3'>
-                                <h3>Baghdad</h3>
+                                <h3>Mosul</h3>
+                            </div>
+                        </a>
+                        <a href='/khlood' data-aos-duration='2000' className='home5'>
+                            <img src={image4} />
+                            <div className='overlay3'>
+                                <h3>Kirkuk</h3>
                             </div>
                         </a>
                     </div>
