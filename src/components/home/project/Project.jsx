@@ -14,12 +14,11 @@ const Project = () => {
         <section className='container ssss'>
           <Heading title='OUR PROJECTS' subtitle='' />
           <ProjectPlace />
-          {/* <Projectname /> */}
         </section>
         :
         <section className='container ssss'>
           <Heading title='مشاريعنا' subtitle='' />
-          <Projectname />
+          <ProjectPlace />
         </section>
       }
     </>

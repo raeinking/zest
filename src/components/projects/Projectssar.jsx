@@ -1,5 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import ArLists from '../thinkgsthatnotchanged/ArLists'
 import './projects.css'
 
 function Projectssar() {
@@ -13,47 +14,33 @@ function Projectssar() {
         <div className='imageofheaderbianca'><h1>مشروع</h1></div>
 
         <section className='mainmajidi'>
-          <div className='navleft'>
-            <div>
-              <h6>تطوير العقارات</h6>
-              <div className='navp'>
-                <a href='/ar/Majidi-View'>ماجدي فیو</a>
-                <a href='/ar/bianca'>بيانكا</a>
-                <a href='/ar/alwedd'>الود </a>
-                <a href='/ar/khlood'>الخلود </a>
-              </div>
-            </div>
-          </div>
+          <ArLists />
 
           <div className='content'>
-            
-            <div class="parentsP">
-              <a href='/ar/alwedd' class="div1P">
-                <div className='imagealwed'></div>
+
+            <div class="parentserbil">
+              <a href='/ar/projects/baghdad' class="div1P">
+                <div className='citybaghdad'></div>
                 <div className='overlays'>
-                  <h3>الود</h3>
                   <p>بغداد</p>
                 </div>
               </a>
-              <a href='/ar/majidi-view' class="div2P">
-                <div className='imagemajidi'></div>
+              <a href='/ar/projects/erbil' class="div2P">
+                <div className='cityerbil'></div>
                 <div className='overlays'>
-                  <h3>ماجدي فیو</h3>
-                  <p>اربيل</p>
+                  <p>أربيل</p>
                 </div>
               </a>
-              <a href='/ar/khlood' class="div3P">
-                <div className='imageklood'></div>
+              <a href='/ar/projects/dubai' class="div4P">
+                <div className='citydubai'></div>
                 <div className='overlays'>
-                  <h3>الخلود</h3>
-                  <p>بغداد</p>
+                  <p>دبي</p>
                 </div>
               </a>
-              <a href='/ar/bianca' class="div4P">
-                <div className='imagebianca'></div>
+              <a href='/ar/projects/kirkuk' class="div5P">
+                <div className='citykirkuk'></div>
                 <div className='overlays'>
-                  <h3>بيانكا</h3>
-                  <p>الإمارات دبي</p>
+                  <p>کەرکوک</p>
                 </div>
               </a>
             </div>

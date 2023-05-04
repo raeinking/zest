@@ -34,7 +34,7 @@ function Searchhero() {
                         <li className='projectName'>
                             <label>Project Name</label>
                             <div className='box-selector'>
-                                <select defaultValue={resident} name="project" className="" tabindex='-1' aria-hidden='true'>
+                                <select defaultValue={resident} name="project" className="dropdownss" tabindex='-1' aria-hidden='true'>
                                     <option value="">Select Projects Name</option>
                                     <option value="North">North Holland</option>
                                     <option value="Sky View">Sky View</option>
@@ -48,7 +48,7 @@ function Searchhero() {
                         <li className='projectName'>
                             <label>Property Type</label>
                             <div className='box-selector'>
-                                <select defaultValue={propertyParams} name="Property" className="selectt">
+                                <select defaultValue={propertyParams} name="Property" className="selectt dropdownss">
                                     <option value=''>Select Property Type</option>
                                     <option value="Apartment">Apartment</option>
                                     <option value="House">House</option>
@@ -59,7 +59,7 @@ function Searchhero() {
                         <li className='projectName'>
                             <label>Project Name</label>
                             <div className='box-selector'>
-                                <select defaultValue={cityParams} name="city" className="selectt">
+                                <select defaultValue={cityParams} name="city" className="selectt dropdownss">
                                     <option value=''>Select City</option>
                                     <option value="Erbil">Erbil</option>
                                     <option value="Baghdad">Baghdad</option>
@@ -71,7 +71,7 @@ function Searchhero() {
                         <li className='projectName'>
                             <label>Project Name</label>
                             <div className='box-selector'>
-                                <select defaultValue={type} name="type" className="selectt">
+                                <select defaultValue={type} name="type" className="selectt dropdownss">
                                     <option value="">Select Bedrooms</option>
                                     <option className='text' value="1 + 1">1 + 1</option>
                                     <option value="1 + 2">1 + 2</option>
@@ -83,7 +83,7 @@ function Searchhero() {
                             </div>
                         </li>
                         <div className='line'></div>
-                        <input type='submit' className='btnsearch' value='Search Properties' />
+                        <input type='submit' className='btnsearch' value='Search Properties ' />
                     </ul>
                 </form >
                 :

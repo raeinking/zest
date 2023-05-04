@@ -108,7 +108,7 @@ const config = {
 
 let handleSubmit = async (e) => {
     e.preventDefault();
-      await axios.post("https://node-email-sendersss.glitch.me/majidi", {email, name, phone , projectname} ,config).then(window.open('Brochure_20x20_4Folded.pdf'))
+  await axios.post("https://node-email-sendersss.glitch.me/majidi", { email, name, phone, projectname }, config).then(alert('we will send you'))
   };
 
 
@@ -122,6 +122,10 @@ let handleSubmit = async (e) => {
     
     <>
       <section>
+        <Helmet>
+          <title>Majidi View - zest property</title>
+          <meta name='description' content="Majidi View is a unique project located in a commercial area, offering various types of apartments within 11 buildings, each consisting of 24 floors. The project also features green spaces." />
+        </Helmet>
 
       {brochureDownload ? <div className='absoluteForm'>
           <div className='brochurForm'>

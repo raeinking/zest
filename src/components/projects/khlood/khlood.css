@@ -50,6 +50,188 @@
     background-position: center center;
 }
 
+.imageofheaderdubai {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(0, 128, 0, 0.252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../images/Dub.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.imageofheadererbil {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(0, 128, 0, 0.252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../images/erbil.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.imageofheaderkirkuk {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(0, 128, 0, 0.252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../images/Kir.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.imageofheadermasour {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(0, 128, 0, 0.252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../almansour/MansourCity1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.imageofheaderempire {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(0, 128, 0, 0.252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../empire/Empire1Pearls.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.imageofheadernorth {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(0, 128, 0, 0.252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../northholland/Northholland1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.imageofheaderqaywan {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(0, 128, 0, 0.252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../qaywan/Qaiwan2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.imageofheaderlalav {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(0, 128, 0, 0.252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../lalav/LalavCityView2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.imageofheaderskyland {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(0, 128, 0, 0.252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../skyland/skyland3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.imageofheaderlagoon {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(0, 128, 0, 0.252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../lagoon/Lagoons1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.imageofheaderazizi {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(0, 128, 0, 0.252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../aziziriver/AziziRiveria2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.imageofheaderbay2 {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(0, 128, 0, 0.252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../bay2/Bay2_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.imageofheadermosul {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(0, 128, 0, 0.252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../images/Mos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.imageofheaderbaghdad {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(0, 128, 0, 0.252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../images/Bag.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
 .imagealwed {
     background-image: url("../../../../public/images/alwed2.jpg");
     background-repeat: no-repeat;
@@ -103,6 +285,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+
     height: 250px;
 }
 
@@ -116,6 +299,110 @@
 
 .citykirkuk {
     background-image: url("../../images/Kir.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+.projectlalav {
+    background-image: url("../Projectlocatons/LALAV1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+.projectnorth {
+    background-image: url("../Projectlocatons/North.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+.projectalmansour {
+    background-image: url("../Projectlocatons/almansour.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+/* .projectalmansour {
+    background-image: url("../Projectlocatons/almansour.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+} */
+
+.projectqaywan {
+    background-image: url("../Projectlocatons/qaiwan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+.projectmajidi {
+    background-image: url("../Projectlocatons/MajidiV.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+.projectwedd {
+    background-image: url("../Projectlocatons/wedd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+.projectmansour {
+    background-image: url("../Projectlocatons/almansour.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+.projectkhlood {
+    background-image: url("../Projectlocatons/Khlood1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+.projectdamac {
+    background-image: url("../Projectlocatons/lagoons.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+.projectdamac2 {
+    background-image: url("../Projectlocatons/Bay2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+.projectazizi {
+    background-image: url("../Projectlocatons/rivera.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+.projectskyland {
+    background-image: url("../Projectlocatons//Skyland.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -140,8 +427,23 @@
     color: rgb(238, 238, 238);
 }
 
-.imageofheaderbianca h1 {
+.imageofheaderbianca h1,
+.imageofheadererbil h1,
+.imageofheaderkirkuk h1,
+.imageofheadermosul h1,
+.imageofheaderbaghdad h1,
+.imageofheaderdubai h1,
+.imageofheaderbay2 h1,
+.imageofheaderazizi h1,
+.imageofheaderskyland h1,
+.imageofheaderlalav h1,
+.imageofheaderqaywan h1,
+.imageofheadernorth h1,
+.imageofheaderempire h1,
+.imageofheadermasour h1,
+.imageofheaderlagoon h1 {
     color: rgb(238, 238, 238);
+    z-index: 10;
 }
 
 .navleft {
@@ -176,7 +478,6 @@
     align-items: center;
     border-bottom: 1.5px solid rgba(128, 128, 128, 0.407);
 }
-
 
 .slideimage {
     width: 100%;
@@ -224,10 +525,6 @@
     grid-row-gap: 20px;
     margin-bottom: 60px;
 }
-
-
-
-
 
 .div4 {
     position: relative;

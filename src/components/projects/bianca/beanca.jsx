@@ -37,6 +37,7 @@ import { CgGym } from 'react-icons/cg'
 import { IoChatbubblesOutline, IoRestaurantSharp } from 'react-icons/io5'
 import { AiTwotoneShop } from 'react-icons/ai'
 import { GiParkBench } from 'react-icons/gi'
+import Lists from '../../thinkgsthatnotchanged/Lists'
 
 
 const divStyle = {
@@ -181,17 +182,7 @@ const Alwedd = () => {
         <div className='imageofheaderbianca'><h1>BIANCA</h1></div>
 
         <section className='mainmajidi'>
-          <div className='navleft'>
-            <div>
-              <h6>PROPERTY DEVELOPMENT</h6>
-              <div className='navp'>
-                <a href='Majidi-View'>Majidi View</a>
-                <a href='bianca'>Bianca</a>
-                <a href='alwedd'>alwedd</a>
-                <a href='khlood'>khlood</a>
-              </div>
-            </div>
-          </div>
+          <Lists />
           <div className='content'>
             <div className='twothink'>
               <h3>BIANCA</h3>
@@ -365,29 +356,6 @@ const Alwedd = () => {
                   </GoogleMap>
                 </LoadScript>
               </div>
-            </div>
-            <div class="parents">
-              <a href='alwedd' class="div4">
-                <div className='imagealwed'></div>
-                <div className='overlays'>
-                  <h3>Al Wed</h3>
-                  <p>Baghdad</p>
-                </div>
-              </a>
-              <a href='majidi-view' class="div5">
-                <div className='imagemajidi'></div>
-                <div className='overlays'>
-                  <h3>Majidi View</h3>
-                  <p>Erbil</p>
-                </div>
-              </a>
-              <a href='khlood' class="div6">
-                <div className='imageklood'></div>
-                <div className='overlays'>
-                  <h3>Al Khlood</h3>
-                  <p>Baghdad</p>
-                </div>
-              </a>
             </div>
             <div>
               {/* <h3>Construction Updates</h3>

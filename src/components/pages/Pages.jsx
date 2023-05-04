@@ -13,7 +13,7 @@ import Agents from "../agents/Agents"
 import List from '../list/List'
 import PropertyDetails from "../PageDis/PropertyDetails"
 import khlood from "../projects/khlood/Khlood"
-import alwedd from "../projects/alwedd/Alwedd"
+import alwedd from "../projects/city/baghdad/Alwedd"
 import Majedy from "../projects/majedy/Majedy"
 import pagenotfoud from "../pagenotfoud"
 import beanca from '../projects/bianca/beanca'
@@ -24,6 +24,35 @@ import Araled from "../projects/alwedd/Araled"
 import Projectss from "../projects/Projectss"
 import Projectssar from "../projects/Projectssar"
 import PrivacyPolicy from "../common/PrivacyPolicy"
+import Erbil from "../projects/Projectlocatons/Erbil"
+import Erbilar from "../projects/Projectlocatons/Erbilar"
+import Baghdad from "../projects/Projectlocatons/Baghdad"
+import Mosul from "../projects/Projectlocatons/Mosul"
+import Mosular from "../projects/Projectlocatons/Mosular"
+import Kirkuk from "../projects/Projectlocatons/Kirkuk"
+import Kirkukar from "../projects/Projectlocatons/Kirkukar"
+import Dubai from "../projects/Projectlocatons/Dubai"
+import Dubaiar from "../projects/Projectlocatons/Dubaiar"
+import Kloodprivercy from "../../Kloodprivercy"
+import Bay2 from "../projects/bay2/Bay2"
+import Arbay2 from "../projects/bay2/Arbay2"
+import Azizi from "../projects/aziziriver/Azizi"
+import Arazizi from "../projects/aziziriver/Arazizi"
+import Lagoon from "../projects/lagoon/Lagoon"
+import Arlagoon from "../projects/lagoon/Arlagoon"
+import Skyland from "../projects/skyland/Skyland"
+import Arskyland from "../projects/skyland/Arskyland"
+import Lalav from "../projects/lalav/Lalav"
+import Arlalav from "../projects/lalav/Arlalav"
+import Qaywan from "../projects/qaywan/Qaywan"
+import Arqaywan from "../projects/qaywan/Arqaywan"
+import Northholland from "../projects/northholland/Northholland"
+import NorthhollandAr from "../projects/northholland/NorthhollandAr"
+import Empire from "../projects/empire/Empire"
+import EmpireAr from "../projects/empire/EmpireAr"
+import Mansour from "../projects/almansour/Mansour"
+import MansourAr from "../projects/almansour/MansourAr"
+import BaghdadAr from "../projects/Projectlocatons/BaghdadAr"
 
 const Pages = () => {
 
@@ -39,7 +68,6 @@ const Pages = () => {
           <Route exact path='/Majidi-View' component={Majedy} />
           <Route exact path='/alwedd' component={alwedd} />
           <Route exact path='/projects' component={Projectss} />
-          <Route exact path='/bianca' component={beanca} />
           <Route exact path='/khlood' component={khlood} />
           <Route exact path='/about' component={About} />
           <Route exact path='/contact' component={Contact} />
@@ -56,11 +84,59 @@ const Pages = () => {
           <Route exact path='/ar/properties/:id' component={PropertyDetails} />
           <Route exact path='/Privacy-Policy' component={PrivacyPolicy} />
 
-          <Route exact path='/projects/erbil' component={Projectss} />
-          <Route exact path='/projects/kirkuk' component={Projectss} />
-          <Route exact path='/projects/baghdad' component={Projectss} />
-          <Route exact path='/projects/mosul' component={Projectss} />
-          <Route exact path='/projects/dubai' component={Projectss} />
+          <Route exact path='/projects/erbil' component={Erbil} />
+          <Route exact path='/projects/kirkuk' component={Kirkuk} />
+          <Route exact path='/projects/baghdad' component={Baghdad} />
+          <Route exact path='/projects/dubai' component={Dubai} />
+          <Route exact path='/projects/mosul' component={Mosul} />
+
+
+          <Route exact path='/ar/projects/erbil' component={Erbilar} />
+          <Route exact path='/ar/projects/kirkuk' component={Kirkukar} />
+          <Route exact path='/ar/projects/baghdad' component={BaghdadAr} />
+          <Route exact path='/ar/projects/dubai' component={Dubaiar} />
+          <Route exact path='/ar/projects/mosul' component={Mosular} />
+
+
+          <Route exact path='/khlood/Privacy-Policy' component={Kloodprivercy} />
+
+          <Route exact path='/bianca' component={beanca} />
+
+
+          <Route exact path='/damac-bay2' component={Bay2} />
+          <Route exact path='/ar/damac-bay2' component={Arbay2} />
+
+
+          <Route exact path='/azizi-riviera' component={Azizi} />
+          <Route exact path='/ar/azizi-riviera' component={Arazizi} />
+
+
+          <Route exact path='/damac-lagoons' component={Lagoon} />
+          <Route exact path='/ar/damac-lagoons' component={Arlagoon} />
+
+
+          <Route exact path='/sky-land-kirkuk' component={Skyland} />
+          <Route exact path='/ar/sky-land-kirkuk' component={Arskyland} />
+
+
+          <Route exact path='/lalav-group' component={Lalav} />
+          <Route exact path='/ar/lalav-group' component={Arlalav} />
+
+
+          <Route exact path='/qaiwan-mirador' component={Qaywan} />
+          <Route exact path='/ar/qaiwan-mirador' component={Arqaywan} />
+
+
+          <Route exact path='/north-holland' component={Northholland} />
+          <Route exact path='/ar/north-holland' component={NorthhollandAr} />
+
+
+          <Route exact path='/empire-world' component={Empire} />
+          <Route exact path='/ar/empire-world' component={EmpireAr} />
+
+
+          <Route exact path='/almansour-city' component={Mansour} />
+          <Route exact path='/ar/almansour-city' component={MansourAr} />
 
 
 

@@ -325,6 +325,32 @@ select:after {
   width: 150px;
 }
 
+.priversy {
+  padding: 2rem 4rem;
+}
+
+.priversy ul {
+  padding: 1rem 2rem;
+}
+
+.priversy ul li {
+  padding: 10px 2rem;
+  list-style: normal;
+}
+
+.priversy h2,
+.priversy h3 {
+  margin: 20px 0;
+}
+
+.dropdownss {
+  background: white;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  color: #000;
+}
+
 
 @media screen and (max-width: 500px) {
   select {

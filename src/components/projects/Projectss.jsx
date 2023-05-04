@@ -1,6 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import '../projects/projects.css'
+import Lists from '../thinkgsthatnotchanged/Lists'
 
 function Projectss() {
   return (
@@ -13,56 +14,29 @@ function Projectss() {
         <div className='imageofheaderbianca'><h1>Projects</h1></div>
 
         <section className='mainmajidi'>
-          <div className='navleft'>
-            <div>
-              <h6 style={{ margin: '10px 0' }}>location</h6>
-              <div className='navp'>
-                <a href='Majidi-View'>Dubai</a>
-                <a href='bianca'>Baghdad</a>
-                <a href='alwedd'>Erbil</a>
-                <a href='khlood'>Mosul</a>
-                <a href='khlood'>kirkuk</a>
-              </div>
-            </div>
-            <hr />
-            <div>
-              <h6 style={{ margin: '30px 0 0 0' }}>PROPERTY DEVELOPMENT</h6>
-              <div className='navp'>
-                <a href='Majidi-View'>Majidi View</a>
-                <a href='bianca'>Bianca</a>
-                <a href='alwedd'>alwedd</a>
-                <a href='khlood'>khlood</a>
-              </div>
-            </div>
-          </div>
+          <Lists />
 
           <div className='content'>
-            <div class="parentsP">
-              <a href='/alwedd' class="div1P">
+            <div class="parentserbil">
+              <a href='/projects/baghdad' class="div1P">
                 <div className='citybaghdad'></div>
                 <div className='overlays'>
                   <p>Baghdad</p>
                 </div>
               </a>
-              <a href='/majidi-view' class="div2P">
+              <a href='/projects/erbil' class="div2P">
                 <div className='cityerbil'></div>
                 <div className='overlays'>
                   <p>Erbil</p>
                 </div>
               </a>
-              <a href='/khlood' class="div3P">
-                <div className='citymosul'></div>
-                <div className='overlays'>
-                  <p>Mosul</p>
-                </div>
-              </a>
-              <a href='/bianca' class="div4P">
+              <a href='/projects/dubai' class="div4P">
                 <div className='citydubai'></div>
                 <div className='overlays'>
                   <p>UAE Dubai</p>
                 </div>
               </a>
-              <a href='/bianca' class="div5P">
+              <a href='/projects/kirkuk' class="div5P">
                 <div className='citykirkuk'></div>
                 <div className='overlays'>
                   <p>kirkuk</p>
