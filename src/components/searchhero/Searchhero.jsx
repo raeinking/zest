@@ -57,7 +57,7 @@ function Searchhero() {
                         </li>
                         <div className='line'></div>
                         <li className='projectName'>
-                            <label>Project Name</label>
+                            <label>Project city</label>
                             <div className='box-selector'>
                                 <select defaultValue={cityParams} name="city" className="selectt dropdownss">
                                     <option value=''>Select City</option>
@@ -69,7 +69,7 @@ function Searchhero() {
                         </li>
                         <div className='line'></div>
                         <li className='projectName'>
-                            <label>Project Name</label>
+                            <label>Project bedrooms</label>
                             <div className='box-selector'>
                                 <select defaultValue={type} name="type" className="selectt dropdownss">
                                     <option value="">Select Bedrooms</option>

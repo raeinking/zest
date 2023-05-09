@@ -3,7 +3,7 @@ import "./header.css"
 import { arnav } from "../../data/Data"
 import { nav } from "../../data/Data"
 import { Link } from "react-router-dom"
-import image from './logobrown.jpg'
+import image from './logobrown.png'
 import { useLocation } from "react-router-dom";
 import close from '../../images/close.jpg'
 
