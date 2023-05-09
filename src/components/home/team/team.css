@@ -1,42 +1,49 @@
 .team .box {
   background: #ffffff;
-  border-radius: 26px;
-  border: 1px solid rgb(62 28 131 / 10%);
-  padding: 2rem;
+  border-radius: 10px;
+  /* border: 1px solid rgb(62 28 131 / 10%); */
+  /* padding: 2rem; */
   transition: 0.5s;
+  overflow: hidden;
 }
+
 .team .box:hover {
   box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
 }
-.team .details {
+
+/* .team .details {
   text-align: center;
   margin-top: 30px;
-}
-.team .img {
+} */
+
+/* .team .img {
   width: 90px;
   height: 90px;
   margin: auto;
   position: relative;
   margin-bottom: 20px;
-}
-.team .img img {
+} */
+
+/* .team .img img {
   width: 90px;
   height: 90px;
   border-radius: 50%;
-}
+} */
+
 .call {
   width: 20px;
   height: 20px;
 }
 
-.team .img i {
+/* .team .img i {
   color: #108be7;
   font-size: 17px;
   position: absolute;
   top: 5px;
   right: 0px;
-}
-.team .img::after {
+} */
+
+/* .team .img::after {
   content: "";
   position: absolute;
   top: -15px;
@@ -45,20 +52,24 @@
   height: 110px;
   border: 5px solid #edf0f5;
   border-radius: 50%;
-}
-.team label {
+} */
+
+/* .team label {
   display: inline-block;
   margin-top: 20px;
-}
-.team i {
+} */
+
+/* .team i {
   color: grey;
   margin-right: 5px;
-}
-.team ul {
+} */
+
+/* .team ul {
   display: inline-block;
   margin-top: 10px;
-}
-.team ul li {
+} */
+
+/* .team ul li {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -67,17 +78,74 @@
   background-color: #f4f5f7;
   border-radius: 50%;
   margin: 5px;
-}
+} */
+
 .btnmsg {
   width: 100px;
   height: 38px;
   margin-left: 10px;
   background-color: #50c878;
 }
-.team .button {
+
+/* .team .button {
   margin-top: 20px;
-}
+} */
+
 .team .button i {
   color: white;
   font-size: 20px;
+}
+
+.topagent {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.imgagentlist {
+  width: 50%;
+  height: 100%;
+
+}
+
+.bottomagent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightagent {
+  width: 50%;
+  background-color: #50c878;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftagent {
+  width: 50%;
+  background-color: #7a5e41;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridboxagent {
+  justify-content: center;
+  display: grid;
+  max-width: 1440px;
+  width: 100%;
+  gap: 65px 45px;
+  grid-template-columns: repeat(auto-fill, 230px);
+  margin: 2% 0;
+  border-radius: 5px;
+  z-index: 2;
+  margin-top: 4rem;
+  scrollbar-color: rgb(141, 40, 40) green;
+  scrollbar-width: thin;
+  min-width: 300px;
 }

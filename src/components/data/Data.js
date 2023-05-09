@@ -238,14 +238,14 @@ export const allAgents = [
   //   email: "mailto:mohammad.m@zest-property.com",
   //   phone:"tel:+9647502422006",
   // },
-  {
-    list: "50",
-    cover: "../images/customer/muhammedrasul.webp",
-    address: "project: Erbil",
-    name: "Mohammad Rasul",
-    email: "mailto:M.Rasul@zest-property.com",
-    phone: "tel:+9647506912006",
-  },
+  // {
+  //   list: "50",
+  //   cover: "../images/customer/muhammedrasul.webp",
+  //   address: "project: Erbil",
+  //   name: "Mohammad Rasul",
+  //   email: "mailto:M.Rasul@zest-property.com",
+  //   phone: "tel:+9647506912006",
+  // },
   // {
   //   list: "50",
   //   cover: "../images/customer/aliagha.webp",
@@ -3715,38 +3715,6 @@ export const arteam = [
     email: "mailto:Rasty.kayfi@zest-property.com",
     phone: "tel:+9647507342006",
   },
-  {
-    list: "50",
-    cover: "../images/customer/M.Sami.webp",
-    address: "المشروع: كركوك",
-    name: "محمد سامي",
-    email: "mailto:m.sami@zest-property.com",
-    phone: "tel:+9647708652006",
-  },
-  {
-    list: "50",
-    cover: "../images/customer/Aya.Alsaab.webp",
-    address: "المشروع: اربيل",
-    name: "ايه الصعب",
-    email: "mailto:aya.s@zest-property.com",
-    phone: "tel:+9647506322006",
-  },
-  {
-    list: "50",
-    cover: "../images/customer/abdulla.jpg",
-    address: "المشروع: اربيل",
-    name: "عبد الله فارس ",
-    email: "mailto:abdulla.f@zest-property.com",
-    phone: "tel:+9647506522006",
-  },
-  {
-    list: "50",
-    cover: "../images/customer/mahmood.webp",
-    address: "المشروع: اربيل",
-    name: " محمود عبدولله ",
-    email: "mailto:'mahmood@zest-property.com'",
-    phone: "tel:+9647501882006",
-  },
 ]
 
 export const arallAgents = [
@@ -3838,14 +3806,7 @@ export const arallAgents = [
   //   email: "mailto:mohammad.m@zest-property.com",
   //   phone:"tel:+9647502422006",
   // },
-  {
-    list: "50",
-    cover: "../images/customer/muhammedrasul.webp",
-    address: "المشروع: اربيل",
-    name: "محمد رسول",
-    email: "mailto:M.Rasul@zest-property.com",
-    phone: "tel:+9647506912006",
-  },
+
   // {
   //   list: "50",
   //   cover: "../images/customer/aliagha.webp",

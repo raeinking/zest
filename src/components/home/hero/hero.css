@@ -28,11 +28,9 @@
   font-weight: 600;
 }
 
+
 .hero {
-  background-image: url("../../../../public/images/banner1.jpg");
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: cover;
+
   min-height: calc(80vh - 60px);
   width: 100%;
   position: relative;
@@ -40,6 +38,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.herovedio {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: calc(80vh - 60px);
+  position: absolute;
 }
 
 .herocontain {

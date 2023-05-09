@@ -38,7 +38,10 @@ const Hero = () => {
     <>
       {paths == '/' ?
         <section className='hero'>
-          <h1 title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.'>Zest Property</h1>
+          <video className="herovedio" playsInline muted loop preload="auto" tabIndex="-1" role="application" autoPlay>
+            <source src="https://www.deyaar.ae/Uploads/Banners/41a3a5d4-2c9f-4293-9047-d9c4f06f46d7.mp4" type="video/mp4" />
+          </video>
+          <h1>Zest Property</h1>
           <p>Find Your Next Home In Zest Property.</p>
         </section>
         :
