@@ -62,3 +62,15 @@ option {
     top: 100%;
     z-index: 99;
 }
+
+.dropdownss {
+    position: relative;
+    width: 200px;
+}
+
+.selected-option {
+    padding: 10px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+

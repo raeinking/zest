@@ -396,3 +396,35 @@ select:after {
   font-family: "arabic";
 }
 
+.options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  background-color: #fff;
+  transition: max-height 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 99;
+}
+
+.options.open {
+  max-height: 150px;
+  overflow-y: scroll;
+}
+
+.option {
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}
+
+/* Hide the scrollbar */
+.options::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
