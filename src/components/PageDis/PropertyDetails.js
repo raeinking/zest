@@ -28,7 +28,8 @@ const PropertyDetails = (val) => {
   const arproperty = arhousesData.find((house) => {
      return house.url == id
   });
-  console.log(id)
+  const pathname = window.location.pathname;
+
   const [nname , setName] = useState('')
   const [phone , setPhone] = useState('')
   const [body , setBody] = useState('مرحبا، أنا مهتم ب ' + "[ " + id + " ]")
@@ -238,7 +239,7 @@ const PropertyDetails = (val) => {
             <textarea
               type='text'
               placeholder='Message*'
-              defaultValue={"Hello, I am interested in"  + "[ " + val.url + " ]"}
+              defaultValue={"Hello, I am interested in"  + "[ " + id + " ]"}
               onChange={e => setBody(e.target.value)}
             />
             <div className='flex gap-x-2'>

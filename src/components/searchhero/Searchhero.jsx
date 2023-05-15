@@ -166,7 +166,14 @@ function Searchhero() {
         { value: 'Sky View', label: 'Sky View' },
         { value: 'venus', label: 'Venus Towers' },
         { value: 'Qaiwan', label: 'Qaiwan Mirador' },
-        { value: 'Nova', label: 'Nova Towers' }
+        { value: 'Nova', label: 'Nova Towers' },
+        { value: 'Skyland', label: 'Skyland' },
+        { value: 'Alwedd', label: 'Alwedd' },
+        { value: 'Khlood', label: 'Khlood' },
+        { value: 'Majidi View', label: 'Majidi View' },
+        { value: 'Damac Bay 2', label: 'Damac Bay 2' },
+        { value: 'Azizi Rivira', label: 'Azizi Rivira' },
+        { value: 'Damac Lagoon', label: 'Damac Lagoon' },
     ];
     const typeapartment = [
         { value: '', label: 'Select Property Type' },
@@ -178,6 +185,7 @@ function Searchhero() {
         { value: 'Erbil', label: 'Erbil' },
         { value: 'Baghdad', label: 'Baghdad' },
         { value: 'Kirkuk', label: 'Kirkuk' },
+        { value: 'Dubai', label: 'Dubai' },
     ];
     const rooms = [
         { value: '', label: 'Select Bedrooms' },
@@ -196,7 +204,14 @@ function Searchhero() {
         { value: 'سكاي فيو', label: 'سكاي فيو' },
         { value: 'فينوس تاوەر', label: 'فينوس تاوەر' },
         { value: 'قیوان', label: 'قیوان میرادور' },
-        { value: 'نوفا', label: 'نوفا تاورز' }
+        { value: 'نوفا', label: 'نوفا تاورز' },
+        { value: 'سکايلاند', label: 'سکايلاند' },
+        { value: 'الود', label: 'الود' },
+        { value: 'الخلود', label: 'الخلود' },
+        { value: 'ماجدي فیو', label: 'ماجدي فیو' },
+        { value: 'داماك بي ٢', label: 'داماك بي ٢' },
+        { value: 'أزیزي ریفیرا', label: 'أزیزي ریفیرا' },
+        { value: 'داماك لاگوون', label: 'داماك لاگوون' },
     ];
     const artypeapartment = [
         { value: '', label: 'نوع الملكية' },
@@ -208,6 +223,7 @@ function Searchhero() {
         { value: 'اربيل', label: 'اربيل' },
         { value: 'بغداد', label: 'بغداد' },
         { value: 'كركوك', label: 'كركوك' },
+        { value: 'دبي', label: 'دبي' },
     ];
     const arrooms = [
         { value: '', label: 'عدد الغرف' },
