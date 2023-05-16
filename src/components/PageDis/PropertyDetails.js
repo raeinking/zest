@@ -1,6 +1,7 @@
 import React, { useState,useEffect } from 'react';
 import './discription.css'
 import { useLocation } from "react-router-dom";
+import axios from "axios"
 
 
 // import houseData
@@ -30,9 +31,32 @@ const PropertyDetails = (val) => {
   });
   const pathname = window.location.pathname;
 
-  const [nname , setName] = useState('')
+  const [name , setName] = useState('')
   const [phone , setPhone] = useState('')
-  const [body , setBody] = useState('مرحبا، أنا مهتم ب ' + "[ " + id + " ]")
+  const [email, setEmail] = useState('')
+  const [projectname, setProjectname] = useState( id )
+  const [body, setBody] = useState( id )
+
+
+  
+  const config = {
+    headers: {
+        'Content-Type': 'application/json',
+        'accept': 'application/json'
+    },
+};
+
+
+
+
+
+  let handleSubmit = async (e) => {
+    e.preventDefault();
+    await axios.post("https://node-email-sendersss.glitch.me/majidi", { email, name, phone, projectname }, config).then(alert('Ower Agent Will Contact You / سيتصل بك وكيل أوير'))
+};
+
+
+
   
 
   
@@ -134,7 +158,7 @@ const PropertyDetails = (val) => {
               <div>{arproperty.agent.name}</div>
             </div>
           </div>
-          <form>
+          <form onSubmit={handleSubmit}>
             <input
               type='text'
               placeholder='اسم*'
@@ -143,6 +167,7 @@ const PropertyDetails = (val) => {
             <input
               type='text'
               placeholder='البريد الإلكتروني*'
+              onChange={e => setEmail(e.target.value)}
             />
             <input
               type='text'
@@ -156,12 +181,11 @@ const PropertyDetails = (val) => {
               onChange={e => setBody(e.target.value)}
             />
             <div className='flex gap-x-2'>
-              <a href={`mailto:${arproperty.agent.email}?subject=${nname + ': ' + phone}&body=${body}`}>
-                <p
+              <a>
+                <input type='submit'
                   className='buttonss'
-                  type='submit'
-                >
-                  أرسل رسالة</p>
+                  value='أرسل رسالة'
+                ></input>
             </a>
               <a href={arproperty.agent.phone}>
                 <p  className='buttonss'>اتصال</p>
@@ -221,7 +245,7 @@ const PropertyDetails = (val) => {
               <div>{property.agent.name}</div>
             </div>
           </div>
-          <form>
+          <form onSubmit={handleSubmit}>
             <input
               type='text'
               placeholder='Name*'
@@ -243,13 +267,12 @@ const PropertyDetails = (val) => {
               onChange={e => setBody(e.target.value)}
             />
             <div className='flex gap-x-2'>
-              <a href={`mailto:${property.agent.email}?subject=${nname + ': ' + phone}&body=${body}`}>
-                <p
+              <a >
+                <input
                   className='buttonss'
                   type='submit'
-                >
-                  Send message
-                </p>
+                  value='Send message'
+                ></input>
             </a>
               <a href={property.agent.phone}>
                 <p  className='buttonss'>
