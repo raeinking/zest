@@ -36,7 +36,6 @@ const Home = () => {
       }
       <Hero />
       <Searchhero />
-      {/* <Featured /> */}
       <Projecta />
       {/* <Form /> */}
       <Recent />
