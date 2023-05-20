@@ -211,27 +211,34 @@ const Blog = () => {
 
 
 
-
   const options = [
     { value: '', label: 'Select Projects Name' },
     { value: 'North', label: 'North Holland' },
     { value: 'Sky View', label: 'Sky View' },
     { value: 'venus', label: 'Venus Towers' },
     { value: 'Qaiwan', label: 'Qaiwan Mirador' },
-    { value: 'Nova', label: 'Nova Towers' }
-  ];
-  const typeapartment = [
+    { value: 'Nova', label: 'Nova Towers' },
+    { value: 'Skyland', label: 'Skyland' },
+    { value: 'Alwedd', label: 'Alwedd' },
+    { value: 'Khlood', label: 'Khlood' },
+    { value: 'Majidi View', label: 'Majidi View' },
+    { value: 'Damac Bay 2', label: 'Damac Bay 2' },
+    { value: 'Azizi Rivira', label: 'Azizi Rivira' },
+    { value: 'Damac Lagoon', label: 'Damac Lagoon' },
+];
+const typeapartment = [
     { value: '', label: 'Select Property Type' },
     { value: 'Apartment', label: 'Apartment' },
     { value: 'House', label: 'House' },
-  ];
-  const citys = [
+];
+const citys = [
     { value: '', label: 'Select City' },
     { value: 'Erbil', label: 'Erbil' },
     { value: 'Baghdad', label: 'Baghdad' },
     { value: 'Kirkuk', label: 'Kirkuk' },
-  ];
-  const rooms = [
+    { value: 'Dubai', label: 'Dubai' },
+];
+const rooms = [
     { value: '', label: 'Select Bedrooms' },
     { value: '1 + 1', label: '1 + 1' },
     { value: '2 + 1', label: '1 + 2' },
@@ -239,29 +246,37 @@ const Blog = () => {
     { value: '4 + 1', label: '1 + 4' },
     { value: '5 + 1', label: '1 + 5' },
     { value: 'Villa', label: 'Villa' },
-  ];
+];
 
 
-  const aroptions = [
+const aroptions = [
     { value: '', label: 'حدد اسم المشروع' },
     { value: 'نورث هولند', label: 'نورث هولند' },
     { value: 'سكاي فيو', label: 'سكاي فيو' },
     { value: 'فينوس تاوەر', label: 'فينوس تاوەر' },
     { value: 'قیوان', label: 'قیوان میرادور' },
-    { value: 'نوفا', label: 'نوفا تاورز' }
-  ];
-  const artypeapartment = [
+    { value: 'نوفا', label: 'نوفا تاورز' },
+    { value: 'سکايلاند', label: 'سکايلاند' },
+    { value: 'الود', label: 'الود' },
+    { value: 'الخلود', label: 'الخلود' },
+    { value: 'ماجدي فیو', label: 'ماجدي فیو' },
+    { value: 'داماك بي ٢', label: 'داماك بي ٢' },
+    { value: 'أزیزي ریفیرا', label: 'أزیزي ریفیرا' },
+    { value: 'داماك لاگوون', label: 'داماك لاگوون' },
+];
+const artypeapartment = [
     { value: '', label: 'نوع الملكية' },
     { value: 'شقة', label: 'شقة' },
     { value: 'منزل', label: 'منزل' },
-  ];
-  const arcitys = [
+];
+const arcitys = [
     { value: '', label: 'حدد المحافظة' },
     { value: 'اربيل', label: 'اربيل' },
     { value: 'بغداد', label: 'بغداد' },
     { value: 'كركوك', label: 'كركوك' },
-  ];
-  const arrooms = [
+    { value: 'دبي', label: 'دبي' },
+];
+const arrooms = [
     { value: '', label: 'عدد الغرف' },
     { value: '1 + 1', label: '1 + 1' },
     { value: '2 + 1', label: '1 + 2' },
@@ -269,9 +284,7 @@ const Blog = () => {
     { value: '4 + 1', label: '1 + 4' },
     { value: '5 + 1', label: '1 + 5' },
     { value: 'منزل', label: 'منزل' },
-  ];
-
-
+];
 
 
   const handleSearch = () => {
