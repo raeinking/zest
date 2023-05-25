@@ -611,6 +611,7 @@ export const listAll = [
   
 
   {
+    id: 14,
     cover:"../images/property/majidi/majidism.jpg",
     url:"apartment-for-sale-majidi-view-518",
     name:"apartment for sale majidi view 518 meter",
@@ -1183,6 +1184,23 @@ export const listAll = [
     property: 'apartment',
     citys: 'Erbil'
   },
+  {
+    cover:"../images/property/majidi/majidism.jpg",
+    url:"apartment-for-sale-majidi-view-150",
+    name:"apartment for sale majidi view 150 meter",
+    location:"Erbil",
+    category:"Buy",
+    price:"Call us",
+    number: '5',
+    type:"3 + 1",
+    nameproject:"Majidi View",
+    number:"5",
+    area:"150 m",
+    citys:"Erbil",
+    property:"Apartment",
+    place:"Erbil - koya road",
+    id:"646dd7a74cce70fbd1e5d8e7",
+  },
 
 ]
 
@@ -1218,26 +1236,6 @@ export const list = [
     area: "90 m"
   },
   
-  {
-    cover:"../images/property/majidi/majidism.jpg",
-    url:"apartment-for-sale-majidi-view-150",
-    name:"apartment for sale majidi view 150 meter",
-    location:"Erbil",
-    category:"Buy",
-    price:"Call us",
-    type:"3 + 1",
-    nameproject:"Majidi View",
-    number:"5",
-    area:"150 m",
-    citys:"Erbil",
-    property:"Apartment",
-    place:"Erbil - koya road",
-    id:"646dd7a74cce70fbd1e5d8e7",
-  },
-
-
-
-
   {
     id: 43,
     cover: "../images/property/qaywan/qaywan_blog.jpg",
@@ -1294,6 +1292,282 @@ export const arhousesData = [
       email: "kaiwankaify@zest-property.com"
     },
   },
+
+
+
+
+
+  {
+    id: 1,
+    type: 'شقة',
+    url: 'شقة-للبیع-ماجدي-فیو-٨٣',
+    name: 'شقة للبیع ماجدي فیو ٨٣',
+    nameproperty: 'ماجدي فیو ',
+    build: '11',
+    Allbuild: '24',
+    image: '/images/property/majidi/majidibg.jpg',
+    imageLg: '/images/property/majidi/majidibg.jpg',
+    country: 'عراق',
+    address: 'اربيل - طريق کویة',
+    bedrooms: '2',
+    bathrooms: '1',
+    area: '83 متر',
+    year: '2023',
+    price: 'اتصل بنا',
+    agent: {
+      image: '/images/customer/kaywan.webp',
+      name: 'كيوان كيفي',
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+
+
+  {
+    id: 1,
+    type: 'شقة',
+    url: 'شقة-للبیع-ماجدي-فیو-١٠٣',
+    name: 'شقة للبیع ماجدي فیو ١٠٣',
+    nameproperty: 'ماجدي فیو ',
+    build: '11',
+    Allbuild: '24',
+    image: '/images/property/majidi/majidibg.jpg',
+    imageLg: '/images/property/majidi/majidibg.jpg',
+    country: 'عراق',
+    address: 'اربيل - طريق کویة',
+    bedrooms: '2',
+    bathrooms: '1',
+    area: '103 متر',
+    year: '2023',
+    price: 'اتصل بنا',
+    agent: {
+      image: '/images/customer/kaywan.webp',
+      name: 'كيوان كيفي',
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+
+
+
+  {
+    id: 1,
+    type: 'شقة',
+    url: 'شقة-للبیع-ماجدي-فیو-١٠٨',
+    name: 'شقة للبیع ماجدي فیو ١٠٨',
+    nameproperty: 'ماجدي فیو ',
+    build: '11',
+    Allbuild: '24',
+    image: '/images/property/majidi/majidibg.jpg',
+    imageLg: '/images/property/majidi/majidibg.jpg',
+    country: 'عراق',
+    address: 'اربيل - طريق کویة',
+    bedrooms: '2',
+    bathrooms: '1',
+    area: '108 متر',
+    year: '2023',
+    price: 'اتصل بنا',
+    agent: {
+      image: '/images/customer/kaywan.webp',
+      name: 'كيوان كيفي',
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+
+
+
+  {
+    id: 1,
+    type: 'شقة',
+    url: 'شقة-للبیع-ماجدي-فیو-١٤٧',
+    name: 'شقة للبیع ماجدي فیو ١٤٧',
+    nameproperty: 'ماجدي فیو ',
+    build: '11',
+    Allbuild: '24',
+    image: '/images/property/majidi/majidibg.jpg',
+    imageLg: '/images/property/majidi/majidibg.jpg',
+    country: 'عراق',
+    address: 'اربيل - طريق کویة',
+    bedrooms: '2',
+    bathrooms: '1',
+    area: '147 متر',
+    year: '2023',
+    price: 'اتصل بنا',
+    agent: {
+      image: '/images/customer/kaywan.webp',
+      name: 'كيوان كيفي',
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+
+
+  {
+    id: 1,
+    type: 'شقة',
+    url: 'شقة-للبیع-ماجدي-فیو-١٥٠',
+    name: 'شقة للبیع ماجدي فیو ١٥٠',
+    nameproperty: 'ماجدي فیو ',
+    build: '11',
+    Allbuild: '24',
+    image: '/images/property/majidi/majidibg.jpg',
+    imageLg: '/images/property/majidi/majidibg.jpg',
+    country: 'عراق',
+    address: 'اربيل - طريق کویة',
+    bedrooms: '3',
+    bathrooms: '1',
+    area: '150 متر',
+    year: '2023',
+    price: 'اتصل بنا',
+    agent: {
+      image: '/images/customer/kaywan.webp',
+      name: 'كيوان كيفي',
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+
+
+
+  {
+    id: 1,
+    type: 'شقة',
+    url: 'شقة-للبیع-ماجدي-فیو-١٨٢',
+    name: 'شقة للبیع ماجدي فیو ١٨٢',
+    nameproperty: 'ماجدي فیو ',
+    build: '11',
+    Allbuild: '24',
+    image: '/images/property/majidi/majidibg.jpg',
+    imageLg: '/images/property/majidi/majidibg.jpg',
+    country: 'عراق',
+    address: 'اربيل - طريق کویة',
+    bedrooms: '3',
+    bathrooms: '1',
+    area: '182 متر',
+    year: '2023',
+    price: 'اتصل بنا',
+    agent: {
+      image: '/images/customer/kaywan.webp',
+      name: 'كيوان كيفي',
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+
+
+
+
+  {
+    id: 1,
+    type: 'شقة',
+    url: 'شقة-للبیع-ماجدي-فیو-١٨٥',
+    name: 'شقة للبیع ماجدي فیو ١٨٥',
+    nameproperty: 'ماجدي فیو ',
+    build: '11',
+    Allbuild: '24',
+    image: '/images/property/majidi/majidibg.jpg',
+    imageLg: '/images/property/majidi/majidibg.jpg',
+    country: 'عراق',
+    address: 'اربيل - طريق کویة',
+    bedrooms: '3',
+    bathrooms: '1',
+    area: '185 متر',
+    year: '2023',
+    price: 'اتصل بنا',
+    agent: {
+      image: '/images/customer/kaywan.webp',
+      name: 'كيوان كيفي',
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+
+
+
+
+  {
+    id: 1,
+    type: 'شقة',
+    url: 'شقة-للبیع-ماجدي-فیو-٣٩٦',
+    name: 'شقة للبیع ماجدي فیو ٣٩٦',
+    nameproperty: 'ماجدي فیو ',
+    build: '11',
+    Allbuild: '24',
+    image: '/images/property/majidi/majidibg.jpg',
+    imageLg: '/images/property/majidi/majidibg.jpg',
+    country: 'عراق',
+    address: 'اربيل - طريق کویة',
+    bedrooms: '5',
+    bathrooms: '1',
+    area: '396 متر',
+    year: '2023',
+    price: 'اتصل بنا',
+    agent: {
+      image: '/images/customer/kaywan.webp',
+      name: 'كيوان كيفي',
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+
+
+
+  {
+    id: 1,
+    type: 'شقة',
+    url: 'شقة-للبیع-ماجدي-فیو-٤٣٥',
+    name: 'شقة للبیع ماجدي فیو ٤٣٥',
+    nameproperty: 'ماجدي فیو ',
+    build: '11',
+    Allbuild: '24',
+    image: '/images/property/majidi/majidibg.jpg',
+    imageLg: '/images/property/majidi/majidibg.jpg',
+    country: 'عراق',
+    address: 'اربيل - طريق کویة',
+    bedrooms: '5',
+    bathrooms: '1',
+    area: '435 متر',
+    year: '2023',
+    price: 'اتصل بنا',
+    agent: {
+      image: '/images/customer/kaywan.webp',
+      name: 'كيوان كيفي',
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+
+
+  {
+    id: 1,
+    type: 'شقة',
+    url: 'شقة-للبیع-ماجدي-فیو-٥١٨',
+    name: 'شقة للبیع ماجدي فیو ٥١٨',
+    nameproperty: 'ماجدي فیو ',
+    build: '11',
+    Allbuild: '24',
+    image: '/images/property/majidi/majidibg.jpg',
+    imageLg: '/images/property/majidi/majidibg.jpg',
+    country: 'عراق',
+    address: 'اربيل - طريق کویة',
+    bedrooms: '5',
+    bathrooms: '1',
+    area: '518 متر',
+    year: '2023',
+    price: 'اتصل بنا',
+    agent: {
+      image: '/images/customer/kaywan.webp',
+      name: 'كيوان كيفي',
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+
+
+
+
+
   {
     id: 4,
     type: 'شقة',
@@ -2525,6 +2799,23 @@ export const arlistAll = [
     property: 'شقة'
   },
   {
+    id: 1,
+    cover: "../images/property/majidi/majidism.jpg",
+    url: 'شقة-للبیع-ماجدي-فیو-٥١٨',
+    name: "شقة للبیع ماجدي فیو ٥١٨",
+    location: "اربيل",
+    nameproject: 'ماجدي فیو',
+    number: '10',
+    place: 'إربیل - طريق کویة',
+    category: "للبيع",
+    price: "اتصل بنا",
+    type: "5 + 1",
+    area: "518 م",
+    citys: 'اربيل',
+    property: 'شقة'
+  },
+
+  {
     id: 6,
     cover: "../images/property/nova/ewr.jpg",
     url: 'شقة-للبیع-نوفا-تاورز-١٤-ئەی٢',
@@ -2605,6 +2896,28 @@ export const arlistAll = [
     citys: 'اربيل',
     property: 'شقة'
   },
+  
+
+
+
+  {
+    id: 1,
+    cover: "../images/property/majidi/majidism.jpg",
+    url: 'شقة-للبیع-ماجدي-فیو-١٠٣',
+    name: "شقة للبیع ماجدي فیو ١٠٣",
+    location: "اربيل",
+    nameproject: 'ماجدي فیو',
+    number: '2',
+    place: 'إربیل - طريق کویة',
+    category: "للبيع",
+    price: "اتصل بنا",
+    type: "2 + 1",
+    area: "103 م",
+    citys: 'اربيل',
+    property: 'شقة'
+  },
+
+
   {
     id: 11,
     cover: "../images/property/skyland/skylandsm.jpg",
@@ -2654,6 +2967,23 @@ export const arlistAll = [
     property: 'شقة'
   },
   {
+    id: 1,
+    cover: "../images/property/majidi/majidism.jpg",
+    url: 'شقة-للبیع-ماجدي-فیو-٤٣٥',
+    name: "شقة للبیع ماجدي فیو ٤٣٥",
+    location: "اربيل",
+    nameproject: 'ماجدي فیو',
+    number: '9',
+    place: 'إربیل - طريق کویة',
+    category: "للبيع",
+    price: "اتصل بنا",
+    type: "5 + 1",
+    area: "495 م",
+    citys: 'اربيل',
+    property: 'شقة'
+  },
+
+  {
     id: 38,
     cover: "../images/property/north/north_holland_blog.jpg",
     url: "شقة-للبیع-نورث-هولند-٥-ئەی",
@@ -2701,6 +3031,25 @@ export const arlistAll = [
     citys: 'اربيل',
     property: 'شقة'
   },
+  
+
+  {
+    id: 1,
+    cover: "../images/property/majidi/majidism.jpg",
+    url: 'شقة-للبیع-ماجدي-فیو-١٨٢',
+    name: "شقة للبیع ماجدي فیو ١٨٢",
+    location: "اربيل",
+    nameproject: 'ماجدي فیو',
+    number: '6',
+    place: 'إربیل - طريق کویة',
+    category: "للبيع",
+    price: "اتصل بنا",
+    type: "3 + 1",
+    area: "182 م",
+    citys: 'اربيل',
+    property: 'شقة'
+  },
+
   {
     id: 11,
     cover: "../images/property/skyland/skylandsm.jpg",
@@ -2765,6 +3114,24 @@ export const arlistAll = [
     citys: 'اربيل',
     property: 'شقة'
   },
+  
+  {
+    id: 1,
+    cover: "../images/property/majidi/majidism.jpg",
+    url: 'شقة-للبیع-ماجدي-فیو-١٨٥',
+    name: "شقة للبیع ماجدي فیو ١٨٥",
+    location: "اربيل",
+    nameproject: 'ماجدي فیو',
+    number: '7',
+    place: 'إربیل - طريق کویة',
+    category: "للبيع",
+    price: "اتصل بنا",
+    type: "3 + 1",
+    area: "185 م",
+    citys: 'اربيل',
+    property: 'شقة'
+  },
+
   {
     id: 6,
     cover: "../images/property/alwedd/2.jpg",
@@ -2798,6 +3165,22 @@ export const arlistAll = [
     property: 'شقة'
   },
   {
+    id: 1,
+    cover: "../images/property/majidi/majidism.jpg",
+    url: 'شقة-للبیع-ماجدي-فیو-١٥٠',
+    name: "شقة للبیع ماجدي فیو ١٥٠",
+    location: "اربيل",
+    nameproject: 'ماجدي فیو',
+    number: '5',
+    place: 'إربیل - طريق کویة',
+    category: "للبيع",
+    price: "اتصل بنا",
+    type: "3 + 1",
+    area: "150 م",
+    citys: 'اربيل',
+    property: 'شقة'
+  },
+  {
     id: 11,
     cover: "../images/property/skyland/skylandsm.jpg",
     url: 'منزل-للبیع-سکاي-لاند-نوع-ڤاپ',
@@ -2813,6 +3196,23 @@ export const arlistAll = [
     citys: 'کرکوك',
     property: 'منزل'
   },
+  {
+    id: 1,
+    cover: "../images/property/majidi/majidism.jpg",
+    url: 'شقة-للبیع-ماجدي-فیو-٨٣',
+    name: "شقة للبیع ماجدي فیو ٨٣",
+    location: "اربيل",
+    nameproject: 'ماجدي فیو',
+    number: '1',
+    place: 'إربیل - طريق کویة',
+    category: "للبيع",
+    price: "اتصل بنا",
+    type: "2 + 1",
+    area: "83 م",
+    citys: 'اربيل',
+    property: 'شقة'
+  },
+
   {
     id: 15,
     cover: "../images/property/skyview/dsf.jpg",
@@ -2842,6 +3242,22 @@ export const arlistAll = [
     number: 'A1-13',
     place: 'إربیل - هیولیري نوي',
     area: "115 م",
+    citys: 'اربيل',
+    property: 'شقة'
+  },
+  {
+    id: 1,
+    cover: "../images/property/majidi/majidism.jpg",
+    url: 'شقة-للبیع-ماجدي-فیو-١٠٨',
+    name: "شقة للبیع ماجدي فیو ١٠٨",
+    location: "اربيل",
+    nameproject: 'ماجدي فیو',
+    number: '3',
+    place: 'إربیل - طريق کویة',
+    category: "للبيع",
+    price: "اتصل بنا",
+    type: "2 + 1",
+    area: "108 م",
     citys: 'اربيل',
     property: 'شقة'
   },
@@ -2877,6 +3293,27 @@ export const arlistAll = [
     citys: 'اربيل',
     property: 'شقة'
   },
+  
+  {
+    id: 1,
+    cover: "../images/property/majidi/majidism.jpg",
+    url: 'شقة-للبیع-ماجدي-فیو-١٤٧',
+    name: "شقة للبیع ماجدي فیو ١٤٧",
+    location: "اربيل",
+    nameproject: 'ماجدي فیو',
+    number: '4',
+    place: 'إربیل - طريق کویة',
+    category: "للبيع",
+    price: "اتصل بنا",
+    type: "2 + 1",
+    area: "147 م",
+    citys: 'اربيل',
+    property: 'شقة'
+  },
+
+
+
+
   {
     id: 19,
     cover: "../images/property/skyview/dsf.jpg",
@@ -2971,6 +3408,23 @@ export const arlistAll = [
     number: 'F-7',
     place: 'إربیل - دریم ستي',
     area: "90 م",
+    citys: 'اربيل',
+    property: 'شقة'
+  },
+  
+  {
+    id: 1,
+    cover: "../images/property/majidi/majidism.jpg",
+    url: 'شقة-للبیع-ماجدي-فیو-٣٩٦',
+    name: "شقة للبیع ماجدي فیو ٣٩٦",
+    location: "اربيل",
+    nameproject: 'ماجدي فیو',
+    number: '8',
+    place: 'إربیل - طريق کویة',
+    category: "للبيع",
+    price: "اتصل بنا",
+    type: "5 + 1",
+    area: "396 م",
     citys: 'اربيل',
     property: 'شقة'
   },
