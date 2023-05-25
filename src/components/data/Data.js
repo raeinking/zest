@@ -323,6 +323,34 @@ export const awards = [
 
 export const listAll = [
   {
+  cover:"../images/property/majidi/majidism.jpg",
+  url:"apartment-for-sale-majidi-view-83",
+  name:"apartment for sale majidi view",
+  location:"Erbil",
+  category:"buy",
+  price:"Call us",
+  type:"2 + 1",
+  nameproject:"Majidi View",
+  number:"1",
+  area:"83 m",
+  citys:"Erbil",
+  property:"Apartment",
+  place:"Erbil - koya road",
+  id:"646dccb3792e1089f528d554",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+  {
     id: 1,
     cover: "../images/property/skyview/dsf.jpg",
     url: "Apartment-for-Sale-Sky-View-B1-30-Floor",
@@ -418,6 +446,23 @@ export const listAll = [
     area: "200 m",
     citys: 'Kirkuk',
     property: 'house'
+  },
+  
+  {
+    cover:"../images/property/majidi/majidism.jpg",
+    url:"apartment-for-sale-majidi-view-103",
+    name:"apartment for sale majidi view 103 meters",
+    location:"Erbil",
+    category:"Buy",
+    price:"Call us",
+    type:"2 + 1",
+    nameproject:"Majidi View",
+    number:"2",
+    area:"103 m",
+    citys:"Erbil",
+    property:"Apartment",
+    place:"Erbil - koya road",
+    id:"646dd5a14cce70fbd1e5d8df",
   },
   {
     id: 9,
@@ -563,6 +608,26 @@ export const listAll = [
     citys: 'Erbil',
     property: 'apartment'
   },
+  
+
+  {
+    cover:"../images/property/majidi/majidism.jpg",
+    url:"apartment-for-sale-majidi-view-518",
+    name:"apartment for sale majidi view 518 meter",
+    location:"Erbil",
+    category:"Buy",
+    price:"Call us",
+    type:"5 + 1",
+    nameproject:"Majidi View",
+    number:"10",
+    area:"518 m",
+    citys:"Erbil",
+    property:"Apartment",
+    place:"Erbil - koya road",
+    id:"646dd7a74cce70fbd1e5d8e7",
+  },
+
+
   {
     id: 15,
     cover: "../images/property/skyview/dsf.jpg",
@@ -611,6 +676,25 @@ export const listAll = [
     citys: 'Erbil',
     property: 'apartment'
   },
+  
+  {
+    cover:"../images/property/majidi/majidism.jpg",
+    url:"apartment-for-sale-majidi-view-147",
+    name:"apartment for sale majidi view 147 meter",
+    location:"Erbil",
+    category:"Buy",
+    price:"Call us",
+    type:"2 + 1",
+    nameproject:"Majidi View",
+    number:"4",
+    area:"147 m",
+    citys:"Erbil",
+    property:"Apartment",
+    place:"Erbil - koya road",
+    id:"646dd7a74cce70fbd1e5d8e7",
+  },
+
+
   {
     id: 6,
     cover: "../images/property/alwedd/2.jpg",
@@ -676,6 +760,21 @@ export const listAll = [
     property: 'apartment'
   },
   {
+    cover:"../images/property/majidi/majidism.jpg",
+    url:"apartment-for-sale-majidi-view-108",
+    name:"apartment for sale majidi view 108 meter",
+    location:"Erbil","category":"Buy",
+    price:"Call us",
+    type:"2 + 1",
+    nameproject:"Majidi View",
+    number:"3",
+    area:"108 m",
+    citys:"Erbil",
+    property:"Apartment",
+    place:"Erbil - koya road",
+    id:"646dd6af4cce70fbd1e5d8e1"
+  },
+  {
     id: 19,
     cover: "../images/property/skyview/dsf.jpg",
     url: "Apartment-for-Sale-Sky-View-A1-7-Floor",
@@ -738,6 +837,22 @@ export const listAll = [
     area: "105 m",
     citys: 'Erbil',
     property: 'apartment'
+  },
+  {
+    cover:"../images/property/majidi/majidism.jpg",
+    url:"apartment-for-sale-majidi-view-182",
+    name:"apartment for sale majidi view 182 meter",
+    location:"Erbil",
+    category:"Buy",
+    price:"Call us",
+    type:"3 + 1",
+    nameproject:"Majidi View",
+    number:"6",
+    area:"182 m",
+    citys:"Erbil",
+    property:"Apartment",
+    place:"Erbil - koya road",
+    id:"646dd7a74cce70fbd1e5d8e7",
   },
   {
     id: 23,
@@ -820,6 +935,23 @@ export const listAll = [
     citys: 'Erbil',
     property: 'apartment'
   },
+  
+  {
+    cover:"../images/property/majidi/majidism.jpg",
+    url:"apartment-for-sale-majidi-view-185",
+    name:"apartment for sale majidi view 185 meter",
+    location:"Erbil",
+    category:"Buy",
+    price:"Call us",
+    type:"3 + 1",
+    nameproject:"Majidi View",
+    number:"7",
+    area:"185 m",
+    citys:"Erbil",
+    property:"Apartment",
+    place:"Erbil - koya road",
+    id:"646dd7a74cce70fbd1e5d8e7",
+  },
   {
     id: 39,
     cover: "../images/property/north/north_holland_blog.jpg",
@@ -900,6 +1032,24 @@ export const listAll = [
     citys: 'Erbil',
     property: 'apartment'
   },
+  
+  {
+    cover:"../images/property/majidi/majidism.jpg",
+    url:"apartment-for-sale-majidi-view-396",
+    name:"apartment for sale majidi view 396 meter",
+    location:"Erbil",
+    category:"Buy",
+    price:"Call us",
+    type:"5 + 1",
+    nameproject:"Majidi View",
+    number:"8",
+    area:"396 m",
+    citys:"Erbil",
+    property:"Apartment",
+    place:"Erbil - koya road",
+    id:"646dd7a74cce70fbd1e5d8e7",
+  },
+
   {
     id: 39,
     cover: "../images/property/north/north_holland_blog.jpg",
@@ -981,6 +1131,24 @@ export const listAll = [
     property: 'apartment'
 
   },
+  
+  {
+    cover:"../images/property/majidi/majidism.jpg",
+    url:"apartment-for-sale-majidi-view-435",
+    name:"apartment for sale majidi view 435 meter",
+    location:"Erbil",
+    category:"Buy",
+    price:"Call us",
+    type:"5 + 1",
+    nameproject:"Majidi View",
+    number:"9",
+    area:"435 m",
+    citys:"Erbil",
+    property:"Apartment",
+    place:"Erbil - koya road",
+    id:"646dd7a74cce70fbd1e5d8e7",
+  },
+
   {
     id: 27,
     cover: "../images/property/venus/asdfaf.jpg",
@@ -1049,6 +1217,27 @@ export const list = [
     type: "1 + 1",
     area: "90 m"
   },
+  
+  {
+    cover:"../images/property/majidi/majidism.jpg",
+    url:"apartment-for-sale-majidi-view-150",
+    name:"apartment for sale majidi view 150 meter",
+    location:"Erbil",
+    category:"Buy",
+    price:"Call us",
+    type:"3 + 1",
+    nameproject:"Majidi View",
+    number:"5",
+    area:"150 m",
+    citys:"Erbil",
+    property:"Apartment",
+    place:"Erbil - koya road",
+    id:"646dd7a74cce70fbd1e5d8e7",
+  },
+
+
+
+
   {
     id: 43,
     cover: "../images/property/qaywan/qaywan_blog.jpg",
@@ -3036,6 +3225,347 @@ export const housesData = [
       email: "kaiwankaify@zest-property.com"
     },
   },
+
+
+
+
+
+
+
+  
+  {
+    image:"../images/property/majidi/majidibg.jpg",
+    imageLg:"../images/property/majidi/majidibg.jpg",
+    url:"apartment-for-sale-majidi-view-83",
+    name:"apartment for sale majidi view 83 meter",
+    location:"Erbil",
+    country: 'Iraq',
+    category:"buy",
+    price:"Call us",
+    bedrooms: '2',
+    bathrooms: '1',
+    year: '2023',
+    type:"Apartment",
+    nameproject:"Majidi View",
+    number:"2",
+    area:"83 m",
+    citys:"Erbil",
+    property:"Apartment",
+    address:"Erbil - koya road",
+    id:"646dccb3792e1089f528d554",
+    build: '11',
+    Allbuild: '24',
+    agent: {
+      image: '../images/customer/kaywan.webp',
+      name: 'Kaywan Kayfi',
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+
+
+
+
+  
+  {
+    image:"../images/property/majidi/majidibg.jpg",
+    imageLg:"../images/property/majidi/majidibg.jpg",
+    url:"apartment-for-sale-majidi-view-103",
+    name:"apartment for sale majidi view 103 meter",
+    location:"Erbil",
+    country: 'Iraq',
+    category:"buy",
+    price:"Call us",
+    bedrooms: '2',
+    bathrooms: '1',
+    year: '2023',
+    type:"Apartment",
+    nameproject:"Majidi View",
+    number:"2",
+    area:"103 m",
+    citys:"Erbil",
+    property:"Apartment",
+    address:"Erbil - koya road",
+    id:"646dccb3792e1089f528d554",
+    build: '11',
+    Allbuild: '24',
+    agent: {
+      image: '../images/customer/kaywan.webp',
+      name: 'Kaywan Kayfi',
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+
+
+
+  
+  
+  
+  {
+    image:"../images/property/majidi/majidibg.jpg",
+    imageLg:"../images/property/majidi/majidibg.jpg",
+    url:"apartment-for-sale-majidi-view-108",
+    name:"apartment for sale majidi view 108 meter",
+    location:"Erbil",
+    country: 'Iraq',
+    category:"buy",
+    price:"Call us",
+    bedrooms: '2',
+    bathrooms: '1',
+    year: '2023',
+    type:"Apartment",
+    nameproject:"Majidi View",
+    number:"2",
+    area:"108 m",
+    citys:"Erbil",
+    property:"Apartment",
+    address:"Erbil - koya road",
+    id:"646dccb3792e1089f528d554",
+    build: '11',
+    Allbuild:'24',
+    agent: {
+      image: '../images/customer/kaywan.webp',
+      name: 'Kaywan Kayfi',
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+
+  
+  
+  
+  {
+    image:"../images/property/majidi/majidibg.jpg",
+    imageLg:"../images/property/majidi/majidibg.jpg",
+    url:"apartment-for-sale-majidi-view-147",
+    name:"apartment for sale majidi view 147 meter",
+    location:"Erbil",
+    country: 'Iraq',
+    category:"buy",
+    price:"Call us",
+    bedrooms: '2',
+    bathrooms: '1',
+    year: '2023',
+    type:"Apartment",
+    nameproject:"Majidi View",
+    number:"2",
+    area:"147 m",
+    citys:"Erbil",
+    property:"Apartment",
+    address:"Erbil - koya road",
+    id:"646dccb3792e1089f528d554",
+    build: '11',
+    Allbuild:'24',
+    agent: {
+      image: '../images/customer/kaywan.webp',
+      name: 'Kaywan Kayfi',
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+
+  
+  
+  {
+    image:"../images/property/majidi/majidibg.jpg",
+    imageLg:"../images/property/majidi/majidibg.jpg",
+    url:"apartment-for-sale-majidi-view-150",
+    name:"apartment for sale majidi view 150 meter",
+    location:"Erbil",
+    country: 'Iraq',
+    category:"buy",
+    price:"Call us",
+    bedrooms: '3',
+    bathrooms: '1',
+    year: '2023',
+    type:"Apartment",
+    nameproject:"Majidi View",
+    number:"2",
+    area:"150 m",
+    citys:"Erbil",
+    property:"Apartment",
+    address:"Erbil - koya road",
+    id:"646dccb3792e1089f528d554",
+    build: '11',
+    Allbuild:'24',
+    agent: {
+      image: '../images/customer/kaywan.webp',
+      name: 'Kaywan Kayfi',
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+  
+  
+  {
+    image:"../images/property/majidi/majidibg.jpg",
+    imageLg:"../images/property/majidi/majidibg.jpg",
+    url:"apartment-for-sale-majidi-view-182",
+    name:"apartment for sale majidi view 182 meter",
+    location:"Erbil",
+    country: 'Iraq',
+    category:"buy",
+    price:"Call us",
+    bedrooms: '3',
+    bathrooms: '1',
+    year: '2023',
+    type:"Apartment",
+    nameproject:"Majidi View",
+    number:"2",
+    area:"182 m",
+    citys:"Erbil",
+    property:"Apartment",
+    address:"Erbil - koya road",
+    id:"646dccb3792e1089f528d554",
+    build: '11',
+    Allbuild:'24',
+    agent: {
+      image: '../images/customer/kaywan.webp',
+      name: 'Kaywan Kayfi',
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+  
+  {
+    image:"../images/property/majidi/majidibg.jpg",
+    imageLg:"../images/property/majidi/majidibg.jpg",
+    url:"apartment-for-sale-majidi-view-185",
+    name:"apartment for sale majidi view 185 meter",
+    location:"Erbil",
+    country: 'Iraq',
+    category:"buy",
+    price:"Call us",
+    bedrooms: '3',
+    bathrooms: '1',
+    year: '2023',
+    type:"Apartment",
+    nameproject:"Majidi View",
+    number:"2",
+    area:"185 m",
+    citys:"Erbil",
+    property:"Apartment",
+    address:"Erbil - koya road",
+    id:"646dccb3792e1089f528d554",
+    build: '11',
+    Allbuild:'24',
+    agent: {
+      image: '../images/customer/kaywan.webp',
+      name: 'Kaywan Kayfi',
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+
+
+
+
+
+  
+  {
+    image:"../images/property/majidi/majidibg.jpg",
+    imageLg:"../images/property/majidi/majidibg.jpg",
+    url:"apartment-for-sale-majidi-view-396",
+    name:"apartment for sale majidi view 396 meter",
+    location:"Erbil",
+    country: 'Iraq',
+    category:"buy",
+    price:"Call us",
+    bedrooms: '5',
+    bathrooms: '1',
+    year: '2023',
+    type:"Apartment",
+    nameproject:"Majidi View",
+    number:"2",
+    area:"396 m",
+    citys:"Erbil",
+    property:"Apartment",
+    address:"Erbil - koya road",
+    id:"646dccb3792e1089f528d554",
+    build: '11',
+    Allbuild:'24',
+    agent: {
+      image: '../images/customer/kaywan.webp',
+      name: 'Kaywan Kayfi',
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+
+
+
+  
+  {
+    image:"../images/property/majidi/majidibg.jpg",
+    imageLg:"../images/property/majidi/majidibg.jpg",
+    url:"apartment-for-sale-majidi-view-435",
+    name:"apartment for sale majidi view 435 meter",
+    location:"Erbil",
+    country: 'Iraq',
+    category:"buy",
+    price:"Call us",
+    bedrooms: '5',
+    bathrooms: '1',
+    year: '2023',
+    type:"Apartment",
+    nameproject:"Majidi View",
+    number:"2",
+    area:"435 m",
+    citys:"Erbil",
+    property:"Apartment",
+    address:"Erbil - koya road",
+    id:"646dccb3792e1089f528d554",
+    build: '11',
+    Allbuild:'24',
+    agent: {
+      image: '../images/customer/kaywan.webp',
+      name: 'Kaywan Kayfi',
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+
+
+  
+  {
+    image:"../images/property/majidi/majidibg.jpg",
+    imageLg:"../images/property/majidi/majidibg.jpg",
+    url:"apartment-for-sale-majidi-view-518",
+    name:"apartment for sale majidi view 518 meter",
+    location:"Erbil",
+    country: 'Iraq',
+    category:"buy",
+    price:"Call us",
+    bedrooms: '5',
+    bathrooms: '1',
+    year: '2023',
+    type:"Apartment",
+    nameproject:"Majidi View",
+    number:"2",
+    area:"518 m",
+    citys:"Erbil",
+    property:"Apartment",
+    address:"Erbil - koya road",
+    id:"646dccb3792e1089f528d554",
+    build: '11',
+    Allbuild:'24',
+    agent: {
+      image: '../images/customer/kaywan.webp',
+      name: 'Kaywan Kayfi',
+      phone: "tel:+9647506662006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+
+
+
+
+
+
+
+
+
   {
     id: 4,
     type: 'Apartment',

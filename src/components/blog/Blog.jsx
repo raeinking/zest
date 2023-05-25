@@ -208,9 +208,12 @@ const Blog = () => {
 
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 87d493a (push majidi view english)
   const options = [
     { value: '', label: 'Select Projects Name' },
     { value: 'North', label: 'North Holland' },
@@ -285,6 +288,11 @@ const arrooms = [
     { value: '5 + 1', label: '1 + 5' },
     { value: 'منزل', label: 'منزل' },
 ];
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 87d493a (push majidi view english)
 
 
   const handleSearch = () => {
