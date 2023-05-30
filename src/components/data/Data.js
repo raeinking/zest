@@ -340,16 +340,23 @@ export const listAll = [
   },
 
 
-
-
-
-
-
-
-
-
-
-
+  
+  {
+  cover:"../images/property/bay2/baysm.jpg",
+  url:"apartment-for-sale-damac-bay2-72",
+  name:"apartment for sale damac bay2 72",
+  location:"Dubai",
+  category:"buy",
+  price:"Call us",
+  type:"1 + 1",
+  nameproject:"Damac bay2",
+  number:"1",
+  area:"72 m",
+  citys:"Dubai",
+  property:"Apartment",
+  place:"Dubai - Harbour",
+  },
+  
   {
     id: 1,
     cover: "../images/property/skyview/dsf.jpg",
@@ -432,6 +439,21 @@ export const listAll = [
     property: 'apartment'
   },
   {
+  cover:"../images/property/bay2/baysm.jpg",
+  url:"apartment-for-sale-damac-bay2-144",
+  name:"apartment for sale damac bay2 144",
+  location:"Dubai",
+  category:"buy",
+  price:"Call us",
+  type:"3 + 1",
+  nameproject:"Damac bay2",
+  number:"1",
+  area:"144 m",
+  citys:"Dubai",
+  property:"Apartment",
+  place:"Dubai - Harbour",
+  },
+  {
     id: 6,
     cover: "../images/property/skyland/skylandsm.jpg",
     url: "House-for-Sale-Skyland1",
@@ -464,6 +486,27 @@ export const listAll = [
     place:"Erbil - koya road",
     id:"646dd5a14cce70fbd1e5d8df",
   },
+    
+  {
+    cover:"../images/property/bay2/baysm.jpg",
+    url:"apartment-for-sale-damac-bay2-108",
+    name:"apartment for sale damac bay2",
+    location:"Dubai",
+    category:"buy",
+    price:"Call us",
+    type:"2 + 1",
+    nameproject:"Damac bay2",
+    number:"1",
+    area:"108 m",
+    citys:"Dubai",
+    property:"Apartment",
+    place:"Dubai - Harbour",
+    },
+    
+    
+    
+    
+  
   {
     id: 9,
     cover: "../images/property/venus/asdfaf.jpg",
@@ -1292,6 +1335,85 @@ export const arhousesData = [
       email: "kaiwankaify@zest-property.com"
     },
   },
+
+  {
+    id: 1,
+    type: 'شقة',
+    url: 'شقة-للبیع-داماك-باي٢-٧٢',
+    name: "شقة للبیع داماك بای ٢ ٧٢ ",
+    nameproperty: 'سكاي فيو ',
+    build: '2',
+    Allbuild: '48',
+    image: '/images/property/bay2/baybg.jpg',
+    imageLg: '/images/property/bay2/baybg.jpg',
+    country: 'دبي',
+    address: 'دبي - هاریر',
+    bedrooms: '1',
+    bathrooms: '1',
+    area: '72 متر',
+    year: '2027',
+    price: 'اتصل بنا',
+    agent: {
+      image: '/images/customer/mriam.jpg',
+      name: 'مریم موفق',
+      phone: "tel:+9647505622006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+
+  
+  {
+    id: 1,
+    type: 'شقة',
+    url: 'شقة-للبیع-داماك-باي٢-١٠٨',
+    name: "شقة للبیع داماك بای ٢ ١٠٨ ",
+    nameproperty: 'سكاي فيو ',
+    build: '2',
+    Allbuild: '48',
+    image: '/images/property/bay2/baybg.jpg',
+    imageLg: '/images/property/bay2/baybg.jpg',
+    country: 'دبي',
+    address: 'دبي - هاریر',
+    bedrooms: '2',
+    bathrooms: '1',
+    area: '108 متر',
+    year: '2027',
+    price: 'اتصل بنا',
+    agent: {
+      image: '/images/customer/mriam.jpg',
+      name: 'مریم موفق',
+      phone: "tel:+9647505622006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+
+  
+  {
+    id: 1,
+    type: 'شقة',
+    url: 'شقة-للبیع-داماك-باي٢-١٤٤',
+    name: "شقة للبیع داماك بای ٢ ١٤٤ ",
+    nameproperty: 'سكاي فيو ',
+    build: '2',
+    Allbuild: '48',
+    image: '/images/property/bay2/baybg.jpg',
+    imageLg: '/images/property/bay2/baybg.jpg',
+    country: 'دبي',
+    address: 'دبي - هاریر',
+    bedrooms: '3',
+    bathrooms: '1',
+    area: '144 متر',
+    year: '2027',
+    price: 'اتصل بنا',
+    agent: {
+      image: '/images/customer/mriam.jpg',
+      name: 'مریم موفق',
+      phone: "tel:+9647505622006",
+      email: "kaiwankaify@zest-property.com"
+    },
+  },
+
+  
 
 
 
@@ -2702,6 +2824,26 @@ export const arlistAll = [
     citys: 'اربيل',
     property: 'شقة'
   },
+
+
+  {
+    id: 1,
+    cover:"../images/property/bay2/baysm.jpg",
+    url: 'شقة-للبیع-داماك-باي٢-٧٢',
+    name: "شقة للبیع داماك باي٢",
+    location: "دبي",
+    nameproject: 'داماك باي ٢',
+    number: '1',
+    place: 'دبي - هاریر',
+    category: "للبيع",
+    price: "اتصل بنا",
+    type: "1 + 1",
+    area: "72 م",
+    citys: 'دبي',
+    property: 'شقة'
+  },
+
+
   {
     id: 4,
     cover: "../images/property/skyview/dsf.jpg",
@@ -2782,6 +2924,24 @@ export const arlistAll = [
     citys: 'اربيل',
     property: 'شقة'
   },
+  {
+    id: 1,
+    cover:"../images/property/bay2/baysm.jpg",
+    url: 'شقة-للبیع-داماك-باي٢-١٤٤',
+    name: "شقة للبیع داماك باي٢",
+    location: "دبي",
+    nameproject: 'داماك باي ٢',
+    number: '3',
+    place: 'دبي - هاریر',
+    category: "للبيع",
+    price: "اتصل بنا",
+    type: "3 + 1",
+    area: "144 م",
+    citys: 'دبي',
+    property: 'شقة'
+  },
+
+
   {
     id: 39,
     cover: "../images/property/north/north_holland_blog.jpg",
@@ -2878,6 +3038,22 @@ export const arlistAll = [
     place: 'إربیل - هیولیري نوي',
     area: "72 م",
     citys: 'اربيل',
+    property: 'شقة'
+  },
+  {
+    id: 1,
+    cover:"../images/property/bay2/baysm.jpg",
+    url: 'شقة-للبیع-داماك-باي٢-١٠٨',
+    name: "شقة للبیع داماك باي٢",
+    location: "دبي",
+    nameproject: 'داماك باي ٢',
+    number: '2',
+    place: 'دبي - هاریر',
+    category: "للبيع",
+    price: "اتصل بنا",
+    type: "2 + 1",
+    area: "108 م",
+    citys: 'دبي',
     property: 'شقة'
   },
   {
@@ -3680,6 +3856,87 @@ export const housesData = [
     },
   },
 
+
+
+    {
+      id: 1,
+      type: 'Apartment',
+      url: 'apartment-for-sale-damac-bay2-72',
+      name: 'apartment for sale damac bay2 72',
+      nameproperty: 'Damac bay2',
+      build: '2',
+      Allbuild: '48',
+      image: '../images/property/bay2/baybg.jpg',
+      imageLg: '../images/property/bay2/baybg.jpg',
+      country: 'Dubai',
+      address: 'Dubai - Harbour',
+      bedrooms: '1',
+      bathrooms: '1',
+      area: '72 meter',
+      year: '2027',
+      price: 'Call us',
+      agent: {
+        image: '../images/customer/mriam.jpg',
+        name: 'mriam mofaq',
+        phone: "tel:+9647505622006",
+        email: "kaiwankaify@zest-property.com"
+      },
+    },
+  
+
+
+    {
+      id: 1,
+      type: 'Apartment',
+      url: 'apartment-for-sale-damac-bay2-108',
+      name: 'apartment for sale damac bay2 108',
+      nameproperty: 'Damac bay2',
+      build: '2',
+      Allbuild: '48',
+      image: '../images/property/bay2/baybg.jpg',
+      imageLg: '../images/property/bay2/baybg.jpg',
+      country: 'Dubai',
+      address: 'Dubai - Harbour',
+      bedrooms: '2',
+      bathrooms: '1',
+      area: '108 meter',
+      year: '2027',
+      price: 'Call us',
+      agent: {
+        image: '../images/customer/mriam.jpg',
+        name: 'mriam mofaq',
+        phone: "tel:+9647505622006",
+        email: "kaiwankaify@zest-property.com"
+      },
+    },
+  
+
+
+    {
+      id: 1,
+      type: 'Apartment',
+      url: 'apartment-for-sale-damac-bay2-144',
+      name: 'apartment for sale damac bay2 144',
+      nameproperty: 'Damac bay2',
+      build: '2',
+      Allbuild: '48',
+      image: '../images/property/bay2/baybg.jpg',
+      imageLg: '../images/property/bay2/baybg.jpg',
+      country: 'Dubai',
+      address: 'Dubai - Harbour',
+      bedrooms: '3',
+      bathrooms: '1',
+      area: '144 meter',
+      year: '2027',
+      price: 'Call us',
+      agent: {
+        image: '../images/customer/mriam.jpg',
+        name: 'mriam mofaq',
+        phone: "tel:+9647505622006",
+        email: "kaiwankaify@zest-property.com"
+      },
+    },
+  
 
 
 
