@@ -146,6 +146,14 @@ export const team = [
     email: "mailto:Rasty.kayfi@zest-property.com",
     phone: "tel:+9647507342006",
   },
+  {
+    list: "50",
+    cover: "../images/customer/aya.Alsaab.webp",
+    address: "project: Erbil",
+    name: "Aya Al-saab",
+    email: "mailto:zest@zest-property.com",
+    phone: "tel:+9647506322006",
+  },
 
 
 ]
@@ -5472,6 +5480,14 @@ export const arteam = [
     name: "راستي كيفي",
     email: "mailto:Rasty.kayfi@zest-property.com",
     phone: "tel:+9647507342006",
+  },
+  {
+    list: "50",
+    cover: "../images/customer/aya.Alsaab.webp",
+    address: "المشروع: اربيل",
+    name: "ايه الصعب",
+    email: "mailto:zest@zest-property.com",
+    phone: "tel:+9647506662006",
   },
 ]
 
