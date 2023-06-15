@@ -148,7 +148,7 @@ export const team = [
   },
   {
     list: "50",
-    cover: "../images/customer/aya.Alsaab.webp",
+    cover: "../images/customer/Aya.Alsaab.webp",
     address: "project: Erbil",
     name: "Aya Al-saab",
     email: "mailto:zest@zest-property.com",
@@ -5483,7 +5483,7 @@ export const arteam = [
   },
   {
     list: "50",
-    cover: "../images/customer/aya.Alsaab.webp",
+    cover: "../images/customer/Aya.Alsaab.webp",
     address: "المشروع: اربيل",
     name: "ايه الصعب",
     email: "mailto:zest@zest-property.com",
