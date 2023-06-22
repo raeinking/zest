@@ -351,6 +351,28 @@ select:after {
   color: #000;
 }
 
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0000006d;
+  z-index: 10000000;
+  background-color: rgba(0, 0, 0, 0.608);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.popupimage {
+  background-image: url('./components/images/dubaidubai.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
 @media screen and (max-width: 500px) {
   select {
     width: 100%;

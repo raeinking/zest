@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import Awards from "./awards/Awards"
 import Featured from "./featured/Featured"
 
@@ -12,9 +12,7 @@ import Form from "../form/Form"
 import { Helmet } from "react-helmet";
 import { useLocation } from "react-router-dom";
 import Searchhero from "../searchhero/Searchhero"
-
-
-
+import mailimage from "../images/mailimage.png"
 
 const Home = () => {
   const location = useLocation();

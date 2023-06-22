@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useState } from "react"
 import Header from "../common/header/Header"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Home from "../home/Home"
@@ -53,8 +53,47 @@ import EmpireAr from "../projects/empire/EmpireAr"
 import Mansour from "../projects/almansour/Mansour"
 import MansourAr from "../projects/almansour/MansourAr"
 import BaghdadAr from "../projects/Projectlocatons/BaghdadAr"
+import mailimage from "../images/mailimage.png"
+
 
 const Pages = () => {
+  const [showPopup , setShowPopup] = useState(false)
+
+  const [email , setEmail] = useState('')
+
+  useEffect(() => {
+      const subscriber = localStorage.getItem('subscriber');
+  
+      if (subscriber === 'true') {
+        // Do nothing
+      } else {
+        const timer = setTimeout(() => {
+          setShowPopup(true);
+        }, 10000);
+  
+        return () => {
+          clearTimeout(timer);
+        };
+      };
+  }, []);
+  
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    await localStorage.setItem('subscriber', true)
+    setShowPopup(false)
+    
+    fetch('https://node-email-sendersss.glitch.me/newsletterzest', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({
+    email: email
+  })
+})
+    
+  }
 
   return (
     <>
@@ -143,6 +182,23 @@ const Pages = () => {
 
           <Route path='*' component={pagenotfoud} />
         </Switch>
+        {showPopup && (
+        <div className='absoluteForm popup'>
+        <div className='brochurForm'>
+            <div className='brochurLeft majdiimage popupimage'></div>
+            <div className='brochurRight'>
+                <form className='' style={{ width: '100%', maxWidth: '500px', maxHeight: '600px', display: 'flex', flexWrap: 'nowrap' }} onSubmit={handleSubmit} >
+                  <div className='closeButton' onClick={() => setShowPopup(!showPopup)} >X</div>
+                  <img src={mailimage} style={{ zIndex: 900000 , maxHeight: 400,objectFit: 'contain'}}/>
+                    <p style={{width: '100%',textAlign: 'center'}}>Subscribe to not see this again</p>
+                    <h2 style={{width: '100%',textAlign: 'center'}}>Subscribe with us to get the latest real estate news that interests you only</h2>
+                    <input onChange={(e) => setEmail(e.target.value)} type='email' name='email' placeholder='Your Email' required></input>
+                    <input className='btnsubmit' value='Send Your Email' type='submit'></input>
+                </form>
+            </div>
+        </div>
+    </div>
+      )}
         <Footer />
       </Router>
     </>
