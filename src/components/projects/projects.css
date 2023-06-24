@@ -288,10 +288,11 @@
 .brochurRight form {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 100%;
     min-height: 100%;
     margin: 0;
+    padding: 10px;
 }
 
 .brochurRight form input {
