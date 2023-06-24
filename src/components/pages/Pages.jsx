@@ -79,9 +79,13 @@ const Pages = () => {
   
 
   const handleSubmit = async (e) => {
-    e.preventDefault()
-    await localStorage.setItem('subscriber', true)
-    
+    if (email === '') {
+
+    } else {
+
+      e.preventDefault()
+      await localStorage.setItem('subscriber', true)
+      
     fetch('https://node-email-sendersss.glitch.me/newsletterzest', {
       method: 'POST',
       headers: {
@@ -93,8 +97,7 @@ const Pages = () => {
     })
     setShowPopup(false)
     
-    
-  }
+  }}
 
   return (
     <>

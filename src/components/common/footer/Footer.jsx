@@ -11,20 +11,32 @@ import env from "react-dotenv";
 
 
 const Footer = () => {
-  const form = useRef();
+  const [email, setEmail] = useState('')
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-    if (newslatter == '') {
+  const handleSubmit = async (e) => {
+    if (email === '') {
+
     } else {
-      emailjs.sendForm(process.env.REACT_APP_server_id, process.env.REACT_APP_template_id, form.current, process.env.REACT_APP_public_id)
-        .then((result) => {
-          alert('thank you for subscribe')
-        }, (error) => {
-          alert('sorry we have a problem please try again letter 😔')
-        });
-    }
+
+      e.preventDefault()
+      await localStorage.setItem('subscriber', true)
+      
+    fetch('https://node-email-sendersss.glitch.me/newsletterzest', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        email: email
+      })
+    })
+    alert('thank you we will send newsletters for you')  
+    setEmail('')
   }
+}
+
+
+  const form = useRef();
   const [newslatter, setNewslatter] = useState('')
 
   const location = useLocation();
@@ -34,17 +46,6 @@ const Footer = () => {
     <>
       {fword == 'ar' ?
         <section>
-          {/* <section className='footerContact'>
-        <div className='container'>
-          <div className='send flex'>
-            <div className='text'>
-              <h4>Do You Have Questions ?</h4>
-              <p>Zest property for real estate.</p>
-            </div>
-            <button className='btn5'>Contact Us Today</button>
-          </div>
-        </div>
-      </section> */}
           <footer>
             <div className='container'>
               <img src={image} alt='zest property' />
@@ -56,8 +57,8 @@ const Footer = () => {
                       <p className="ar">زودنا بأيميلك وكن اولويتنا في الحصول على افضل تحديثات تناسب احتياجاتك</p>
                     </div>
                   </div>
-                  <form className='forms' ref={form} onSubmit={sendEmail}>
-                    <input onChange={e => setNewslatter(e.target.value)} className='formsinput' type='text' name='email' placeholder='البريد الإلكتروني*' />
+                  <form className='forms' ref={form} onSubmit={handleSubmit}>
+                    <input value={email} onChange={e => setEmail(e.target.value)} className='formsinput' type='text' name='email' placeholder='البريد الإلكتروني*' />
                     <button className=" ar ">اشترك</button>
                   </form>
                 </div>
@@ -83,17 +84,6 @@ const Footer = () => {
         </section>
         :
         <section>
-          {/* <section className='footerContact'>
-        <div className='container'>
-          <div className='send flex'>
-            <div className='text'>
-              <h2>Do You Have Questions ?</h2>
-              <p>Zest property for real estate.</p>
-            </div>
-            <button className='btn5'>Contact Us Today</button>
-          </div>
-        </div>
-      </section> */}
           <footer>
             <div className='container'>
               <img src={image} alt='zest property' />
@@ -103,8 +93,8 @@ const Footer = () => {
                     <h2>Zest Property</h2>
                     <p>Enter your email and you'll be our top priority!</p>
                   </div>
-                  <form className='forms' ref={form} onSubmit={sendEmail}>
-                    <input onChange={e => setNewslatter(e.target.value)} className='formsinput' type='text' name='email' placeholder='Email Address *' />
+                  <form className='forms' onSubmit={handleSubmit}>
+                    <input value={email} onChange={e => setEmail(e.target.value)} className='formsinput' type='text' name='email' placeholder='Email Address *' />
                     <button className="">Subscribe</button>
                   </form>
                 </div>
