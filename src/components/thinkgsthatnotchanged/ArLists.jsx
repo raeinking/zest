@@ -6,10 +6,10 @@ function ArLists() {
             <div>
                 <h6 style={{ margin: '10px 0' }}>موقع</h6>
                 <div className='navp'>
-                    <a href='/projects/ar/dubai'>دبي</a>
-                    <a href='/projects/ar/baghdad'>بغداد</a>
-                    <a href='/projects/ar/erbil'>اربيل</a>
-                    <a href='/projects/ar/kirkuk'>كركوك</a>
+                    <a href='/ar/projects/dubai'>دبي</a>
+                    <a href='/ar/projects/baghdad'>بغداد</a>
+                    <a href='/ar/projects/erbil'>اربيل</a>
+                    <a href='/ar/projects/kirkuk'>كركوك</a>
                 </div>
             </div>
             <hr />
