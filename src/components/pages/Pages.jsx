@@ -64,7 +64,7 @@ const Pages = () => {
   useEffect(() => {
       const subscriber = localStorage.getItem('subscriber');
   
-      if (subscriber === 'true') {
+      if (subscriber === 'true' || window.location.pathname == '/projects/dubai') {
         // Do nothing
       } else {
         const timer = setTimeout(() => {
@@ -95,9 +95,9 @@ const Pages = () => {
         email: email
       })
     })
-    setShowPopup(false)
-    
-  }}
+    setShowPopup(false)  
+  }
+}
 
   return (
     <>

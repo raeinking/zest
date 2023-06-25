@@ -1,11 +1,36 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import { Helmet } from 'react-helmet'
 import Project from '../../home/project/Project'
 import '../../projects/projects.css'
 import Lists from '../../thinkgsthatnotchanged/Lists'
+import whatsapp from '../../images/whatsapp-svgrepo-com.svg'
+
 
 
 function Dubai() {
+    const [name , setName] = useState('')
+    const [email , setEmail] = useState('')
+    const [phone , setPhone] = useState('')      
+
+
+    const handleSubmit = async (e) => {
+          e.preventDefault()
+          
+        fetch('https://node-email-sendersss.glitch.me/dubai', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            name: name,
+            email: email,
+            phone: phone
+          })
+        })
+        alert('Email sent successfully')  
+    }
+
+
     return (
         <div>
             <Helmet>
@@ -57,6 +82,23 @@ function Dubai() {
                                 <p>professionals is equipped to handle projects of any size and complexity, ensuring timely and efficient delivery. Trust us to deliver exceptional results for your project needs in Iraq and Dubai.</p>
                             </p>
                         </div>
+                <div className='formcontainer' style={{width: '100%', alignItems: 'center', justifyContent: 'center', display: 'flex' , flexDirection: 'column' }}>
+                        <h3>Fill the Form if you interested in Dubai projects</h3>
+                    <form onSubmit={handleSubmit} className='from' style={{maxWidth: 450 , backgroundColor: 'white',borderRadius: 30, height: 450 , display: 'flex', flexDirection: 'column' , padding: 40, alignContent: 'space-around', justifyContent: 'space-between' }}>
+                        <div>
+                            <input value={name} onChange={ (e) => setName(e.target.value)} type="text" name="name" id="name" placeholder='Your Name ...' required  style={{padding: 15 , marginTop: 5, height: 40 , marginBottom: 20 }}/>
+                            <input value={email} onChange={ (e) => setEmail(e.target.value)} type="email" name="email" id="email" placeholder='Your Email ...' required style={{padding: 15 , marginTop: 5, height: 40 ,marginBottom: 20 }}/>
+                            <input value={phone} onChange={ (e) => setPhone(e.target.value)} type="phone" name="phone" id="phone" placeholder='Your Phone ...' required style={{padding: 15 , marginTop: 5, height: 40 ,marginBottom: 20 }} />
+                        </div>
+                        <div style={{ display: 'flex', marginTop: 10, marginBottom: 10, alignItems: 'center', width: '100%', justifyContent: 'space-between' }}>
+                                <h5>to Contact our service please click this icon </h5>
+                                <a target='_blank' href={"//api.whatsapp.com/send?phone=9647502552006&text=hello iam interested in Dubai projects "}>
+                                    <img className='whatsapp' src={whatsapp} />
+                                </a>
+                            </div>
+                        <button  type="submit">Send</button>
+                    </form> 
+                </div>
                     </div>
                 </section>
             </section>
