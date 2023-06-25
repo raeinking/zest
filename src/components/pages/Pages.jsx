@@ -64,7 +64,7 @@ const Pages = () => {
   useEffect(() => {
       const subscriber = localStorage.getItem('subscriber');
   
-      if (subscriber === 'true' || window.location.pathname == '/projects/dubai') {
+      if (subscriber === 'true' || window.location.pathname == '/projects/dubai' || window.location.pathname == '/ar/projects/dubai') {
         // Do nothing
       } else {
         const timer = setTimeout(() => {

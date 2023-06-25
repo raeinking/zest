@@ -69,20 +69,20 @@ function Dubaiar() {
                             </a>
                         </div>
                       <div className='formcontainer' style={{width: '100%', alignItems: 'center', justifyContent: 'center', display: 'flex' , flexDirection: 'column' }}>
-                        <h3>Fill the Form if you interested in Dubai projects</h3>
-                    <form onSubmit={handleSubmit} className='from' style={{maxWidth: 450 , backgroundColor: 'white',borderRadius: 30, height: 450 , display: 'flex', flexDirection: 'column' , padding: 40, alignContent: 'space-around', justifyContent: 'space-between' }}>
+                        <h3>املأ النموذج وسنتصل بك في غضون 10 دقائق</h3>
+                    <form onSubmit={handleSubmit} className='from' style={{maxWidth: 450, direction: 'rtl' , backgroundColor: 'white',borderRadius: 30, height: 450 , display: 'flex', flexDirection: 'column' , padding: 40, alignContent: 'space-around', justifyContent: 'space-between' }}>
                         <div>
-                            <input value={name} onChange={ (e) => setName(e.target.value)} type="text" name="name" id="name" placeholder='Your Name ...' required  style={{padding: 15 , marginTop: 5, height: 40 , marginBottom: 20 }}/>
-                            <input value={email} onChange={ (e) => setEmail(e.target.value)} type="email" name="email" id="email" placeholder='Your Email ...' required style={{padding: 15 , marginTop: 5, height: 40 ,marginBottom: 20 }}/>
-                            <input value={phone} onChange={ (e) => setPhone(e.target.value)} type="phone" name="phone" id="phone" placeholder='Your Phone ...' required style={{padding: 15 , marginTop: 5, height: 40 ,marginBottom: 20 }} />
+                            <input value={name} onChange={ (e) => setName(e.target.value)} type="text" name="name" id="name" placeholder='اسمك...' required  style={{padding: 15 , marginTop: 5, height: 40 , marginBottom: 20 }}/>
+                            <input value={email} onChange={ (e) => setEmail(e.target.value)} type="email" name="email" id="email" placeholder='بريدك الالكتروني...' required style={{padding: 15 , marginTop: 5, height: 40 ,marginBottom: 20 }}/>
+                            <input value={phone} onChange={ (e) => setPhone(e.target.value)} type="phone" name="phone" id="phone" placeholder='هاتفك...' required style={{padding: 15 , marginTop: 5, height: 40 ,marginBottom: 20 }} />
                         </div>
                         <div style={{ display: 'flex', marginTop: 10, marginBottom: 10, alignItems: 'center', width: '100%', justifyContent: 'space-between' }}>
-                                <h5>to Contact our service please click this icon </h5>
-                                <a target='_blank' href={"//api.whatsapp.com/send?phone=9647502552006&text=hello iam interested in Dubai projects "}>
+                                <h5>للاتصال بخدمتنا الرجاء النقر فوق هذا الرمز </h5>
+                                <a target='_blank' href={"//api.whatsapp.com/send?phone=9647502552006&text=مرحبا انا مهتم بمشاريع دبي "}>
                                     <img className='whatsapp' src={whatsapp} />
                                 </a>
                             </div>
-                        <button  type="submit">Send</button>
+                        <button  type="submit">أرسل</button>
                     </form> 
                 </div>
                     </div>
