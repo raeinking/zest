@@ -2,7 +2,8 @@ import React, { useRef, useState } from 'react';
 import { footer } from "../../data/Data"
 import { arfooter } from "../../data/Data"
 import "./footer.css"
-import image from './logowhite.jpg'
+import image from './ZestLogo_EN_White.png'
+import imagear from './ZestLogo_AR_White.png'
 import { useLocation } from "react-router-dom";
 import emailjs from '@emailjs/browser';
 import env from "react-dotenv";
@@ -48,7 +49,7 @@ const Footer = () => {
         <section>
           <footer>
             <div className='container'>
-              <img src={image} alt='zest property' />
+              <img src={imagear} alt='zest property' />
               <div className='box'>
                 <div className='logo'>
                   <div className="footerleft">

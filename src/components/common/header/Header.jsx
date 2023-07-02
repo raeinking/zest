@@ -3,7 +3,8 @@ import "./header.css"
 import { arnav } from "../../data/Data"
 import { nav } from "../../data/Data"
 import { Link } from "react-router-dom"
-import image from './logobrown.png'
+import image from './ZestLogoen.png'
+import imagear from './ZestLogoar.png'
 import { useLocation } from "react-router-dom";
 import close from '../../images/close.jpg'
 
@@ -21,7 +22,7 @@ const Header = () => {
           <div className='container flex'>
             <div className='logo'>
               <a href="/ar">
-                <img src={image} alt='zest property' />
+                <img src={imagear} alt='zest property' />
               </a>
             </div>
             <div className='nav'>
