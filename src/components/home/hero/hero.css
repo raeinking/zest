@@ -30,6 +30,7 @@
 
 
 .hero {
+  position: relative;
 
   min-height: calc(80vh - 60px);
   width: 100%;
