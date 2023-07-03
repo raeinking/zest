@@ -25,6 +25,7 @@ import {AiTwotoneShop} from 'react-icons/ai'
 import {GiParkBench} from 'react-icons/gi'
 import { Helmet } from 'react-helmet';
 import axios from 'axios'
+import ArLists from '../../thinkgsthatnotchanged/ArLists';
 
 
 const divStyle = {
@@ -158,17 +159,8 @@ let handleSubmit = async (e) => {
         <div className='imageofheader'><h1>ماجدي فیو</h1></div>
 
         <section className='mainmajidi'>
-          <div className='navleft'>
-            <div>
-              <h6>تطوير العقارات</h6>
-              <div className='navp'>
-                <a href='/ar/Majidi-View'>ماجدي فیو</a>
-                <a href='/ar/bianca'>بيانكا</a>
-                <a href='/ar/alwedd'>الود </a>
-                <a href='/ar/khlood'>الخلود </a>
-              </div>
-            </div>
-          </div>
+        <ArLists />
+
 
           <div className='content'>
 

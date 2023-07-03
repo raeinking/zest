@@ -366,7 +366,7 @@
     .parentsmosul {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 40px;
         padding: 4rem 0;

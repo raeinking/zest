@@ -39,6 +39,7 @@ import {IoChatbubblesOutline,IoRestaurantSharp} from 'react-icons/io5'
 import {AiTwotoneShop} from 'react-icons/ai'
 import {GiParkBench} from 'react-icons/gi'
 import axios from 'axios'
+import Lists from '../../thinkgsthatnotchanged/Lists'
 
 
 const divStyle = {
@@ -165,17 +166,7 @@ let handleSubmit = async (e) => {
         <div className='imageofheader'><h1>MAJIDI VIEW</h1></div>
 
         <section className='mainmajidi'>
-          <div className='navleft'>
-            <div>
-              <h6>PROPERTY DEVELOPMENT</h6>
-              <div className='navp'>
-                <a href='Majidi-View'>Majidi View</a>
-                <a href='bianca'>Bianca</a>
-                <a href='alwedd'>alwedd</a>
-                <a href='khlood'>khlood</a>
-              </div>
-            </div>
-          </div>
+        <Lists />
 
           <div className='content'>
 

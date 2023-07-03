@@ -69,6 +69,12 @@ function Dubai() {
                                     <p>Bianca</p>
                                 </div>
                             </a>
+                            <a href='/samana-skyros' class="div5P">
+                                <div className='imagesamana'></div>
+                                <div className='overlays'>
+                                    <p>Samana SkyRos</p>
+                                </div>
+                            </a>
                         </div>
                         <div className='dis ssss'>
                             <h3>Description</h3>

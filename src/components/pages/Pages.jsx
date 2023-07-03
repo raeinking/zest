@@ -54,6 +54,8 @@ import Mansour from "../projects/almansour/Mansour"
 import MansourAr from "../projects/almansour/MansourAr"
 import BaghdadAr from "../projects/Projectlocatons/BaghdadAr"
 import mailimage from "../images/mailimage.png"
+import Samana from "../projects/samana/Samana"
+import SamanaAr from "../projects/samana/SamanaAr"
 
 
 const Pages = () => {
@@ -180,6 +182,10 @@ const Pages = () => {
 
           <Route exact path='/almansour-city' component={Mansour} />
           <Route exact path='/ar/almansour-city' component={MansourAr} />
+
+
+          <Route exact path='/samana-skyros' component={Samana} />
+          <Route exact path='/ar/samana-skyros' component={SamanaAr} />
 
 
 

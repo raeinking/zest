@@ -166,6 +166,18 @@
     background-size: cover;
     background-position: center center;
 }
+.imageofheadersamana {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(0, 128, 0, 0.252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../samana/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
 .imageofheaderlagoon {
     width: 100%;
@@ -250,6 +262,13 @@
 
 .imagebianca {
     background-image: url("../../../../public/images/Bianca-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+.imagesamana {
+    background-image: url("../../projects/samana/1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -436,6 +455,7 @@
 .imageofheaderbay2 h1,
 .imageofheaderazizi h1,
 .imageofheaderskyland h1,
+.imageofheadersamana h1,
 .imageofheaderlalav h1,
 .imageofheaderqaywan h1,
 .imageofheadernorth h1,

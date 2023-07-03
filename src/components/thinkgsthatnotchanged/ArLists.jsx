@@ -16,6 +16,7 @@ function ArLists() {
             <div>
                 <h6>تطوير العقارات</h6>
                 <div className='navp'>
+                    <a href='/ar/samana-skyros'>سمانا سكايروس</a>
                     <a href='/ar/Majidi-View'>ماجدي فیو</a>
                     <a href='/ar/bianca'>بيانكا</a>
                     <a href='/ar/alwedd'>الود </a>

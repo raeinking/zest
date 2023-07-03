@@ -67,6 +67,12 @@ function Dubaiar() {
                                     <p>بیانکا</p>
                                 </div>
                             </a>
+                            <a href='/ar/samana-skyros' class="div5P">
+                                <div className='imagesamana'></div>
+                                <div className='overlays'>
+                                    <p>سمانا سكايروس</p>
+                                </div>
+                            </a>
                         </div>
                       <div className='formcontainer' style={{width: '100%', alignItems: 'center', justifyContent: 'center', display: 'flex' , flexDirection: 'column' }}>
                         <h3>املأ النموذج وسنتصل بك في غضون 10 دقائق</h3>
