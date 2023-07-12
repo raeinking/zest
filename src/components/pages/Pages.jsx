@@ -56,6 +56,8 @@ import BaghdadAr from "../projects/Projectlocatons/BaghdadAr"
 import mailimage from "../images/mailimage.png"
 import Samana from "../projects/samana/Samana"
 import SamanaAr from "../projects/samana/SamanaAr"
+import Event from "../projects/event/Event"
+import Eventar from "../projects/event/Eventar"
 
 
 const Pages = () => {
@@ -186,6 +188,10 @@ const Pages = () => {
 
           <Route exact path='/samana-skyros' component={Samana} />
           <Route exact path='/ar/samana-skyros' component={SamanaAr} />
+
+
+          <Route exact path='/azizi-event' component={Event} />
+          <Route exact path='/ar/azizi-event' component={Eventar} />
 
 
 

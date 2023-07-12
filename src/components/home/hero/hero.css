@@ -348,8 +348,37 @@ form {
   height: 60px;
   margin: 0 10px;
 }
+#invitep {
+  width: 60%; 
+  font-size: 30px; 
+  direction:rtl; 
+  color:#ea8c59;
+  font-weight:700
+}
+#azizilogo {
+  width: 460px; 
+  object-fit: contain;
+  cursor: auto;
+}
+
 
 @media screen and (max-width: 800px) {
+  #invitep {
+    width: 90%; 
+    font-size: 25px; 
+    direction:rtl; 
+    color:#ea8c59;
+    font-weight:700
+  }
+  #invitetop {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+  }
+  #none {
+    display: none;
+
+  }
   .hero h1 {}
 
   .hero p {
@@ -368,7 +397,7 @@ form {
     display: flex;
     flex-wrap: wrap;
   }
-
+  
   form .box {
     border-left: none;
     width: 50%;
@@ -383,8 +412,22 @@ form {
     /* height: 45px; */
   }
 }
+#invitepcontent {
+  height: 70vh; 
+  width: 90% ; 
+  align-items: flex-end; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content:center;
+}
 
 @media screen and (max-width: 800px) {
+  #invitepcontent {
+    width: 90% ; 
+  }
+  .last {
+    width: 100%;
+  }
   .hero h1 {
     /* font-size: 70px; */
   }
@@ -397,8 +440,35 @@ form {
     justify-content: space-between;
     margin: 20px;
   }
+  
+  @media screen and (max-width: 600px) {
+    #invitep {
+      width: 90%; 
+      font-size: 20px; 
+    }
+    #invitetop {
+      display: flex;
+      flex-direction: column;
+      margin-top: 80px;
+    }
+    #logofade {
+      display: none;
+    }
+    #azizilogo {
+      width: 100%; 
+      object-fit: contain;
+      cursor: auto;
+    }
 
+  }
   @media screen and (max-width: 400px) {
+    #margininvite {
+      margin-top: -4rem;
+    }
+    #invitep {
+      width: 90%; 
+      font-size: 15px; 
+    }
     .hero h1 {
       /* font-size: 58px; */
     }

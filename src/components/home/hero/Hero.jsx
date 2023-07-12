@@ -2,9 +2,7 @@ import React, { useState } from "react"
 import Heading from "../../common/Heading"
 import { useLocation } from "react-router-dom";
 import "./hero.css"
-import search from '../../images/search.jpg'
-import zest from './zest.png'
-import ips from './ips.png'
+
 
 
 const options = ['Option 1', 'Option 2', 'Option 3']; // array of selectable options
@@ -38,11 +36,11 @@ const Hero = () => {
     <>
       {paths == '/' ?
         <section className='hero'>
-          <video className="herovedio" playsInline muted loop preload="auto" tabIndex="-1" role="application" autoPlay>
-  <source src="fssd.mp4" type="video/mp4" />
-</video>
-          <h1>Zest Property</h1>
-          <p>Find Your Next Home In Zest Property.</p>
+              <video className="herovedio" playsInline muted loop preload="auto" tabIndex="-1" role="application" autoPlay>
+              <source src="fssd.mp4" type="video/mp4" />
+              </video>
+              <h1>Zest Property</h1>
+            <p>Find Your Next Home In Zest Property.</p>
         </section>
         :
         <section className='hero'>

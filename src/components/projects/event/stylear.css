@@ -1,0 +1,177 @@
+.heroevent {
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    background-image: url('./heropage.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+.leftevent {
+    display: flex;
+    height: 20vh;
+    align-items: center;
+}
+.rightevent {
+    color: white;
+    font-size: 30px;
+    direction: rtl;
+}
+.rightevent h1 {
+    color: white;
+    font-size: 150px;
+}
+.rightevent h2, .rightevent h3 {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.logoz {
+    height: 50px;
+    width: auto;
+    padding: 10px;
+}
+
+.btneventhero {
+    background-color: white;
+    color: rgb(51, 51, 174);
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.containerone {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 70vh;
+    align-items: center;
+
+}
+
+.containerleft {
+    direction: rtl;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.containerright {
+    direction: rtl;
+    width: 40%;
+
+}
+
+.containerleft h2 {
+    font-size: 50px;
+
+}
+
+.containerleft p { 
+    padding-bottom: 25px;
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.firtimgevent {
+    object-fit: contain;
+    max-height: 400px;
+}
+
+.btneventfirst {
+    background-color: #7a5e41;
+    width: 230px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.reverse {
+    display: flex;
+    direction: rtl;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .rightevent {
+        color: white;
+        font-size: 20px;
+        direction: rtl;
+    }
+    .rightevent h1 {
+        color: white;
+        font-size: 50px;
+    }
+  }
+
+
+@media only screen and (max-width: 1100px) {
+    .containerone {
+        flex-direction: column-reverse;
+    }
+    .containerleft {
+        width: 90%;
+    }
+    
+    .containerright {
+        width: 90%;
+    }
+    .containerone {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        min-height: 100vh;
+        align-items: center;
+    
+    }
+  }
+
+
+@media only screen and (max-width: 924px) {
+    .heroevent {
+        display: flex;
+        flex-direction: column;
+        justify-content: normal;
+        align-items: center;
+    }
+    .rightevent {
+        color: white;
+        font-size: 15px;
+        direction: rtl;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+
+@media only screen and (max-width: 375px) {
+    .rightevent {
+        color: white;
+        font-size: 15px;
+        direction: rtl;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .rightevent h1 {
+        color: white;
+        font-size: 30px;
+    }
+  }

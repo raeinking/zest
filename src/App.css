@@ -373,6 +373,14 @@ select:after {
   background-size: cover;
   }
 
+  .invitep {
+    width: 60%;
+    font-size: 30; 
+    direction: rtl; 
+    color: #ea8c59; 
+    font-weight:700;
+  }
+
 @media screen and (max-width: 500px) {
   select {
     width: 100%;
