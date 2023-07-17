@@ -1,4 +1,4 @@
-.heroevent {
+.heroevents {
     width: 100%;
     min-height: calc(100vh - 60px);
     background-image: url('./heropage.jpg');
@@ -9,32 +9,32 @@
     padding: 50px;
     justify-content: space-between;
 }
-.leftevent {
+.leftevents {
     display: flex;
     height: 20vh;
     align-items: center;
 }
-.rightevent {
+.rightevents {
     color: white;
     font-size: 25px;
     direction: rtl;
 }
-.rightevent h1 {
+.rightevents h1 {
     color: white;
     font-size: 70px;
 }
-.rightevent h2, .rightevent h3 {
+.rightevents h2, .rightevents h3 {
     color: white;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.logoz {
+.logozs {
     height: 50px;
     width: auto;
     padding: 10px;
 }
 
-.btneventhero {
+.btneventheros {
     background-color: white;
     color: rgb(51, 51, 174);
     width: 200px;
@@ -45,7 +45,7 @@
     font-weight: 900;
 }
 
-.containerone {
+.containerones {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -54,7 +54,7 @@
 
 }
 
-.containerleft {
+.containerlefts {
     direction: rtl;
     width: 40%;
     display: flex;
@@ -63,28 +63,28 @@
     margin-right: 10px;
 }
 
-.containerright {
+.containerrights {
     direction: rtl;
     width: 40%;
 }
 
-.containerleft h2 {
+.containerlefts h2 {
     font-size: 40px;
 
 }
 
-.containerleft p { 
+.containerlefts p { 
     padding-bottom: 25px;
     padding-top: 15px;
     font-size: 20px;
 }
 
-.firtimgevent {
+.firtimgevents {
     object-fit: contain;
     max-height: 400px;
 }
 
-.btneventfirst {
+.btneventfirsts {
     background-color: #7a5e41;
     width: 230px;
     text-align: center;
@@ -94,9 +94,13 @@
     color: white;
     font-size: 25px;
     font-weight: 900;
+    z-index: 99;
+}
+.marg {
+    margin-top: 20px;
 }
 
-.reverse {
+.reversess {
     display: flex;
     direction: rtl;
 }
@@ -104,12 +108,12 @@
 
 
 @media only screen and (max-width: 1200px) {
-    .rightevent {
+    .rightevents {
         color: white;
         font-size: 20px;
         direction: rtl;
     }
-    .rightevent h1 {
+    .rightevents h1 {
         color: white;
         font-size: 50px;
     }
@@ -117,17 +121,17 @@
 
 
 @media only screen and (max-width: 1100px) {
-    .containerone {
+    .containerones {
         flex-direction: column-reverse;
     }
-    .containerleft {
+    .containerlefts {
         width: 90%;
     }
     
-    .containerright {
+    .containerrights {
         width: 90%;
     }
-    .containerone {
+    .containerones {
         display: flex;
         justify-content: center;
         width: 100%;
@@ -139,14 +143,14 @@
 
 
 @media only screen and (max-width: 924px) {
-    .heroevent {
+    .heroevents {
         display: flex;
         flex-direction: column;
         justify-content: normal;
         align-items: center;
 
     }
-    .rightevent {
+    .rightevents {
         color: white;
         font-size: 15px;
         direction: rtl;
@@ -160,7 +164,7 @@
 
 
 @media only screen and (max-width: 375px) {
-    .rightevent {
+    .rightevents {
         color: white;
         font-size: 15px;
         direction: rtl;
@@ -170,7 +174,7 @@
         display: flex;
         flex-direction: column;
     }
-    .rightevent h1 {
+    .rightevents h1 {
         color: white;
         font-size: 30px;
     }

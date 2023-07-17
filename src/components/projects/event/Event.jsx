@@ -1,10 +1,13 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import './style.css'
 import azizi from './logoaiziz.png'
 import zest from './logozest.png'
 import onecontainer from './first.jpg'
 import secondcontainer from './second.jpg'
 import whatsapp from '../../images/whatsapp-svgrepo-com.svg'
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function Event() {
@@ -16,7 +19,7 @@ function Event() {
   const handleSubmit = async (e) => {
         e.preventDefault()
         
-      fetch('https://node-email-sendersss.glitch.me/dubai', {
+      fetch('https://node-email-sendersss.glitch.me/azizi', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -30,59 +33,64 @@ function Event() {
       alert('Email sent successfully')  
   }
 
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+    })
+  }, [])
 
 
 
   return (
     <div>
-        <div className='heroevent'>
-            <div className='leftevent'>
-                <img className='logoz' src={azizi} alt="" />
-                <div className='linemidsle'></div>
-                <img className='logoz' src={zest} alt="" />
+        <div className='heroevents'>
+            <div className='leftevents' data-aos="fade-right">
+                <img className='logozs' src={azizi} alt="" />
+                <div className='linemidsles'></div>
+                <img className='logozs' src={zest} alt="" />
             </div>
-            <div className='rightevent'>
+            <div className='rightevents' data-aos="fade-left">
                 <h1>Your property in Dubai</h1>
                 <h2>Zest Properties | Azizi Developments</h2>
                 <h3>Divan Hotel 20/7/2023</h3>
-                <div className='btneventhero'>Reserve now</div>
+                <div className='btneventheros' onClick={() => window.location.replace("#login")}>Reserve now</div>
             </div>
         </div>
 
         <section>
-          <div className='containerone'>
-            <div className='containerleft'>
+          <div className='containerones'>
+            <div className='containerlefts' data-aos="fade-right">
                 <h2>A chance to a fresh investment</h2>
                 <p>We invite you to attend a special event for Zest Properties and Azizi Developments
 to talk about the latest residential and investment projects in
 Dubai, safe payment and investment tehniques</p>
-                <div className='btneventfirst'>More Details</div>
+                <div className='btneventfirsts'>More Details</div>
             </div>
-            <div className='containerright'>
-              <img className='firtimgevent' src={onecontainer} alt="" />
+            <div className='containerrights' data-aos="fade-left"> 
+              <img className='firtimgevents' src={onecontainer} alt="" />
             </div>
             </div>
         </section>
         <section >
-          <div className='containerone reverse'>
-            <div className='containerleft'>
+          <div className='containerone reverses'>
+            <div className='containerlefts' data-aos="fade-right">
                 <h2>Why invest in dubai</h2>
                 <p>The safest city in the world with reliable and returning developers
 High investment in addition to the high real estate prices due to
 foreign investment in the country
 Possibility of investment and ownership of any nationality in addition to many
 Options that suit everyone</p>
-                <div className='btneventfirst'>im curious</div>
+                <div className='btneventfirsts'>im curious</div>
             </div>
-            <div className='containerright'>
-              <img className='firtimgevent' src={secondcontainer} alt="" />
+            <div className='containerrights' data-aos="fade-left" >
+              <img className='firtimgevents' src={secondcontainer} alt="" />
             </div>
             </div>
         </section>
 
 
 
-        <div className='formcontainer' style={{width: '100%', alignItems: 'center', justifyContent: 'center', display: 'flex' , flexDirection: 'column' }}>
+        <div className='formcontainer' id='login' data-aos="slide-up" style={{width: '100%', alignItems: 'center', justifyContent: 'center', display: 'flex' , flexDirection: 'column' }}>
                         <h3>Fill the Form we will contact you in 10 minute</h3>
                     <form onSubmit={handleSubmit} className='from' style={{maxWidth: 450 , backgroundColor: 'white',borderRadius: 30, height: 450 , display: 'flex', flexDirection: 'column' , padding: 40, alignContent: 'space-around', justifyContent: 'space-between' }}>
                         <div>
