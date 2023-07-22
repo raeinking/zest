@@ -193,9 +193,6 @@ const Pages = () => {
           <Route exact path='/azizi-event' component={Event} />
           <Route exact path='/ar/azizi-event' component={Eventar} />
 
-
-
-
           <Route path='*' component={pagenotfoud} />
         </Switch>
         {showPopup && (

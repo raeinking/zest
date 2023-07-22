@@ -41,10 +41,10 @@ const Hero = () => {
               </video>
               <h1>Zest Property</h1>
               
-            {/* <p>Find Your Next Home In Zest Property.</p> */}
+            <p>Find Your Next Home In Zest Property.</p>
 
-            <h2 style={{zIndex: 99, color: 'white', fontWeight: 800}}>Azizi Event</h2>
-            <a href='/azizi-event' className='btneventfirst marg'>More Details</a>
+            {/* <h2 style={{zIndex: 99, color: 'white', fontWeight: 800}}>Azizi Event</h2>
+            <a href='/azizi-event' className='btneventfirst marg'>More Details</a> */}
 
         </section>
         :
@@ -53,9 +53,9 @@ const Hero = () => {
             <source src="fssd.mp4" type="video/mp4" />
           </video>
           <h1 className="ar">شركة زيست</h1>
-          {/* <p className="ar">فرصة لعرض احدث واجدد العقارات القريبة منك</p> */}
-          <h2 style={{zIndex: 99, color: 'white', fontWeight: 800}}>ايفينت عزيزي</h2>
-            <a href='/ar/azizi-event' className='btneventfirst marg'>لمزيد من التفاصيل</a>
+          <p className="ar">فرصة لعرض احدث واجدد العقارات القريبة منك</p>
+          {/* <h2 style={{zIndex: 99, color: 'white', fontWeight: 800}}>ايفينت عزيزي</h2> */}
+            {/* <a href='/ar/azizi-event' className='btneventfirst marg'>لمزيد من التفاصيل</a> */}
         </section>
       }
     </>
