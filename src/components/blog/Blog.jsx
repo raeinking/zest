@@ -429,7 +429,7 @@ const arrooms = [
                 const { cover, category, location, name, price, type, area, nameproject, number, place } = val
                 return (
                   <a className="zoom" href={'/properties/' + val.url} key={index}>
-                    <div data-aos='zoom-in-up' data-aos-duration='2000' className='box shadow' >
+                    <div className='box shadow' >
                       <div className='img'>
                         <img src={cover} alt={name} />
                       </div>
