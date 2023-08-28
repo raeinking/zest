@@ -12,7 +12,7 @@ import pageDis from "../page_dis/PageDis"
 import Agents from "../agents/Agents"
 import List from '../list/List'
 import PropertyDetails from "../PageDis/PropertyDetails"
-import khlood from "../projects/khlood/Khlood"
+import khlood from "../projects/khlood/khlood"
 import alwedd from "../projects/city/baghdad/Alwedd"
 import Majedy from "../projects/majedy/Majedy"
 import pagenotfoud from "../pagenotfoud"
