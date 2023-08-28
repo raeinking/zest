@@ -133,7 +133,7 @@ let handleSubmit = async (e) => {
                 <input value={phone} type='text' onChange={(e) => setPhone(e.target.value)} name='phone' placeholder='رقم الهاتف' required></input>
                 <div style={{display:'flex' , marginTop:10, marginBottom:10, alignItems:'center' ,width: '100%', justifyContent: 'space-between'}}>
                   <h5>تواصل معنا مباشرة عبر واتساب </h5>
-                  <a href={"//api.whatsapp.com/send?phone=9647502552006&text=مرحباً ، أنا مهتم بإطلالة alwedd ، هل يمكنك أن ترسل لي التفاصيل؟"}>
+                  <a href={"//api.whatsapp.com/send?phone=9647706212006&text=مرحباً ، أنا مهتم بإطلالة khlood ، هل يمكنك أن ترسل لي التفاصيل؟"}>
                     <img className='whatsapp' src={whatsapp} />
                   </a>
                 </div>
