@@ -312,10 +312,6 @@ const arrooms = [
 
 
 
-
-
-
-
   return (
     <>
       {fword == 'ar' ?
@@ -421,12 +417,16 @@ const arrooms = [
               <button className='btnsearch' value='Search Properties ' onClick={handleSearch}>Search Properties</button>
             </ul>
           </div >
-
+                      
 
           <div className='grid'>
-            <div className='gridbox'>
-              {APIData.map((val, index) => {
-                const { cover, category, location, name, price, type, area, nameproject, number, place } = val
+
+          <div className='gridbox'>
+            {APIData.length == 0 ? (
+              <p>Apartment not found</p>
+            ) : (
+              APIData.map((val, index) => {
+                const { cover, category, location, name, price, type, area, nameproject, number, place } = val;
                 return (
                   <a className="zoom" href={'/properties/' + val.url} key={index}>
                     <div className='box shadow' >
@@ -454,9 +454,11 @@ const arrooms = [
                       </div>
                     </div>
                   </a>
-                )
-              })}
-            </div>
+                );
+              })
+            )}
+          </div>
+
           </div>
         </section>
         :

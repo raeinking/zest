@@ -21,6 +21,7 @@ function Lists() {
                     <a href='/Majidi-View'>Majidi View</a>
                     <a href='/alwedd'>alwedd</a>
                     <a href='/khlood'>khlood</a>
+                    <a href='/high-class'>High class</a>
                     <a href='/almansour-city'>Almansour</a>
                     <a href='/empire-world'>Empire world</a>
                     <a href='/north-holland'>North Holland</a>

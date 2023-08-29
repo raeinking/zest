@@ -17,7 +17,7 @@ const Awards = () => {
           <div className='content grid4 mtop'>
             {awards.map((val, index) => (
               <div className='box' key={index}>
-                <div data-aos='flip-left' data-aos-duration='2500' className='icon'>
+                <div className='icon'>
                   <img className="flep" src={val.icon} alt='awards'></img>
                 </div>
                 <h2>{val.num}</h2>
@@ -35,7 +35,7 @@ const Awards = () => {
           <div className='content grid4 mtop'>
             {arawards.map((val, index) => (
               <div className='box' key={index}>
-                <div data-aos='flip-left' data-aos-duration='2500' className='icon'>
+                <div className='icon'>
                   <img className="ar" src={val.icon} alt='awards'></img>
                 </div>
                 <h4 className="ar">{val.num}</h4>

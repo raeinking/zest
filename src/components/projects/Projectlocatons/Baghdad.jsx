@@ -17,7 +17,6 @@ function Baghdad() {
 
                 <section className='mainmajidi'>
                     <Lists />
-
                     <div className='content'>
                         <div class="parentsbaghdad">
                             <a href='/alwedd' class="div1P">
@@ -36,6 +35,12 @@ function Baghdad() {
                                 <div className='projectmansour'></div>
                                 <div className='overlays'>
                                     <p>Al Mansour</p>
+                                </div>
+                            </a>
+                            <a href='/high-class' class="div4P">
+                                <div className='projecthigh'></div>
+                                <div className='overlays'>
+                                    <p>High Class</p>
                                 </div>
                             </a>
                         </div>

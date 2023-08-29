@@ -23,6 +23,18 @@
     background-size: cover;
     background-position: center center;
 }
+.imageofheaderhigh {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgba(0, 128, 0, 0.252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../../../public/images/property/highclass/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
 .imageofheaderwedd {
     width: 100%;
@@ -387,6 +399,13 @@
     background-position: center center;
     height: 250px;
 }
+.projecthigh {
+    background-image: url("../Projectlocatons/highcalssblog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
 
 .projectkhlood {
     background-image: url("../Projectlocatons/Khlood1.jpg");
@@ -439,6 +458,9 @@
 }
 
 .imageofheaderkhlood h1 {
+    color: rgb(238, 238, 238);
+}
+.imageofheaderhigh h1 {
     color: rgb(238, 238, 238);
 }
 
