@@ -29,6 +29,7 @@ function ArLists() {
                     <a href='/ar/sky-land-kirkuk'>سکاي لاند</a>
                     <a href='/ar/damac-lagoons'>داماك لاگون</a>
                     <a href='/ar/azizi-riviera'>عزيزي ريفيرا</a>
+                    <a href='/ar/high-class'>هاي كلاس</a>
                     <a href='/ar/damac-bay2'>داماك بي ٢</a>
                     <a href='/ar/bianca'>بیانکا</a>
                 </div>

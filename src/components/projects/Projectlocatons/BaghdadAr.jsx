@@ -38,6 +38,12 @@ function BaghdadAr() {
                                     <p>مدينة المنصور</p>
                                 </div>
                             </a>
+                            <a href='/ar/high-class' class="div4P">
+                                <div className='projecthigh'></div>
+                                <div className='overlays'>
+                                    <p>High Class</p>
+                                </div>
+                            </a>
                         </div>
                         {/* <div className='dis ssss'>
                             <h3>Description</h3>

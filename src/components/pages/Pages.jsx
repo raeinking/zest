@@ -60,6 +60,7 @@ import Event from "../projects/event/Event"
 import Eventar from "../projects/event/Eventar"
 
 import Highclass from "../projects/highclass/Highclass"
+import Highclassar from "../projects/highclass/Highclassar"
 
 const Pages = () => {
   const [showPopup , setShowPopup] = useState(false)
@@ -197,7 +198,7 @@ const Pages = () => {
 
 
           <Route exact path='/high-class' component={Highclass} />
-          {/* <Route exact path='/ar/high-calss' component={Eventar} /> */}
+          <Route exact path='/ar/high-class' component={Highclassar} />
 
 
 

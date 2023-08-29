@@ -143,7 +143,7 @@ const Highclass = () => {
                 <input value={phone} type='text' onChange={(e) => setPhone(e.target.value)} name='phone' placeholder='Your Phone Number' required></input>
                 <div style={{ display: 'flex', marginTop: 10, marginBottom: 10, alignItems: 'center', width: '100%', justifyContent: 'space-between' }}>
                   <h5>to Contact our service please click this icon </h5>
-                  <a href={"//api.whatsapp.com/send?phone=9647502552006&text=hello iam interested in khlood view can you send me details"}>
+                  <a href={"//api.whatsapp.com/send?phone=9647502552006&text=hello iam interested in highclass view can you send me details"}>
                     <img className='whatsapp' src={whatsapp} />
                   </a>
                 </div>
