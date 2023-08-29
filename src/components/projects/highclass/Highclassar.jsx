@@ -124,7 +124,7 @@ let handleSubmit = async (e) => {
 
 انغمس في عالم من الرفاهية والسكنى الفائق. احجز وحدتك اليوم واستمتع بحياة السكن الفاخرة مع مجمع هاي كلاس السكني - عقارات زيست.
 
-للحجوزات والاستفسارات، اتصل بنا على [رقم الهاتف] أو زور موقعنا على الويب: [عنوان الموقع].
+للحجوزات والاستفسارات، اتصل بنا على 7502552066 أو زور موقعنا على الويب:zest-property.com.
 " />
     </Helmet>
           <section>
@@ -170,7 +170,7 @@ let handleSubmit = async (e) => {
 
 
 
-        <div className='imageofheaderkhlood'><h1>مجمع هاي كلاس السكني</h1></div>
+        <div className='imageofheaderhigh'><h1>مجمع هاي كلاس السكني</h1></div>
 
         <section className='mainmajidi'>
           <div className='navleft'>
