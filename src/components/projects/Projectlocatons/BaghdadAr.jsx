@@ -41,7 +41,7 @@ function BaghdadAr() {
                             <a href='/ar/high-class' class="div4P">
                                 <div className='projecthigh'></div>
                                 <div className='overlays'>
-                                    <p>High Class</p>
+                                    <p>هاي كلاس</p>
                                 </div>
                             </a>
                         </div>

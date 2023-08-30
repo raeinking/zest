@@ -70,16 +70,16 @@ const Pages = () => {
   useEffect(() => {
       const subscriber = localStorage.getItem('subscriber');
   
-      if (subscriber === 'true' || window.location.pathname == '/projects/dubai' || window.location.pathname == '/ar/projects/dubai') {
-        // Do nothing
-      } else {
+      if (subscriber === 'false' || subscriber == undefined || window.location.pathname == '/' || window.location.pathname == '/ar') {
         const timer = setTimeout(() => {
           setShowPopup(true);
-        }, 10000);
+        }, 20000);
   
         return () => {
           clearTimeout(timer);
         };
+      } else {
+        // Do nothing
       };
   }, []);
   
