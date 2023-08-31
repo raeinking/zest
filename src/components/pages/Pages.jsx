@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import Header from "../common/header/Header"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { BrowserRouter as Router, Route, Switch, useLocation } from 'react-router-dom';
 import Home from "../home/Home"
 import Footer from "../common/footer/Footer"
 import About from "../about/About"
@@ -61,9 +61,12 @@ import Eventar from "../projects/event/Eventar"
 
 import Highclass from "../projects/highclass/Highclass"
 import Highclassar from "../projects/highclass/Highclassar"
+import North360 from "../projects/North360"
+
 
 const Pages = () => {
   const [showPopup , setShowPopup] = useState(false)
+  const [showHeaderFooter, setShowHeaderFooter] = useState(true);
 
   const [email , setEmail] = useState('')
 
@@ -81,8 +84,14 @@ const Pages = () => {
       } else {
         // Do nothing
       };
-  }, []);
-  
+
+      if (window.location.pathname === '/north-holland-360') {
+        setShowHeaderFooter(false);
+      } else {
+        setShowHeaderFooter(true);
+      }
+    }, []);
+    
 
   const handleSubmit = async (e) => {
     if (email === '') {
@@ -201,11 +210,12 @@ const Pages = () => {
           <Route exact path='/ar/high-class' component={Highclassar} />
 
 
+        <Route exact path='/north-holland-360' component={North360} />
 
           <Route path='*' component={pagenotfoud} />
         </Switch>
         {showPopup && (
-        <div className='absoluteForm popup'>
+          <div className='absoluteForm popup'>
         <div className='brochurForm'>
             <div className='brochurLeft majdiimage popupimage'></div>
             <div className='brochurRight'>
@@ -221,7 +231,7 @@ const Pages = () => {
         </div>
     </div>
       )}
-        <Footer />
+    <Footer />
       </Router>
     </>
   )
