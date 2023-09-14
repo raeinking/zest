@@ -225,7 +225,7 @@
     min-width: 90%;
     height: 90%;
     min-width: 90%;
-    background-image: url();
+    /* background-image: url(); */
     display: flex;
     justify-content: center;
     border-radius: 20px;

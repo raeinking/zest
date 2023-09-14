@@ -11,6 +11,7 @@ function Lists() {
                     <a href='/projects/erbil'>Erbil</a>
                     <a href='/projects/mosul'>Mosul</a>
                     <a href='/projects/kirkuk'>kirkuk</a>
+                    <a href='/projects/turkey'>Turkey</a>
                 </div>
             </div>
             <hr />
@@ -32,6 +33,7 @@ function Lists() {
                     <a href='/azizi-riviera'>Azizi Riviera</a>
                     <a href='/damac-bay2'>Damac Bay 2</a>
                     <a href='/bianca'>Bianca</a>
+                    <a href='/sylvana'>Sylvana</a>
                 </div>
             </div>
         </div>

@@ -34,7 +34,7 @@ const North360 = () => {
 
   return (
     <>
-    <h1>North holland 360 erbil projects </h1>
+    <h1>North holland 360 erbil projects</h1>
     <div >
       <div ref={containerRef} id='panoCont' style={{position: 'absolute', top: 0, left: 0  , right:0, bottom: 0 , zIndex: 10000000}} ></div>     
     </div>  

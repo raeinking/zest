@@ -36,9 +36,9 @@ const Hero = () => {
     <>
       {paths == '/' ?
         <section className='hero'>
-              <video className="herovedio" playsInline muted loop preload="auto" tabIndex="-1" role="application" autoPlay>
-              <source src="fssd.mp4" type="video/mp4" />
-              </video>
+                <video className="herovedio" playsInline muted loop preload="auto" tabIndex="-1" role="application" autoPlay>
+                <source src="website.mp4" type="video/mp4" />
+                </video>
               <h1>Zest Property</h1>
               
             <p>Find Your Next Home In Zest Property.</p>

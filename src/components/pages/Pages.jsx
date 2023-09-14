@@ -62,6 +62,10 @@ import Eventar from "../projects/event/Eventar"
 import Highclass from "../projects/highclass/Highclass"
 import Highclassar from "../projects/highclass/Highclassar"
 import North360 from "../projects/North360"
+import Sylvana from "../projects/tureky/Sylvana";
+import Sylvanaar from "../projects/tureky/Sylvanaar";
+import Turkeyprojects from "../projects/Projectlocatons/Turkeyprojects";
+import Turkeyprojectsar from "../projects/Projectlocatons/Turkeyprojectsar";
 
 
 const Pages = () => {
@@ -147,6 +151,7 @@ const Pages = () => {
           <Route exact path='/projects/baghdad' component={Baghdad} />
           <Route exact path='/projects/dubai' component={Dubai} />
           <Route exact path='/projects/mosul' component={Mosul} />
+          <Route exact path='/projects/turkey' component={Turkeyprojects} />
 
 
           <Route exact path='/ar/projects/erbil' component={Erbilar} />
@@ -154,6 +159,7 @@ const Pages = () => {
           <Route exact path='/ar/projects/baghdad' component={BaghdadAr} />
           <Route exact path='/ar/projects/dubai' component={Dubaiar} />
           <Route exact path='/ar/projects/mosul' component={Mosular} />
+          <Route exact path='/ar/projects/turkey' component={Turkeyprojectsar} />
 
 
           <Route exact path='/khlood/Privacy-Policy' component={Kloodprivercy} />
@@ -204,7 +210,8 @@ const Pages = () => {
           <Route exact path='/azizi-event' component={Event} />
           <Route exact path='/ar/azizi-event' component={Eventar} />
 
-
+          <Route exact path='/sylvana' component={Sylvana} />
+          <Route exact path='/ar/sylvana' component={Sylvanaar} />
 
           <Route exact path='/high-class' component={Highclass} />
           <Route exact path='/ar/high-class' component={Highclassar} />

@@ -10,6 +10,7 @@ function ArLists() {
                     <a href='/ar/projects/baghdad'>بغداد</a>
                     <a href='/ar/projects/erbil'>اربيل</a>
                     <a href='/ar/projects/kirkuk'>كركوك</a>
+                    <a href='/ar/projects/turkey'>ترکیا</a>
                 </div>
             </div>
             <hr />
@@ -32,6 +33,7 @@ function ArLists() {
                     <a href='/ar/high-class'>هاي كلاس</a>
                     <a href='/ar/damac-bay2'>داماك بي ٢</a>
                     <a href='/ar/bianca'>بیانکا</a>
+                    <a href='/ar/sylvana'>سيلفانا </a>
                 </div>
             </div>
         </div>
