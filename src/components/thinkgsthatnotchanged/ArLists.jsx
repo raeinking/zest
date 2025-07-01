@@ -11,12 +11,14 @@ function ArLists() {
                     <a href='/ar/projects/erbil'>اربيل</a>
                     <a href='/ar/projects/kirkuk'>كركوك</a>
                     <a href='/ar/projects/turkey'>ترکیا</a>
+                    <a href='/ar/projects/mosul'>موصل</a>
                 </div>
             </div>
             <hr />
             <div>
                 <h6>تطوير العقارات</h6>
                 <div className='navp'>
+                    <a href='/ar/sky-park'>سکاي بارك</a>
                     <a href='/ar/samana-skyros'>سمانا سكايروس</a>
                     <a href='/ar/Majidi-View'>ماجدي فیو</a>
                     <a href='/ar/bianca'>بيانكا</a>

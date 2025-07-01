@@ -48,6 +48,9 @@ import Qaywan from "../projects/qaywan/Qaywan"
 import Arqaywan from "../projects/qaywan/Arqaywan"
 import Northholland from "../projects/northholland/Northholland"
 import NorthhollandAr from "../projects/northholland/NorthhollandAr"
+import Skypark from "../projects/skypark/Skypark"
+import SkyparkAr from "../projects/skypark/SkyparkAr"
+import SkyParkMosul from "../projects/skypark/Skyparkmosul";
 import Empire from "../projects/empire/Empire"
 import EmpireAr from "../projects/empire/EmpireAr"
 import Mansour from "../projects/almansour/Mansour"
@@ -90,6 +93,12 @@ const Pages = () => {
       };
 
       if (window.location.pathname === '/north-holland-360') {
+        setShowHeaderFooter(false);
+      } else {
+        setShowHeaderFooter(true);
+      }
+
+      if (window.location.pathname === '/sky-park-mosul') {
         setShowHeaderFooter(false);
       } else {
         setShowHeaderFooter(true);
@@ -194,6 +203,8 @@ const Pages = () => {
           <Route exact path='/north-holland' component={Northholland} />
           <Route exact path='/ar/north-holland' component={NorthhollandAr} />
 
+          <Route exact path='/sky-park' component={Skypark} />
+          <Route exact path='/ar/sky-park' component={SkyparkAr} />
 
           <Route exact path='/empire-world' component={Empire} />
           <Route exact path='/ar/empire-world' component={EmpireAr} />
@@ -216,7 +227,7 @@ const Pages = () => {
           <Route exact path='/high-class' component={Highclass} />
           <Route exact path='/ar/high-class' component={Highclassar} />
 
-
+        <Route exact path='/sky-park-mosul' component={SkyParkMosul} />
         <Route exact path='/north-holland-360' component={North360} />
 
           <Route path='*' component={pagenotfoud} />

@@ -18,6 +18,7 @@ function Lists() {
             <div>
                 <h6 style={{ margin: '30px 0 0 0' }}>PROPERTY DEVELOPMENT</h6>
                 <div className='navp'>
+                    <a href='/sky-park-mosul'>Sky Park</a>
                     <a href='/samana-skyros'>Samana SkyRos</a>
                     <a href='/Majidi-View'>Majidi View</a>
                     <a href='/alwedd'>alwedd</a>

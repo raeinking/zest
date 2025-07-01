@@ -49,6 +49,12 @@ function Projectssar() {
                   <p>تورکیا</p>
                 </div>
               </a>
+              <a href='/ar/projects/mosul' class="div5P">
+                <div className='citymosul'></div>
+                <div className='overlays'>
+                  <p>موصل</p>
+                </div>
+              </a>
             </div>
 
 

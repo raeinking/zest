@@ -48,6 +48,12 @@ function Projectss() {
                   <p>Turkey</p>
                 </div>
               </a>
+              <a href='/projects/mosul' class="div5P">
+                <div className='citymosul'></div>
+                <div className='overlays'>
+                  <p>Mosul</p>
+                </div>
+              </a>
             </div>
             <div className='dis ssss'>
               <h3>Description</h3>
