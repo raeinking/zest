@@ -142,11 +142,6 @@ function Skypark() {
                 ''}
 
 
-
-
-
-
-
             <div className='imageofheadernorth'><h1>Sky Park Mosul</h1></div>
 
             <section className='mainmajidi'>

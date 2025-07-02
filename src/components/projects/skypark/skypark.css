@@ -1,7 +1,7 @@
 /* src/App.css */
 .sky-park-container {
   position: relative;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,6 +83,7 @@
 
 /* Box Grid Styles - 2x2 layout */
 .box-grid {
+  
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two columns */
   grid-template-rows: repeat(2, 1fr); /* Two rows */
@@ -145,6 +146,15 @@
 
 .box:hover .box-overlay {
   opacity: 1;
+}
+
+.back-button {
+  color: #305427;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .box-overlay h3 {
