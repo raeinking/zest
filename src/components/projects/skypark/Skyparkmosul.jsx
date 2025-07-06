@@ -24,7 +24,7 @@ function Skyparkmosul() {
     { id: 1, title: 'Adventure Zone', subtitle: 'Explore our trails', image: boxImage1, type: 'pdf', link: 'https://zest-property.com/sky-park-mosul.pdf' },
     { id: 2, title: 'Sky Lounge', subtitle: 'Relax & unwind', image: boxImage2, type: 'category', category: 'lounge' },
     { id: 3, title: 'Nature Walks', subtitle: 'Discover wildlife', image: boxImage3, type: 'link', link: 'https://maps.app.goo.gl/vStATYaMkDxuHZnr9' },
-    { id: 4, title: 'Events', subtitle: 'Join our activities', image: boxImage4, type: 'link', link: '' },
+    { id: 4, title: 'Events', subtitle: 'Join our activities', image: boxImage4, type: 'link', link: 'https://zest-property.com/sky-park-services.pdf' },
     { id: 5, title: 'Dining', subtitle: 'Taste our cuisine', image: boxImage5, type: 'link', link: 'https://www.instagram.com/sky_park_mosul/' },
     { id: 6, title: 'Gallery', subtitle: 'See our moments', image: boxImage6, type: 'link' , link: 'https://www.facebook.com/sky.park.mosul.by.zest' },
   ];
@@ -81,15 +81,15 @@ function Skyparkmosul() {
       ></div>
       
       <div className="logo-container">
-        <img src={logoImage} alt="ZEST Logo" className="logo" />
+        <img src={logoImage} alt="ZEST logod" className="logod" />
       </div>
 
-      <div className="box-grid">
+      <div className="boxx-grid">
         {currentPage === 'main' && boxes.map((box) => (
-          <div key={box.id} className="box" onClick={() => handleBoxClick(box)}>
-            <div className="box-image-container">
-              <img src={box.image} alt={box.title} className="box-image" />
-              <div className="box-image-overlay"></div>
+          <div key={box.id} className="boxx" onClick={() => handleBoxClick(box)}>
+            <div className="boxx-image-container">
+              <img src={box.image} alt={box.title} className="boxx-image" />
+              <div className="boxx-image-overlay"></div>
             </div>
             {/* <div className="box-overlay">
               <h3>{box.title}</h3>
@@ -98,17 +98,18 @@ function Skyparkmosul() {
           </div>
         ))}
 
-        {currentPage === 'category' && categoryBoxes[selectedCategory]?.map((box) => (
-          <div key={box.id}  className="box" onClick={() => handleBoxClick(box)} >
-            <div className="box-image-container">
-              <img src={box.image} alt={box.title} className="box-image" />
-              <div className="box-image-overlay"></div>
-            </div>
-            {/* <div className="box-overlay">
-              <h3>{box.title}</h3>
-            </div> */}
-          </div>
-        ))}
+{currentPage === 'category' && categoryBoxes[selectedCategory]?.map((box, index) => (
+  <div
+    key={box.id}
+    className={`boxx ${selectedCategory === 'lounge' && index === 0 ? 'green-background' : ''}`}
+    onClick={() => handleBoxClick(box)}
+  >
+    <div className="boxx-image-container">
+      <img src={box.image} alt={box.title} className="boxx-image" />
+      <div className="boxx-image-overlay"></div>
+    </div>
+  </div>
+))}
       </div>
       
             {currentPage === 'category' && (
@@ -121,7 +122,7 @@ function Skyparkmosul() {
             )}
 
       <div className="footers">
-        <img src={logofooter} alt="ZEST Logo" className="bottom-logos" />
+        <img src={logofooter} alt="ZEST logod" className="bottom-logos" />
       </div>
     </div>
   );

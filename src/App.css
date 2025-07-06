@@ -303,8 +303,9 @@ select:after {
 }
 
 .footerleft {
-  display: flex;
-  flex-direction: row;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 20px;
 }
 
 .video-responsive {

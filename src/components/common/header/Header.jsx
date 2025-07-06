@@ -43,10 +43,9 @@ const Header = () => {
         :
         <header>
           <div className='container flex'>
-            <div className='logo'>
               <a href="/">
                 <img src={image} alt='zest property' />
-              </a>          </div>
+              </a>          
             <div className='nav'>
               <ul className={navList ? "small" : "flex"}>
                 {nav.map((list, index) => (
